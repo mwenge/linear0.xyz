@@ -54,7 +54,7 @@ input:focus::placeholder { color:transparent; }
 }
 .item {
   float: left;
-  font-family: 'CretanHieroglyphs', 'Courier', sans-serif;
+  font-family: 'CretanHieroglyphsRegular', 'Courier', sans-serif;
   padding: 10px;
   border: 1px solid grey;
   max-width: 150px;
