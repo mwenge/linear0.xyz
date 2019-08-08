@@ -1,6 +1,14 @@
 var inscriptions = new Map([
 ["266",{
     "images": [],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\"); cf. the logogram TE that commonly appears in headings in Linear A with commodities like VIN, GRA, OLE",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "266",
     "parsedInscription": "󲎆󲏓\n󲎆󲎌󲎺><\n󲎆󲎺\n",
     "tracingImages": [
@@ -9,13 +17,13 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲏓\n󲎆󲎌󲎺><\n󲎆󲎺\n",
     "transliteratedWords": [
-        "044-005",
+        "KO-Rv",
         "\n",
-        "044-025-049",
+        "KO-TE-RO3",
         ">",
         "<",
         "\n",
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -36,6 +44,7 @@ var inscriptions = new Map([
         "images/064c.jpg",
         "images/064d.jpg"
     ],
+    "linearA": [],
     "name": "064",
     "parsedInscription": "]𐄣𐄒[\n]vacat?[\n]vacat?[\n]𐄙𐄐𐄈[\n",
     "tracingImages": [
@@ -92,6 +101,14 @@ var inscriptions = new Map([
         "images/254b.jpg",
         "images/254c.jpg"
     ],
+    "linearA": [
+        "RI-RU-MA (HT 118.4); cf. RI-RU-MA-TI (PH[?] 31b.4) A-RI (PH 6.1, 3); A-RI-PA (PE 2.3); A-RI-JA[ (PH 28a.3); A-RI-NI-TA (ZA 8.2-3); A-RI-[ (HT 141.1)",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n"
+    ],
     "name": "254",
     "parsedInscription": "󲎮󲍝\n󲎆󲏓\n󲏏󲎦󲍝>?\n",
     "tracingImages": [
@@ -101,11 +118,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎮󲍝\n󲎆󲏓\n󲏏󲎦󲍝>?\n",
     "transliteratedWords": [
-        "010-031",
+        "RI-RE",
         "\n",
-        "044-005",
+        "KO-Rv",
         "\n",
-        "036-092-031",
+        "SA2-RU-RE",
         ">",
         "?",
         "\n"
@@ -125,6 +142,10 @@ var inscriptions = new Map([
     "images": [
         "images/143a.jpg"
     ],
+    "linearA": [
+        "",
+        "\n"
+    ],
     "name": "143",
     "parsedInscription": "󲎹•><\n",
     "tracingImages": [
@@ -132,7 +153,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹•><\n",
     "transliteratedWords": [
-        "042-•",
+        "A-•",
         ">",
         "<",
         "\n"
@@ -148,6 +169,7 @@ var inscriptions = new Map([
     "images": [
         "images/200a.jpg"
     ],
+    "linearA": [],
     "name": "200",
     "parsedInscription": "󲍮󲏀󲎎󲍐󲏻󲎗><\n",
     "tracingImages": [
@@ -155,8 +177,8 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍮󲏀󲎎󲍐󲏻󲎗><\n",
     "transliteratedWords": [
-        "029-041-056-038-",
-        "077",
+        "MA-WA-KU-JA-",
+        "RU2",
         ">",
         "<",
         "\n"
@@ -176,25 +198,37 @@ var inscriptions = new Map([
         "images/302c.jpg",
         "images/302d.jpg"
     ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIV",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "PU-KO (HT 31a.1); cf. A-*301-KI-TA-A (TY Zb 4)",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n",
+        "cf. ]-U-NA-NA (MA 2c.1) cf. -NA/E-MI-NA endings",
+        "\n"
+    ],
     "name": "302",
-    "parsedInscription": "󲏈󲏆󲎆󲎺><\n󲏕󲎆\n󲏨󲎻󲎯\n󲍐󲎮󲍝\n",
+    "parsedInscription": "󲏈󲏆󲎆󲎺><\n󲏕󲎆\n󲍐󲎮󲍝\n󲏨󲎻󲎯\n",
     "tracingImages": [
         "images/302a-t.jpg",
         "images/302b-t.jpg",
         "images/302c-t.jpg",
         "images/302d-t.jpg"
     ],
-    "transcription": "󲏈󲏆󲎆󲎺><\n󲏕󲎆\n󲏨󲎻󲎯\n󲍐󲎮󲍝\n",
+    "transcription": "󲏈󲏆󲎆󲎺><\n󲏕󲎆\n󲍐󲎮󲍝\n󲏨󲎻󲎯\n",
     "transliteratedWords": [
-        "057-034-044-049",
+        "KI-TA-KO-RO3",
         ">",
         "<",
         "\n",
-        "046-044",
+        "A-KO",
         "\n",
-        "006-062-012",
+        "JA-RI-RE",
         "\n",
-        "038-010-031",
+        "NWA-NA-MU",
         "\n"
     ],
     "words": [
@@ -204,9 +238,9 @@ var inscriptions = new Map([
         "\n",
         "󲏕󲎆",
         "\n",
-        "󲏨󲎻󲎯",
-        "\n",
         "󲍐󲎮󲍝",
+        "\n",
+        "󲏨󲎻󲎯",
         "\n"
     ]
 }],
@@ -214,13 +248,17 @@ var inscriptions = new Map([
     "images": [
         "images/326a.jpg"
     ],
+    "linearA": [
+        "",
+        "\n"
+    ],
     "name": "326",
     "parsedInscription": "]•󲎝\n",
     "tracingImages": [],
     "transcription": "]•󲎝\n",
     "transliteratedWords": [
         "]",
-        "•-053",
+        "•-JA",
         "\n"
     ],
     "words": [
@@ -235,6 +273,14 @@ var inscriptions = new Map([
         "images/272b.jpg",
         "images/272c.jpg"
     ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n",
+        "A-RU-RA-[•] (HT 11a.1) PA-SA-RI-JA (HT 24a.4)",
+        "\n"
+    ],
     "name": "272",
     "parsedInscription": "󲍐󲎮󲍝\n󲏏󲎦󲍝>?\nX󲍕󲏻󲎮󲍅󲊗><\n",
     "tracingImages": [
@@ -244,15 +290,15 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮󲍝\n󲏏󲎦󲍝>?\nX󲍕󲏻󲎮󲍅󲊗><\n",
     "transliteratedWords": [
-        "038-010-031",
+        "JA-RI-RE",
         "\n",
-        "036-092-031",
+        "SA2-RU-RE",
         ">",
         "?",
         "\n",
         "X",
-        "068",
-        "-010-011-020",
+        "Rv",
+        "-RI-SI-AI",
         ">",
         "<",
         "\n"
@@ -277,20 +323,25 @@ var inscriptions = new Map([
         "images/076a.jpg",
         "images/076b.jpg"
     ],
+    "linearA": [],
     "name": "076",
-    "parsedInscription": "󲍦󲎎󲍡\nvacat\n",
+    "parsedInscription": "󲍦󲎎*󲈥\nvacat\n",
     "tracingImages": [
         "images/076a-t.jpg"
     ],
-    "transcription": "󲍦󲎎󲍡\nvacat\n",
+    "transcription": "󲍦󲎎*󲈥\nvacat\n",
     "transliteratedWords": [
-        "008-056-013",
+        "A3-KU",
+        "*",
+        "152",
         "\n",
         "vacat",
         "\n"
     ],
     "words": [
-        "󲍦󲎎󲍡",
+        "󲍦󲎎",
+        "*",
+        "󲈥",
         "\n",
         "vacat",
         "\n"
@@ -301,6 +352,7 @@ var inscriptions = new Map([
         "images/037a.jpg",
         "images/037b.jpg"
     ],
+    "linearA": [],
     "name": "037",
     "parsedInscription": "󲎹󲎇󲍰\n󲊉󲎜𐄙\n",
     "tracingImages": [
@@ -308,9 +360,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎇󲍰\n󲊉󲎜𐄙\n",
     "transliteratedWords": [
-        "042-054-061",
+        "A-DE-termination sign",
         "\n",
-        "017-039",
+        "AU-PA3",
         "100",
         "\n"
     ],
@@ -329,12 +381,13 @@ var inscriptions = new Map([
         "images/097c.jpg",
         "images/097d.jpg"
     ],
+    "linearA": [],
     "name": "097",
-    "parsedInscription": "𐄈impressions(notH:lionattacksbull)\n\n󲎍󲍎󲍐\n\n",
+    "parsedInscription": "𐄈impressions(notH:lionattacksbull)\nvacant\n󲍐󲍎󲎍\n",
     "tracingImages": [
         "images/097c-t.jpg"
     ],
-    "transcription": "𐄈impressions(notH:lionattacksbull)\n\n󲎍󲍎󲍐\n\n",
+    "transcription": "𐄈impressions(notH:lionattacksbull)\nvacant\n󲍐󲍎󲎍\n",
     "transliteratedWords": [
         "2",
         "impressions",
@@ -344,9 +397,9 @@ var inscriptions = new Map([
         "attacks",
         "bull)",
         "\n",
+        "vacant",
         "\n",
-        "040-070-038",
-        "\n",
+        "JA-RO-RO2",
         "\n"
     ],
     "words": [
@@ -358,9 +411,9 @@ var inscriptions = new Map([
         "attacks",
         "bull)",
         "\n",
+        "vacant",
         "\n",
-        "󲎍󲍎󲍐",
-        "\n",
+        "󲍐󲍎󲎍",
         "\n"
     ]
 }],
@@ -368,13 +421,17 @@ var inscriptions = new Map([
     "images": [
         "images/318a.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\"); cf. KA-RE-RO (HT Wc 3003) cf. RU-RA2 (HT 11b.1); cf. A-RU 1 • 1 , *312 1 (HT 49a.6)",
+        "\n"
+    ],
     "name": "318",
     "parsedInscription": "󲏦󲏻󲎦󲎦><\n",
     "tracingImages": [],
     "transcription": "󲏦󲏻󲎦󲎦><\n",
     "transliteratedWords": [
-        "051",
-        "-092-092",
+        "KU3",
+        "-RU-RU",
         ">",
         "<",
         "\n"
@@ -393,36 +450,29 @@ var inscriptions = new Map([
         "images/107b.jpg",
         "images/107c.jpg"
     ],
+    "linearA": [],
     "name": "107",
-    "parsedInscription": "]•󲊗•\ninframutila\n\nsupramutila\nvacat\n",
+    "parsedInscription": "supramutila\n]•󲊗•\nvacat\n",
     "tracingImages": [
         "images/107a-t.jpg"
     ],
-    "transcription": "]•󲊗•\ninframutila\n\nsupramutila\nvacat\n",
+    "transcription": "supramutila\n]•󲊗•\nvacat\n",
     "transliteratedWords": [
-        "]",
-        "•-020-•",
-        "\n",
-        "infra",
-        "mutila",
-        "\n",
-        "\n",
         "supra",
         "mutila",
+        "\n",
+        "]",
+        "•-AI-•",
         "\n",
         "vacat",
         "\n"
     ],
     "words": [
-        "]",
-        "•󲊗•",
-        "\n",
-        "infra",
-        "mutila",
-        "\n",
-        "\n",
         "supra",
         "mutila",
+        "\n",
+        "]",
+        "•󲊗•",
         "\n",
         "vacat",
         "\n"
@@ -432,6 +482,10 @@ var inscriptions = new Map([
     "images": [
         "images/140a.jpg"
     ],
+    "linearA": [
+        "~KI-RO BOS (\"owed\"); cf. HT 30",
+        "\n"
+    ],
     "name": "140",
     "parsedInscription": "󲎆{013}󲏓\n",
     "tracingImages": [
@@ -439,7 +493,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆{013}󲏓\n",
     "transliteratedWords": [
-        "044-{013}-005",
+        "KO-{013}-Rv",
         "\n"
     ],
     "words": [
@@ -453,6 +507,10 @@ var inscriptions = new Map([
         "images/223b.jpg",
         "images/223c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "223",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -460,7 +518,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -472,6 +530,10 @@ var inscriptions = new Map([
     "images": [
         "images/189a.jpg"
     ],
+    "linearA": [
+        "A-DE (ZA 10b.4), A-DU (HT 85a.1), JA-DI (PH Wc 39); see Notes to Signgroups, App. XII.",
+        "\n"
+    ],
     "name": "189",
     "parsedInscription": "]󲎹󲎇[><\n",
     "tracingImages": [
@@ -480,7 +542,7 @@ var inscriptions = new Map([
     "transcription": "]󲎹󲎇[><\n",
     "transliteratedWords": [
         "]",
-        "042-054",
+        "A-DE",
         "[",
         ">",
         "<",
@@ -500,32 +562,29 @@ var inscriptions = new Map([
         "images/030a.jpg",
         "images/030b.jpg"
     ],
+    "linearA": [],
     "name": "030",
-    "parsedInscription": "󲍕󲏻󲏻󲏕󲏻󲏻󲎀>?\nvacat\n",
+    "parsedInscription": "󲎀󲏻󲏻󲏕󲏻󲏻󲍕\nvacat\n",
     "tracingImages": [
         "images/030a-t.jpg"
     ],
-    "transcription": "󲍕󲏻󲏻󲏕󲏻󲏻󲎀>?\nvacat\n",
+    "transcription": "󲎀󲏻󲏻󲏕󲏻󲏻󲍕\nvacat\n",
     "transliteratedWords": [
-        "068",
+        "SA",
         "-",
-        "046",
+        "A",
         "-",
-        "019",
-        ">",
-        "?",
+        "Rv",
         "\n",
         "vacat",
         "\n"
     ],
     "words": [
-        "󲍕",
+        "󲎀",
         "󲏻󲏻",
         "󲏕",
         "󲏻󲏻",
-        "󲎀",
-        ">",
-        "?",
+        "󲍕",
         "\n",
         "vacat",
         "\n"
@@ -539,22 +598,21 @@ var inscriptions = new Map([
         "images/090d.jpg",
         "images/090e.jpg"
     ],
+    "linearA": [],
     "name": "090",
-    "parsedInscription": "󲎷󲍐󲎙󲏦\n𐄨\n",
+    "parsedInscription": "󲎷󲍐󲎙󲏦𐄨\n",
     "tracingImages": [
         "images/090a-t.jpg",
         "images/090c-t.jpg"
     ],
-    "transcription": "󲎷󲍐󲎙󲏦\n𐄨\n",
+    "transcription": "󲎷󲍐󲎙󲏦𐄨\n",
     "transliteratedWords": [
-        "016-038-007-051",
-        "\n",
+        "KI-JA-MI-KU3",
         "7000",
         "\n"
     ],
     "words": [
         "󲎷󲍐󲎙󲏦",
-        "\n",
         "𐄨",
         "\n"
     ]
@@ -567,31 +625,60 @@ var inscriptions = new Map([
         "images/089d.jpg",
         "images/089e.jpg"
     ],
+    "linearA": [],
     "name": "089",
-    "parsedInscription": "󲎆󲎺󲌒|\n󲏆󲏀󲌇|󲏦󲏦󲏦󲏻󲏀\n",
+    "parsedInscription": "󲎆󲎺*159bis|\n󲏆󲏻*󲏀*󲌇|*041/*󲉓*󲏦󲏻*󲏦󲏻*󲏦\n",
     "tracingImages": [
         "images/089a-t.jpg",
         "images/089c-t.jpg"
     ],
-    "transcription": "󲎆󲎺󲌒|\n󲏆󲏀󲌇|󲏦󲏦󲏦󲏻󲏀\n",
+    "transcription": "󲎆󲎺*159bis|\n󲏆󲏻*󲏀*󲌇|*041/*󲉓*󲏦󲏻*󲏦󲏻*󲏦\n",
     "transliteratedWords": [
-        "044-049-023",
+        "KO-RO3",
+        "*",
+        "159bis",
         "|",
         "\n",
-        "034-041-084",
+        "TA+",
+        "*",
+        "WA",
+        "*",
+        "LANA",
         "|",
-        "051-051-051-",
-        "041",
+        "*",
+        "041/",
+        "*",
+        "163",
+        "*",
+        "KU3-",
+        "*",
+        "KU3-",
+        "*",
+        "KU3",
         "\n"
     ],
     "words": [
-        "󲎆󲎺󲌒",
+        "󲎆󲎺",
+        "*",
+        "159bis",
         "|",
         "\n",
-        "󲏆󲏀󲌇",
-        "|",
-        "󲏦󲏦󲏦󲏻",
+        "󲏆󲏻",
+        "*",
         "󲏀",
+        "*",
+        "󲌇",
+        "|",
+        "*",
+        "041/",
+        "*",
+        "󲉓",
+        "*",
+        "󲏦󲏻",
+        "*",
+        "󲏦󲏻",
+        "*",
+        "󲏦",
         "\n"
     ]
 }],
@@ -601,22 +688,32 @@ var inscriptions = new Map([
         "images/299c.jpg",
         "images/299d.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n"
+    ],
     "name": "299",
-    "parsedInscription": "X󲎆󲎺\n󲎆󲏓\n󲏏󲎦\n󲍐󲎮󲍝\n",
+    "parsedInscription": "X󲎆󲎺\n󲎆󲏓\n󲍐󲎮󲍝\n󲏏󲎦\n",
     "tracingImages": [
         "images/299a-t.jpg",
         "images/299c-t.jpg"
     ],
-    "transcription": "X󲎆󲎺\n󲎆󲏓\n󲏏󲎦\n󲍐󲎮󲍝\n",
+    "transcription": "X󲎆󲎺\n󲎆󲏓\n󲍐󲎮󲍝\n󲏏󲎦\n",
     "transliteratedWords": [
         "X",
-        "044-049",
+        "KO-RO3",
         "\n",
-        "044-005",
+        "KO-Rv",
         "\n",
-        "036-092",
+        "JA-RI-RE",
         "\n",
-        "038-010-031",
+        "SA2-RU",
         "\n"
     ],
     "words": [
@@ -625,9 +722,9 @@ var inscriptions = new Map([
         "\n",
         "󲎆󲏓",
         "\n",
-        "󲏏󲎦",
-        "\n",
         "󲍐󲎮󲍝",
+        "\n",
+        "󲏏󲎦",
         "\n"
     ]
 }],
@@ -639,20 +736,27 @@ var inscriptions = new Map([
         "images/106d.jpg",
         "images/106e.jpg"
     ],
+    "linearA": [],
     "name": "106",
-    "parsedInscription": "]󲍡󲎺\nvacat\n",
+    "parsedInscription": "󲏈]󲏻󲎺*󲈥\nvacat\n",
     "tracingImages": [],
-    "transcription": "]󲍡󲎺\nvacat\n",
+    "transcription": "󲏈]󲏻󲎺*󲈥\nvacat\n",
     "transliteratedWords": [
+        "KI",
         "]",
-        "013-049",
+        "-RO3",
+        "*",
+        "152",
         "\n",
         "vacat",
         "\n"
     ],
     "words": [
+        "󲏈",
         "]",
-        "󲍡󲎺",
+        "󲏻󲎺",
+        "*",
+        "󲈥",
         "\n",
         "vacat",
         "\n"
@@ -662,6 +766,7 @@ var inscriptions = new Map([
     "images": [
         "images/126a.jpg"
     ],
+    "linearA": [],
     "name": "126",
     "parsedInscription": "X󲏏󲊶󲋧󲎎󲎻><\n",
     "tracingImages": [
@@ -670,7 +775,7 @@ var inscriptions = new Map([
     "transcription": "X󲏏󲊶󲋧󲎎󲎻><\n",
     "transliteratedWords": [
         "X",
-        "036-047-009-056-062",
+        "SA2-QE-A2-KU-NA",
         ">",
         "<",
         "\n"
@@ -689,6 +794,12 @@ var inscriptions = new Map([
         "images/247b.jpg",
         "images/247c.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\"); cf. KU-RU-MA (HT 115b.3), ]KU-MA-RO (HT 96a.5), DI-DI-KO-RA-ME[-]TA 2 (ZA 11a.1)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "247",
     "parsedInscription": "󲎆󲎺\nX󲎆󲏓\n",
     "tracingImages": [
@@ -697,10 +808,10 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\nX󲎆󲏓\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n",
         "X",
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -717,6 +828,10 @@ var inscriptions = new Map([
         "images/236b.jpg",
         "images/236c.jpg"
     ],
+    "linearA": [
+        "MU-RU (HT 3.4); cf ]MU-RU (HT 46a.1)",
+        "\n"
+    ],
     "name": "236",
     "parsedInscription": "X󲎯󲍎󲋼\n",
     "tracingImages": [
@@ -725,7 +840,7 @@ var inscriptions = new Map([
     "transcription": "X󲎯󲍎󲋼\n",
     "transliteratedWords": [
         "X",
-        "012-070-048",
+        "MU-RO-?",
         "\n"
     ],
     "words": [
@@ -739,6 +854,7 @@ var inscriptions = new Map([
         "images/080a.jpg",
         "images/080b.jpg"
     ],
+    "linearA": [],
     "name": "080",
     "parsedInscription": "󲎯󲏻󲍝󲏻󲉆\nvacat\n",
     "tracingImages": [
@@ -746,9 +862,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎯󲏻󲍝󲏻󲉆\nvacat\n",
     "transliteratedWords": [
-        "012-",
-        "031",
-        "-082",
+        "MU-",
+        "RE",
+        "-?",
         "\n",
         "vacat",
         "\n"
@@ -767,30 +883,38 @@ var inscriptions = new Map([
         "images/312a.jpg",
         "images/312c.jpg"
     ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n",
+        "~KI-RO (\"owed\"), ~KU-RO (\"balance,\" \"total\") cf. QA-QA-RU (HT 93a.4-5; HT 111a.3; HT 118.2-3; HT 122b.3-4), QE-RA 2 -JA (HT 3.1-2), QE-RA 2 -U (HT 1.1-2; HT 95a.4-5, b.4-5), QE-RA 2 -WA (HT 86a.1-2)",
+        "\n",
+        "O-MI[ (ZA 27.2); cf. WA-O-MI (HT Wc 3006a)",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n"
+    ],
     "name": "312",
-    "parsedInscription": "󲍐󲎮󲍝\n󲏏󲎦󲍝\n󲊶󲎺󲏻󲍡><\nX󲏎󲍡\n",
+    "parsedInscription": "󲍐󲎮󲍝\n󲊶󲎺󲏻󲍡><\nX󲏎󲍡\n󲏏󲎦󲍝\n",
     "tracingImages": [
         "images/312b-t.jpg"
     ],
-    "transcription": "󲍐󲎮󲍝\n󲏏󲎦󲍝\n󲊶󲎺󲏻󲍡><\nX󲏎󲍡\n",
+    "transcription": "󲍐󲎮󲍝\n󲊶󲎺󲏻󲍡><\nX󲏎󲍡\n󲏏󲎦󲍝\n",
     "transliteratedWords": [
-        "038-010-031",
+        "JA-RI-RE",
         "\n",
-        "036-092-031",
-        "\n",
-        "047-049-",
-        "013",
+        "QE-RO3-",
+        "BOS/MU2",
         ">",
         "<",
         "\n",
         "X",
-        "076-013",
+        "O?-BOS/MU2",
+        "\n",
+        "SA2-RU-RE",
         "\n"
     ],
     "words": [
         "󲍐󲎮󲍝",
-        "\n",
-        "󲏏󲎦󲍝",
         "\n",
         "󲊶󲎺󲏻",
         "󲍡",
@@ -799,11 +923,17 @@ var inscriptions = new Map([
         "\n",
         "X",
         "󲏎󲍡",
+        "\n",
+        "󲏏󲎦󲍝",
         "\n"
     ]
 }],
 ["185",{
     "images": [],
+    "linearA": [
+        "A-DA-KI-SI-KA (KH 5.1-2), JA-KI-SI-KI-NU (ARKH Zf 9) A-RA-KO-KU-*333- (*333 ~ bull face) (KO (?) Zf 2) Kv-Sv, common ending A-SI-KI-RA (KH 20.2), SU-KI-RI-TA (PH Wa 32; cf. HT Zb 158b)",
+        "\n"
+    ],
     "name": "185",
     "parsedInscription": "X󲍎󲎎󲏈󲍅><\n",
     "tracingImages": [
@@ -812,7 +942,7 @@ var inscriptions = new Map([
     "transcription": "X󲍎󲎎󲏈󲍅><\n",
     "transliteratedWords": [
         "X",
-        "070-056-057-011",
+        "RO-KU-KI-SI",
         ">",
         "<",
         "\n"
@@ -832,23 +962,28 @@ var inscriptions = new Map([
         "images/091c.jpg",
         "images/091d.jpg"
     ],
+    "linearA": [],
     "name": "091",
-    "parsedInscription": "󲎹󲍡󲋧[\n󲍎󲍝󲏆[\n",
+    "parsedInscription": "󲎹󲋧*󲈥[\n󲍎󲍝󲏆[\n",
     "tracingImages": [
         "images/091a-t.jpg",
         "images/091c-t.jpg"
     ],
-    "transcription": "󲎹󲍡󲋧[\n󲍎󲍝󲏆[\n",
+    "transcription": "󲎹󲋧*󲈥[\n󲍎󲍝󲏆[\n",
     "transliteratedWords": [
-        "042-013-009",
+        "A-A2",
+        "*",
+        "152",
         "[",
         "\n",
-        "070-031-034",
+        "RO-RE-TA",
         "[",
         "\n"
     ],
     "words": [
-        "󲎹󲍡󲋧",
+        "󲎹󲋧",
+        "*",
+        "󲈥",
         "[",
         "\n",
         "󲍎󲍝󲏆",
@@ -860,6 +995,7 @@ var inscriptions = new Map([
     "images": [
         "images/328a.jpg"
     ],
+    "linearA": [],
     "name": "328",
     "parsedInscription": "󲎻󲏻󲏆󲏩󲎎󲍎󲎌󲎀󲏦󲍎󲏪󲏆󲎎󲎗󲎺󲍐󲍮\n",
     "tracingImages": [
@@ -867,8 +1003,8 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎻󲏻󲏆󲏩󲎎󲍎󲎌󲎀󲏦󲍎󲏪󲏆󲎎󲎗󲎺󲍐󲍮\n",
     "transliteratedWords": [
-        "062",
-        "-034-002-056-070-025-019-051-070-094-034-056-077-049-038-029",
+        "NA",
+        "-TA-VIR2-KU-RO-TE-SA-KU3-RO-E?-TA-KU-RU2-RO3-JA-MA",
         "\n"
     ],
     "words": [
@@ -883,6 +1019,14 @@ var inscriptions = new Map([
         "images/262b.jpg",
         "images/262c.jpg"
     ],
+    "linearA": [
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n"
+    ],
     "name": "262",
     "parsedInscription": "󲏏092{092}󲍝\n󲍐󲎮󲍝\n󲎆󲏓\n",
     "tracingImages": [
@@ -892,11 +1036,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲏏092{092}󲍝\n󲍐󲎮󲍝\n󲎆󲏓\n",
     "transliteratedWords": [
-        "036-092{-092}-031",
+        "SA2-092{-092}-RE",
         "\n",
-        "038-010-031",
+        "JA-RI-RE",
         "\n",
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -915,47 +1059,62 @@ var inscriptions = new Map([
         "images/060c.jpg",
         "images/060d.jpg"
     ],
+    "linearA": [],
     "name": "060",
-    "parsedInscription": "X󲎿󲎺󲏀󲉛[\nvacat\nX󲋧󲏻󲎇󲍰•[\nvacat\n",
+    "parsedInscription": "X󲎿󲎺*041/*󲉓*󲈼[\nvacant\nX󲋧󲏻󲎇󲍰•[\n",
     "tracingImages": [
         "images/060a-t.jpg",
         "images/060c-t.jpg"
     ],
-    "transcription": "X󲎿󲎺󲏀󲉛[\nvacat\nX󲋧󲏻󲎇󲍰•[\nvacat\n",
+    "transcription": "X󲎿󲎺*041/*󲉓*󲈼[\nvacant\nX󲋧󲏻󲎇󲍰•[\n",
     "transliteratedWords": [
         "X",
-        "028-049-041-003",
+        "KU2-RO3",
+        "*",
+        "041/",
+        "*",
+        "163",
+        "*",
+        "151",
         "[",
         "\n",
-        "vacat",
+        "vacant",
         "\n",
         "X",
-        "009",
-        "-054-061-•",
+        "A2",
+        "-DE-termination sign",
+        "•",
         "[",
-        "\n",
-        "vacat",
         "\n"
     ],
     "words": [
         "X",
-        "󲎿󲎺󲏀󲉛",
+        "󲎿󲎺",
+        "*",
+        "041/",
+        "*",
+        "󲉓",
+        "*",
+        "󲈼",
         "[",
         "\n",
-        "vacat",
+        "vacant",
         "\n",
         "X",
         "󲋧",
-        "󲏻󲎇󲍰•",
+        "󲏻󲎇󲍰",
+        "•",
         "[",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
 ["181",{
     "images": [
         "images/181a.jpg"
+    ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
     ],
     "name": "181",
     "parsedInscription": "X󲍐󲎮\n",
@@ -965,7 +1124,7 @@ var inscriptions = new Map([
     "transcription": "X󲍐󲎮\n",
     "transliteratedWords": [
         "X",
-        "038-010",
+        "JA-RI",
         "\n"
     ],
     "words": [
@@ -979,26 +1138,23 @@ var inscriptions = new Map([
         "images/084a.jpg",
         "images/084b.jpg"
     ],
+    "linearA": [],
     "name": "084",
-    "parsedInscription": "]•󲎷•[\nvacat\n",
+    "parsedInscription": "]•󲎷•[\n",
     "tracingImages": [
         "images/084a-t.jpg"
     ],
-    "transcription": "]•󲎷•[\nvacat\n",
+    "transcription": "]•󲎷•[\n",
     "transliteratedWords": [
         "]",
-        "•-016-•",
+        "•-KI-•",
         "[",
-        "\n",
-        "vacat",
         "\n"
     ],
     "words": [
         "]",
         "•󲎷•",
         "[",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -1009,8 +1165,9 @@ var inscriptions = new Map([
         "images/056c.jpg",
         "images/056e.jpg"
     ],
+    "linearA": [],
     "name": "056",
-    "parsedInscription": "X󲍎󲍝󲎀X󲎆󲎺𐄗𐄋\n𐄠𐄝𐄓󲎆𐄓𐄊\nX󲎹󲏈󲍎𐄠X󲎆󲎺𐄗𐄉\nX󲈈󲍰\nX󲎹󲏈󲍐𐄜𐄗𐄉\n󲎆󲎺𐄓𐄌\n",
+    "parsedInscription": "X󲍎󲍝󲎀\n<󲍎󲍝󲎀>\nX󲎹󲏈󲍎\nX󲈈󲍰\nX󲎹󲏈󲍐\n",
     "tracingImages": [
         "images/056a-t.jpg",
         "images/056b-t.jpg",
@@ -1018,65 +1175,41 @@ var inscriptions = new Map([
         "images/056d-t.jpg",
         "images/056e-t.jpg"
     ],
-    "transcription": "X󲍎󲍝󲎀X󲎆󲎺𐄗𐄋\n𐄠𐄝𐄓󲎆𐄓𐄊\nX󲎹󲏈󲍎𐄠X󲎆󲎺𐄗𐄉\nX󲈈󲍰\nX󲎹󲏈󲍐𐄜𐄗𐄉\n󲎆󲎺𐄓𐄌\n",
+    "transcription": "X󲍎󲍝󲎀\n<󲍎󲍝󲎀>\nX󲎹󲏈󲍎\nX󲈈󲍰\nX󲎹󲏈󲍐\n",
     "transliteratedWords": [
         "X",
-        "070-031-019",
-        "X",
-        "044-049",
-        "85",
+        "RO-RE-SA",
         "\n",
-        "800",
-        "540",
-        "044",
-        "44",
+        "<",
+        "RO-RE-SA",
+        ">",
         "\n",
         "X",
-        "042-057-070",
-        "800",
-        "X",
-        "044-049",
-        "83",
+        "A-KI-RO",
         "\n",
         "X",
-        "026-061",
+        "?-termination sign",
         "\n",
         "X",
-        "042-057-038",
-        "483",
-        "\n",
-        "044-049",
-        "46",
+        "A-KI-JA",
         "\n"
     ],
     "words": [
         "X",
         "󲍎󲍝󲎀",
-        "X",
-        "󲎆󲎺",
-        "𐄗𐄋",
         "\n",
-        "𐄠",
-        "𐄝𐄓",
-        "󲎆",
-        "𐄓𐄊",
+        "<",
+        "󲍎󲍝󲎀",
+        ">",
         "\n",
         "X",
         "󲎹󲏈󲍎",
-        "𐄠",
-        "X",
-        "󲎆󲎺",
-        "𐄗𐄉",
         "\n",
         "X",
         "󲈈󲍰",
         "\n",
         "X",
         "󲎹󲏈󲍐",
-        "𐄜𐄗𐄉",
-        "\n",
-        "󲎆󲎺",
-        "𐄓𐄌",
         "\n"
     ]
 }],
@@ -1088,27 +1221,29 @@ var inscriptions = new Map([
         "images/121d.jpg",
         "images/121e.jpg"
     ],
+    "linearA": [],
     "name": "121",
-    "parsedInscription": "X󲏀[\ndeest\n]󲍡[\n]󲎺\n",
+    "parsedInscription": "X󲏀[\ndeest\n]*󲈥[\n]󲎺\n",
     "tracingImages": [
         "images/121a-t.jpg",
         "images/121c-t.jpg",
         "images/121d-t.jpg"
     ],
-    "transcription": "X󲏀[\ndeest\n]󲍡[\n]󲎺\n",
+    "transcription": "X󲏀[\ndeest\n]*󲈥[\n]󲎺\n",
     "transliteratedWords": [
         "X",
-        "041",
+        "WA",
         "[",
         "\n",
         "deest",
         "\n",
         "]",
-        "013",
+        "*",
+        "152",
         "[",
         "\n",
         "]",
-        "049",
+        "RO3",
         "\n"
     ],
     "words": [
@@ -1119,7 +1254,8 @@ var inscriptions = new Map([
         "deest",
         "\n",
         "]",
-        "󲍡",
+        "*",
+        "󲈥",
         "[",
         "\n",
         "]",
@@ -1131,6 +1267,10 @@ var inscriptions = new Map([
     "images": [
         "images/178a.jpg"
     ],
+    "linearA": [
+        "A-TI-RU (ZA 4a.3), A-TA-RE (ZA 8.1)",
+        "\n"
+    ],
     "name": "178",
     "parsedInscription": "]󲎹󲏻󲎺󲏻󲏻󲍖[0\n",
     "tracingImages": [
@@ -1139,10 +1279,10 @@ var inscriptions = new Map([
     "transcription": "]󲎹󲏻󲎺󲏻󲏻󲍖[0\n",
     "transliteratedWords": [
         "]",
-        "042-",
-        "049",
+        "A-",
+        "RO3",
         "-",
-        "050",
+        "TI",
         "[",
         "0",
         "\n"
@@ -1165,31 +1305,30 @@ var inscriptions = new Map([
         "images/024c.jpg",
         "images/024d.jpg"
     ],
+    "linearA": [],
     "name": "024",
-    "parsedInscription": "\nvacat\nX󲍅󲎎\n*󲊝\n",
+    "parsedInscription": "󲏔󲎜󲏓\nvacat\n󲍅󲎎*󲊝\n",
     "tracingImages": [
         "images/024c-t.jpg",
         "images/024d-t.jpg"
     ],
-    "transcription": "\nvacat\nX󲍅󲎎\n*󲊝\n",
+    "transcription": "󲏔󲎜󲏓\nvacat\n󲍅󲎎*󲊝\n",
     "transliteratedWords": [
+        "RA4-PA3-Rv",
         "\n",
         "vacat",
         "\n",
-        "X",
-        "011-056",
-        "\n",
+        "SI-KU",
         "*",
         "153",
         "\n"
     ],
     "words": [
+        "󲏔󲎜󲏓",
         "\n",
         "vacat",
         "\n",
-        "X",
         "󲍅󲎎",
-        "\n",
         "*",
         "󲊝",
         "\n"
@@ -1200,41 +1339,42 @@ var inscriptions = new Map([
         "images/035a.jpg",
         "images/035b.jpg"
     ],
+    "linearA": [],
     "name": "035",
-    "parsedInscription": "]•󲎹󲍰><\n]󲇟[]󲎹><𐄓\n",
+    "parsedInscription": "]•󲎹󲍰\n<󲎹󲏻󲏻[]󲇟[>𐄓\n",
     "tracingImages": [
         "images/035b-t.jpg"
     ],
-    "transcription": "]•󲎹󲍰><\n]󲇟[]󲎹><𐄓\n",
+    "transcription": "]•󲎹󲍰\n<󲎹󲏻󲏻[]󲇟[>𐄓\n",
     "transliteratedWords": [
         "]",
-        "•-042-061",
-        ">",
-        "<",
+        "•",
+        "A-termination sign",
         "\n",
-        "]",
-        "086",
+        "<",
+        "A",
+        "-",
         "[",
         "]",
-        "042",
+        "?",
+        "[",
         ">",
-        "<",
         "40",
         "\n"
     ],
     "words": [
         "]",
-        "•󲎹󲍰",
-        ">",
-        "<",
+        "•",
+        "󲎹󲍰",
         "\n",
+        "<",
+        "󲎹",
+        "󲏻󲏻",
+        "[",
         "]",
         "󲇟",
         "[",
-        "]",
-        "󲎹",
         ">",
-        "<",
         "𐄓",
         "\n"
     ]
@@ -1242,6 +1382,12 @@ var inscriptions = new Map([
 ["183",{
     "images": [
         "images/183a.jpg"
+    ],
+    "linearA": [
+        "A-RE-SA-NA (THE Zb 2), A-RI-SU (HT 118.3-4)",
+        "\n",
+        "PA-SA-RI-JA, HT 24a.4",
+        "\n"
     ],
     "name": "183",
     "parsedInscription": "X󲍐󲍎󲍅><\n",
@@ -1251,7 +1397,7 @@ var inscriptions = new Map([
     "transcription": "X󲍐󲍎󲍅><\n",
     "transliteratedWords": [
         "X",
-        "038-070-011",
+        "JA-RO-SI",
         ">",
         "<",
         "\n"
@@ -1270,34 +1416,42 @@ var inscriptions = new Map([
         "images/290c.jpg",
         "images/290d.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "RI-KA-TA (HT 146.4), RI-QE-TI- (PO Zg 1) KU-RO (\"balance,\" \"total\"), A-KI-RO (ARKH 4b.4)",
+        "\n",
+        "KA-RE-RO (HT Wc 3003), RE-RO (HT Wc 3012.b); cf. A-RU 1 • 1 *312 1 (HT 49a.6)",
+        "\n"
+    ],
     "name": "290",
-    "parsedInscription": "󲎆󲎺\nX󲏦󲍝󲏓\n󲎗󲎷󲏬><\n",
+    "parsedInscription": "󲎆󲎺\n󲎗󲎷󲏬><\nX󲏦󲍝󲏓\n",
     "tracingImages": [
         "images/290b-t.jpg",
         "images/290c-t.jpg",
         "images/290d-t.jpg"
     ],
-    "transcription": "󲎆󲎺\nX󲏦󲍝󲏓\n󲎗󲎷󲏬><\n",
+    "transcription": "󲎆󲎺\n󲎗󲎷󲏬><\nX󲏦󲍝󲏓\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n",
-        "X",
-        "051-031-005",
-        "\n",
-        "077-016-033",
+        "RU2-KI-A *047",
         ">",
         "<",
+        "\n",
+        "X",
+        "KU3-RE-Rv",
         "\n"
     ],
     "words": [
         "󲎆󲎺",
         "\n",
-        "X",
-        "󲏦󲍝󲏓",
-        "\n",
         "󲎗󲎷󲏬",
         ">",
         "<",
+        "\n",
+        "X",
+        "󲏦󲍝󲏓",
         "\n"
     ]
 }],
@@ -1307,6 +1461,10 @@ var inscriptions = new Map([
         "images/224b.jpg",
         "images/224c.jpg"
     ],
+    "linearA": [
+        "A-JA (SY Za 2d); cf. A-JA-KU (KN Zf 13), A-JA-[ (PK Za 18), ]A-JA[ (PE Zc 4)",
+        "\n"
+    ],
     "name": "224",
     "parsedInscription": "]󲎹󲍐><\n",
     "tracingImages": [
@@ -1315,7 +1473,7 @@ var inscriptions = new Map([
     "transcription": "]󲎹󲍐><\n",
     "transliteratedWords": [
         "]",
-        "042-038",
+        "A-JA",
         ">",
         "<",
         "\n"
@@ -1332,6 +1490,10 @@ var inscriptions = new Map([
     "images": [
         "images/151a.jpg"
     ],
+    "linearA": [
+        "A-JA (SY Za 2d)",
+        "\n"
+    ],
     "name": "151",
     "parsedInscription": "󲎹󲎝><\n",
     "tracingImages": [
@@ -1339,7 +1501,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎝><\n",
     "transliteratedWords": [
-        "042-053",
+        "A-JA",
         ">",
         "<",
         "\n"
@@ -1357,6 +1519,7 @@ var inscriptions = new Map([
         "images/259b.jpg",
         "images/259c.jpg"
     ],
+    "linearA": [],
     "name": "259",
     "parsedInscription": "󲎆󲎺\n󲎆󲏓\n",
     "tracingImages": [
@@ -1366,9 +1529,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n󲎆󲏓\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n",
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -1383,22 +1546,19 @@ var inscriptions = new Map([
         "images/083a.jpg",
         "images/083b.jpg"
     ],
+    "linearA": [],
     "name": "083",
-    "parsedInscription": "󲉈󲏆\nvacat\n",
+    "parsedInscription": "󲉈󲏆\n",
     "tracingImages": [
         "images/083a-t.jpg"
     ],
-    "transcription": "󲉈󲏆\nvacat\n",
+    "transcription": "󲉈󲏆\n",
     "transliteratedWords": [
-        "030-034",
-        "\n",
-        "vacat",
+        "PU2?-TA",
         "\n"
     ],
     "words": [
         "󲉈󲏆",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -1406,13 +1566,17 @@ var inscriptions = new Map([
     "images": [
         "images/324a.jpg"
     ],
+    "linearA": [
+        "QE/KA-TI-RA-DU (HT 58.1)",
+        "\n"
+    ],
     "name": "324",
     "parsedInscription": "X󲏈󲌒󲍎󲏔\n",
     "tracingImages": [],
     "transcription": "X󲏈󲌒󲍎󲏔\n",
     "transliteratedWords": [
         "X",
-        "057-023-070-018",
+        "KI-TU-RO-RA4",
         "\n"
     ],
     "words": [
@@ -1428,37 +1592,42 @@ var inscriptions = new Map([
         "images/022c.jpg",
         "images/022d.jpg"
     ],
+    "linearA": [],
     "name": "022",
-    "parsedInscription": "\nvacat\nX󲉒󲍎󲎺[\n]•󲏻󲍝\n",
+    "parsedInscription": "󲎹󲍎󲍐\n]vacat\n]•󲏻󲍝\nX󲉒󲍎󲎺[\n",
     "tracingImages": [
         "images/022c-t.jpg",
         "images/022d-t.jpg"
     ],
-    "transcription": "\nvacat\nX󲉒󲍎󲎺[\n]•󲏻󲍝\n",
+    "transcription": "󲎹󲍎󲍐\n]vacat\n]•󲏻󲍝\nX󲉒󲍎󲎺[\n",
     "transliteratedWords": [
+        "A-RO-JA",
         "\n",
+        "]",
         "vacat",
-        "\n",
-        "X",
-        "055-070-049",
-        "[",
         "\n",
         "]",
         "•-",
-        "031",
+        "RE",
+        "\n",
+        "X",
+        "KE-RO-RO3",
+        "[",
         "\n"
     ],
     "words": [
+        "󲎹󲍎󲍐",
         "\n",
+        "]",
         "vacat",
-        "\n",
-        "X",
-        "󲉒󲍎󲎺",
-        "[",
         "\n",
         "]",
         "•󲏻",
         "󲍝",
+        "\n",
+        "X",
+        "󲉒󲍎󲎺",
+        "[",
         "\n"
     ]
 }],
@@ -1468,6 +1637,10 @@ var inscriptions = new Map([
         "images/212b.jpg",
         "images/212c.jpg"
     ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "212",
     "parsedInscription": "󲍐󲎮\n",
     "tracingImages": [
@@ -1475,7 +1648,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮\n",
     "transliteratedWords": [
-        "038-010",
+        "JA-RI",
         "\n"
     ],
     "words": [
@@ -1489,6 +1662,12 @@ var inscriptions = new Map([
         "images/245b.jpg",
         "images/245c.jpg"
     ],
+    "linearA": [
+        "? ~ KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "MA-I-MI (HT 89.2); cf. A-SA-SU-MA-I-SE (GO Wc 1), DU-MA-I-NA (HT 124b.5)",
+        "\n"
+    ],
     "name": "245",
     "parsedInscription": "󲎺•[\n󲍮󲎧•[\n",
     "tracingImages": [
@@ -1496,10 +1675,10 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎺•[\n󲍮󲎧•[\n",
     "transliteratedWords": [
-        "049-•",
+        "RO3-•",
         "[",
         "\n",
-        "029-014-•",
+        "MA-I-•",
         "[",
         "\n"
     ],
@@ -1518,6 +1697,14 @@ var inscriptions = new Map([
         "images/273b.jpg",
         "images/273c.jpg"
     ],
+    "linearA": [
+        "DA-TU ... KU-RO ... KI-RO (HT 123a.6-9)",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n",
+        "cf. JA-DU-RA-TI (KN 1b.1-2), RA-TI-SE (HT 6b.2), [•]-RA 2 -TI (HT 108.3),]-RE-TI (MA 2b.1)",
+        "\n"
+    ],
     "name": "273",
     "parsedInscription": "X󲎇󲏓󲍖><\n󲎀󲍝󲍰><\nX󲍎󲏓󲍖><\n",
     "tracingImages": [
@@ -1528,16 +1715,16 @@ var inscriptions = new Map([
     "transcription": "X󲎇󲏓󲍖><\n󲎀󲍝󲍰><\nX󲍎󲏓󲍖><\n",
     "transliteratedWords": [
         "X",
-        "054-005-050",
+        "DE-Rv-TI",
         ">",
         "<",
         "\n",
-        "019-031-061",
+        "SA-RE-termination sign",
         ">",
         "<",
         "\n",
         "X",
-        "070-005-050",
+        "RO-Rv-TI",
         ">",
         "<",
         "\n"
@@ -1565,6 +1752,10 @@ var inscriptions = new Map([
         "images/215b.jpg",
         "images/215c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "215",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -1572,7 +1763,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -1586,6 +1777,10 @@ var inscriptions = new Map([
         "images/240b.jpg",
         "images/240c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\"); cf KU-RO VIR (HT 25, 27, 85, 88, 89?, 94, 100, 102, 119, 122, 127)",
+        "\n"
+    ],
     "name": "240",
     "parsedInscription": "{001}󲎆󲎺\n",
     "tracingImages": [
@@ -1594,7 +1789,7 @@ var inscriptions = new Map([
     "transcription": "{001}󲎆󲎺\n",
     "transliteratedWords": [
         "{001}",
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -1610,41 +1805,54 @@ var inscriptions = new Map([
         "images/020c.jpg",
         "images/020d.jpg"
     ],
+    "linearA": [],
     "name": "020",
-    "parsedInscription": "\n]•󲏻󲈑><\n\n]󲊶><\n",
+    "parsedInscription": "\n<󲈑󲏻󲏻󲉔[󲏻󲍎\n<󲊶[󲏻󲍎*󲇬\n󲎆󲏓*󲊝\n",
     "tracingImages": [
         "images/020b-t.jpg",
         "images/020d-t.jpg"
     ],
-    "transcription": "\n]•󲏻󲈑><\n\n]󲊶><\n",
+    "transcription": "\n<󲈑󲏻󲏻󲉔[󲏻󲍎\n<󲊶[󲏻󲍎*󲇬\n󲎆󲏓*󲊝\n",
     "transliteratedWords": [
         "\n",
-        "]",
-        "•-",
-        "078",
-        ">",
         "<",
+        "DO",
+        "-",
+        "RE2",
+        "[",
+        "-RO",
         "\n",
-        "\n",
-        "]",
-        "047",
-        ">",
         "<",
+        "QE",
+        "[",
+        "-RO",
+        "*",
+        "174",
+        "\n",
+        "KO-Rv",
+        "*",
+        "153",
         "\n"
     ],
     "words": [
         "\n",
-        "]",
-        "•󲏻",
+        "<",
         "󲈑",
-        ">",
+        "󲏻󲏻",
+        "󲉔",
+        "[",
+        "󲏻󲍎",
+        "\n",
         "<",
-        "\n",
-        "\n",
-        "]",
         "󲊶",
-        ">",
-        "<",
+        "[",
+        "󲏻󲍎",
+        "*",
+        "󲇬",
+        "\n",
+        "󲎆󲏓",
+        "*",
+        "󲊝",
         "\n"
     ]
 }],
@@ -1653,6 +1861,16 @@ var inscriptions = new Map([
         "images/276a.jpg",
         "images/276b.jpg",
         "images/276c.jpg"
+    ],
+    "linearA": [
+        "A-JA (SY Za 2d); cf. A-JA-KU (KN Zf 13), A-JA-[ (PK Za 18), ]A-JA[ (PE Zc 4)",
+        "\n",
+        "< ]-TE-NU-RE[ (KH 6.1)",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
     ],
     "name": "276",
     "parsedInscription": "󲎹󲍐><\n󲍝󲏨󲏆><\n󲏓󲎆󲎺\n",
@@ -1663,15 +1881,15 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲍐><\n󲍝󲏨󲏆><\n󲏓󲎆󲎺\n",
     "transliteratedWords": [
-        "042-038",
+        "A-JA",
         ">",
         "<",
         "\n",
-        "031-006-034",
+        "RE-NWA-TA",
         ">",
         "<",
         "\n",
-        "005-044-049",
+        "Rv-KO-RO3",
         "\n"
     ],
     "words": [
@@ -1693,23 +1911,24 @@ var inscriptions = new Map([
         "images/078b.jpg",
         "images/078d.jpg"
     ],
+    "linearA": [],
     "name": "078",
-    "parsedInscription": "󲉃󲏻󲊶󲏻󲎀•[\nvacat\n",
+    "parsedInscription": "•󲏻󲊶󲏻󲎀•[\nvacat\n",
     "tracingImages": [
         "images/078a-t.jpg"
     ],
-    "transcription": "󲉃󲏻󲊶󲏻󲎀•[\nvacat\n",
+    "transcription": "•󲏻󲊶󲏻󲎀•[\nvacat\n",
     "transliteratedWords": [
-        "083-",
-        "047",
-        "-019-•",
+        "•-",
+        "QE",
+        "-SA-•",
         "[",
         "\n",
         "vacat",
         "\n"
     ],
     "words": [
-        "󲉃󲏻",
+        "•󲏻",
         "󲊶",
         "󲏻󲎀•",
         "[",
@@ -1724,36 +1943,41 @@ var inscriptions = new Map([
         "images/015c.jpg",
         "images/015d.jpg"
     ],
+    "linearA": [],
     "name": "015",
-    "parsedInscription": "\n\n󲍅󲎎[><\n\n",
+    "parsedInscription": "vacat\n󲎺󲍎󲍎\n]󲍅󲎎[\n",
     "tracingImages": [
         "images/015c-t.jpg"
     ],
-    "transcription": "\n\n󲍅󲎎[><\n\n",
+    "transcription": "vacat\n󲎺󲍎󲍎\n]󲍅󲎎[\n",
     "transliteratedWords": [
+        "vacat",
         "\n",
+        "RO3-RO-RO",
         "\n",
-        "011-056",
+        "]",
+        "SI-KU",
         "[",
-        ">",
-        "<",
-        "\n",
         "\n"
     ],
     "words": [
+        "vacat",
         "\n",
+        "󲎺󲍎󲍎",
         "\n",
+        "]",
         "󲍅󲎎",
         "[",
-        ">",
-        "<",
-        "\n",
         "\n"
     ]
 }],
 ["195",{
     "images": [
         "images/195a.jpg"
+    ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
     ],
     "name": "195",
     "parsedInscription": "󲍐󲎮󲍝\n",
@@ -1762,7 +1986,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮󲍝\n",
     "transliteratedWords": [
-        "038-010-031",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
@@ -1775,6 +1999,10 @@ var inscriptions = new Map([
         "images/203a.jpg",
         "images/203b.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA-NE (common)",
+        "\n"
+    ],
     "name": "203",
     "parsedInscription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "tracingImages": [
@@ -1783,9 +2011,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "transliteratedWords": [
-        "042-019",
+        "A-SA",
         "\n",
-        "019-095-052",
+        "SA-RA-NE",
         "\n"
     ],
     "words": [
@@ -1800,6 +2028,10 @@ var inscriptions = new Map([
         "images/136a.jpg",
         "images/136e.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA (common)",
+        "\n"
+    ],
     "name": "136",
     "parsedInscription": "󲎹󲎀\n",
     "tracingImages": [
@@ -1807,7 +2039,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎀\n",
     "transliteratedWords": [
-        "042-019",
+        "A-SA",
         "\n"
     ],
     "words": [
@@ -1819,6 +2051,10 @@ var inscriptions = new Map([
     "images": [
         "images/135a.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA (common)",
+        "\n"
+    ],
     "name": "135",
     "parsedInscription": "󲎹󲎀\n",
     "tracingImages": [
@@ -1826,7 +2062,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎀\n",
     "transliteratedWords": [
-        "042-019",
+        "A-SA",
         "\n"
     ],
     "words": [
@@ -1838,6 +2074,10 @@ var inscriptions = new Map([
     "images": [
         "images/138a.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n"
+    ],
     "name": "138",
     "parsedInscription": "X󲎆󲏓\n",
     "tracingImages": [
@@ -1846,7 +2086,7 @@ var inscriptions = new Map([
     "transcription": "X󲎆󲏓\n",
     "transliteratedWords": [
         "X",
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -1861,6 +2101,7 @@ var inscriptions = new Map([
         "images/234b.jpg",
         "images/234c.jpg"
     ],
+    "linearA": [],
     "name": "234",
     "parsedInscription": "󲊉󲍖><\n",
     "tracingImages": [
@@ -1868,7 +2109,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲊉󲍖><\n",
     "transliteratedWords": [
-        "017-050",
+        "AU-TI",
         ">",
         "<",
         "\n"
@@ -1884,6 +2125,10 @@ var inscriptions = new Map([
     "images": [
         "images/193a.jpg"
     ],
+    "linearA": [
+        "A-DA-KI-SI-KA (KH 5.1-2, heading); cf. JA-KI-SI-KI-NU (ARKH Zf 9)",
+        "\n"
+    ],
     "name": "193",
     "parsedInscription": "󲎷󲎀󲎎0\n",
     "tracingImages": [
@@ -1891,7 +2136,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎷󲎀󲎎0\n",
     "transliteratedWords": [
-        "016-019-056",
+        "KI-SA-KU",
         "0",
         "\n"
     ],
@@ -1907,6 +2152,12 @@ var inscriptions = new Map([
         "images/250b.jpg",
         "images/250c.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "250",
     "parsedInscription": "󲎆󲏓\n󲍐󲎮󲍝\n",
     "tracingImages": [
@@ -1915,9 +2166,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲏓\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
-        "044-005",
+        "KO-Rv",
         "\n",
-        "038-010-031",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
@@ -1934,43 +2185,58 @@ var inscriptions = new Map([
         "images/018c.jpg",
         "images/018d.jpg"
     ],
+    "linearA": [],
     "name": "018",
-    "parsedInscription": "\nX󲋧󲎎󲍰\nX󲊗󲊶X󲎆󲏓\nvacat\n",
+    "parsedInscription": "󲎆󲏓*󲈥\n󲎆󲏓*󲊯\n󲋧󲎎󲍰\nvacat\n󲊗󲊶\n󲎆󲏓\n",
     "tracingImages": [
         "images/018b-t.jpg",
         "images/018c-t.jpg"
     ],
-    "transcription": "\nX󲋧󲎎󲍰\nX󲊗󲊶X󲎆󲏓\nvacat\n",
+    "transcription": "󲎆󲏓*󲈥\n󲎆󲏓*󲊯\n󲋧󲎎󲍰\nvacat\n󲊗󲊶\n󲎆󲏓\n",
     "transliteratedWords": [
+        "KO-Rv",
+        "*",
+        "152",
         "\n",
-        "X",
-        "009-056-061",
+        "KO-Rv",
+        "*",
+        "NU?",
         "\n",
-        "X",
-        "020-047",
-        "X",
-        "044-005",
+        "A2-KU-termination sign",
         "\n",
         "vacat",
+        "\n",
+        "AI-QE",
+        "\n",
+        "KO-Rv",
         "\n"
     ],
     "words": [
+        "󲎆󲏓",
+        "*",
+        "󲈥",
         "\n",
-        "X",
+        "󲎆󲏓",
+        "*",
+        "󲊯",
+        "\n",
         "󲋧󲎎󲍰",
         "\n",
-        "X",
-        "󲊗󲊶",
-        "X",
-        "󲎆󲏓",
-        "\n",
         "vacat",
+        "\n",
+        "󲊗󲊶",
+        "\n",
+        "󲎆󲏓",
         "\n"
     ]
 }],
 ["186",{
     "images": [
         "images/186a.jpg"
+    ],
+    "linearA": [
+        "KE-KI-RU (HT 94b.2), KI-KI-RA-JA (HT 86b.1), QA-QA-RU (HT 93a.4-5), QA-KU-RE, QE-KU-RE (HT 20.2-3; HT Wc 3017)",
+        "\n"
     ],
     "name": "186",
     "parsedInscription": "X󲎿󲍰󲎺󲊶0\n",
@@ -1980,7 +2246,7 @@ var inscriptions = new Map([
     "transcription": "X󲎿󲍰󲎺󲊶0\n",
     "transliteratedWords": [
         "X",
-        "028-061-049-047",
+        "KU2-termination sign-RO3-QE",
         "0",
         "\n"
     ],
@@ -1999,6 +2265,7 @@ var inscriptions = new Map([
         "images/108d.jpg",
         "images/108e.jpg"
     ],
+    "linearA": [],
     "name": "108",
     "parsedInscription": "*󲉚𐄋[\n]𐄌\n",
     "tracingImages": [
@@ -2034,36 +2301,41 @@ var inscriptions = new Map([
         "images/006c.jpg",
         "images/006d.jpg"
     ],
+    "linearA": [],
     "name": "006",
-    "parsedInscription": "\nvacat\n*󲉿\nvacat\n",
+    "parsedInscription": "\nvacat\nvacat\n*󲉿\n",
     "tracingImages": [
         "images/006c-t.jpg"
     ],
-    "transcription": "\nvacat\n*󲉿\nvacat\n",
+    "transcription": "\nvacat\nvacat\n*󲉿\n",
     "transliteratedWords": [
+        "\n",
+        "vacat",
         "\n",
         "vacat",
         "\n",
         "*",
         "154",
-        "\n",
-        "vacat",
         "\n"
     ],
     "words": [
         "\n",
         "vacat",
         "\n",
+        "vacat",
+        "\n",
         "*",
         "󲉿",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
 ["188",{
     "images": [
         "images/188a.jpg"
+    ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
     ],
     "name": "188",
     "parsedInscription": "󲎆󲏻󲎺\n",
@@ -2072,8 +2344,8 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲏻󲎺\n",
     "transliteratedWords": [
-        "044-",
-        "049",
+        "KO-",
+        "RO3",
         "\n"
     ],
     "words": [
@@ -2088,35 +2360,57 @@ var inscriptions = new Map([
         "images/294b.jpg",
         "images/294c.jpg"
     ],
+    "linearA": [
+        "MI-RU-TA-RA-RE (HT 117a.45-), ]SI-TU-RA 2 /RI-RE (HT 3.4)",
+        "\n",
+        "MA-KA-I-SE/TA (PK 1.8)",
+        "\n",
+        "O-SU-QA-RE (TL Za 1), SA-QE-RI (HT 11b.4-5)",
+        "\n",
+        "RU-SA (HT 96a.3); cf. TU-RU-SA (KO Za 1.b-c)",
+        "\n",
+        "[•]-TI-SA (HT 31.1); cf. the endings -TA-SE, TU-SU, -TI-SE",
+        "\n",
+        "cf. KU-KU-DA-RA (HT 117a.7)",
+        "\n",
+        "SI-KI-RA (HT 8a.4), A-SI-KI-RA (KH 20.2), SU-KI-RI-TA (PH Wa 32), SU-KI-RI-TE-I-JA (HT Zb 158.b)",
+        "\n",
+        "KA-KI (HT 37.1 & 5)",
+        "\n",
+        "cf. JA-KU (MA 2b.2), KA-KU (HT 62+73.3)",
+        "\n",
+        "JA-NA-KI-TE-TE-DU-PU2-RE (PK Za 8.a, PK Za 15) & A-DI-KI-TE-TE-[• (PK Za 11.a-b); cf. *312-TE-TE (HT 26a.1); [TE-TE-[ (ZA 23.1)",
+        "\n"
+    ],
     "name": "294",
-    "parsedInscription": "X󲎌049(•?)040(•?)\nX󲌐󲏈󲏻󲎧󲏻󲏀󲎀󲊶󲍎󲎦󲎀󲎆󲍖󲎀󲎿󲎎\n•󲎎󲏻󲍰󲏻󲏻󲎗\nX󲎌󲎌••\n󲎦057(•?)034(•?)016󲎎><\n",
+    "parsedInscription": "X󲎌049(•?)040(•?)\nX󲌐󲏈󲏻󲎧󲏻󲏀󲎀󲊶󲍎󲎦󲎀󲎆󲍖󲎀󲎿󲎎\n󲎦057(•?)034(•?)016󲎎><\n•󲎎󲏻󲍰󲏻󲏻󲎗\nX󲎌󲎌••\n",
     "tracingImages": [
         "images/294a-t.jpg",
         "images/294b-t.jpg",
         "images/294c-t.jpg",
         "images/294d-t.jpg"
     ],
-    "transcription": "X󲎌049(•?)040(•?)\nX󲌐󲏈󲏻󲎧󲏻󲏀󲎀󲊶󲍎󲎦󲎀󲎆󲍖󲎀󲎿󲎎\n•󲎎󲏻󲍰󲏻󲏻󲎗\nX󲎌󲎌••\n󲎦057(•?)034(•?)016󲎎><\n",
+    "transcription": "X󲎌049(•?)040(•?)\nX󲌐󲏈󲏻󲎧󲏻󲏀󲎀󲊶󲍎󲎦󲎀󲎆󲍖󲎀󲎿󲎎\n󲎦057(•?)034(•?)016󲎎><\n•󲎎󲏻󲍰󲏻󲏻󲎗\nX󲎌󲎌••\n",
     "transliteratedWords": [
         "X",
-        "025-049(•?)040(•?)",
+        "TE-049(•?)040(•?)",
         "\n",
         "X",
-        "059-057-",
-        "014",
-        "-041-019-047-070-092-019-044-050-019-028-056",
+        "MA?-KI-",
+        "I",
+        "-WA-SA-QE-RO-RU-SA-KO-TI-SA-KU2-KU",
         "\n",
-        "•-056-",
-        "061",
-        "-",
-        "077",
-        "\n",
-        "X",
-        "025-025-•-•",
-        "\n",
-        "092-057(•?)034(•?)016-056",
+        "RU-057(•?)034(•?)016-KU",
         ">",
         "<",
+        "\n",
+        "•-KU-",
+        "termination sign",
+        "-",
+        "RU2",
+        "\n",
+        "X",
+        "TE-TE-•-•",
         "\n"
     ],
     "words": [
@@ -2128,6 +2422,10 @@ var inscriptions = new Map([
         "󲎧",
         "󲏻󲏀󲎀󲊶󲍎󲎦󲎀󲎆󲍖󲎀󲎿󲎎",
         "\n",
+        "󲎦057(•?)034(•?)016󲎎",
+        ">",
+        "<",
+        "\n",
         "•󲎎󲏻",
         "󲍰",
         "󲏻󲏻",
@@ -2135,10 +2433,6 @@ var inscriptions = new Map([
         "\n",
         "X",
         "󲎌󲎌••",
-        "\n",
-        "󲎦057(•?)034(•?)016󲎎",
-        ">",
-        "<",
         "\n"
     ]
 }],
@@ -2149,6 +2443,12 @@ var inscriptions = new Map([
         "images/286c.jpg",
         "images/286d.jpg"
     ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIII",
+        "\n",
+        "cf. KI-RO (\"owed\"), KU-RO (\"balance,\" \"total\") (common)",
+        "\n"
+    ],
     "name": "286",
     "parsedInscription": "󲍐󲎮\n󲊶󲍎><\n",
     "tracingImages": [
@@ -2157,9 +2457,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮\n󲊶󲍎><\n",
     "transliteratedWords": [
-        "038-010",
+        "JA-RI",
         "\n",
-        "047-070",
+        "QE-RO",
         ">",
         "<",
         "\n"
@@ -2179,6 +2479,10 @@ var inscriptions = new Map([
         "images/230b.jpg",
         "images/230c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\"); cf. HT 39: KU-RO KU; HT 11: KU-RO KA",
+        "\n"
+    ],
     "name": "230",
     "parsedInscription": "{073}󲎆󲎺\n",
     "tracingImages": [
@@ -2187,7 +2491,7 @@ var inscriptions = new Map([
     "transcription": "{073}󲎆󲎺\n",
     "transliteratedWords": [
         "{073}",
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -2202,6 +2506,10 @@ var inscriptions = new Map([
         "images/231b.jpg",
         "images/231c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "231",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -2209,7 +2517,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -2224,30 +2532,35 @@ var inscriptions = new Map([
         "images/007c.jpg",
         "images/007d.jpg"
     ],
+    "linearA": [],
     "name": "007",
-    "parsedInscription": "\nvacat\n\n]*󲍚\n",
+    "parsedInscription": "vacat\n]*󲍚\n󲎆󲎺\ncatface󲍝\n",
     "tracingImages": [
         "images/007d-t.jpg"
     ],
-    "transcription": "\nvacat\n\n]*󲍚\n",
+    "transcription": "vacat\n]*󲍚\n󲎆󲎺\ncatface󲍝\n",
     "transliteratedWords": [
-        "\n",
         "vacat",
-        "\n",
         "\n",
         "]",
         "*",
         "156",
+        "\n",
+        "KO-RO3",
+        "\n",
+        "catface-RE",
         "\n"
     ],
     "words": [
-        "\n",
         "vacat",
-        "\n",
         "\n",
         "]",
         "*",
         "󲍚",
+        "\n",
+        "󲎆󲎺",
+        "\n",
+        "catface󲍝",
         "\n"
     ]
 }],
@@ -2258,31 +2571,41 @@ var inscriptions = new Map([
         "images/311c.jpg",
         "images/311d.jpg"
     ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIII",
+        "\n",
+        "",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n"
+    ],
     "name": "311",
-    "parsedInscription": "󲍐󲏻󲏻󲎮\n•?-•?-•?\n󲎆󲏻󲏻󲏓><\n󲎆󲏻󲏻󲎺\n",
+    "parsedInscription": "󲍐󲏻󲏻󲎮\n•?-•?-•?\n󲎆󲏻󲏻󲎺\n󲎆󲏻󲏻󲏓><\n",
     "tracingImages": [
         "images/311a-t.jpg",
         "images/311b-t.jpg",
         "images/311c-t.jpg",
         "images/311d-t.jpg"
     ],
-    "transcription": "󲍐󲏻󲏻󲎮\n•?-•?-•?\n󲎆󲏻󲏻󲏓><\n󲎆󲏻󲏻󲎺\n",
+    "transcription": "󲍐󲏻󲏻󲎮\n•?-•?-•?\n󲎆󲏻󲏻󲎺\n󲎆󲏻󲏻󲏓><\n",
     "transliteratedWords": [
-        "038",
+        "JA",
         "-",
-        "010",
+        "RI",
         "\n",
         "•?-•?-•?",
         "\n",
-        "044",
+        "KO",
         "-",
-        "005",
+        "RO3",
+        "\n",
+        "KO",
+        "-",
+        "Rv",
         ">",
         "<",
-        "\n",
-        "044",
-        "-",
-        "049",
         "\n"
     ],
     "words": [
@@ -2294,13 +2617,13 @@ var inscriptions = new Map([
         "\n",
         "󲎆",
         "󲏻󲏻",
-        "󲏓",
-        ">",
-        "<",
+        "󲎺",
         "\n",
         "󲎆",
         "󲏻󲏻",
-        "󲎺",
+        "󲏓",
+        ">",
+        "<",
         "\n"
     ]
 }],
@@ -2312,65 +2635,44 @@ var inscriptions = new Map([
         "images/066d.jpg",
         "images/066e.jpg"
     ],
+    "linearA": [],
     "name": "066",
-    "parsedInscription": "]ΛΔ*󲈯ΛΘ*󲍻Λ\n]󲍮\n]󲏓󲊘𐄇\n]*󲈱𐄐𐄈*󲉯Θ\n",
+    "parsedInscription": "\n󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻\n\n\n\n]󲍮\n]󲏓󲊘\n\n",
     "tracingImages": [
         "images/066a-t.jpg",
         "images/066b-t.jpg",
         "images/066c-t.jpg",
         "images/066d-t.jpg"
     ],
-    "transcription": "]ΛΔ*󲈯ΛΘ*󲍻Λ\n]󲍮\n]󲏓󲊘𐄇\n]*󲈱𐄐𐄈*󲉯Θ\n",
+    "transcription": "\n󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻\n\n\n\n]󲍮\n]󲏓󲊘\n\n",
     "transliteratedWords": [
-        "]",
-        "ΛΔ",
-        "*",
-        "167",
-        "ΛΘ",
-        "*",
-        "155",
-        "Λ",
+        "\n",
+        "---------",
+        "\n",
+        "\n",
+        "\n",
         "\n",
         "]",
-        "029",
+        "MA",
         "\n",
         "]",
-        "005-063",
-        "1",
+        "Rv-PA",
         "\n",
-        "]",
-        "*",
-        "182",
-        "12",
-        "*",
-        "161",
-        "Θ",
         "\n"
     ],
     "words": [
-        "]",
-        "ΛΔ",
-        "*",
-        "󲈯",
-        "ΛΘ",
-        "*",
-        "󲍻",
-        "Λ",
+        "\n",
+        "󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻",
+        "\n",
+        "\n",
+        "\n",
         "\n",
         "]",
         "󲍮",
         "\n",
         "]",
         "󲏓󲊘",
-        "𐄇",
         "\n",
-        "]",
-        "*",
-        "󲈱",
-        "𐄐𐄈",
-        "*",
-        "󲉯",
-        "Θ",
         "\n"
     ]
 }],
@@ -2381,29 +2683,30 @@ var inscriptions = new Map([
         "images/303c.jpg",
         "images/303d.jpg"
     ],
+    "linearA": [],
     "name": "303",
-    "parsedInscription": "X󲎻󲊗󲎿\n󲎹󲎇󲍰\n󲎀󲏻󲎜󲏻󲍐󲏻󲍝><\n󲎆󲎺\n",
+    "parsedInscription": "X󲎻󲊗󲎿\n󲎹󲎇󲍰\n󲎆󲎺\n󲎀󲏻󲎜󲏻󲍐󲏻󲍝><\n",
     "tracingImages": [
         "images/303a-t.jpg",
         "images/303b-t.jpg",
         "images/303c-t.jpg",
         "images/303d-t.jpg"
     ],
-    "transcription": "X󲎻󲊗󲎿\n󲎹󲎇󲍰\n󲎀󲏻󲎜󲏻󲍐󲏻󲍝><\n󲎆󲎺\n",
+    "transcription": "X󲎻󲊗󲎿\n󲎹󲎇󲍰\n󲎆󲎺\n󲎀󲏻󲎜󲏻󲍐󲏻󲍝><\n",
     "transliteratedWords": [
         "X",
-        "062-020-028",
+        "NA-AI-KU2",
         "\n",
-        "042-054-061",
+        "A-DE-termination sign",
         "\n",
-        "019",
-        "-039-",
-        "038",
-        "-031",
+        "KO-RO3",
+        "\n",
+        "SA",
+        "-PA3-",
+        "JA",
+        "-RE",
         ">",
         "<",
-        "\n",
-        "044-049",
         "\n"
     ],
     "words": [
@@ -2412,31 +2715,41 @@ var inscriptions = new Map([
         "\n",
         "󲎹󲎇󲍰",
         "\n",
+        "󲎆󲎺",
+        "\n",
         "󲎀",
         "󲏻󲎜󲏻",
         "󲍐",
         "󲏻󲍝",
         ">",
         "<",
-        "\n",
-        "󲎆󲎺",
         "\n"
     ]
 }],
 [".ht",{
     "images": [],
+    "linearA": [
+        "A-SA-SA-RA-NE (common)",
+        "\n"
+    ],
     "name": ".ht",
-    "parsedInscription": "X󲎹󲎀••\n",
+    "parsedInscription": "󲎹󲎀\n󲎀󲏻󲏑󲏻󲏐\n",
     "tracingImages": [],
-    "transcription": "X󲎹󲎀••\n",
+    "transcription": "󲎹󲎀\n󲎀󲏻󲏑󲏻󲏐\n",
     "transliteratedWords": [
-        "X",
-        "042-019-•-•",
+        "A-SA",
+        "\n",
+        "SA-",
+        "RA",
+        "-NE",
         "\n"
     ],
     "words": [
-        "X",
-        "󲎹󲎀••",
+        "󲎹󲎀",
+        "\n",
+        "󲎀󲏻",
+        "󲏑",
+        "󲏻󲏐",
         "\n"
     ]
 }],
@@ -2444,12 +2757,16 @@ var inscriptions = new Map([
     "images": [
         "images/322a.jpg"
     ],
+    "linearA": [
+        "A-RI (PH 6.1, 3), A-RU (HT 9a.5-6, b.2-3; HT 49a.6)",
+        "\n"
+    ],
     "name": "322",
     "parsedInscription": "󲍦󲍕\n",
     "tracingImages": [],
     "transcription": "󲍦󲍕\n",
     "transliteratedWords": [
-        "008-068",
+        "A3-Rv",
         "\n"
     ],
     "words": [
@@ -2461,6 +2778,10 @@ var inscriptions = new Map([
     "images": [
         "images/187a.jpg"
     ],
+    "linearA": [
+        "A-JA (SY Za 2.d); cf. A-TA-I-*301-WA-JA (O Za 2.1; IO Za 3; IO Za 4?; IO Za 7; KO Za 1a; PK Za 12.a; SY Za 2a; SY Za 3; TL Za 1a)",
+        "\n"
+    ],
     "name": "187",
     "parsedInscription": "󲎝󲍦><\n",
     "tracingImages": [
@@ -2468,7 +2789,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎝󲍦><\n",
     "transliteratedWords": [
-        "053-008",
+        "JA-A3",
         ">",
         "<",
         "\n"
@@ -2484,6 +2805,7 @@ var inscriptions = new Map([
     "images": [
         "images/129a.jpg"
     ],
+    "linearA": [],
     "name": "129",
     "parsedInscription": "󲎹󲎍󲎺0\n",
     "tracingImages": [
@@ -2491,7 +2813,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎍󲎺0\n",
     "transliteratedWords": [
-        "042-040-049",
+        "A-RO2-RO3",
         "0",
         "\n"
     ],
@@ -2508,35 +2830,45 @@ var inscriptions = new Map([
         "images/052d.jpg",
         "images/052e.jpg"
     ],
+    "linearA": [],
     "name": "052",
-    "parsedInscription": "]󲍰𐄕X󲊘󲊶󲍰󲍝𐄓\n]X󲏈󲎦󲍰𐄚𐄘\n]𐄔𐄔𐄖\n]󲍮󲏻󲍎𐄟𐄐\n",
+    "parsedInscription": "]󲍰𐄕\nX󲊘󲊶󲍰*󲇬𐄓\n]X󲏈󲎦󲍰𐄚𐄘\n[𐄑]\n]𐄔\n𐄔\n𐄖\n]󲎿󲏻󲍎𐄟𐄐\n",
     "tracingImages": [
         "images/052a-t.jpg",
         "images/052c-t.jpg",
         "images/052d-t.jpg"
     ],
-    "transcription": "]󲍰𐄕X󲊘󲊶󲍰󲍝𐄓\n]X󲏈󲎦󲍰𐄚𐄘\n]𐄔𐄔𐄖\n]󲍮󲏻󲍎𐄟𐄐\n",
+    "transcription": "]󲍰𐄕\nX󲊘󲊶󲍰*󲇬𐄓\n]X󲏈󲎦󲍰𐄚𐄘\n[𐄑]\n]𐄔\n𐄔\n𐄖\n]󲎿󲏻󲍎𐄟𐄐\n",
     "transliteratedWords": [
         "]",
-        "061",
+        "termination sign",
         "60",
+        "\n",
         "X",
-        "063-047-061-031",
+        "PA-QE-termination sign",
+        "*",
+        "174",
         "40",
         "\n",
         "]",
         "X",
-        "057-092-061",
+        "KI-RU-termination sign",
         "290",
+        "\n",
+        "[",
+        "20",
+        "]",
         "\n",
         "]",
         "50",
+        "\n",
         "50",
+        "\n",
         "70",
         "\n",
         "]",
-        "029",
-        "-070",
+        "KU2",
+        "-RO",
         "710",
         "\n"
     ],
@@ -2544,8 +2876,11 @@ var inscriptions = new Map([
         "]",
         "󲍰",
         "𐄕",
+        "\n",
         "X",
-        "󲊘󲊶󲍰󲍝",
+        "󲊘󲊶󲍰",
+        "*",
+        "󲇬",
         "𐄓",
         "\n",
         "]",
@@ -2553,13 +2888,19 @@ var inscriptions = new Map([
         "󲏈󲎦󲍰",
         "𐄚𐄘",
         "\n",
+        "[",
+        "𐄑",
+        "]",
+        "\n",
         "]",
         "𐄔",
+        "\n",
         "𐄔",
+        "\n",
         "𐄖",
         "\n",
         "]",
-        "󲍮",
+        "󲎿",
         "󲏻󲍎",
         "𐄟𐄐",
         "\n"
@@ -2570,6 +2911,7 @@ var inscriptions = new Map([
         "images/073a.jpg",
         "images/073b.jpg"
     ],
+    "linearA": [],
     "name": "073",
     "parsedInscription": "󲇴󲏆󲍎\nvacat\n",
     "tracingImages": [
@@ -2577,7 +2919,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲇴󲏆󲍎\nvacat\n",
     "transliteratedWords": [
-        "027-034-070",
+        "RA3-TA-RO",
         "\n",
         "vacat",
         "\n"
@@ -2597,6 +2939,7 @@ var inscriptions = new Map([
         "images/094d.jpg",
         "images/094e.jpg"
     ],
+    "linearA": [],
     "name": "094",
     "parsedInscription": "vacat\nvacat\n",
     "tracingImages": [],
@@ -2621,28 +2964,19 @@ var inscriptions = new Map([
         "images/010c.jpg",
         "images/010d.jpg"
     ],
+    "linearA": [],
     "name": "010",
-    "parsedInscription": "\ndeest\n•󲍐•\nvacat\n",
+    "parsedInscription": "•󲍐•\n",
     "tracingImages": [
         "images/010c-t.jpg"
     ],
-    "transcription": "\ndeest\n•󲍐•\nvacat\n",
+    "transcription": "•󲍐•\n",
     "transliteratedWords": [
-        "\n",
-        "deest",
-        "\n",
-        "•-038-•",
-        "\n",
-        "vacat",
+        "•-JA-•",
         "\n"
     ],
     "words": [
-        "\n",
-        "deest",
-        "\n",
         "•󲍐•",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -2655,57 +2989,88 @@ var inscriptions = new Map([
         "images/111e.jpg",
         "images/111f.jpg"
     ],
+    "linearA": [],
     "name": "111",
-    "parsedInscription": "•󲏻[]𐄕[\nvestigia\nvestigia\n]󲎌[\nvestigia\n]𐄓[\n",
+    "parsedInscription": "X󲊶󲏻󲏩󲍰|󲎺󲍐[\n󲍖󲍎••󲎀𐄐|󲏈[󲏻󲍎\n]󲎷󲎎󲎗𐄑|󲋸󲉩\nA:[󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻B:]\nX󲏈󲌒󲎹󲊘󲍔|󲍦󲍎[󲏻󲍔\n",
     "tracingImages": [
         "images/111a-t.jpg",
         "images/111b-t.jpg",
         "images/111c-t.jpg",
         "images/111d-t.jpg"
     ],
-    "transcription": "•󲏻[]𐄕[\nvestigia\nvestigia\n]󲎌[\nvestigia\n]𐄓[\n",
+    "transcription": "X󲊶󲏻󲏩󲍰|󲎺󲍐[\n󲍖󲍎••󲎀𐄐|󲏈[󲏻󲍎\n]󲎷󲎎󲎗𐄑|󲋸󲉩\nA:[󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻B:]\nX󲏈󲌒󲎹󲊘󲍔|󲍦󲍎[󲏻󲍔\n",
     "transliteratedWords": [
-        "•-",
-        "[",
-        "]",
-        "60",
-        "[",
-        "\n",
-        "vestigia",
-        "\n",
-        "vestigia",
-        "\n",
-        "]",
-        "025",
+        "X",
+        "QE",
+        "-VIR2-termination sign",
+        "|",
+        "RO3-JA",
         "[",
         "\n",
-        "vestigia",
+        "TI-RO-•-•-SA",
+        "10",
+        "|",
+        "KI",
+        "[",
+        "-RO",
         "\n",
         "]",
-        "40",
+        "KI",
+        "KU-RU2",
+        "20",
+        "|",
+        "KU4-?",
+        "\n",
+        "A:",
         "[",
+        "----------------------",
+        "B:",
+        "]",
+        "\n",
+        "X",
+        "KI-TU",
+        "A-PA-KO2",
+        "|",
+        "A3-RO",
+        "[",
+        "-KO2",
         "\n"
     ],
     "words": [
-        "•󲏻",
-        "[",
-        "]",
-        "𐄕",
-        "[",
-        "\n",
-        "vestigia",
-        "\n",
-        "vestigia",
-        "\n",
-        "]",
-        "󲎌",
+        "X",
+        "󲊶",
+        "󲏻󲏩󲍰",
+        "|",
+        "󲎺󲍐",
         "[",
         "\n",
-        "vestigia",
+        "󲍖󲍎••󲎀",
+        "𐄐",
+        "|",
+        "󲏈",
+        "[",
+        "󲏻󲍎",
         "\n",
         "]",
-        "𐄓",
+        "󲎷",
+        "󲎎󲎗",
+        "𐄑",
+        "|",
+        "󲋸󲉩",
+        "\n",
+        "A:",
         "[",
+        "󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻󲏻",
+        "B:",
+        "]",
+        "\n",
+        "X",
+        "󲏈󲌒",
+        "󲎹󲊘󲍔",
+        "|",
+        "󲍦󲍎",
+        "[",
+        "󲏻󲍔",
         "\n"
     ]
 }],
@@ -2714,6 +3079,10 @@ var inscriptions = new Map([
         "images/205a.jpg",
         "images/205b.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA-NE (common)",
+        "\n"
+    ],
     "name": "205",
     "parsedInscription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "tracingImages": [
@@ -2721,9 +3090,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "transliteratedWords": [
-        "042-019",
+        "A-SA",
         "\n",
-        "019-095-052",
+        "SA-RA-NE",
         "\n"
     ],
     "words": [
@@ -2740,6 +3109,10 @@ var inscriptions = new Map([
         "images/281c.jpg",
         "images/281d.jpg"
     ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIV",
+        "\n"
+    ],
     "name": "281",
     "parsedInscription": "󲏈󲏆󲏻󲎎\n",
     "tracingImages": [
@@ -2747,8 +3120,8 @@ var inscriptions = new Map([
     ],
     "transcription": "󲏈󲏆󲏻󲎎\n",
     "transliteratedWords": [
-        "057-034-",
-        "056",
+        "KI-TA-",
+        "KU",
         "\n"
     ],
     "words": [
@@ -2762,37 +3135,28 @@ var inscriptions = new Map([
         "images/044a.jpg",
         "images/044b.jpg"
     ],
+    "linearA": [],
     "name": "044",
-    "parsedInscription": "]󲍐󲎮󲍕><\n*󲊝GRA𐄚•\n",
+    "parsedInscription": "]󲍐󲎮󲍕*󲊝𐄚\n",
     "tracingImages": [
         "images/044a-t.jpg",
         "images/044b-t.jpg"
     ],
-    "transcription": "]󲍐󲎮󲍕><\n*󲊝GRA𐄚•\n",
+    "transcription": "]󲍐󲎮󲍕*󲊝𐄚\n",
     "transliteratedWords": [
         "]",
-        "038-010-068",
-        ">",
-        "<",
-        "\n",
+        "JA-RI-Rv",
         "*",
         "153",
-        "GRA",
         "200",
-        "•",
         "\n"
     ],
     "words": [
         "]",
         "󲍐󲎮󲍕",
-        ">",
-        "<",
-        "\n",
         "*",
         "󲊝",
-        "GRA",
         "𐄚",
-        "•",
         "\n"
     ]
 }],
@@ -2803,6 +3167,10 @@ var inscriptions = new Map([
         "images/282c.jpg",
         "images/282d.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA (common)",
+        "\n"
+    ],
     "name": "282",
     "parsedInscription": "󲍦󲏻󲎀󲏻󲏻󲏏><\n",
     "tracingImages": [
@@ -2810,10 +3178,10 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍦󲏻󲎀󲏻󲏻󲏏><\n",
     "transliteratedWords": [
-        "008-",
-        "019",
+        "A3-",
+        "SA",
         "-",
-        "036",
+        "SA2",
         ">",
         "<",
         "\n"
@@ -2835,50 +3203,47 @@ var inscriptions = new Map([
         "images/028c.jpg",
         "images/028d.jpg"
     ],
+    "linearA": [],
     "name": "028",
-    "parsedInscription": "\nX󲇞󲏻•[\n]󲎻󲏻󲎀󲍰><\nX󲏀󲏻•[\n",
+    "parsedInscription": "]󲎆󲏓\nX󲇞󲏻󲎺[\n󲏀󲏻•[\n]󲎻󲎀󲍰\n",
     "tracingImages": [
         "images/028b-t.jpg",
         "images/028c-t.jpg",
         "images/028d-t.jpg"
     ],
-    "transcription": "\nX󲇞󲏻•[\n]󲎻󲏻󲎀󲍰><\nX󲏀󲏻•[\n",
+    "transcription": "]󲎆󲏓\nX󲇞󲏻󲎺[\n󲏀󲏻•[\n]󲎻󲎀󲍰\n",
     "transliteratedWords": [
+        "]",
+        "KO-Rv",
         "\n",
         "X",
-        "072-",
-        "•",
+        "KA-",
+        "RO3",
+        "[",
+        "\n",
+        "WA",
+        "-•",
         "[",
         "\n",
         "]",
-        "062",
-        "-019-061",
-        ">",
-        "<",
-        "\n",
-        "X",
-        "041",
-        "-•",
-        "[",
+        "NA-SA-termination sign",
         "\n"
     ],
     "words": [
+        "]",
+        "󲎆󲏓",
         "\n",
         "X",
         "󲇞󲏻",
-        "•",
+        "󲎺",
         "[",
         "\n",
-        "]",
-        "󲎻",
-        "󲏻󲎀󲍰",
-        ">",
-        "<",
-        "\n",
-        "X",
         "󲏀",
         "󲏻•",
         "[",
+        "\n",
+        "]",
+        "󲎻󲎀󲍰",
         "\n"
     ]
 }],
@@ -2890,29 +3255,32 @@ var inscriptions = new Map([
         "images/061d.jpg",
         "images/061e.jpg"
     ],
+    "linearA": [],
     "name": "061",
-    "parsedInscription": "]󲌒󲉔𐄇|󲎹󲎎󲍝𐄇\n]•󲏆󲎎𐄇|X󲈊󲍅󲍮𐄇\n]•[]|󲍎󲎀󲏻󲋧𐄇\n]󲎦󲏻󲎺𐄇|󲏆󲎎󲎀󲎺𐄇\n󲎎󲍎󲍎𐄐𐄈\n",
+    "parsedInscription": "]󲌒󲉔𐄇|\n󲎹󲎎󲍝𐄇\n]•󲏆󲎎𐄇|\nX󲈊󲍅󲍮𐄇\n]•[]|\n]•[]|󲍎󲎀󲏻󲋧𐄇\n]󲎦󲏻󲎺𐄇|\n󲏆󲎎󲎀󲎺𐄇\n󲎎󲍎󲍎𐄐𐄈\n",
     "tracingImages": [
         "images/061a-t.jpg",
         "images/061b-t.jpg",
         "images/061c-t.jpg",
         "images/061e-t.jpg"
     ],
-    "transcription": "]󲌒󲉔𐄇|󲎹󲎎󲍝𐄇\n]•󲏆󲎎𐄇|X󲈊󲍅󲍮𐄇\n]•[]|󲍎󲎀󲏻󲋧𐄇\n]󲎦󲏻󲎺𐄇|󲏆󲎎󲎀󲎺𐄇\n󲎎󲍎󲍎𐄐𐄈\n",
+    "transcription": "]󲌒󲉔𐄇|\n󲎹󲎎󲍝𐄇\n]•󲏆󲎎𐄇|\nX󲈊󲍅󲍮𐄇\n]•[]|\n]•[]|󲍎󲎀󲏻󲋧𐄇\n]󲎦󲏻󲎺𐄇|\n󲏆󲎎󲎀󲎺𐄇\n󲎎󲍎󲍎𐄐𐄈\n",
     "transliteratedWords": [
         "]",
-        "023-032",
+        "TU-RE2",
         "1",
         "|",
-        "042-056-031",
+        "\n",
+        "A-KU-RE",
         "1",
         "\n",
         "]",
-        "•-034-056",
+        "•-TA-KU",
         "1",
         "|",
+        "\n",
         "X",
-        "037-011-029",
+        "Rv-SI-MA",
         "1",
         "\n",
         "]",
@@ -2920,20 +3288,27 @@ var inscriptions = new Map([
         "[",
         "]",
         "|",
-        "070-019-",
-        "009",
+        "\n",
+        "]",
+        "•",
+        "[",
+        "]",
+        "|",
+        "RO-SA-",
+        "A2",
         "1",
         "\n",
         "]",
-        "092",
-        "-049",
+        "RU",
+        "-RO3",
         "1",
         "|",
-        "034-056",
-        "019-049",
+        "\n",
+        "TA-KU",
+        "SA-RO3",
         "1",
         "\n",
-        "056-070-070",
+        "KU-RO-RO",
         "12",
         "\n"
     ],
@@ -2942,6 +3317,7 @@ var inscriptions = new Map([
         "󲌒󲉔",
         "𐄇",
         "|",
+        "\n",
         "󲎹󲎎󲍝",
         "𐄇",
         "\n",
@@ -2949,9 +3325,16 @@ var inscriptions = new Map([
         "•󲏆󲎎",
         "𐄇",
         "|",
+        "\n",
         "X",
         "󲈊󲍅󲍮",
         "𐄇",
+        "\n",
+        "]",
+        "•",
+        "[",
+        "]",
+        "|",
         "\n",
         "]",
         "•",
@@ -2967,6 +3350,7 @@ var inscriptions = new Map([
         "󲏻󲎺",
         "𐄇",
         "|",
+        "\n",
         "󲏆󲎎",
         "󲎀󲎺",
         "𐄇",
@@ -2984,22 +3368,19 @@ var inscriptions = new Map([
         "images/085d.jpg",
         "images/085e.jpg"
     ],
+    "linearA": [],
     "name": "085",
-    "parsedInscription": "󲍕󲍰\nvacat\n",
+    "parsedInscription": "󲍕󲍰\n",
     "tracingImages": [
         "images/085a-t.jpg"
     ],
-    "transcription": "󲍕󲍰\nvacat\n",
+    "transcription": "󲍕󲍰\n",
     "transliteratedWords": [
-        "068-061",
-        "\n",
-        "vacat",
+        "Rv-termination sign",
         "\n"
     ],
     "words": [
         "󲍕󲍰",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -3008,6 +3389,10 @@ var inscriptions = new Map([
         "images/235a.jpg",
         "images/235b.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "235",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -3015,7 +3400,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -3028,26 +3413,31 @@ var inscriptions = new Map([
         "images/104a.jpg",
         "images/104b.jpg"
     ],
+    "linearA": [],
     "name": "104",
-    "parsedInscription": "󲉔󲋧󲎎\n*󲉕𐄙\n",
+    "parsedInscription": "󲋧󲎎󲏻󲎍(/*168)󲍝𐄙\n",
     "tracingImages": [
         "images/104a-t.jpg",
         "images/104b-t.jpg"
     ],
-    "transcription": "󲉔󲋧󲎎\n*󲉕𐄙\n",
+    "transcription": "󲋧󲎎󲏻󲎍(/*168)󲍝𐄙\n",
     "transliteratedWords": [
-        "032-009-056",
-        "\n",
+        "A2-KU-",
+        "RO2",
+        "(/",
         "*",
-        "168",
+        "168)",
+        "RE",
         "100",
         "\n"
     ],
     "words": [
-        "󲉔󲋧󲎎",
-        "\n",
+        "󲋧󲎎󲏻",
+        "󲎍",
+        "(/",
         "*",
-        "󲉕",
+        "168)",
+        "󲍝",
         "𐄙",
         "\n"
     ]
@@ -3056,12 +3446,16 @@ var inscriptions = new Map([
     "images": [
         "images/320a.jpg"
     ],
+    "linearA": [
+        "A-MI-TA (ZA 10b.4-5)",
+        "\n"
+    ],
     "name": "320",
     "parsedInscription": "󲏀󲌐󲎌>?\n",
     "tracingImages": [],
     "transcription": "󲏀󲌐󲎌>?\n",
     "transliteratedWords": [
-        "041-059-025",
+        "WA-MA?-TE",
         ">",
         "?",
         "\n"
@@ -3078,30 +3472,29 @@ var inscriptions = new Map([
         "images/032a.jpg",
         "images/032b.jpg"
     ],
+    "linearA": [],
     "name": "032",
-    "parsedInscription": "X󲎎󲊶󲍝X󲍖󲎷\nX󲏈󲊶󲍰\n",
+    "parsedInscription": "󲎎󲊶󲍝\nX󲍖󲎷\n󲏈󲊶󲍰\n",
     "tracingImages": [
         "images/032a-t.jpg",
         "images/032b-t.jpg"
     ],
-    "transcription": "X󲎎󲊶󲍝X󲍖󲎷\nX󲏈󲊶󲍰\n",
+    "transcription": "󲎎󲊶󲍝\nX󲍖󲎷\n󲏈󲊶󲍰\n",
     "transliteratedWords": [
-        "X",
-        "056-047-031",
-        "X",
-        "050-016",
+        "KU-QE-RE",
         "\n",
         "X",
-        "057-047-061",
+        "TI-KI",
+        "\n",
+        "KI-QE-termination sign",
         "\n"
     ],
     "words": [
-        "X",
         "󲎎󲊶󲍝",
+        "\n",
         "X",
         "󲍖󲎷",
         "\n",
-        "X",
         "󲏈󲊶󲍰",
         "\n"
     ]
@@ -3113,6 +3506,7 @@ var inscriptions = new Map([
         "images/063c.jpg",
         "images/063d.jpg"
     ],
+    "linearA": [],
     "name": "063",
     "parsedInscription": "]󲏨󲏈󲎦|𐄙𐄋[\n]󲏀󲏨𐄉|󲎆󲎺[\n]󲏈󲏻󲎝><𐄑[]|[]󲎺󲍰><𐄑[\ndeest\ndeest\ndeest\n]󲎝󲏨[><\n",
     "tracingImages": [
@@ -3123,21 +3517,21 @@ var inscriptions = new Map([
     "transcription": "]󲏨󲏈󲎦|𐄙𐄋[\n]󲏀󲏨𐄉|󲎆󲎺[\n]󲏈󲏻󲎝><𐄑[]|[]󲎺󲍰><𐄑[\ndeest\ndeest\ndeest\n]󲎝󲏨[><\n",
     "transliteratedWords": [
         "]",
-        "006-057-092",
+        "NWA-KI-RU",
         "|",
         "105",
         "[",
         "\n",
         "]",
-        "041-006",
+        "WA-NWA",
         "3",
         "|",
-        "044-049",
+        "KO-RO3",
         "[",
         "\n",
         "]",
-        "057",
-        "-053",
+        "KI",
+        "-JA",
         ">",
         "<",
         "20",
@@ -3146,7 +3540,7 @@ var inscriptions = new Map([
         "|",
         "[",
         "]",
-        "049-061",
+        "RO3-termination sign",
         ">",
         "<",
         "20",
@@ -3159,7 +3553,7 @@ var inscriptions = new Map([
         "deest",
         "\n",
         "]",
-        "053-006",
+        "JA-NWA",
         "[",
         ">",
         "<",
@@ -3215,43 +3609,70 @@ var inscriptions = new Map([
         "images/039a.jpg",
         "images/039b.jpg"
     ],
+    "linearA": [],
     "name": "039",
-    "parsedInscription": "X󲎎󲏻󲌒X󲌦󲍎X󲊗󲎗\nX󲎹󲊉X󲏈󲌒󲏻󲏦𐄙𐄑\n",
+    "parsedInscription": "X󲎎󲏻<󲍎>*159bis\nX󲌦󲍎\nX󲊗󲎗\nX󲎹󲊉\nX󲏈󲏻<󲍮>*159bis*󲏦𐄙𐄑\n",
     "tracingImages": [
         "images/039a-t.jpg",
         "images/039b-t.jpg"
     ],
-    "transcription": "X󲎎󲏻󲌒X󲌦󲍎X󲊗󲎗\nX󲎹󲊉X󲏈󲌒󲏻󲏦𐄙𐄑\n",
+    "transcription": "X󲎎󲏻<󲍎>*159bis\nX󲌦󲍎\nX󲊗󲎗\nX󲎹󲊉\nX󲏈󲏻<󲍮>*159bis*󲏦𐄙𐄑\n",
     "transliteratedWords": [
         "X",
-        "056-",
-        "023",
-        "X",
-        "043-070",
-        "X",
-        "020-077",
+        "KU-",
+        "<",
+        "RO",
+        ">",
+        "*",
+        "159bis",
         "\n",
         "X",
-        "042-017",
+        "SO-RO",
+        "\n",
         "X",
-        "057-023-",
-        "051",
+        "AI-RU2",
+        "\n",
+        "X",
+        "A-AU",
+        "\n",
+        "X",
+        "KI-",
+        "<",
+        "MA",
+        ">",
+        "*",
+        "159bis",
+        "*",
+        "KU3",
         "120",
         "\n"
     ],
     "words": [
         "X",
         "󲎎󲏻",
-        "󲌒",
+        "<",
+        "󲍎",
+        ">",
+        "*",
+        "159bis",
+        "\n",
         "X",
         "󲌦󲍎",
+        "\n",
         "X",
         "󲊗󲎗",
         "\n",
         "X",
         "󲎹󲊉",
+        "\n",
         "X",
-        "󲏈󲌒󲏻",
+        "󲏈󲏻",
+        "<",
+        "󲍮",
+        ">",
+        "*",
+        "159bis",
+        "*",
         "󲏦",
         "𐄙𐄑",
         "\n"
@@ -3260,6 +3681,12 @@ var inscriptions = new Map([
 ["207",{
     "images": [
         "images/207b.jpg"
+    ],
+    "linearA": [
+        "RO-KE (HT 98a.4)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
     ],
     "name": "207",
     "parsedInscription": "X󲎦󲏻󲏻󲋸[\n󲎆󲎺\n",
@@ -3270,12 +3697,12 @@ var inscriptions = new Map([
     "transcription": "X󲎦󲏻󲏻󲋸[\n󲎆󲎺\n",
     "transliteratedWords": [
         "X",
-        "092",
+        "RU",
         "-",
-        "073",
+        "KU4",
         "[",
         "\n",
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -3295,6 +3722,10 @@ var inscriptions = new Map([
         "images/217b.jpg",
         "images/217c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "217",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -3302,7 +3733,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -3317,25 +3748,35 @@ var inscriptions = new Map([
         "images/309c.jpg",
         "images/309d.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n",
+        "A-RI-JA[ (PH 28a.3), TELA+KU (HT 38a.3)",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "309",
-    "parsedInscription": "󲎆󲏓\nX󲎹󲎍󲎝󲏀\n󲍐󲎮󲍝\nX󲏏󲎦󲍝\n",
+    "parsedInscription": "󲎆󲏓\nX󲎹󲎍󲎝󲏀\nX󲏏󲎦󲍝\n󲍐󲎮󲍝\n",
     "tracingImages": [
         "images/309a-t.jpg",
         "images/309b-t.jpg",
         "images/309c-t.jpg",
         "images/309d-t.jpg"
     ],
-    "transcription": "󲎆󲏓\nX󲎹󲎍󲎝󲏀\n󲍐󲎮󲍝\nX󲏏󲎦󲍝\n",
+    "transcription": "󲎆󲏓\nX󲎹󲎍󲎝󲏀\nX󲏏󲎦󲍝\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
-        "044-005",
+        "KO-Rv",
         "\n",
         "X",
-        "042-040-053-041",
-        "\n",
-        "038-010-031",
+        "A-RO2-JA-WA",
         "\n",
         "X",
-        "036-092-031",
+        "SA2-RU-RE",
+        "\n",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
@@ -3344,16 +3785,20 @@ var inscriptions = new Map([
         "X",
         "󲎹󲎍󲎝󲏀",
         "\n",
-        "󲍐󲎮󲍝",
-        "\n",
         "X",
         "󲏏󲎦󲍝",
+        "\n",
+        "󲍐󲎮󲍝",
         "\n"
     ]
 }],
 ["127",{
     "images": [
         "images/127a.jpg"
+    ],
+    "linearA": [
+        "NI-RA (HT 23b.1)",
+        "\n"
     ],
     "name": "127",
     "parsedInscription": "󲎻󲎍><\n",
@@ -3362,7 +3807,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎻󲎍><\n",
     "transliteratedWords": [
-        "062-040",
+        "NA-RO2",
         ">",
         "<",
         "\n"
@@ -3378,6 +3823,7 @@ var inscriptions = new Map([
     "images": [
         "images/146a.jpg"
     ],
+    "linearA": [],
     "name": "146",
     "parsedInscription": "󲍅[><\n",
     "tracingImages": [
@@ -3385,7 +3831,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍅[><\n",
     "transliteratedWords": [
-        "011",
+        "SI",
         "[",
         ">",
         "<",
@@ -3406,30 +3852,42 @@ var inscriptions = new Map([
         "images/308c.jpg",
         "images/308d.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\"); cf. KI-RO ... KU-RO (e.g., HT 94), KI-RO ... KU-PA 3 -PA 3 (HT 88.4)",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n",
+        "SI-MA (PH Zb 4) MA-SI-DU (HT 43.1-2)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\"); ]RE ... KU-RO, cf. HT 109",
+        "\n"
+    ],
     "name": "308",
-    "parsedInscription": "󲏏󲎦󲍝\n󲏆󲎙><\n󲎆󲎺*󲇬\n󲎆󲏓\n",
+    "parsedInscription": "󲎆󲏓\n󲏏󲎦󲍝\n󲏆󲎙><\n󲎆󲎺*󲇬\n",
     "tracingImages": [
         "images/308a-t.jpg",
         "images/308b-t.jpg",
         "images/308c-t.jpg",
         "images/308d-t.jpg"
     ],
-    "transcription": "󲏏󲎦󲍝\n󲏆󲎙><\n󲎆󲎺*󲇬\n󲎆󲏓\n",
+    "transcription": "󲎆󲏓\n󲏏󲎦󲍝\n󲏆󲎙><\n󲎆󲎺*󲇬\n",
     "transliteratedWords": [
-        "036-092-031",
+        "KO-Rv",
         "\n",
-        "034-007",
+        "SA2-RU-RE",
+        "\n",
+        "TA-MI",
         ">",
         "<",
         "\n",
-        "044-049",
+        "KO-RO3",
         "*",
         "174",
-        "\n",
-        "044-005",
         "\n"
     ],
     "words": [
+        "󲎆󲏓",
+        "\n",
         "󲏏󲎦󲍝",
         "\n",
         "󲏆󲎙",
@@ -3439,8 +3897,6 @@ var inscriptions = new Map([
         "󲎆󲎺",
         "*",
         "󲇬",
-        "\n",
-        "󲎆󲏓",
         "\n"
     ]
 }],
@@ -3450,6 +3906,14 @@ var inscriptions = new Map([
         "images/275b.jpg",
         "images/275c.jpg"
     ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIII",
+        "\n",
+        "PU-KO (HT 31a.1); cf. A-*301-KI-TA-A (TY Zb 4)",
+        "\n",
+        "",
+        "\n"
+    ],
     "name": "275",
     "parsedInscription": "󲍐󲎮\n󲏕󲎆\n󲎧󲏻•[><\n",
     "tracingImages": [
@@ -3458,11 +3922,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮\n󲏕󲎆\n󲎧󲏻•[><\n",
     "transliteratedWords": [
-        "038-010",
+        "JA-RI",
         "\n",
-        "046-044",
+        "A-KO",
         "\n",
-        "014",
+        "I",
         "-•",
         "[",
         ">",
@@ -3487,17 +3951,17 @@ var inscriptions = new Map([
         "images/045a.jpg",
         "images/045b.jpg"
     ],
+    "linearA": [],
     "name": "045",
-    "parsedInscription": "X󲍅󲎗󲏆\n*󲇬𐄇\n",
+    "parsedInscription": "X󲍅󲎗󲏆*󲇬𐄇\n",
     "tracingImages": [
         "images/045a-t.jpg",
         "images/045b-t.jpg"
     ],
-    "transcription": "X󲍅󲎗󲏆\n*󲇬𐄇\n",
+    "transcription": "X󲍅󲎗󲏆*󲇬𐄇\n",
     "transliteratedWords": [
         "X",
-        "011-077-034",
-        "\n",
+        "SI-RU2-TA",
         "*",
         "174",
         "1",
@@ -3506,7 +3970,6 @@ var inscriptions = new Map([
     "words": [
         "X",
         "󲍅󲎗󲏆",
-        "\n",
         "*",
         "󲇬",
         "𐄇",
@@ -3517,6 +3980,10 @@ var inscriptions = new Map([
     "images": [
         "images/125a.jpg"
     ],
+    "linearA": [
+        "",
+        "\n"
+    ],
     "name": "125",
     "parsedInscription": "󲎹󲏐󲏻󲏆󲏻󲎣0\n",
     "tracingImages": [
@@ -3524,9 +3991,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲏐󲏻󲏆󲏻󲎣0\n",
     "transliteratedWords": [
-        "042-052-",
-        "034",
-        "-045",
+        "A-NE-",
+        "TA",
+        "-ZE",
         "0",
         "\n"
     ],
@@ -3544,6 +4011,7 @@ var inscriptions = new Map([
         "images/278c.jpg",
         "images/278d.jpg"
     ],
+    "linearA": [],
     "name": "278",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -3551,7 +4019,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -3563,6 +4031,10 @@ var inscriptions = new Map([
     "images": [
         "images/192a.jpg"
     ],
+    "linearA": [
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n"
+    ],
     "name": "192",
     "parsedInscription": "X󲎀󲍡󲎍0\n",
     "tracingImages": [
@@ -3571,7 +4043,7 @@ var inscriptions = new Map([
     "transcription": "X󲎀󲍡󲎍0\n",
     "transliteratedWords": [
         "X",
-        "019-013-040",
+        "SA-BOS/MU2-RO2",
         "0",
         "\n"
     ],
@@ -3587,6 +4059,12 @@ var inscriptions = new Map([
         "images/222a.jpg",
         "images/222b.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA (common)",
+        "\n",
+        "A-RU (HT 9a.5-6, 9b.2-3; HT 49a.6)",
+        "\n"
+    ],
     "name": "222",
     "parsedInscription": "\n󲎹󲎀󲍎󲋧><\n",
     "tracingImages": [
@@ -3595,7 +4073,7 @@ var inscriptions = new Map([
     "transcription": "\n󲎹󲎀󲍎󲋧><\n",
     "transliteratedWords": [
         "\n",
-        "042-019-070-009",
+        "A-SA-RO-A2",
         ">",
         "<",
         "\n"
@@ -3615,35 +4093,32 @@ var inscriptions = new Map([
         "images/092c.jpg",
         "images/092d.jpg"
     ],
+    "linearA": [],
     "name": "092",
-    "parsedInscription": "]󲍰󲉏󲉔[\n]vacat|󲎝[\n",
+    "parsedInscription": "]󲉔󲉏󲍰[\n]󲎝|\n",
     "tracingImages": [
         "images/092a-t.jpg",
         "images/092c-t.jpg"
     ],
-    "transcription": "]󲍰󲉏󲉔[\n]vacat|󲎝[\n",
+    "transcription": "]󲉔󲉏󲍰[\n]󲎝|\n",
     "transliteratedWords": [
         "]",
-        "061-080-032",
+        "RE2-?-termination sign",
         "[",
         "\n",
         "]",
-        "vacat",
+        "JA",
         "|",
-        "053",
-        "[",
         "\n"
     ],
     "words": [
         "]",
-        "󲍰󲉏󲉔",
+        "󲉔󲉏󲍰",
         "[",
         "\n",
         "]",
-        "vacat",
-        "|",
         "󲎝",
-        "[",
+        "|",
         "\n"
     ]
 }],
@@ -3654,6 +4129,10 @@ var inscriptions = new Map([
         "images/280c.jpg",
         "images/280d.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\"), A-KI-RO (ARKH 4b.4)",
+        "\n"
+    ],
     "name": "280",
     "parsedInscription": "󲎹󲎿󲏓><\n",
     "tracingImages": [
@@ -3661,7 +4140,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎿󲏓><\n",
     "transliteratedWords": [
-        "042-028-005",
+        "A-KU2-Rv",
         ">",
         "<",
         "\n"
@@ -3677,6 +4156,10 @@ var inscriptions = new Map([
     "images": [
         "images/144a.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n"
+    ],
     "name": "144",
     "parsedInscription": "]󲎆󲏓\n",
     "tracingImages": [
@@ -3685,7 +4168,7 @@ var inscriptions = new Map([
     "transcription": "]󲎆󲏓\n",
     "transliteratedWords": [
         "]",
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -3702,68 +4185,53 @@ var inscriptions = new Map([
         "images/057d.jpg",
         "images/057e.jpg"
     ],
+    "linearA": [],
     "name": "057",
-    "parsedInscription": "󲎹󲍮󲉔󲍅𐄐\nX󲈋󲉔󲍡𐄑|vacat\nX󲍐󲏻󲎇󲏻󲏆𐄑|vacat\nX󲍅󲍮󲈊𐄔|vacat\n",
+    "parsedInscription": "󲎹󲍮󲉔󲍅\nX󲈋󲉔󲍡\nX󲍐󲏻󲎇󲏻󲏆\nX󲍅󲍮󲈊\n",
     "tracingImages": [
         "images/057a-t.jpg",
         "images/057c-t.jpg",
         "images/057d-t.jpg"
     ],
-    "transcription": "󲎹󲍮󲉔󲍅𐄐\nX󲈋󲉔󲍡𐄑|vacat\nX󲍐󲏻󲎇󲏻󲏆𐄑|vacat\nX󲍅󲍮󲈊𐄔|vacat\n",
+    "transcription": "󲎹󲍮󲉔󲍅\nX󲈋󲉔󲍡\nX󲍐󲏻󲎇󲏻󲏆\nX󲍅󲍮󲈊\n",
     "transliteratedWords": [
-        "042-029-032-011",
-        "10",
+        "A-MA-RE2-SI",
         "\n",
         "X",
-        "079-032-013",
-        "20",
-        "|",
-        "vacat",
+        "?-RE2-BOS/MU2",
         "\n",
         "X",
-        "038-",
-        "054",
-        "-034",
-        "20",
-        "|",
-        "vacat",
+        "JA-",
+        "DE",
+        "-TA",
         "\n",
         "X",
-        "011-029-037",
-        "50",
-        "|",
-        "vacat",
+        "SI-MA-Rv",
         "\n"
     ],
     "words": [
         "󲎹󲍮󲉔󲍅",
-        "𐄐",
         "\n",
         "X",
         "󲈋󲉔󲍡",
-        "𐄑",
-        "|",
-        "vacat",
         "\n",
         "X",
         "󲍐󲏻",
         "󲎇",
         "󲏻󲏆",
-        "𐄑",
-        "|",
-        "vacat",
         "\n",
         "X",
         "󲍅󲍮󲈊",
-        "𐄔",
-        "|",
-        "vacat",
         "\n"
     ]
 }],
 ["157",{
     "images": [
         "images/157a.jpg"
+    ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\"); cf. KU-RU-MA (HT 115b.3), ]KU-MA-RO (HT 96a.5), DI-DI-KO-RA-ME[-]TA 2 (ZA 11a.1)",
+        "\n"
     ],
     "name": "157",
     "parsedInscription": "󲎆󲎺\n",
@@ -3772,7 +4240,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -3788,6 +4256,7 @@ var inscriptions = new Map([
         "images/051d.jpg",
         "images/051e.jpg"
     ],
+    "linearA": [],
     "name": "051",
     "parsedInscription": "]•󲏦𐄜𐄔\n]•𐄑[\n]𐄌\nvacat\n",
     "tracingImages": [
@@ -3797,7 +4266,7 @@ var inscriptions = new Map([
     "transcription": "]•󲏦𐄜𐄔\n]•𐄑[\n]𐄌\nvacat\n",
     "transliteratedWords": [
         "]",
-        "•-051",
+        "•-KU3",
         "450",
         "\n",
         "]",
@@ -3833,28 +4302,21 @@ var inscriptions = new Map([
         "images/036a.jpg",
         "images/036b.jpg"
     ],
+    "linearA": [],
     "name": "036",
-    "parsedInscription": "X󲌒󲏻󲍰󲏻󲎀󲏈\n𐄙\n",
+    "parsedInscription": "󲌒󲎀󲏈𐄙\n",
     "tracingImages": [
         "images/036a-t.jpg",
         "images/036b-t.jpg"
     ],
-    "transcription": "X󲌒󲏻󲍰󲏻󲎀󲏈\n𐄙\n",
+    "transcription": "󲌒󲎀󲏈𐄙\n",
     "transliteratedWords": [
-        "X",
-        "023-",
-        "061",
-        "-019-057",
-        "\n",
+        "TU-SA-KI",
         "100",
         "\n"
     ],
     "words": [
-        "X",
-        "󲌒󲏻",
-        "󲍰",
-        "󲏻󲎀󲏈",
-        "\n",
+        "󲌒󲎀󲏈",
         "𐄙",
         "\n"
     ]
@@ -3863,14 +4325,18 @@ var inscriptions = new Map([
     "images": [
         "images/179a.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA (common)",
+        "\n"
+    ],
     "name": "179",
     "parsedInscription": "󲎹󲎀|󲎀•[\n",
     "tracingImages": [],
     "transcription": "󲎹󲎀|󲎀•[\n",
     "transliteratedWords": [
-        "042-019",
+        "A-SA",
         "|",
-        "019-•",
+        "SA-•",
         "[",
         "\n"
     ],
@@ -3887,26 +4353,25 @@ var inscriptions = new Map([
         "images/099a.jpg",
         "images/099b.jpg"
     ],
+    "linearA": [],
     "name": "099",
-    "parsedInscription": "]󲎺󲍔•[\nvacat\n",
+    "parsedInscription": "]•󲍔󲎺[\n",
     "tracingImages": [
         "images/099a-t.jpg"
     ],
-    "transcription": "]󲎺󲍔•[\nvacat\n",
+    "transcription": "]•󲍔󲎺[\n",
     "transliteratedWords": [
         "]",
-        "049-060-•",
+        "•",
+        "KO2-RO3",
         "[",
-        "\n",
-        "vacat",
         "\n"
     ],
     "words": [
         "]",
-        "󲎺󲍔•",
+        "•",
+        "󲍔󲎺",
         "[",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -3915,6 +4380,14 @@ var inscriptions = new Map([
         "images/260a.jpg",
         "images/260b.jpg",
         "images/260c.jpg"
+    ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIII",
+        "\n",
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIII",
+        "\n"
     ],
     "name": "260",
     "parsedInscription": "󲎆󲎺\n󲍐󲎮\n󲏈󲏆󲎎\n",
@@ -3925,11 +4398,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n󲍐󲎮\n󲏈󲏆󲎎\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n",
-        "038-010",
+        "JA-RI",
         "\n",
-        "057-034-056",
+        "KI-TA-KU",
         "\n"
     ],
     "words": [
@@ -3949,40 +4422,36 @@ var inscriptions = new Map([
         "images/054d.jpg",
         "images/054e.jpg"
     ],
+    "linearA": [],
     "name": "054",
-    "parsedInscription": "]󲎹󲍰[]𐄙𐄐X󲏈󲍡󲎺󲉢\nvacat\n]󲈁𐄙𐄔𐄔\n]󲍮󲏻󲎺𐄜𐄔\nX󲍎󲍝󲎀𐄕\n",
+    "parsedInscription": "]󲎹󲍰[]\nX󲏈󲍡󲎺\nvacat\n\n\n\n]󲍮󲏻󲎺\nX󲍎󲍝󲎀\n",
     "tracingImages": [
         "images/054a-t.jpg",
         "images/054c-t.jpg",
         "images/054d-t.jpg",
         "images/054e-t.jpg"
     ],
-    "transcription": "]󲎹󲍰[]𐄙𐄐X󲏈󲍡󲎺󲉢\nvacat\n]󲈁𐄙𐄔𐄔\n]󲍮󲏻󲎺𐄜𐄔\nX󲍎󲍝󲎀𐄕\n",
+    "transcription": "]󲎹󲍰[]\nX󲏈󲍡󲎺\nvacat\n\n\n\n]󲍮󲏻󲎺\nX󲍎󲍝󲎀\n",
     "transliteratedWords": [
         "]",
-        "042-061",
+        "A-termination sign",
         "[",
         "]",
-        "110",
+        "\n",
         "X",
-        "057-013-049",
-        "170",
+        "KI-BOS/MU2-RO3",
         "\n",
         "vacat",
         "\n",
-        "]",
-        "160",
-        "150",
-        "50",
+        "\n",
+        "\n",
         "\n",
         "]",
-        "029",
-        "-049",
-        "450",
+        "MA",
+        "-RO3",
         "\n",
         "X",
-        "070-031-019",
-        "60",
+        "RO-RE-SA",
         "\n"
     ],
     "words": [
@@ -3990,26 +4459,21 @@ var inscriptions = new Map([
         "󲎹󲍰",
         "[",
         "]",
-        "𐄙𐄐",
+        "\n",
         "X",
         "󲏈󲍡󲎺",
-        "󲉢",
         "\n",
         "vacat",
         "\n",
-        "]",
-        "󲈁",
-        "𐄙𐄔",
-        "𐄔",
+        "\n",
+        "\n",
         "\n",
         "]",
         "󲍮",
         "󲏻󲎺",
-        "𐄜𐄔",
         "\n",
         "X",
         "󲍎󲍝󲎀",
-        "𐄕",
         "\n"
     ]
 }],
@@ -4019,6 +4483,10 @@ var inscriptions = new Map([
         "images/229b.jpg",
         "images/229c.jpg"
     ],
+    "linearA": [
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n"
+    ],
     "name": "229",
     "parsedInscription": "󲏏󲎦\n",
     "tracingImages": [
@@ -4026,7 +4494,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲏏󲎦\n",
     "transliteratedWords": [
-        "036-092",
+        "SA2-RU",
         "\n"
     ],
     "words": [
@@ -4038,6 +4506,7 @@ var inscriptions = new Map([
     "images": [
         "images/197a.jpg"
     ],
+    "linearA": [],
     "name": "197",
     "parsedInscription": "X󲍝󲋁󲍰\n",
     "tracingImages": [
@@ -4046,7 +4515,7 @@ var inscriptions = new Map([
     "transcription": "X󲍝󲋁󲍰\n",
     "transliteratedWords": [
         "X",
-        "031-021-061",
+        "RE-PI-termination sign",
         "\n"
     ],
     "words": [
@@ -4062,35 +4531,46 @@ var inscriptions = new Map([
         "images/016c.jpg",
         "images/016d.jpg"
     ],
+    "linearA": [],
     "name": "016",
-    "parsedInscription": "\nX••\n󲎺󲎎•><\nvacat\n",
+    "parsedInscription": "X󲏈󲏻󲏻󲎀󲏻󲏻󲍎*󲉿?\nvacat\nX󲎎󲎺\n",
     "tracingImages": [
         "images/016b-t.jpg",
         "images/016c-t.jpg"
     ],
-    "transcription": "\nX••\n󲎺󲎎•><\nvacat\n",
+    "transcription": "X󲏈󲏻󲏻󲎀󲏻󲏻󲍎*󲉿?\nvacat\nX󲎎󲎺\n",
     "transliteratedWords": [
-        "\n",
         "X",
-        "••",
-        "\n",
-        "049-056-•",
-        ">",
-        "<",
+        "KI",
+        "-",
+        "SA",
+        "-",
+        "RO",
+        "*",
+        "154",
+        "?",
         "\n",
         "vacat",
+        "\n",
+        "X",
+        "KU-RO3",
         "\n"
     ],
     "words": [
-        "\n",
         "X",
-        "••",
-        "\n",
-        "󲎺󲎎•",
-        ">",
-        "<",
+        "󲏈",
+        "󲏻󲏻",
+        "󲎀",
+        "󲏻󲏻",
+        "󲍎",
+        "*",
+        "󲉿",
+        "?",
         "\n",
         "vacat",
+        "\n",
+        "X",
+        "󲎎󲎺",
         "\n"
     ]
 }],
@@ -4099,6 +4579,14 @@ var inscriptions = new Map([
         "images/269a.jpg",
         "images/269b.jpg",
         "images/269c.jpg"
+    ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n",
+        "RO+RO(=*504) (KH Wa 1001g, KH 18.4), RE-RO (HT Wc 3012b), RU-RA 2 (HT 11b.1) A-RU-RA-[•] (HT 11a.1-2), DU-RA-RE (KN Zc 7), KA-RE-RO (HT Wc 3003), MA-RI-RE-I (HT 6b.2-3), etc.",
+        "\n",
+        "PU-KO (HT 31a.1); cf. A-*301-KI-TA-A (TY Zb 4)",
+        "\n"
     ],
     "name": "269",
     "parsedInscription": "󲍐󲎮󲍝[\n󲎺󲏻󲎺[\n]󲏕󲏻󲎆\n",
@@ -4109,16 +4597,16 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮󲍝[\n󲎺󲏻󲎺[\n]󲏕󲏻󲎆\n",
     "transliteratedWords": [
-        "038-010-031",
+        "JA-RI-RE",
         "[",
         "\n",
-        "049-",
-        "049",
+        "RO3-",
+        "RO3",
         "[",
         "\n",
         "]",
-        "046",
-        "-044",
+        "A",
+        "-KO",
         "\n"
     ],
     "words": [
@@ -4139,6 +4627,10 @@ var inscriptions = new Map([
     "images": [
         "images/154a.jpg"
     ],
+    "linearA": [
+        "A-JA (SY Za 2d)",
+        "\n"
+    ],
     "name": "154",
     "parsedInscription": "󲎹󲍐><\n",
     "tracingImages": [
@@ -4146,7 +4638,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲍐><\n",
     "transliteratedWords": [
-        "042-038",
+        "A-JA",
         ">",
         "<",
         "\n"
@@ -4165,44 +4657,49 @@ var inscriptions = new Map([
         "images/014c.jpg",
         "images/014d.jpg"
     ],
+    "linearA": [],
     "name": "014",
-    "parsedInscription": "\ndeest\n]•󲏻󲍐[><\nvacat\n",
+    "parsedInscription": "󲎝󲎝?\ndeest\nvacat\n]•󲏻󲍐[\n",
     "tracingImages": [
         "images/014c-t.jpg"
     ],
-    "transcription": "\ndeest\n]•󲏻󲍐[><\nvacat\n",
+    "transcription": "󲎝󲎝?\ndeest\nvacat\n]•󲏻󲍐[\n",
     "transliteratedWords": [
+        "JA-JA",
+        "?",
         "\n",
         "deest",
+        "\n",
+        "vacat",
         "\n",
         "]",
         "•-",
-        "038",
+        "JA",
         "[",
-        ">",
-        "<",
-        "\n",
-        "vacat",
         "\n"
     ],
     "words": [
+        "󲎝󲎝",
+        "?",
         "\n",
         "deest",
+        "\n",
+        "vacat",
         "\n",
         "]",
         "•󲏻",
         "󲍐",
         "[",
-        ">",
-        "<",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
 ["177",{
     "images": [
         "images/177a.jpg"
+    ],
+    "linearA": [
+        "VIN (common",
+        "\n"
     ],
     "name": "177",
     "parsedInscription": "]*󲍚\n",
@@ -4232,123 +4729,50 @@ var inscriptions = new Map([
         "images/065e.jpg",
         "images/065f.jpg"
     ],
+    "linearA": [],
     "name": "065",
-    "parsedInscription": "X󲇞󲎺󲈣󲍖󲏓󲊘𐄇X󲊶󲎝𐄇\nX󲎦󲍝𐄇󲎹*󲉯Θ*󲉯𐄛*󲈥𐄇\n*󲍚𐄈Δ*󲎼𐄒𐄈*󲈥𐄇X󲏬󲊶*󲈩Δ\n󲇞󲎺𐄇*󲊁Δ*󲈯Θ*󲍻ΔΘ\n",
+    "parsedInscription": "\nX󲇞󲎺󲈣󲍖󲏓󲊘\nX󲎦󲍝\n\n󲇞󲎺\n",
     "tracingImages": [
         "images/065a-t.jpg",
         "images/065b-t.jpg",
         "images/065c-t.jpg",
         "images/065d-t.jpg"
     ],
-    "transcription": "X󲇞󲎺󲈣󲍖󲏓󲊘𐄇X󲊶󲎝𐄇\nX󲎦󲍝𐄇󲎹*󲉯Θ*󲉯𐄛*󲈥𐄇\n*󲍚𐄈Δ*󲎼𐄒𐄈*󲈥𐄇X󲏬󲊶*󲈩Δ\n󲇞󲎺𐄇*󲊁Δ*󲈯Θ*󲍻ΔΘ\n",
+    "transcription": "\nX󲇞󲎺󲈣󲍖󲏓󲊘\nX󲎦󲍝\n\n󲇞󲎺\n",
     "transliteratedWords": [
-        "X",
-        "072-049-071-050-005-063",
-        "1",
-        "X",
-        "047-053",
-        "1",
         "\n",
         "X",
-        "092-031",
-        "1",
-        "042",
-        "*",
-        "161",
-        "Θ",
-        "*",
-        "161",
-        "300",
-        "*",
-        "152",
-        "1",
+        "KA-RO3-?-TI-Rv-PA",
         "\n",
-        "*",
-        "156",
-        "2",
-        "Δ",
-        "*",
-        "180",
-        "32",
-        "*",
-        "152",
-        "1",
         "X",
-        "033-047",
-        "*",
-        "178",
-        "Δ",
+        "RU-RE",
         "\n",
-        "072-049",
-        "1",
-        "*",
-        "158",
-        "Δ",
-        "*",
-        "167",
-        "Θ",
-        "*",
-        "155",
-        "Δ",
-        "Θ",
+        "\n",
+        "KA-RO3",
         "\n"
     ],
     "words": [
+        "\n",
         "X",
         "󲇞󲎺󲈣󲍖󲏓󲊘",
-        "𐄇",
-        "X",
-        "󲊶󲎝",
-        "𐄇",
         "\n",
         "X",
         "󲎦󲍝",
-        "𐄇",
-        "󲎹",
-        "*",
-        "󲉯",
-        "Θ",
-        "*",
-        "󲉯",
-        "𐄛",
-        "*",
-        "󲈥",
-        "𐄇",
         "\n",
-        "*",
-        "󲍚",
-        "𐄈",
-        "Δ",
-        "*",
-        "󲎼",
-        "𐄒𐄈",
-        "*",
-        "󲈥",
-        "𐄇",
-        "X",
-        "󲏬󲊶",
-        "*",
-        "󲈩",
-        "Δ",
         "\n",
         "󲇞󲎺",
-        "𐄇",
-        "*",
-        "󲊁",
-        "Δ",
-        "*",
-        "󲈯",
-        "Θ",
-        "*",
-        "󲍻",
-        "Δ",
-        "Θ",
         "\n"
     ]
 }],
 ["199",{
     "images": [
         "images/199a.jpg"
+    ],
+    "linearA": [
+        "RO-KE (HT 98a.4)",
+        "\n",
+        "KU-RO (\"balance,\" \"total\")",
+        "\n"
     ],
     "name": "199",
     "parsedInscription": "󲍎[\n",
@@ -4357,7 +4781,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍎[\n",
     "transliteratedWords": [
-        "070",
+        "RO",
         "[",
         "\n"
     ],
@@ -4367,9 +4791,47 @@ var inscriptions = new Map([
         "\n"
     ]
 }],
+["315",{
+    "images": [
+        "images/315a.jpg",
+        "images/315b.jpg",
+        "images/315c.jpg",
+        "images/315d.jpg",
+        "images/315f.jpg"
+    ],
+    "linearA": [],
+    "name": "315",
+    "parsedInscription": "*󲎽~LinearB*𐄙𐄒𐄊\n",
+    "tracingImages": [
+        "images/315c-t.jpg"
+    ],
+    "transcription": "*󲎽~LinearB*𐄙𐄒𐄊\n",
+    "transliteratedWords": [
+        "*",
+        "181",
+        "~Linear",
+        "B",
+        "*",
+        "134",
+        "\n"
+    ],
+    "words": [
+        "*",
+        "󲎽",
+        "~Linear",
+        "B",
+        "*",
+        "𐄙𐄒𐄊",
+        "\n"
+    ]
+}],
 ["124",{
     "images": [
         "images/124a.jpg"
+    ],
+    "linearA": [
+        "cf. NA-MA-MA-TI-TI-*319 (HT Zd 155)",
+        "\n"
     ],
     "name": "124",
     "parsedInscription": "X󲎍󲍮󲍮><\n",
@@ -4379,7 +4841,7 @@ var inscriptions = new Map([
     "transcription": "X󲎍󲍮󲍮><\n",
     "transliteratedWords": [
         "X",
-        "040-029-029",
+        "RO2-MA-MA",
         ">",
         "<",
         "\n"
@@ -4394,6 +4856,7 @@ var inscriptions = new Map([
 }],
 ["228",{
     "images": [],
+    "linearA": [],
     "name": "228",
     "parsedInscription": "󲍐󲎮\n",
     "tracingImages": [
@@ -4403,7 +4866,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮\n",
     "transliteratedWords": [
-        "038-010",
+        "JA-RI",
         "\n"
     ],
     "words": [
@@ -4415,6 +4878,10 @@ var inscriptions = new Map([
     "images": [
         "images/167a.jpg"
     ],
+    "linearA": [
+        "A-RU-RA-[•] (HT 11.1-2), RA 2 -RO-RE (ZA 10b.5)",
+        "\n"
+    ],
     "name": "167",
     "parsedInscription": "󲎺󲍎󲍎><\n",
     "tracingImages": [
@@ -4422,7 +4889,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎺󲍎󲍎><\n",
     "transliteratedWords": [
-        "049-070-070",
+        "RO3-RO-RO",
         ">",
         "<",
         "\n"
@@ -4438,6 +4905,10 @@ var inscriptions = new Map([
     "images": [
         "images/137a.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA (common)",
+        "\n"
+    ],
     "name": "137",
     "parsedInscription": "󲎹󲎀\n",
     "tracingImages": [
@@ -4445,7 +4916,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎀\n",
     "transliteratedWords": [
-        "042-019",
+        "A-SA",
         "\n"
     ],
     "words": [
@@ -4460,45 +4931,48 @@ var inscriptions = new Map([
         "images/019c.jpg",
         "images/019d.jpg"
     ],
+    "linearA": [],
     "name": "019",
-    "parsedInscription": "\nX•[\n󲎌󲏻󲏻󲏕•[><\nvacat\n",
+    "parsedInscription": "*󲈽\nX•[\nvacat\n󲎌󲏻󲏻󲏕•><\n",
     "tracingImages": [
         "images/019b-t.jpg",
         "images/019c-t.jpg"
     ],
-    "transcription": "\nX•[\n󲎌󲏻󲏻󲏕•[><\nvacat\n",
+    "transcription": "*󲈽\nX•[\nvacat\n󲎌󲏻󲏻󲏕•><\n",
     "transliteratedWords": [
+        "*",
+        "175",
         "\n",
         "X",
         "•",
         "[",
         "\n",
-        "025",
+        "vacat",
+        "\n",
+        "TE",
         "-",
-        "046",
+        "A",
         "•",
-        "[",
         ">",
         "<",
-        "\n",
-        "vacat",
         "\n"
     ],
     "words": [
+        "*",
+        "󲈽",
         "\n",
         "X",
         "•",
         "[",
+        "\n",
+        "vacat",
         "\n",
         "󲎌",
         "󲏻󲏻",
         "󲏕",
         "•",
-        "[",
         ">",
         "<",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -4507,34 +4981,33 @@ var inscriptions = new Map([
         "images/103a.jpg",
         "images/103b.jpg"
     ],
+    "linearA": [],
     "name": "103",
-    "parsedInscription": "]󲍎󲉒󲏈󲏻󲎎[\n]*󲉓[\n",
+    "parsedInscription": "]󲎎󲏻󲏈󲉒󲍎[><][\n",
     "tracingImages": [
         "images/103a-t.jpg",
         "images/103b-t.jpg"
     ],
-    "transcription": "]󲍎󲉒󲏈󲏻󲎎[\n]*󲉓[\n",
+    "transcription": "]󲎎󲏻󲏈󲉒󲍎[><][\n",
     "transliteratedWords": [
         "]",
-        "070-055-057-",
-        "056",
+        "KU",
+        "-KI-KE-RO",
         "[",
-        "\n",
+        ">",
+        "<",
         "]",
-        "*",
-        "163",
         "[",
         "\n"
     ],
     "words": [
         "]",
-        "󲍎󲉒󲏈󲏻",
         "󲎎",
+        "󲏻󲏈󲉒󲍎",
         "[",
-        "\n",
+        ">",
+        "<",
         "]",
-        "*",
-        "󲉓",
         "[",
         "\n"
     ]
@@ -4543,6 +5016,12 @@ var inscriptions = new Map([
     "images": [
         "images/155a.jpg"
     ],
+    "linearA": [
+        "",
+        "\n",
+        "DA-RI-DA (HT 10a.4, 85a.2, 93a.7, 122a.7), DI-RE-DI-NA (HT 98a.2-3)",
+        "\n"
+    ],
     "name": "155",
     "parsedInscription": "󲎇󲎮><\n",
     "tracingImages": [
@@ -4550,7 +5029,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎇󲎮><\n",
     "transliteratedWords": [
-        "054-010",
+        "DE-RI",
         ">",
         "<",
         "\n"
@@ -4567,30 +5046,31 @@ var inscriptions = new Map([
         "images/033a.jpg",
         "images/033b.jpg"
     ],
+    "linearA": [],
     "name": "033",
-    "parsedInscription": "]󲍖󲏻󲎀󲍐•[><\n]󲎹[\n",
+    "parsedInscription": "]󲍖󲏻󲎀󲎿•[><\n]󲎹[\n",
     "tracingImages": [
         "images/033a-t.jpg",
         "images/033b-t.jpg"
     ],
-    "transcription": "]󲍖󲏻󲎀󲍐•[><\n]󲎹[\n",
+    "transcription": "]󲍖󲏻󲎀󲎿•[><\n]󲎹[\n",
     "transliteratedWords": [
         "]",
-        "050",
-        "-019-038-•",
+        "TI",
+        "-SA-KU2-•",
         "[",
         ">",
         "<",
         "\n",
         "]",
-        "042",
+        "A",
         "[",
         "\n"
     ],
     "words": [
         "]",
         "󲍖",
-        "󲏻󲎀󲍐•",
+        "󲏻󲎀󲎿•",
         "[",
         ">",
         "<",
@@ -4605,14 +5085,18 @@ var inscriptions = new Map([
     "images": [
         "images/319a.jpg"
     ],
+    "linearA": [
+        "VIR+*313 KU-RO (\"balance,\" \"total\") SA-*301-RI (ZA 11b.1); cf. VIR+*313c ... *310 (HT 127b.4-5)",
+        "\n"
+    ],
     "name": "319",
     "parsedInscription": "]󲇷󲏻󲏧󲍎󲇴><\n",
     "tracingImages": [],
     "transcription": "]󲇷󲏻󲏧󲍎󲇴><\n",
     "transliteratedWords": [
         "]",
-        "088",
-        "-087-070-027",
+        "Linear A *313",
+        "-Linear A *301-RO-RA3",
         ">",
         "<",
         "\n"
@@ -4632,6 +5116,10 @@ var inscriptions = new Map([
         "images/237b.jpg",
         "images/237c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "237",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -4639,7 +5127,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -4651,6 +5139,7 @@ var inscriptions = new Map([
     "images": [
         "images/130a.jpg"
     ],
+    "linearA": [],
     "name": "130",
     "parsedInscription": "󲏐󲎇󲏻󲍐0\n",
     "tracingImages": [
@@ -4658,8 +5147,8 @@ var inscriptions = new Map([
     ],
     "transcription": "󲏐󲎇󲏻󲍐0\n",
     "transliteratedWords": [
-        "052-054-",
-        "038",
+        "NE-DE-",
+        "JA",
         "0",
         "\n"
     ],
@@ -4674,21 +5163,21 @@ var inscriptions = new Map([
     "images": [
         "images/162a.jpg"
     ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "162",
-    "parsedInscription": "X\n󲍐󲎮󲍝\n",
+    "parsedInscription": "󲍐󲎮󲍝\n",
     "tracingImages": [
         "images/162a-t.jpg"
     ],
-    "transcription": "X\n󲍐󲎮󲍝\n",
+    "transcription": "󲍐󲎮󲍝\n",
     "transliteratedWords": [
-        "X",
-        "\n",
-        "038-010-031",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
-        "X",
-        "\n",
         "󲍐󲎮󲍝",
         "\n"
     ]
@@ -4699,6 +5188,10 @@ var inscriptions = new Map([
         "images/256b.jpg",
         "images/256c.jpg"
     ],
+    "linearA": [
+        "<A-SA-RA 2 (HT 89.1); cf. SA-RA 2 (see Notes to Signgroups, App. III) PA-SA-RI-JA (HT 25a.4) <A-RI-SU (HT 118.3-4)",
+        "\n"
+    ],
     "name": "256",
     "parsedInscription": "󲍐󲌦󲎺0\n",
     "tracingImages": [
@@ -4708,7 +5201,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲌦󲎺0\n",
     "transliteratedWords": [
-        "038-043-049",
+        "JA-SO-RO3",
         "0",
         "\n"
     ],
@@ -4725,29 +5218,39 @@ var inscriptions = new Map([
         "images/295c.jpg",
         "images/295d.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "MA-RI-RE-I (HT 6b.2-3)",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n",
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIV",
+        "\n"
+    ],
     "name": "295",
-    "parsedInscription": "󲎆󲎺\nX󲍮󲎗󲎺\nX󲏈󲏆󲏻󲎎\n󲎆󲏓Catface/*󲉏\n",
+    "parsedInscription": "󲎆󲎺\nX󲍮󲎗󲎺\n󲎆󲏓Catface/*󲉏\nX󲏈󲏆󲏻󲎎\n",
     "tracingImages": [
         "images/295a-t.jpg",
         "images/295b-t.jpg",
         "images/295c-t.jpg",
         "images/295d-t.jpg"
     ],
-    "transcription": "󲎆󲎺\nX󲍮󲎗󲎺\nX󲏈󲏆󲏻󲎎\n󲎆󲏓Catface/*󲉏\n",
+    "transcription": "󲎆󲎺\nX󲍮󲎗󲎺\n󲎆󲏓Catface/*󲉏\nX󲏈󲏆󲏻󲎎\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n",
         "X",
-        "029-077-049",
+        "MA-RU2-RO3",
         "\n",
-        "X",
-        "057-034-",
-        "056",
-        "\n",
-        "044-005",
+        "KO-Rv",
         "Catface/",
         "*",
-        "080",
+        "?",
+        "\n",
+        "X",
+        "KI-TA-",
+        "KU",
         "\n"
     ],
     "words": [
@@ -4756,14 +5259,14 @@ var inscriptions = new Map([
         "X",
         "󲍮󲎗󲎺",
         "\n",
-        "X",
-        "󲏈󲏆󲏻",
-        "󲎎",
-        "\n",
         "󲎆󲏓",
         "Catface/",
         "*",
         "󲉏",
+        "\n",
+        "X",
+        "󲏈󲏆󲏻",
+        "󲎎",
         "\n"
     ]
 }],
@@ -4771,6 +5274,14 @@ var inscriptions = new Map([
     "images": [
         "images/261a.jpg",
         "images/261c.jpg"
+    ],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n",
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIII",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
     ],
     "name": "261",
     "parsedInscription": "󲎆󲏓\n󲍐󲎮󲍝\n󲎆󲎺\n",
@@ -4781,11 +5292,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲏓\n󲍐󲎮󲍝\n󲎆󲎺\n",
     "transliteratedWords": [
-        "044-005",
+        "KO-Rv",
         "\n",
-        "038-010-031",
+        "JA-RI-RE",
         "\n",
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -4804,31 +5315,36 @@ var inscriptions = new Map([
         "images/026c.jpg",
         "images/026d.jpg"
     ],
+    "linearA": [],
     "name": "026",
-    "parsedInscription": "\nvacat\nX󲍅󲎦\n*󲊝\n",
+    "parsedInscription": "󲎹󲍎[\n\nvacat\nX󲍅󲎦*󲊝\n",
     "tracingImages": [
         "images/026c-t.jpg",
         "images/026d-t.jpg"
     ],
-    "transcription": "\nvacat\nX󲍅󲎦\n*󲊝\n",
+    "transcription": "󲎹󲍎[\n\nvacat\nX󲍅󲎦*󲊝\n",
     "transliteratedWords": [
+        "A-RO",
+        "[",
+        "\n",
         "\n",
         "vacat",
         "\n",
         "X",
-        "011-092",
-        "\n",
+        "SI-RU",
         "*",
         "153",
         "\n"
     ],
     "words": [
+        "󲎹󲍎",
+        "[",
+        "\n",
         "\n",
         "vacat",
         "\n",
         "X",
         "󲍅󲎦",
-        "\n",
         "*",
         "󲊝",
         "\n"
@@ -4838,6 +5354,10 @@ var inscriptions = new Map([
     "images": [
         "images/180a.jpg"
     ],
+    "linearA": [
+        "TE-KE ... KU-RO[ (HT 85.5, 6) KU-TU-KO-RE (ZA 8.2)",
+        "\n"
+    ],
     "name": "180",
     "parsedInscription": "󲎆󲎺󲍖󲎎0\n",
     "tracingImages": [
@@ -4845,7 +5365,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺󲍖󲎎0\n",
     "transliteratedWords": [
-        "044-049-050-056",
+        "KO-RO3-TI-KU",
         "0",
         "\n"
     ],
@@ -4861,23 +5381,33 @@ var inscriptions = new Map([
         "images/305c.jpg",
         "images/305d.jpg"
     ],
+    "linearA": [
+        "KI-KI-NA (HT 88.2), TA-NU-NI-KI-NA (PL Zf 1)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "~ Linear B*134",
+        "\n",
+        "~*302?",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n"
+    ],
     "name": "305",
-    "parsedInscription": "󲎹󲋈󲎷󲎻><\n󲎆󲎺\n󲎆󲏓\nX*󲎽|*󲎼\n",
+    "parsedInscription": "󲎹󲋈󲎷󲎻><\n󲎆󲎺\nX*󲎽|*󲎼\n󲎆󲏓\n",
     "tracingImages": [
         "images/305a-t.jpg",
         "images/305b-t.jpg",
         "images/305c-t.jpg",
         "images/305d-t.jpg"
     ],
-    "transcription": "󲎹󲋈󲎷󲎻><\n󲎆󲎺\n󲎆󲏓\nX*󲎽|*󲎼\n",
+    "transcription": "󲎹󲋈󲎷󲎻><\n󲎆󲎺\nX*󲎽|*󲎼\n󲎆󲏓\n",
     "transliteratedWords": [
-        "042-066-016-062",
+        "A-?-KI-NA",
         ">",
         "<",
         "\n",
-        "044-049",
-        "\n",
-        "044-005",
+        "KO-RO3",
         "\n",
         "X",
         "*",
@@ -4885,6 +5415,8 @@ var inscriptions = new Map([
         "|",
         "*",
         "180",
+        "\n",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -4894,20 +5426,24 @@ var inscriptions = new Map([
         "\n",
         "󲎆󲎺",
         "\n",
-        "󲎆󲏓",
-        "\n",
         "X",
         "*",
         "󲎽",
         "|",
         "*",
         "󲎼",
+        "\n",
+        "󲎆󲏓",
         "\n"
     ]
 }],
 ["175",{
     "images": [
         "images/175a.jpg"
+    ],
+    "linearA": [
+        "A-SA-SA-RA (common)",
+        "\n"
     ],
     "name": "175",
     "parsedInscription": "󲎹󲏻󲎀•?•?><\n",
@@ -4916,8 +5452,8 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲏻󲎀•?•?><\n",
     "transliteratedWords": [
-        "042",
-        "-019-•?-•?",
+        "A",
+        "-SA-•?-•?",
         ">",
         "<",
         "\n"
@@ -4937,6 +5473,12 @@ var inscriptions = new Map([
         "images/284c.jpg",
         "images/284d.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "284",
     "parsedInscription": "󲎆󲎺\n󲍐󲎮󲍝\n",
     "tracingImages": [
@@ -4944,9 +5486,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n",
-        "038-010-031",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
@@ -4963,28 +5505,23 @@ var inscriptions = new Map([
         "images/001c.jpg",
         "images/001d.jpg"
     ],
+    "linearA": [],
     "name": "001",
-    "parsedInscription": "\n\nX󲎝󲏻󲏆󲍝󲍎\n\n",
+    "parsedInscription": "󲍎󲍝󲏆X󲎝\n",
     "tracingImages": [
         "images/001c-t.jpg"
     ],
-    "transcription": "\n\nX󲎝󲏻󲏆󲍝󲍎\n\n",
+    "transcription": "󲍎󲍝󲏆X󲎝\n",
     "transliteratedWords": [
-        "\n",
-        "\n",
+        "RO-RE-TA",
         "X",
-        "053",
-        "-034-031-070",
-        "\n",
+        "JA",
         "\n"
     ],
     "words": [
-        "\n",
-        "\n",
+        "󲍎󲍝󲏆",
         "X",
         "󲎝",
-        "󲏻󲏆󲍝󲍎",
-        "\n",
         "\n"
     ]
 }],
@@ -4993,6 +5530,14 @@ var inscriptions = new Map([
         "images/268a.jpg",
         "images/268b.jpg",
         "images/268c.jpg"
+    ],
+    "linearA": [
+        "NI-RA (HT 23b.1), DI-NA-RO (HT 108.2) KA-RO-NA (HT 11a.2), ]-RO-NI (HT 26b.2)",
+        "\n",
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIII",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n"
     ],
     "name": "268",
     "parsedInscription": "{070}󲎆󲏓\n󲍐󲎮{070}\n󲏨{object}󲍎><\n",
@@ -5004,12 +5549,12 @@ var inscriptions = new Map([
     "transcription": "{070}󲎆󲏓\n󲍐󲎮{070}\n󲏨{object}󲍎><\n",
     "transliteratedWords": [
         "{070}",
-        "044-005",
+        "KO-Rv",
         "\n",
-        "038-010",
+        "JA-RI",
         "{070}",
         "\n",
-        "006-{object}-070",
+        "NWA-{object}-RO",
         ">",
         "<",
         "\n"
@@ -5031,6 +5576,12 @@ var inscriptions = new Map([
     "images": [
         "images/123a.jpg"
     ],
+    "linearA": [
+        "PU-RA 2 (HT 28b.3-4; HT 117a.2), ]PU2-RA 2 (ZA 6.6), ]PU2-RE-JA (ZA Zb 34)",
+        "\n",
+        "A-RI-PA (PE 2.3), A-RE-PI-RE-NA (ZA Zb 3.2), RU-PI[]-*305-MI (PE 2.2)",
+        "\n"
+    ],
     "name": "123",
     "parsedInscription": "󲎦󲍨><\n",
     "tracingImages": [
@@ -5038,7 +5589,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎦󲍨><\n",
     "transliteratedWords": [
-        "092-058",
+        "RU-PU",
         ">",
         "<",
         "\n"
@@ -5054,6 +5605,10 @@ var inscriptions = new Map([
     "images": [
         "images/133a.jpg"
     ],
+    "linearA": [
+        "KU-RO (\"balance,\" \"total\"); cf. TELA+KU & TELA+*312 (HT 39.3 & .4)",
+        "\n"
+    ],
     "name": "133",
     "parsedInscription": "󲍎󲎿󲏀{curvedobject}0\n",
     "tracingImages": [
@@ -5061,7 +5616,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍎󲎿󲏀{curvedobject}0\n",
     "transliteratedWords": [
-        "070-028-041",
+        "RO-KU2-WA",
         "{curved",
         "object}",
         "0",
@@ -5079,12 +5634,16 @@ var inscriptions = new Map([
     "images": [
         "images/323a.jpg"
     ],
+    "linearA": [
+        "",
+        "\n"
+    ],
     "name": "323",
     "parsedInscription": "󲏨[\n",
     "tracingImages": [],
     "transcription": "󲏨[\n",
     "transliteratedWords": [
-        "006",
+        "NWA",
         "[",
         "\n"
     ],
@@ -5100,6 +5659,14 @@ var inscriptions = new Map([
         "images/263b.jpg",
         "images/263c.jpg"
     ],
+    "linearA": [
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n"
+    ],
     "name": "263",
     "parsedInscription": "󲏏󲏻󲎦\n󲍐󲎮󲍝\n󲎆󲏓\n",
     "tracingImages": [
@@ -5109,12 +5676,12 @@ var inscriptions = new Map([
     ],
     "transcription": "󲏏󲏻󲎦\n󲍐󲎮󲍝\n󲎆󲏓\n",
     "transliteratedWords": [
-        "036-",
-        "092",
+        "SA2-",
+        "RU",
         "\n",
-        "038-010-031",
+        "JA-RI-RE",
         "\n",
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -5133,6 +5700,10 @@ var inscriptions = new Map([
         "images/213b.jpg",
         "images/213c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "213",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -5140,7 +5711,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -5154,6 +5725,12 @@ var inscriptions = new Map([
         "images/248b.jpg",
         "images/248c.jpg"
     ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n",
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIV",
+        "\n"
+    ],
     "name": "248",
     "parsedInscription": "󲍐󲎮󲍝\n󲏈󲏆󲎎\n",
     "tracingImages": [
@@ -5162,9 +5739,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮󲍝\n󲏈󲏆󲎎\n",
     "transliteratedWords": [
-        "038-010-031",
+        "JA-RI-RE",
         "\n",
-        "057-034-056",
+        "KI-TA-KU",
         "\n"
     ],
     "words": [
@@ -5181,6 +5758,7 @@ var inscriptions = new Map([
         "images/048c.jpg",
         "images/048d.jpg"
     ],
+    "linearA": [],
     "name": "048",
     "parsedInscription": "*󲇰𐄈*󲇲𐄈\n*󲇲𐄈[\n*󲇰𐄈•[\n",
     "tracingImages": [
@@ -5234,6 +5812,10 @@ var inscriptions = new Map([
     "images": [
         "images/150a.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "150",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -5241,7 +5823,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -5255,25 +5837,26 @@ var inscriptions = new Map([
         "images/265b.jpg",
         "images/265c.jpg"
     ],
+    "linearA": [],
     "name": "265",
-    "parsedInscription": "X󲍐󲎮\nX󲌦󲋧>?\nX󲏏󲎦\n",
+    "parsedInscription": "X󲍐󲎮\nX󲏏󲎦\nX󲌦󲋧>?\n",
     "tracingImages": [
         "images/265a-t.jpg",
         "images/265b-t.jpg",
         "images/265c-t.jpg"
     ],
-    "transcription": "X󲍐󲎮\nX󲌦󲋧>?\nX󲏏󲎦\n",
+    "transcription": "X󲍐󲎮\nX󲏏󲎦\nX󲌦󲋧>?\n",
     "transliteratedWords": [
         "X",
-        "038-010",
+        "JA-RI",
         "\n",
         "X",
-        "043-009",
+        "SA2-RU",
+        "\n",
+        "X",
+        "SO-A2",
         ">",
         "?",
-        "\n",
-        "X",
-        "036-092",
         "\n"
     ],
     "words": [
@@ -5281,12 +5864,12 @@ var inscriptions = new Map([
         "󲍐󲎮",
         "\n",
         "X",
+        "󲏏󲎦",
+        "\n",
+        "X",
         "󲌦󲋧",
         ">",
         "?",
-        "\n",
-        "X",
-        "󲏏󲎦",
         "\n"
     ]
 }],
@@ -5297,39 +5880,44 @@ var inscriptions = new Map([
         "images/025c.jpg",
         "images/025d.jpg"
     ],
+    "linearA": [],
     "name": "025",
-    "parsedInscription": "\nvacat\n]•󲍐󲍅><\n]󲍐><\n",
+    "parsedInscription": "󲎹•><\nvacat\n]󲍐><\n•󲍐󲍅><\n",
     "tracingImages": [
         "images/025c-t.jpg",
         "images/025d-t.jpg"
     ],
-    "transcription": "\nvacat\n]•󲍐󲍅><\n]󲍐><\n",
+    "transcription": "󲎹•><\nvacat\n]󲍐><\n•󲍐󲍅><\n",
     "transliteratedWords": [
+        "A-•",
+        ">",
+        "<",
         "\n",
         "vacat",
         "\n",
         "]",
-        "•-038-011",
+        "JA",
         ">",
         "<",
         "\n",
-        "]",
-        "038",
+        "•-JA-SI",
         ">",
         "<",
         "\n"
     ],
     "words": [
+        "󲎹•",
+        ">",
+        "<",
         "\n",
         "vacat",
         "\n",
         "]",
-        "•󲍐󲍅",
+        "󲍐",
         ">",
         "<",
         "\n",
-        "]",
-        "󲍐",
+        "•󲍐󲍅",
         ">",
         "<",
         "\n"
@@ -5339,13 +5927,17 @@ var inscriptions = new Map([
     "images": [
         "images/321a.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "321",
     "parsedInscription": "]󲎎󲍎><\n",
     "tracingImages": [],
     "transcription": "]󲎎󲍎><\n",
     "transliteratedWords": [
         "]",
-        "056-070",
+        "KU-RO",
         ">",
         "<",
         "\n"
@@ -5364,6 +5956,14 @@ var inscriptions = new Map([
         "images/277b.jpg",
         "images/277c.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n",
+        "RU-SA (HT 96a.3); cf. TU-RU-SA (KO Za 1.b-c)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "277",
     "parsedInscription": "󲎆󲏓\n󲎦󲎀󲍡><\n󲎆󲎺\n",
     "tracingImages": [
@@ -5373,13 +5973,13 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲏓\n󲎦󲎀󲍡><\n󲎆󲎺\n",
     "transliteratedWords": [
-        "044-005",
+        "KO-Rv",
         "\n",
-        "092-019-013",
+        "RU-SA-BOS/MU2",
         ">",
         "<",
         "\n",
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -5399,6 +5999,10 @@ var inscriptions = new Map([
         "images/226b.jpg",
         "images/226c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "226",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -5406,7 +6010,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -5420,6 +6024,14 @@ var inscriptions = new Map([
         "images/270b.jpg",
         "images/270c.jpg"
     ],
+    "linearA": [
+        "RU-JA (KN Wc 26a); cf. A-RI-JA[ (PH 28a.3), I-RU-JA (HT 7a.2)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "A-RU-RA-[•] (HT 11a.1-2); cf. JA-RE-MI (HT 88.3)",
+        "\n"
+    ],
     "name": "270",
     "parsedInscription": "󲍎󲍐><\n󲎆󲎺\n󲍐󲍝󲎮󲍰><\n",
     "tracingImages": [
@@ -5428,13 +6040,13 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍎󲍐><\n󲎆󲎺\n󲍐󲍝󲎮󲍰><\n",
     "transliteratedWords": [
-        "070-038",
+        "RO-JA",
         ">",
         "<",
         "\n",
-        "044-049",
+        "KO-RO3",
         "\n",
-        "038-031-010-061",
+        "JA-RE-RI-termination sign",
         ">",
         "<",
         "\n"
@@ -5459,6 +6071,10 @@ var inscriptions = new Map([
         "images/313c.jpg",
         "images/313d.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA-NE (common)",
+        "\n"
+    ],
     "name": "313",
     "parsedInscription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "tracingImages": [
@@ -5466,9 +6082,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "transliteratedWords": [
-        "042-019",
+        "A-SA",
         "\n",
-        "019-095-052",
+        "SA-RA-NE",
         "\n"
     ],
     "words": [
@@ -5483,6 +6099,7 @@ var inscriptions = new Map([
         "images/098a.jpg",
         "images/098b.jpg"
     ],
+    "linearA": [],
     "name": "098",
     "parsedInscription": "X•󲏻󲇞󲏻󲍐󲎙󲎷\nvacat\n",
     "tracingImages": [
@@ -5492,8 +6109,8 @@ var inscriptions = new Map([
     "transliteratedWords": [
         "X",
         "•-",
-        "072",
-        "-038-007-016",
+        "KA",
+        "-JA-MI-KI",
         "\n",
         "vacat",
         "\n"
@@ -5514,33 +6131,41 @@ var inscriptions = new Map([
         "images/264b.jpg",
         "images/264c.jpg"
     ],
+    "linearA": [
+        "]-TA-NU-MU-TI (KN Za 10)",
+        "\n",
+        "~KI-RO (\"owed\"); cf. HT 30.4+5",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "264",
-    "parsedInscription": "X󲍡󲍖{*󲍬MUL}\n{*152}󲎆󲎺{049}\n{*152}󲎆󲏓\n",
+    "parsedInscription": "X󲍡󲍖{*󲍬MUL}\n{*152}󲎆󲏓\n{*152}󲎆󲎺{049}\n",
     "tracingImages": [
         "images/264a-t.jpg",
         "images/264b-t.jpg",
         "images/264c-t.jpg"
     ],
-    "transcription": "X󲍡󲍖{*󲍬MUL}\n{*152}󲎆󲎺{049}\n{*152}󲎆󲏓\n",
+    "transcription": "X󲍡󲍖{*󲍬MUL}\n{*152}󲎆󲏓\n{*152}󲎆󲎺{049}\n",
     "transliteratedWords": [
         "X",
-        "013-050",
+        "BOS/MU2-TI",
         "{",
         "*",
-        "004",
+        "MUL",
         "MUL",
         "}",
         "\n",
         "{",
         "*",
         "152}",
-        "044-049",
-        "{049}",
+        "KO-Rv",
         "\n",
         "{",
         "*",
         "152}",
-        "044-005",
+        "KO-RO3",
+        "{049}",
         "\n"
     ],
     "words": [
@@ -5555,19 +6180,23 @@ var inscriptions = new Map([
         "{",
         "*",
         "152}",
-        "󲎆󲎺",
-        "{049}",
+        "󲎆󲏓",
         "\n",
         "{",
         "*",
         "152}",
-        "󲎆󲏓",
+        "󲎆󲎺",
+        "{049}",
         "\n"
     ]
 }],
 ["131",{
     "images": [
         "images/131a.jpg"
+    ],
+    "linearA": [
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n"
     ],
     "name": "131",
     "parsedInscription": "󲏏󲎦\n",
@@ -5576,7 +6205,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲏏󲎦\n",
     "transliteratedWords": [
-        "036-092",
+        "SA2-RU",
         "\n"
     ],
     "words": [
@@ -5590,6 +6219,10 @@ var inscriptions = new Map([
         "images/208b.jpg",
         "images/208c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "208",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -5597,7 +6230,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -5610,24 +6243,26 @@ var inscriptions = new Map([
         "images/043a.jpg",
         "images/043b.jpg"
     ],
+    "linearA": [],
     "name": "043",
-    "parsedInscription": "󲎙󲎮󲏨󲌒>?\n󲎌󲎮|󲍺󲍖\n󲍎󲊶󲊶\nGRA𐄒𐄈\n",
+    "parsedInscription": "󲎙󲎮󲏨󲌒>?\n󲎌󲎮|󲍺󲍖\n󲍎󲊶󲊶*󲊝GRA𐄒𐄈\n",
     "tracingImages": [
         "images/043a-t.jpg",
         "images/043b-t.jpg"
     ],
-    "transcription": "󲎙󲎮󲏨󲌒>?\n󲎌󲎮|󲍺󲍖\n󲍎󲊶󲊶\nGRA𐄒𐄈\n",
+    "transcription": "󲎙󲎮󲏨󲌒>?\n󲎌󲎮|󲍺󲍖\n󲍎󲊶󲊶*󲊝GRA𐄒𐄈\n",
     "transliteratedWords": [
-        "007-010-006-023",
+        "MI-RI-NWA-TU",
         ">",
         "?",
         "\n",
-        "025-010",
+        "TE-RI",
         "|",
-        "024-050",
+        "NI-TI",
         "\n",
-        "070-047-047",
-        "\n",
+        "RO-QE-QE",
+        "*",
+        "153",
         "GRA",
         "32",
         "\n"
@@ -5642,7 +6277,8 @@ var inscriptions = new Map([
         "󲍺󲍖",
         "\n",
         "󲍎󲊶󲊶",
-        "\n",
+        "*",
+        "󲊝",
         "GRA",
         "𐄒𐄈",
         "\n"
@@ -5652,6 +6288,10 @@ var inscriptions = new Map([
     "images": [
         "images/170a.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "170",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -5659,7 +6299,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -5671,6 +6311,10 @@ var inscriptions = new Map([
     "images": [
         "images/145a.jpg"
     ],
+    "linearA": [
+        "~KI-RO GRA (\"owed\"); cf. HT 15",
+        "\n"
+    ],
     "name": "145",
     "parsedInscription": "󲎆󲏓\n",
     "tracingImages": [
@@ -5678,7 +6322,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲏓\n",
     "transliteratedWords": [
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -5693,17 +6337,30 @@ var inscriptions = new Map([
         "images/071c.jpg",
         "images/071d.jpg"
     ],
+    "linearA": [],
     "name": "071",
-    "parsedInscription": "",
+    "parsedInscription": "X󲎎󲍎󲍰*󲉁\n",
     "tracingImages": [
         "images/071a-t.jpg",
         "images/071b-t.jpg",
         "images/071c-t.jpg",
         "images/071d-t.jpg"
     ],
-    "transcription": "",
-    "transliteratedWords": [],
-    "words": []
+    "transcription": "X󲎎󲍎󲍰*󲉁\n",
+    "transliteratedWords": [
+        "X",
+        "KU-RO-termination sign",
+        "*",
+        "VIR4",
+        "\n"
+    ],
+    "words": [
+        "X",
+        "󲎎󲍎󲍰",
+        "*",
+        "󲉁",
+        "\n"
+    ]
 }],
 ["088",{
     "images": [
@@ -5713,24 +6370,25 @@ var inscriptions = new Map([
         "images/088d.jpg",
         "images/088e.jpg"
     ],
+    "linearA": [],
     "name": "088",
-    "parsedInscription": "]󲍝󲏀\nvacat\n",
+    "parsedInscription": "]󲍝*󲏀\n",
     "tracingImages": [
         "images/088a-t.jpg"
     ],
-    "transcription": "]󲍝󲏀\nvacat\n",
+    "transcription": "]󲍝*󲏀\n",
     "transliteratedWords": [
         "]",
-        "031-041",
-        "\n",
-        "vacat",
+        "RE",
+        "*",
+        "WA",
         "\n"
     ],
     "words": [
         "]",
-        "󲍝󲏀",
-        "\n",
-        "vacat",
+        "󲍝",
+        "*",
+        "󲏀",
         "\n"
     ]
 }],
@@ -5741,30 +6399,35 @@ var inscriptions = new Map([
         "images/004c.jpg",
         "images/004d.jpg"
     ],
+    "linearA": [],
     "name": "004",
-    "parsedInscription": "\nvacat\nX󲎀󲍐󲌐\nvacat\n",
+    "parsedInscription": "<󲎆󲏻>󲏓\nvacat\nX󲎀󲍐󲌐\n",
     "tracingImages": [
         "images/004c-t.jpg"
     ],
-    "transcription": "\nvacat\nX󲎀󲍐󲌐\nvacat\n",
+    "transcription": "<󲎆󲏻>󲏓\nvacat\nX󲎀󲍐󲌐\n",
     "transliteratedWords": [
+        "<",
+        "KO-",
+        ">",
+        "Rv",
         "\n",
         "vacat",
         "\n",
         "X",
-        "019-038-059",
-        "\n",
-        "vacat",
+        "SA-JA-MA?",
         "\n"
     ],
     "words": [
+        "<",
+        "󲎆󲏻",
+        ">",
+        "󲏓",
         "\n",
         "vacat",
         "\n",
         "X",
         "󲎀󲍐󲌐",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -5773,6 +6436,7 @@ var inscriptions = new Map([
         "images/072a.jpg",
         "images/072b.jpg"
     ],
+    "linearA": [],
     "name": "072",
     "parsedInscription": "󲍅󲍐󲏻󲍮\nvacat\n",
     "tracingImages": [
@@ -5780,8 +6444,8 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍅󲍐󲏻󲍮\nvacat\n",
     "transliteratedWords": [
-        "011-038-",
-        "029",
+        "SI-JA-",
+        "MA",
         "\n",
         "vacat",
         "\n"
@@ -5798,13 +6462,17 @@ var inscriptions = new Map([
     "images": [
         "images/329a.jpg"
     ],
+    "linearA": [
+        "A-RI (PH 6.1, 3), A-RU (HT 9a.5-6, b.2-3; HT 49a.6)",
+        "\n"
+    ],
     "name": "329",
     "parsedInscription": "X󲎺󲎹\n",
     "tracingImages": [],
     "transcription": "X󲎺󲎹\n",
     "transliteratedWords": [
         "X",
-        "049-042",
+        "RO3-A",
         "\n"
     ],
     "words": [
@@ -5815,12 +6483,16 @@ var inscriptions = new Map([
 }],
 ["325",{
     "images": [],
+    "linearA": [
+        "KU-RO ?",
+        "\n"
+    ],
     "name": "325",
     "parsedInscription": "󲎿[\n",
     "tracingImages": [],
     "transcription": "󲎿[\n",
     "transliteratedWords": [
-        "028",
+        "KU2",
         "[",
         "\n"
     ],
@@ -5837,38 +6509,60 @@ var inscriptions = new Map([
         "images/297c.jpg",
         "images/297d.jpg"
     ],
+    "linearA": [
+        "TU-SU (PK 1.6-7) SA-TA (HT 117a.7)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n",
+        "SI-KA (HT Wa 1014-1018)",
+        "\n",
+        "A-JA (SY Za 2d)",
+        "\n",
+        "SA-RI[ (ZA 21b.3); cf. SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n"
+    ],
     "name": "297",
-    "parsedInscription": "󲍖󲎀><\n󲍐󲍦><\n󲏏󲎮><\n󲍅󲎎><\n󲎆󲎺\n󲎆󲏓{061}\n",
+    "parsedInscription": "󲍖󲎀><\n󲎆󲎺\n󲎆󲏓{061}\n󲍅󲎎><\n󲍐󲍦><\n󲏏󲎮><\n",
     "tracingImages": [
         "images/297a-t.jpg",
         "images/297b-t.jpg",
         "images/297d-t.jpg"
     ],
-    "transcription": "󲍖󲎀><\n󲍐󲍦><\n󲏏󲎮><\n󲍅󲎎><\n󲎆󲎺\n󲎆󲏓{061}\n",
+    "transcription": "󲍖󲎀><\n󲎆󲎺\n󲎆󲏓{061}\n󲍅󲎎><\n󲍐󲍦><\n󲏏󲎮><\n",
     "transliteratedWords": [
-        "050-019",
+        "TI-SA",
         ">",
         "<",
         "\n",
-        "038-008",
+        "KO-RO3",
+        "\n",
+        "KO-Rv-{061}",
+        "\n",
+        "SI-KU",
         ">",
         "<",
         "\n",
-        "036-010",
+        "JA-A3",
         ">",
         "<",
         "\n",
-        "011-056",
+        "SA2-RI",
         ">",
         "<",
-        "\n",
-        "044-049",
-        "\n",
-        "044-005-{061}",
         "\n"
     ],
     "words": [
         "󲍖󲎀",
+        ">",
+        "<",
+        "\n",
+        "󲎆󲎺",
+        "\n",
+        "󲎆󲏓{061}",
+        "\n",
+        "󲍅󲎎",
         ">",
         "<",
         "\n",
@@ -5879,14 +6573,6 @@ var inscriptions = new Map([
         "󲏏󲎮",
         ">",
         "<",
-        "\n",
-        "󲍅󲎎",
-        ">",
-        "<",
-        "\n",
-        "󲎆󲎺",
-        "\n",
-        "󲎆󲏓{061}",
         "\n"
     ]
 }],
@@ -5896,31 +6582,34 @@ var inscriptions = new Map([
         "images/021c.jpg",
         "images/021d.jpg"
     ],
+    "linearA": [],
     "name": "021",
-    "parsedInscription": "\nvacat\nX󲍐󲊉󲎺󲏆\n*󲊝\n",
+    "parsedInscription": "*󲈽\nvacat\nX󲍐󲊉󲎺󲏆*󲊝\n",
     "tracingImages": [
         "images/021c-t.jpg",
         "images/021d-t.jpg"
     ],
-    "transcription": "\nvacat\nX󲍐󲊉󲎺󲏆\n*󲊝\n",
+    "transcription": "*󲈽\nvacat\nX󲍐󲊉󲎺󲏆*󲊝\n",
     "transliteratedWords": [
+        "*",
+        "175",
         "\n",
         "vacat",
         "\n",
         "X",
-        "038-017-049-034",
-        "\n",
+        "JA-AU-RO3-TA",
         "*",
         "153",
         "\n"
     ],
     "words": [
+        "*",
+        "󲈽",
         "\n",
         "vacat",
         "\n",
         "X",
         "󲍐󲊉󲎺󲏆",
-        "\n",
         "*",
         "󲊝",
         "\n"
@@ -5930,6 +6619,10 @@ var inscriptions = new Map([
     "images": [
         "images/184a.jpg"
     ],
+    "linearA": [
+        "~KU-RO BOS (\"balance,\" \"total\"); cf. HT 30 (with KI-RO)",
+        "\n"
+    ],
     "name": "184",
     "parsedInscription": "X󲎆󲍡󲍎\n",
     "tracingImages": [
@@ -5938,7 +6631,7 @@ var inscriptions = new Map([
     "transcription": "X󲎆󲍡󲍎\n",
     "transliteratedWords": [
         "X",
-        "044-013-070",
+        "KO-BOS/MU2-RO",
         "\n"
     ],
     "words": [
@@ -5956,112 +6649,69 @@ var inscriptions = new Map([
         "images/118e.jpg",
         "images/118f.jpg"
     ],
+    "linearA": [],
     "name": "118",
-    "parsedInscription": "󲎎󲍎*󲉮𐄐Λ*󲉱𐄇Γ*󲉲𐄇[]*󲊝𐄇Γ\n󲎍󲏈*󲉴𐄇Γ*󲉳𐄈Δ\n*󲍻𐄊ΛΔ*󲍚𐄑Λ*󲉵𐄚𐄓\n*󲉯𐄇*󲉰𐄇\n",
+    "parsedInscription": "𐄐\n*𐄇\n𐄇[]\n*𐄇\n𐄇\n𐄈\n𐄇\n𐄊\n𐄑\n𐄚𐄓\n𐄇\n",
     "tracingImages": [
         "images/118b-t.jpg",
         "images/118c-t.jpg",
         "images/118d-t.jpg",
         "images/118e-t.jpg"
     ],
-    "transcription": "󲎎󲍎*󲉮𐄐Λ*󲉱𐄇Γ*󲉲𐄇[]*󲊝𐄇Γ\n󲎍󲏈*󲉴𐄇Γ*󲉳𐄈Δ\n*󲍻𐄊ΛΔ*󲍚𐄑Λ*󲉵𐄚𐄓\n*󲉯𐄇*󲉰𐄇\n",
+    "transcription": "𐄐\n*𐄇\n𐄇[]\n*𐄇\n𐄇\n𐄈\n𐄇\n𐄊\n𐄑\n𐄚𐄓\n𐄇\n",
     "transliteratedWords": [
-        "056-070",
-        "*",
-        "159",
         "10",
-        "Λ",
+        "\n",
         "*",
-        "171",
         "1",
-        "Γ",
-        "*",
-        "172",
+        "\n",
         "1",
         "[",
         "]",
-        "*",
-        "153",
-        "1",
-        "Γ",
         "\n",
-        "040-057",
         "*",
-        "177",
         "1",
-        "Γ",
-        "*",
-        "173",
+        "\n",
+        "1",
+        "\n",
         "2",
-        "Δ",
         "\n",
-        "*",
-        "155",
+        "1",
+        "\n",
         "4",
-        "ΛΔ",
-        "*",
-        "156",
+        "\n",
         "20",
-        "Λ",
-        "*",
-        "179",
+        "\n",
         "240",
         "\n",
-        "*",
-        "161",
-        "1",
-        "*",
-        "162",
         "1",
         "\n"
     ],
     "words": [
-        "󲎎󲍎",
-        "*",
-        "󲉮",
         "𐄐",
-        "Λ",
+        "\n",
         "*",
-        "󲉱",
         "𐄇",
-        "Γ",
-        "*",
-        "󲉲",
+        "\n",
         "𐄇",
         "[",
         "]",
-        "*",
-        "󲊝",
-        "𐄇",
-        "Γ",
         "\n",
-        "󲎍󲏈",
         "*",
-        "󲉴",
         "𐄇",
-        "Γ",
-        "*",
-        "󲉳",
+        "\n",
+        "𐄇",
+        "\n",
         "𐄈",
-        "Δ",
         "\n",
-        "*",
-        "󲍻",
+        "𐄇",
+        "\n",
         "𐄊",
-        "ΛΔ",
-        "*",
-        "󲍚",
+        "\n",
         "𐄑",
-        "Λ",
-        "*",
-        "󲉵",
+        "\n",
         "𐄚𐄓",
         "\n",
-        "*",
-        "󲉯",
-        "𐄇",
-        "*",
-        "󲉰",
         "𐄇",
         "\n"
     ]
@@ -6071,23 +6721,34 @@ var inscriptions = new Map([
         "images/101a.jpg",
         "images/101b.jpg"
     ],
+    "linearA": [],
     "name": "101",
-    "parsedInscription": "󲎹󲏀󲎺\n𐄟𐄉[\n",
+    "parsedInscription": "󲏀󲏻<󲇞>󲏻󲎺*󲏀𐄟𐄉[\n",
     "tracingImages": [
         "images/101a-t.jpg",
         "images/101b-t.jpg"
     ],
-    "transcription": "󲎹󲏀󲎺\n𐄟𐄉[\n",
+    "transcription": "󲏀󲏻<󲇞>󲏻󲎺*󲏀𐄟𐄉[\n",
     "transliteratedWords": [
-        "042-041-049",
-        "\n",
+        "WA-",
+        "<",
+        "KA",
+        ">",
+        "-RO3",
+        "*",
+        "WA",
         "703",
         "[",
         "\n"
     ],
     "words": [
-        "󲎹󲏀󲎺",
-        "\n",
+        "󲏀󲏻",
+        "<",
+        "󲇞",
+        ">",
+        "󲏻󲎺",
+        "*",
+        "󲏀",
         "𐄟𐄉",
         "[",
         "\n"
@@ -6099,12 +6760,16 @@ var inscriptions = new Map([
         "images/216b.jpg",
         "images/216c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "216",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -6117,45 +6782,30 @@ var inscriptions = new Map([
         "images/206a.jpg",
         "images/206b.jpg"
     ],
+    "linearA": [],
     "name": "206",
-    "parsedInscription": "*󲍼*󲎃*󲎄\n*󲍻ΔΣ\n",
+    "parsedInscription": "󲍦\n",
     "tracingImages": [
         "images/206a-t.jpg",
         "images/206b-t.jpg"
     ],
-    "transcription": "*󲍼*󲎃*󲎄\n*󲍻ΔΣ\n",
+    "transcription": "󲍦\n",
     "transliteratedWords": [
-        "*",
-        "157",
-        "*",
-        "308",
-        "*",
-        "309",
-        "\n",
-        "*",
-        "155",
-        "Δ",
-        "Σ",
+        "A3",
         "\n"
     ],
     "words": [
-        "*",
-        "󲍼",
-        "*",
-        "󲎃",
-        "*",
-        "󲎄",
-        "\n",
-        "*",
-        "󲍻",
-        "Δ",
-        "Σ",
+        "󲍦",
         "\n"
     ]
 }],
 ["173",{
     "images": [
         "images/173a.jpg"
+    ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIV",
+        "\n"
     ],
     "name": "173",
     "parsedInscription": "󲏈󲏆󲎎\n",
@@ -6164,7 +6814,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲏈󲏆󲎎\n",
     "transliteratedWords": [
-        "057-034-056",
+        "KI-TA-KU",
         "\n"
     ],
     "words": [
@@ -6178,6 +6828,10 @@ var inscriptions = new Map([
         "images/211b.jpg",
         "images/211c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "211",
     "parsedInscription": "X󲎆󲎺\n",
     "tracingImages": [
@@ -6186,7 +6840,7 @@ var inscriptions = new Map([
     "transcription": "X󲎆󲎺\n",
     "transliteratedWords": [
         "X",
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -6200,22 +6854,21 @@ var inscriptions = new Map([
         "images/031a.jpg",
         "images/031b.jpg"
     ],
+    "linearA": [],
     "name": "031",
-    "parsedInscription": "󲏆󲎺󲎎󲏐\nvacat\n",
+    "parsedInscription": "󲏆󲎺󲎎󲏐\n",
     "tracingImages": [
         "images/031a-t.jpg"
     ],
-    "transcription": "󲏆󲎺󲎎󲏐\nvacat\n",
+    "transcription": "󲏆󲎺󲎎󲏐\n",
     "transliteratedWords": [
-        "034-049-056-052",
-        "\n",
-        "vacat",
+        "TA-RO3",
+        "KU-NE",
         "\n"
     ],
     "words": [
-        "󲏆󲎺󲎎󲏐",
-        "\n",
-        "vacat",
+        "󲏆󲎺",
+        "󲎎󲏐",
         "\n"
     ]
 }],
@@ -6223,39 +6876,40 @@ var inscriptions = new Map([
     "images": [
         "images/152a.jpg"
     ],
+    "linearA": [],
     "name": "152",
-    "parsedInscription": "\n]󲎹󲍰[]\nX󲏈󲎺*󲈥\nX󲍎󲍝󲎀\n\n\n\n\n\n]󲎿󲏻󲎺\n\n",
+    "parsedInscription": "\n\n]󲎹󲍰[]\nX󲏈󲎺*󲈥\n\n\n\n\n]󲎿󲏻󲎺\nX󲍎󲍝󲎀\n",
     "tracingImages": [
         "images/152a-t.jpg"
     ],
-    "transcription": "\n]󲎹󲍰[]\nX󲏈󲎺*󲈥\nX󲍎󲍝󲎀\n\n\n\n\n\n]󲎿󲏻󲎺\n\n",
+    "transcription": "\n\n]󲎹󲍰[]\nX󲏈󲎺*󲈥\n\n\n\n\n]󲎿󲏻󲎺\nX󲍎󲍝󲎀\n",
     "transliteratedWords": [
         "\n",
+        "\n",
         "]",
-        "042-061",
+        "A-termination sign",
         "[",
         "]",
         "\n",
         "X",
-        "057-049",
+        "KI-RO3",
         "*",
         "152",
-        "\n",
-        "X",
-        "070-031-019",
-        "\n",
         "\n",
         "\n",
         "\n",
         "\n",
         "\n",
         "]",
-        "028",
-        "-049",
+        "KU2",
+        "-RO3",
         "\n",
+        "X",
+        "RO-RE-SA",
         "\n"
     ],
     "words": [
+        "\n",
         "\n",
         "]",
         "󲎹󲍰",
@@ -6267,10 +6921,6 @@ var inscriptions = new Map([
         "*",
         "󲈥",
         "\n",
-        "X",
-        "󲍎󲍝󲎀",
-        "\n",
-        "\n",
         "\n",
         "\n",
         "\n",
@@ -6279,6 +6929,8 @@ var inscriptions = new Map([
         "󲎿",
         "󲏻󲎺",
         "\n",
+        "X",
+        "󲍎󲍝󲎀",
         "\n"
     ]
 }],
@@ -6288,6 +6940,10 @@ var inscriptions = new Map([
         "images/210b.jpg",
         "images/210c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "210",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -6295,7 +6951,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -6308,21 +6964,26 @@ var inscriptions = new Map([
         "images/047a.jpg",
         "images/047b.jpg"
     ],
+    "linearA": [],
     "name": "047",
-    "parsedInscription": "X󲎝󲎝󲎗\nX󲈤󲎆*󲍚𐄜𐄓𐄇\n",
+    "parsedInscription": "X󲎝󲎝󲎗\nX󲈤󲎆󲏻<󲎺>*󲍚VIN𐄜𐄓𐄇\n",
     "tracingImages": [
         "images/047a-t.jpg",
         "images/047b-t.jpg"
     ],
-    "transcription": "X󲎝󲎝󲎗\nX󲈤󲎆*󲍚𐄜𐄓𐄇\n",
+    "transcription": "X󲎝󲎝󲎗\nX󲈤󲎆󲏻<󲎺>*󲍚VIN𐄜𐄓𐄇\n",
     "transliteratedWords": [
         "X",
-        "053-053-077",
+        "JA-JA-RU2",
         "\n",
         "X",
-        "089-044",
+        "?-KO-",
+        "<",
+        "RO3",
+        ">",
         "*",
         "156",
+        "VIN",
         "441",
         "\n"
     ],
@@ -6331,9 +6992,13 @@ var inscriptions = new Map([
         "󲎝󲎝󲎗",
         "\n",
         "X",
-        "󲈤󲎆",
+        "󲈤󲎆󲏻",
+        "<",
+        "󲎺",
+        ">",
         "*",
         "󲍚",
+        "VIN",
         "𐄜𐄓𐄇",
         "\n"
     ]
@@ -6341,6 +7006,10 @@ var inscriptions = new Map([
 ["132",{
     "images": [
         "images/132a.jpg"
+    ],
+    "linearA": [
+        "KU-RO (\"balance,\" \"total\"), A-KI-RO (ARKH 4b.4)",
+        "\n"
     ],
     "name": "132",
     "parsedInscription": "X󲍦󲎎󲍎0\n",
@@ -6350,7 +7019,7 @@ var inscriptions = new Map([
     "transcription": "X󲍦󲎎󲍎0\n",
     "transliteratedWords": [
         "X",
-        "008-056-070",
+        "A3-KU-RO",
         "0",
         "\n"
     ],
@@ -6368,32 +7037,19 @@ var inscriptions = new Map([
         "images/008c.jpg",
         "images/008d.jpg"
     ],
+    "linearA": [],
     "name": "008",
-    "parsedInscription": "\nvacat\nX󲎿󲍐󲉔[\ndeest\n",
+    "parsedInscription": "󲎿󲍐󲉔\n",
     "tracingImages": [
         "images/008c-t.jpg"
     ],
-    "transcription": "\nvacat\nX󲎿󲍐󲉔[\ndeest\n",
+    "transcription": "󲎿󲍐󲉔\n",
     "transliteratedWords": [
-        "\n",
-        "vacat",
-        "\n",
-        "X",
-        "028-038-032",
-        "[",
-        "\n",
-        "deest",
+        "KU2-JA-RE2",
         "\n"
     ],
     "words": [
-        "\n",
-        "vacat",
-        "\n",
-        "X",
         "󲎿󲍐󲉔",
-        "[",
-        "\n",
-        "deest",
         "\n"
     ]
 }],
@@ -6401,6 +7057,7 @@ var inscriptions = new Map([
     "images": [
         "images/139a.jpg"
     ],
+    "linearA": [],
     "name": "139",
     "parsedInscription": "X󲋧󲎗󲍡󲊗\n",
     "tracingImages": [
@@ -6409,7 +7066,7 @@ var inscriptions = new Map([
     "transcription": "X󲋧󲎗󲍡󲊗\n",
     "transliteratedWords": [
         "X",
-        "009-077-013-020",
+        "A2-RU2-BOS/MU2-AI",
         "\n"
     ],
     "words": [
@@ -6425,27 +7082,37 @@ var inscriptions = new Map([
         "images/301c.jpg",
         "images/301d.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n",
+        "A-SA-RA 2 (HT 89.1)",
+        "\n",
+        "",
+        "\n"
+    ],
     "name": "301",
-    "parsedInscription": "X󲎆󲎺\nX󲎆󲏓\nX󲏔󲏕\nX󲎹󲎀󲍝\n",
+    "parsedInscription": "X󲎆󲎺\nX󲎆󲏓\nX󲎹󲎀󲍝\nX󲏔󲏕\n",
     "tracingImages": [
         "images/301a-t.jpg",
         "images/301b-t.jpg",
         "images/301c-t.jpg",
         "images/301d-t.jpg"
     ],
-    "transcription": "X󲎆󲎺\nX󲎆󲏓\nX󲏔󲏕\nX󲎹󲎀󲍝\n",
+    "transcription": "X󲎆󲎺\nX󲎆󲏓\nX󲎹󲎀󲍝\nX󲏔󲏕\n",
     "transliteratedWords": [
         "X",
-        "044-049",
+        "KO-RO3",
         "\n",
         "X",
-        "044-005",
+        "KO-Rv",
         "\n",
         "X",
-        "018-046",
+        "A-SA-RE",
         "\n",
         "X",
-        "042-019-031",
+        "RA4-A",
         "\n"
     ],
     "words": [
@@ -6456,10 +7123,10 @@ var inscriptions = new Map([
         "󲎆󲏓",
         "\n",
         "X",
-        "󲏔󲏕",
+        "󲎹󲎀󲍝",
         "\n",
         "X",
-        "󲎹󲎀󲍝",
+        "󲏔󲏕",
         "\n"
     ]
 }],
@@ -6469,6 +7136,10 @@ var inscriptions = new Map([
         "images/227b.jpg",
         "images/227c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "227",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -6476,7 +7147,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -6491,26 +7162,33 @@ var inscriptions = new Map([
         "images/003c.jpg",
         "images/003d.jpg"
     ],
+    "linearA": [],
     "name": "003",
-    "parsedInscription": "\nX󲎷󲎇\nX󲋧󲎗󲍡󲊗\nX󲏈󲎷󲍖󲎷󲎹X\n",
+    "parsedInscription": "\nX󲎷󲎇\nX󲎹=*󲈽\nX󲏈󲎷\n󲍖󲎷\nX󲋧󲎗󲍡󲊗\n",
     "tracingImages": [
         "images/003b-t.jpg",
         "images/003c-t.jpg",
         "images/003d-t.jpg"
     ],
-    "transcription": "\nX󲎷󲎇\nX󲋧󲎗󲍡󲊗\nX󲏈󲎷󲍖󲎷󲎹X\n",
+    "transcription": "\nX󲎷󲎇\nX󲎹=*󲈽\nX󲏈󲎷\n󲍖󲎷\nX󲋧󲎗󲍡󲊗\n",
     "transliteratedWords": [
         "\n",
         "X",
-        "016-054",
+        "KI-DE",
         "\n",
         "X",
-        "009-077-013-020",
+        "A",
+        "=",
+        "*",
+        "175",
         "\n",
         "X",
-        "057-016",
-        "050-016-042",
+        "KI-KI",
+        "\n",
+        "TI-KI",
+        "\n",
         "X",
+        "A2-RU2-BOS/MU2-AI",
         "\n"
     ],
     "words": [
@@ -6519,12 +7197,18 @@ var inscriptions = new Map([
         "󲎷󲎇",
         "\n",
         "X",
-        "󲋧󲎗󲍡󲊗",
+        "󲎹",
+        "=",
+        "*",
+        "󲈽",
         "\n",
         "X",
         "󲏈󲎷",
-        "󲍖󲎷󲎹",
+        "\n",
+        "󲍖󲎷",
+        "\n",
         "X",
+        "󲋧󲎗󲍡󲊗",
         "\n"
     ]
 }],
@@ -6535,25 +7219,27 @@ var inscriptions = new Map([
         "images/289c.jpg",
         "images/289d.jpg"
     ],
+    "linearA": [
+        "A-DA-KI-SI-KA (KH 5.1-2), PA 3 -DA-KU-SE-NE (HT 103.2) some remote possibilities",
+        "\n",
+        "A-RE-SA-NA (THE Zb 2)",
+        "\n",
+        "A-SI-KI-RA (KH 20.2), SI-KI-RA (HT 8a.4)",
+        "\n"
+    ],
     "name": "289",
-    "parsedInscription": "]•••󲏻󲎎󲏻󲍅•><\n]•󲎦󲎎󲏆•[><\n]•062[]󲏆󲎮[><\n",
+    "parsedInscription": "]•••󲏻󲎎󲏻󲍅•><\n]•062[]󲏆󲎮[><\n]•󲎦󲎎󲏆•[><\n",
     "tracingImages": [
         "images/289b-t.jpg",
         "images/289c-t.jpg",
         "images/289d-t.jpg"
     ],
-    "transcription": "]•••󲏻󲎎󲏻󲍅•><\n]•󲎦󲎎󲏆•[><\n]•062[]󲏆󲎮[><\n",
+    "transcription": "]•••󲏻󲎎󲏻󲍅•><\n]•062[]󲏆󲎮[><\n]•󲎦󲎎󲏆•[><\n",
     "transliteratedWords": [
         "]",
         "•-•-•-",
-        "056",
-        "-011-•",
-        ">",
-        "<",
-        "\n",
-        "]",
-        "•-092-056-034-•",
-        "[",
+        "KU",
+        "-SI-•",
         ">",
         "<",
         "\n",
@@ -6561,7 +7247,13 @@ var inscriptions = new Map([
         "•062",
         "[",
         "]",
-        "034-010",
+        "TA-RI",
+        "[",
+        ">",
+        "<",
+        "\n",
+        "]",
+        "•-RU-KU-TA-•",
         "[",
         ">",
         "<",
@@ -6576,16 +7268,16 @@ var inscriptions = new Map([
         "<",
         "\n",
         "]",
-        "•󲎦󲎎󲏆•",
+        "•062",
+        "[",
+        "]",
+        "󲏆󲎮",
         "[",
         ">",
         "<",
         "\n",
         "]",
-        "•062",
-        "[",
-        "]",
-        "󲏆󲎮",
+        "•󲎦󲎎󲏆•",
         "[",
         ">",
         "<",
@@ -6596,6 +7288,7 @@ var inscriptions = new Map([
     "images": [
         "images/128a.jpg"
     ],
+    "linearA": [],
     "name": "128",
     "parsedInscription": "󲍦󲏻󲎝󲊉0\n",
     "tracingImages": [
@@ -6603,8 +7296,8 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍦󲏻󲎝󲊉0\n",
     "transliteratedWords": [
-        "008",
-        "-053-017",
+        "A3",
+        "-JA-AU",
         "0",
         "\n"
     ],
@@ -6622,32 +7315,35 @@ var inscriptions = new Map([
         "images/012c.jpg",
         "images/012d.jpg"
     ],
+    "linearA": [],
     "name": "012",
-    "parsedInscription": "\ndeest\n]X󲎿󲎺[\n\n",
+    "parsedInscription": "\ndeest\nvacat\n]X󲎿󲎺[\n",
     "tracingImages": [
         "images/012c-t.jpg"
     ],
-    "transcription": "\ndeest\n]X󲎿󲎺[\n\n",
+    "transcription": "\ndeest\nvacat\n]X󲎿󲎺[\n",
     "transliteratedWords": [
         "\n",
         "deest",
         "\n",
+        "vacat",
+        "\n",
         "]",
         "X",
-        "028-049",
+        "KU2-RO3",
         "[",
-        "\n",
         "\n"
     ],
     "words": [
         "\n",
         "deest",
         "\n",
+        "vacat",
+        "\n",
         "]",
         "X",
         "󲎿󲎺",
         "[",
-        "\n",
         "\n"
     ]
 }],
@@ -6656,27 +7352,26 @@ var inscriptions = new Map([
         "images/102a.jpg",
         "images/102b.jpg"
     ],
+    "linearA": [],
     "name": "102",
-    "parsedInscription": "󲎿󲏀[\n]𐄒\n",
+    "parsedInscription": "󲎿󲏀[𐄒[\n",
     "tracingImages": [
         "images/102a-t.jpg",
         "images/102b-t.jpg"
     ],
-    "transcription": "󲎿󲏀[\n]𐄒\n",
+    "transcription": "󲎿󲏀[𐄒[\n",
     "transliteratedWords": [
-        "028-041",
+        "KU2-WA",
         "[",
-        "\n",
-        "]",
         "30",
+        "[",
         "\n"
     ],
     "words": [
         "󲎿󲏀",
         "[",
-        "\n",
-        "]",
         "𐄒",
+        "[",
         "\n"
     ]
 }],
@@ -6688,6 +7383,7 @@ var inscriptions = new Map([
         "images/093d.jpg",
         "images/093e.jpg"
     ],
+    "linearA": [],
     "name": "093",
     "parsedInscription": "]󲍐\n]󲎀\n",
     "tracingImages": [
@@ -6697,10 +7393,10 @@ var inscriptions = new Map([
     "transcription": "]󲍐\n]󲎀\n",
     "transliteratedWords": [
         "]",
-        "038",
+        "JA",
         "\n",
         "]",
-        "019",
+        "SA",
         "\n"
     ],
     "words": [
@@ -6719,6 +7415,7 @@ var inscriptions = new Map([
         "images/105d.jpg",
         "images/105e.jpg"
     ],
+    "linearA": [],
     "name": "105",
     "parsedInscription": "]•󲎷󲍐\n]•󲍡󲉸𐄚𐄐\nvacat\n",
     "tracingImages": [
@@ -6727,10 +7424,10 @@ var inscriptions = new Map([
     "transcription": "]•󲎷󲍐\n]•󲍡󲉸𐄚𐄐\nvacat\n",
     "transliteratedWords": [
         "]",
-        "•-016-038",
+        "•-KI-JA",
         "\n",
         "]",
-        "•-013-035",
+        "•-BOS/MU2-SU",
         "210",
         "\n",
         "vacat",
@@ -6752,6 +7449,12 @@ var inscriptions = new Map([
     "images": [
         "images/198a.jpg"
     ],
+    "linearA": [
+        "RO-KE (HT 98a.4)",
+        "\n",
+        "KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "198",
     "parsedInscription": "󲍎󲋸><\n",
     "tracingImages": [
@@ -6759,7 +7462,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍎󲋸><\n",
     "transliteratedWords": [
-        "070-073",
+        "RO-KU4",
         ">",
         "<",
         "\n"
@@ -6776,36 +7479,41 @@ var inscriptions = new Map([
         "images/040a.jpg",
         "images/040b.jpg"
     ],
+    "linearA": [],
     "name": "040",
-    "parsedInscription": "X󲎀󲍎󲍰X󲇞󲎜\nX󲎆󲎺𐄈X󲍕󲍝𐄊\n",
+    "parsedInscription": "X󲇞󲎜|X󲎀󲍎\nX󲎆󲎺𐄈|X󲍕󲍝𐄊\n",
     "tracingImages": [
         "images/040a-t.jpg",
         "images/040b-t.jpg"
     ],
-    "transcription": "X󲎀󲍎󲍰X󲇞󲎜\nX󲎆󲎺𐄈X󲍕󲍝𐄊\n",
+    "transcription": "X󲇞󲎜|X󲎀󲍎\nX󲎆󲎺𐄈|X󲍕󲍝𐄊\n",
     "transliteratedWords": [
         "X",
-        "019-070-061",
+        "KA-PA3",
+        "|",
         "X",
-        "072-039",
+        "SA-RO",
         "\n",
         "X",
-        "044-049",
+        "KO-RO3",
         "2",
+        "|",
         "X",
-        "068-031",
+        "Rv-RE",
         "4",
         "\n"
     ],
     "words": [
         "X",
-        "󲎀󲍎󲍰",
-        "X",
         "󲇞󲎜",
+        "|",
+        "X",
+        "󲎀󲍎",
         "\n",
         "X",
         "󲎆󲎺",
         "𐄈",
+        "|",
         "X",
         "󲍕󲍝",
         "𐄊",
@@ -6818,25 +7526,35 @@ var inscriptions = new Map([
         "images/255b.jpg",
         "images/255c.jpg"
     ],
+    "linearA": [
+        "KA-SA-RU (HT 10b.3)",
+        "\n",
+        "PU-KO (HT 31a.1); cf. A-*301-KI-TA-A (TY Zb 4)",
+        "\n",
+        "JA-KI-SI-KI-NU (ARKH Zf 9), A-DA-KI-SI-KA (KH 5.1-2)",
+        "\n",
+        "A-RU-RA-[•] (HT 11a.1-2)",
+        "\n"
+    ],
     "name": "255",
-    "parsedInscription": "X󲎆󲏏󲏔\nX󲎿󲎺󲎹󲍝󲎎󲏏><\nX󲏕󲎆\n",
+    "parsedInscription": "X󲎆󲏏󲏔\nX󲏕󲎆\nX󲎿󲎺󲎹󲍝󲎎󲏏><\n",
     "tracingImages": [
         "images/255a-t.jpg",
         "images/255b-t.jpg",
         "images/255c-t.jpg"
     ],
-    "transcription": "X󲎆󲏏󲏔\nX󲎿󲎺󲎹󲍝󲎎󲏏><\nX󲏕󲎆\n",
+    "transcription": "X󲎆󲏏󲏔\nX󲏕󲎆\nX󲎿󲎺󲎹󲍝󲎎󲏏><\n",
     "transliteratedWords": [
         "X",
-        "044-036-018",
+        "KO-SA2-RA4",
         "\n",
         "X",
-        "028-049-042-031-056-036",
+        "A-KO",
+        "\n",
+        "X",
+        "KU2-RO3-A-RE-KU-SA2",
         ">",
         "<",
-        "\n",
-        "X",
-        "046-044",
         "\n"
     ],
     "words": [
@@ -6844,18 +7562,22 @@ var inscriptions = new Map([
         "󲎆󲏏󲏔",
         "\n",
         "X",
+        "󲏕󲎆",
+        "\n",
+        "X",
         "󲎿󲎺󲎹󲍝󲎎󲏏",
         ">",
         "<",
-        "\n",
-        "X",
-        "󲏕󲎆",
         "\n"
     ]
 }],
 ["194",{
     "images": [
         "images/194a.jpg"
+    ],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n"
     ],
     "name": "194",
     "parsedInscription": "X󲎆󲏓\n",
@@ -6865,7 +7587,7 @@ var inscriptions = new Map([
     "transcription": "X󲎆󲏓\n",
     "transliteratedWords": [
         "X",
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -6882,71 +7604,68 @@ var inscriptions = new Map([
         "images/062d.jpg",
         "images/062e.jpg"
     ],
+    "linearA": [],
     "name": "062",
-    "parsedInscription": "]󲎇󲏻󲍰X󲎹󲏆󲎺\n]𐄇𐄓\n]•󲎇󲍰\n]𐄒\n]󲎹󲏻󲎇󲍰\n]𐄝𐄓\n]󲎹󲏻󲎇󲍰\n",
+    "parsedInscription": "]󲎇󲏻󲍰\nX󲎹󲏆󲎺\n]󲎹󲏻󲎇󲍰]𐄇𐄓\n]󲎹󲎇󲍰]𐄒\n]󲎹󲏻󲎇󲍰]𐄝𐄓\n",
     "tracingImages": [
         "images/062a-t.jpg",
         "images/062b-t.jpg",
         "images/062c-t.jpg",
         "images/062d-t.jpg"
     ],
-    "transcription": "]󲎇󲏻󲍰X󲎹󲏆󲎺\n]𐄇𐄓\n]•󲎇󲍰\n]𐄒\n]󲎹󲏻󲎇󲍰\n]𐄝𐄓\n]󲎹󲏻󲎇󲍰\n",
+    "transcription": "]󲎇󲏻󲍰\nX󲎹󲏆󲎺\n]󲎹󲏻󲎇󲍰]𐄇𐄓\n]󲎹󲎇󲍰]𐄒\n]󲎹󲏻󲎇󲍰]𐄝𐄓\n",
     "transliteratedWords": [
         "]",
-        "054",
-        "-061",
-        "X",
-        "042-034-049",
+        "DE",
+        "-termination sign",
         "\n",
+        "X",
+        "A-TA-RO3",
+        "\n",
+        "]",
+        "A",
+        "-DE-termination sign",
         "]",
         "1",
         "40",
         "\n",
         "]",
-        "•-054-061",
-        "\n",
+        "A-DE-termination sign",
         "]",
         "30",
         "\n",
         "]",
-        "042",
-        "-054-061",
-        "\n",
+        "A",
+        "-DE-termination sign",
         "]",
         "540",
-        "\n",
-        "]",
-        "042",
-        "-054-061",
         "\n"
     ],
     "words": [
         "]",
         "󲎇",
         "󲏻󲍰",
+        "\n",
         "X",
         "󲎹󲏆󲎺",
         "\n",
+        "]",
+        "󲎹",
+        "󲏻󲎇󲍰",
         "]",
         "𐄇",
         "𐄓",
         "\n",
         "]",
-        "•󲎇󲍰",
-        "\n",
+        "󲎹󲎇󲍰",
         "]",
         "𐄒",
         "\n",
         "]",
         "󲎹",
         "󲏻󲎇󲍰",
-        "\n",
         "]",
         "𐄝𐄓",
-        "\n",
-        "]",
-        "󲎹",
-        "󲏻󲎇󲍰",
         "\n"
     ]
 }],
@@ -6957,14 +7676,15 @@ var inscriptions = new Map([
         "images/291c.jpg",
         "images/291d.jpg"
     ],
+    "linearA": [],
     "name": "291",
-    "parsedInscription": "\n*󲍼|*󲎃\n*󲍻|*󲎂\n*󲍽|*󲎄\n",
+    "parsedInscription": "\n*󲍼|*󲎃\n*󲍽|*󲎄\n*󲍻|*󲎂\n",
     "tracingImages": [
         "images/291b-t.jpg",
         "images/291c-t.jpg",
         "images/291d-t.jpg"
     ],
-    "transcription": "\n*󲍼|*󲎃\n*󲍻|*󲎂\n*󲍽|*󲎄\n",
+    "transcription": "\n*󲍼|*󲎃\n*󲍽|*󲎄\n*󲍻|*󲎂\n",
     "transliteratedWords": [
         "\n",
         "*",
@@ -6974,16 +7694,16 @@ var inscriptions = new Map([
         "308",
         "\n",
         "*",
-        "155",
-        "|",
-        "*",
-        "307",
-        "\n",
-        "*",
         "302",
         "|",
         "*",
         "309",
+        "\n",
+        "*",
+        "155",
+        "|",
+        "*",
+        "307",
         "\n"
     ],
     "words": [
@@ -6995,22 +7715,28 @@ var inscriptions = new Map([
         "󲎃",
         "\n",
         "*",
-        "󲍻",
-        "|",
-        "*",
-        "󲎂",
-        "\n",
-        "*",
         "󲍽",
         "|",
         "*",
         "󲎄",
+        "\n",
+        "*",
+        "󲍻",
+        "|",
+        "*",
+        "󲎂",
         "\n"
     ]
 }],
 ["190",{
     "images": [
         "images/190a.jpg"
+    ],
+    "linearA": [
+        "",
+        "\n",
+        "]MI-KI-SA-NE (ARKH 1a.6)",
+        "\n"
     ],
     "name": "190",
     "parsedInscription": "󲎀󲏻󲏈󲍮><\n",
@@ -7019,8 +7745,8 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎀󲏻󲏈󲍮><\n",
     "transliteratedWords": [
-        "019",
-        "-057-029",
+        "SA",
+        "-KI-MA",
         ">",
         "<",
         "\n"
@@ -7037,26 +7763,34 @@ var inscriptions = new Map([
     "images": [
         "images/330a.jpg"
     ],
+    "linearA": [
+        "MA-DA-TI (PK 1.8) DU-DA-MA (HT 6b.4), I-DA-MA-TE (AR Zf 1 & 2), MI-DA-MA-RA2 (ARCH Zf 9)",
+        "\n"
+    ],
     "name": "330",
-    "parsedInscription": "]󲍮󲉉•[\t><\n",
+    "parsedInscription": "\nJA󲏻QE󲏻󲏻QE\n\nvacat\n",
     "tracingImages": [],
-    "transcription": "]󲍮󲉉•[\t><\n",
+    "transcription": "\nJA󲏻QE󲏻󲏻QE\n\nvacat\n",
     "transliteratedWords": [
-        "]",
-        "029-064-•",
-        "[",
-        "\t",
-        ">",
-        "<",
+        "\n",
+        "JA-",
+        "QE",
+        "-",
+        "QE",
+        "\n",
+        "\n",
+        "vacat",
         "\n"
     ],
     "words": [
-        "]",
-        "󲍮󲉉•",
-        "[",
-        "\t",
-        ">",
-        "<",
+        "\n",
+        "JA󲏻",
+        "QE",
+        "󲏻󲏻",
+        "QE",
+        "\n",
+        "\n",
+        "vacat",
         "\n"
     ]
 }],
@@ -7065,6 +7799,14 @@ var inscriptions = new Map([
         "images/253a.jpg",
         "images/253b.jpg",
         "images/253c.jpg"
+    ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIII",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n"
     ],
     "name": "253",
     "parsedInscription": "󲍐󲎮\n󲎆󲎺\n󲎆󲏓\n",
@@ -7075,11 +7817,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮\n󲎆󲎺\n󲎆󲏓\n",
     "transliteratedWords": [
-        "038-010",
+        "JA-RI",
         "\n",
-        "044-049",
+        "KO-RO3",
         "\n",
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -7098,19 +7840,20 @@ var inscriptions = new Map([
         "images/110c.jpg",
         "images/110d.jpg"
     ],
+    "linearA": [],
     "name": "110",
-    "parsedInscription": "󲎆󲎍[\n󲇧󲏻󲏻[\n",
+    "parsedInscription": "󲎆󲎍[\n󲇧󲏻•[\n",
     "tracingImages": [
         "images/110a-t.jpg",
         "images/110c-t.jpg"
     ],
-    "transcription": "󲎆󲎍[\n󲇧󲏻󲏻[\n",
+    "transcription": "󲎆󲎍[\n󲇧󲏻•[\n",
     "transliteratedWords": [
-        "044-040",
+        "KO-RO2",
         "[",
         "\n",
-        "085",
-        "-",
+        "WI",
+        "-•",
         "[",
         "\n"
     ],
@@ -7119,7 +7862,7 @@ var inscriptions = new Map([
         "[",
         "\n",
         "󲇧",
-        "󲏻󲏻",
+        "󲏻•",
         "[",
         "\n"
     ]
@@ -7132,161 +7875,109 @@ var inscriptions = new Map([
         "images/053d.jpg",
         "images/053e.jpg"
     ],
+    "linearA": [],
     "name": "053",
-    "parsedInscription": "]X󲎿󲎺󲏀󲉛\n]•󲍨󲍝󲎎\n]X*󲈁󲉢X*󲈂󲈁\n]•X󲎷󲏈󲏻󲍡󲏻󲇿󲈀[\n]*󲈁𐄙𐄐[]X*󲈂󲉢[\nX󲍨󲏻󲏩𐄑𐄈\n",
+    "parsedInscription": "]X󲎿󲎺*󲉓*󲈼\n]•󲍨󲍝󲎎\n]X\nX\nX󲎷󲏈\n\nX\nX󲍨󲏻󲏩\n",
     "tracingImages": [
         "images/053a-t.jpg",
         "images/053c-t.jpg",
         "images/053d-t.jpg",
         "images/053e-t.jpg"
     ],
-    "transcription": "]X󲎿󲎺󲏀󲉛\n]•󲍨󲍝󲎎\n]X*󲈁󲉢X*󲈂󲈁\n]•X󲎷󲏈󲏻󲍡󲏻󲇿󲈀[\n]*󲈁𐄙𐄐[]X*󲈂󲉢[\nX󲍨󲏻󲏩𐄑𐄈\n",
+    "transcription": "]X󲎿󲎺*󲉓*󲈼\n]•󲍨󲍝󲎎\n]X\nX\nX󲎷󲏈\n\nX\nX󲍨󲏻󲏩\n",
     "transliteratedWords": [
         "]",
         "X",
-        "028-049-041-003",
-        "\n",
-        "]",
-        "•-058-031-056",
-        "\n",
-        "]",
-        "X",
+        "KU2-RO3",
         "*",
-        "160",
-        "170",
-        "X",
+        "163",
         "*",
-        "176",
-        "160",
+        "151",
         "\n",
         "]",
-        "•",
-        "X",
-        "016-057-",
-        "013",
-        "-074-075",
-        "[",
+        "•-PU-RE-KU",
         "\n",
         "]",
-        "*",
-        "160",
-        "110",
-        "[",
-        "]",
         "X",
-        "*",
-        "176",
-        "170",
-        "[",
         "\n",
         "X",
-        "058-",
-        "002",
-        "22",
+        "\n",
+        "X",
+        "KI-KI",
+        "\n",
+        "\n",
+        "X",
+        "\n",
+        "X",
+        "PU-",
+        "VIR2",
         "\n"
     ],
     "words": [
         "]",
         "X",
-        "󲎿󲎺󲏀󲉛",
+        "󲎿󲎺",
+        "*",
+        "󲉓",
+        "*",
+        "󲈼",
         "\n",
         "]",
         "•󲍨󲍝󲎎",
         "\n",
         "]",
         "X",
-        "*",
-        "󲈁",
-        "󲉢",
-        "X",
-        "*",
-        "󲈂",
-        "󲈁",
         "\n",
-        "]",
-        "•",
         "X",
-        "󲎷󲏈󲏻",
-        "󲍡",
-        "󲏻󲇿󲈀",
-        "[",
         "\n",
-        "]",
-        "*",
-        "󲈁",
-        "𐄙𐄐",
-        "[",
-        "]",
         "X",
-        "*",
-        "󲈂",
-        "󲉢",
-        "[",
+        "󲎷󲏈",
+        "\n",
+        "\n",
+        "X",
         "\n",
         "X",
         "󲍨󲏻",
         "󲏩",
-        "𐄑𐄈",
         "\n"
     ]
 }],
 ["058",{
     "images": [],
+    "linearA": [],
     "name": "058",
-    "parsedInscription": "X󲎹󲎇󲍰𐄢𐄞𐄓\n󲊶󲍎󲍝𐄗󲈑󲉔󲏆𐄔\n󲎮󲏻󲍎󲏓𐄕X󲏆󲏻󲏩𐄑\n󲎿󲍐󲏩𐄘󲈑󲉔󲍎󲏻󲌒󲏻󲏻󲎣𐄒\n",
+    "parsedInscription": "𐄢𐄞𐄓\n𐄗\n𐄔\n𐄕\n𐄑\n𐄘\n𐄒\n",
     "tracingImages": [],
-    "transcription": "X󲎹󲎇󲍰𐄢𐄞𐄓\n󲊶󲍎󲍝𐄗󲈑󲉔󲏆𐄔\n󲎮󲏻󲍎󲏓𐄕X󲏆󲏻󲏩𐄑\n󲎿󲍐󲏩𐄘󲈑󲉔󲍎󲏻󲌒󲏻󲏻󲎣𐄒\n",
+    "transcription": "𐄢𐄞𐄓\n𐄗\n𐄔\n𐄕\n𐄑\n𐄘\n𐄒\n",
     "transliteratedWords": [
-        "X",
-        "042-054-061",
         "1640",
         "\n",
-        "047-070-031",
         "80",
-        "078-032-034",
+        "\n",
         "50",
         "\n",
-        "010",
-        "-070-005",
         "60",
-        "X",
-        "034-",
-        "002",
+        "\n",
         "20",
         "\n",
-        "028-038-002",
         "90",
-        "078-032-070-",
-        "023",
-        "-",
-        "045",
+        "\n",
         "30",
         "\n"
     ],
     "words": [
-        "X",
-        "󲎹󲎇󲍰",
         "𐄢𐄞𐄓",
         "\n",
-        "󲊶󲍎󲍝",
         "𐄗",
-        "󲈑󲉔󲏆",
+        "\n",
         "𐄔",
         "\n",
-        "󲎮",
-        "󲏻󲍎󲏓",
         "𐄕",
-        "X",
-        "󲏆󲏻",
-        "󲏩",
+        "\n",
         "𐄑",
         "\n",
-        "󲎿󲍐󲏩",
         "𐄘",
-        "󲈑󲉔󲍎󲏻",
-        "󲌒",
-        "󲏻󲏻",
-        "󲎣",
+        "\n",
         "𐄒",
         "\n"
     ]
@@ -7295,6 +7986,10 @@ var inscriptions = new Map([
     "images": [
         "images/142a.jpg"
     ],
+    "linearA": [
+        "A-RE-PI-RE-NA (ZA Zb 3.2)",
+        "\n"
+    ],
     "name": "142",
     "parsedInscription": "󲏔󲎜󲏓0\n",
     "tracingImages": [
@@ -7302,7 +7997,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲏔󲎜󲏓0\n",
     "transliteratedWords": [
-        "018-039-005",
+        "RA4-PA3-Rv",
         "0",
         "\n"
     ],
@@ -7318,38 +8013,38 @@ var inscriptions = new Map([
         "images/069b.jpg",
         "images/069c.jpg"
     ],
+    "linearA": [],
     "name": "069",
-    "parsedInscription": "]•󲋸•[\n]󲋸󲏻󲍎[><\ninframutila\n\nsupramutila\n]󲍐[\n",
+    "parsedInscription": "supramutila\n]•󲋸•[\n]󲋸󲏻󲍎[><\n]󲍐[\n",
     "tracingImages": [
         "images/069a-t.jpg",
         "images/069b-t.jpg"
     ],
-    "transcription": "]•󲋸•[\n]󲋸󲏻󲍎[><\ninframutila\n\nsupramutila\n]󲍐[\n",
+    "transcription": "supramutila\n]•󲋸•[\n]󲋸󲏻󲍎[><\n]󲍐[\n",
     "transliteratedWords": [
-        "]",
-        "•-073-•",
-        "[",
-        "\n",
-        "]",
-        "073",
-        "-070",
-        "[",
-        ">",
-        "<",
-        "\n",
-        "infra",
-        "mutila",
-        "\n",
-        "\n",
         "supra",
         "mutila",
         "\n",
         "]",
-        "038",
+        "•-KU4-•",
+        "[",
+        "\n",
+        "]",
+        "KU4",
+        "-RO",
+        "[",
+        ">",
+        "<",
+        "\n",
+        "]",
+        "JA",
         "[",
         "\n"
     ],
     "words": [
+        "supra",
+        "mutila",
+        "\n",
         "]",
         "•󲋸•",
         "[",
@@ -7360,13 +8055,6 @@ var inscriptions = new Map([
         "[",
         ">",
         "<",
-        "\n",
-        "infra",
-        "mutila",
-        "\n",
-        "\n",
-        "supra",
-        "mutila",
         "\n",
         "]",
         "󲍐",
@@ -7382,6 +8070,7 @@ var inscriptions = new Map([
         "images/096d.jpg",
         "images/096e.jpg"
     ],
+    "linearA": [],
     "name": "096",
     "parsedInscription": "deest\ndeest\ndeest\ndeest\n",
     "tracingImages": [],
@@ -7412,28 +8101,37 @@ var inscriptions = new Map([
         "images/034a.jpg",
         "images/034b.jpg"
     ],
+    "linearA": [],
     "name": "034",
-    "parsedInscription": "X󲎇󲍰󲍡[\n]󲇞󲎺𐄐\n",
+    "parsedInscription": "X<󲎹>󲏻󲎇󲍰*󲈥[]󲇞󲎺𐄐\n",
     "tracingImages": [
         "images/034a-t.jpg",
         "images/034b-t.jpg"
     ],
-    "transcription": "X󲎇󲍰󲍡[\n]󲇞󲎺𐄐\n",
+    "transcription": "X<󲎹>󲏻󲎇󲍰*󲈥[]󲇞󲎺𐄐\n",
     "transliteratedWords": [
         "X",
-        "054-061-013",
+        "<",
+        "A",
+        ">",
+        "-DE-termination sign",
+        "*",
+        "152",
         "[",
-        "\n",
         "]",
-        "072-049",
+        "KA-RO3",
         "10",
         "\n"
     ],
     "words": [
         "X",
-        "󲎇󲍰󲍡",
+        "<",
+        "󲎹",
+        ">",
+        "󲏻󲎇󲍰",
+        "*",
+        "󲈥",
         "[",
-        "\n",
         "]",
         "󲇞󲎺",
         "𐄐",
@@ -7447,38 +8145,47 @@ var inscriptions = new Map([
         "images/013c.jpg",
         "images/013d.jpg"
     ],
+    "linearA": [],
     "name": "013",
-    "parsedInscription": "\nvacat\nX•󲎻󲍅󲎎|X󲎆•[\nvacat\n",
+    "parsedInscription": "󲎺󲍎󲍎\nX󲎍󲍮󲍮\nX󲎹󲏻󲎻\n󲍅󲎎|X󲎆󲏻󲎺[\n",
     "tracingImages": [
         "images/013c-t.jpg"
     ],
-    "transcription": "\nvacat\nX•󲎻󲍅󲎎|X󲎆•[\nvacat\n",
+    "transcription": "󲎺󲍎󲍎\nX󲎍󲍮󲍮\nX󲎹󲏻󲎻\n󲍅󲎎|X󲎆󲏻󲎺[\n",
     "transliteratedWords": [
-        "\n",
-        "vacat",
+        "RO3-RO-RO",
         "\n",
         "X",
-        "•-062-011-056",
+        "RO2-MA-MA",
+        "\n",
+        "X",
+        "A",
+        "-NA",
+        "\n",
+        "SI-KU",
         "|",
         "X",
-        "044-•",
+        "KO-",
+        "RO3",
         "[",
-        "\n",
-        "vacat",
         "\n"
     ],
     "words": [
-        "\n",
-        "vacat",
+        "󲎺󲍎󲍎",
         "\n",
         "X",
-        "•󲎻󲍅󲎎",
+        "󲎍󲍮󲍮",
+        "\n",
+        "X",
+        "󲎹",
+        "󲏻󲎻",
+        "\n",
+        "󲍅󲎎",
         "|",
         "X",
-        "󲎆•",
+        "󲎆󲏻",
+        "󲎺",
         "[",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -7489,37 +8196,26 @@ var inscriptions = new Map([
         "images/002c.jpg",
         "images/002d.jpg"
     ],
+    "linearA": [],
     "name": "002",
-    "parsedInscription": "\n\nX󲍡󲏻󲎎󲍕\n]󲍖󲎷>?\n",
+    "parsedInscription": "󲍖󲎷*󲈥󲎎󲍕\n",
     "tracingImages": [
         "images/002c-t.jpg",
         "images/002d-t.jpg"
     ],
-    "transcription": "\n\nX󲍡󲏻󲎎󲍕\n]󲍖󲎷>?\n",
+    "transcription": "󲍖󲎷*󲈥󲎎󲍕\n",
     "transliteratedWords": [
-        "\n",
-        "\n",
-        "X",
-        "013",
-        "-056-068",
-        "\n",
-        "]",
-        "050-016",
-        ">",
-        "?",
+        "TI-KI",
+        "*",
+        "152",
+        "KU-Rv",
         "\n"
     ],
     "words": [
-        "\n",
-        "\n",
-        "X",
-        "󲍡",
-        "󲏻󲎎󲍕",
-        "\n",
-        "]",
         "󲍖󲎷",
-        ">",
-        "?",
+        "*",
+        "󲈥",
+        "󲎎󲍕",
         "\n"
     ]
 }],
@@ -7530,32 +8226,37 @@ var inscriptions = new Map([
         "images/011c.jpg",
         "images/011d.jpg"
     ],
+    "linearA": [],
     "name": "011",
-    "parsedInscription": "\nvacat\n󲎺󲎺󲎿[\nvacat\n",
+    "parsedInscription": "]󲎆󲏓\n󲎎󲊶󲍝\nvacat\n]󲎿󲎺󲎺\n",
     "tracingImages": [
         "images/011c-t.jpg"
     ],
-    "transcription": "\nvacat\n󲎺󲎺󲎿[\nvacat\n",
+    "transcription": "]󲎆󲏓\n󲎎󲊶󲍝\nvacat\n]󲎿󲎺󲎺\n",
     "transliteratedWords": [
+        "]",
+        "KO-Rv",
+        "\n",
+        "KU-QE-RE",
         "\n",
         "vacat",
         "\n",
-        "049-049",
-        "028",
-        "[",
-        "\n",
-        "vacat",
+        "]",
+        "KU2",
+        "RO3-RO3",
         "\n"
     ],
     "words": [
+        "]",
+        "󲎆󲏓",
+        "\n",
+        "󲎎󲊶󲍝",
         "\n",
         "vacat",
         "\n",
-        "󲎺󲎺",
+        "]",
         "󲎿",
-        "[",
-        "\n",
-        "vacat",
+        "󲎺󲎺",
         "\n"
     ]
 }],
@@ -7566,26 +8267,23 @@ var inscriptions = new Map([
         "images/086c.jpg",
         "images/086d.jpg"
     ],
+    "linearA": [],
     "name": "086",
-    "parsedInscription": "󲍕󲏻󲎷[\nvacat\n",
+    "parsedInscription": "]󲎷󲏻󲍕\n",
     "tracingImages": [
         "images/086a-t.jpg"
     ],
-    "transcription": "󲍕󲏻󲎷[\nvacat\n",
+    "transcription": "]󲎷󲏻󲍕\n",
     "transliteratedWords": [
-        "068-",
-        "016",
-        "[",
-        "\n",
-        "vacat",
+        "]",
+        "KI",
+        "-Rv",
         "\n"
     ],
     "words": [
-        "󲍕󲏻",
+        "]",
         "󲎷",
-        "[",
-        "\n",
-        "vacat",
+        "󲏻󲍕",
         "\n"
     ]
 }],
@@ -7595,6 +8293,12 @@ var inscriptions = new Map([
         "images/249b.jpg",
         "images/249c.jpg"
     ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIII",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "249",
     "parsedInscription": "󲍐󲎮\n󲎆󲎺\n",
     "tracingImages": [
@@ -7603,9 +8307,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮\n󲎆󲎺\n",
     "transliteratedWords": [
-        "038-010",
+        "JA-RI",
         "\n",
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -7621,31 +8325,32 @@ var inscriptions = new Map([
         "images/292c.jpg",
         "images/292d.jpg"
     ],
+    "linearA": [],
     "name": "292",
-    "parsedInscription": "󲎹󲎀󲏻\n*󲎄*󲎂\n󲏻󲎀󲏻󲏑󲏻󲏐\n*󲎃*󲍽\n",
+    "parsedInscription": "󲎹󲎀󲏻\n*󲎄*󲎂\n*󲎃*󲍽\n󲏻󲎀󲏻󲏑󲏻󲏐\n",
     "tracingImages": [
         "images/292a-t.jpg",
         "images/292b-t.jpg",
         "images/292c-t.jpg",
         "images/292d-t.jpg"
     ],
-    "transcription": "󲎹󲎀󲏻\n*󲎄*󲎂\n󲏻󲎀󲏻󲏑󲏻󲏐\n*󲎃*󲍽\n",
+    "transcription": "󲎹󲎀󲏻\n*󲎄*󲎂\n*󲎃*󲍽\n󲏻󲎀󲏻󲏑󲏻󲏐\n",
     "transliteratedWords": [
-        "042-019-",
+        "A-SA-",
         "\n",
         "*",
         "309",
         "*",
         "307",
         "\n",
-        "-019-",
-        "095",
-        "-052",
-        "\n",
         "*",
         "308",
         "*",
         "302",
+        "\n",
+        "-SA-",
+        "RA",
+        "-NE",
         "\n"
     ],
     "words": [
@@ -7656,20 +8361,24 @@ var inscriptions = new Map([
         "*",
         "󲎂",
         "\n",
-        "󲏻󲎀󲏻",
-        "󲏑",
-        "󲏻󲏐",
-        "\n",
         "*",
         "󲎃",
         "*",
         "󲍽",
+        "\n",
+        "󲏻󲎀󲏻",
+        "󲏑",
+        "󲏻󲏐",
         "\n"
     ]
 }],
 ["163",{
     "images": [
         "images/163a.jpg"
+    ],
+    "linearA": [
+        "A-RI-JA[ (PH 28a.3)",
+        "\n"
     ],
     "name": "163",
     "parsedInscription": "󲎹󲍎󲍐\n",
@@ -7678,7 +8387,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲍎󲍐\n",
     "transliteratedWords": [
-        "042-070-038",
+        "A-RO-JA",
         "\n"
     ],
     "words": [
@@ -7692,6 +8401,10 @@ var inscriptions = new Map([
         "images/218b.jpg",
         "images/218c.jpg"
     ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "218",
     "parsedInscription": "󲍐󲎮󲍝\n",
     "tracingImages": [
@@ -7699,7 +8412,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮󲍝\n",
     "transliteratedWords": [
-        "038-010-031",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
@@ -7712,6 +8425,7 @@ var inscriptions = new Map([
         "images/081a.jpg",
         "images/081b.jpg"
     ],
+    "linearA": [],
     "name": "081",
     "parsedInscription": "󲎿󲍎\nvacat\n",
     "tracingImages": [
@@ -7719,7 +8433,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎿󲍎\nvacat\n",
     "transliteratedWords": [
-        "028-070",
+        "KU2-RO",
         "\n",
         "vacat",
         "\n"
@@ -7738,33 +8452,50 @@ var inscriptions = new Map([
         "images/017c.jpg",
         "images/017d.jpg"
     ],
+    "linearA": [],
     "name": "017",
-    "parsedInscription": "\n*󲊝\nX󲌐󲎇󲍝\nvacat\n",
+    "parsedInscription": "<󲎆󲏻>󲏓\n<󲎆󲏻>󲏓\nvacat\nX󲌐󲎇󲍝*󲊝\n",
     "tracingImages": [
         "images/017b-t.jpg",
         "images/017c-t.jpg"
     ],
-    "transcription": "\n*󲊝\nX󲌐󲎇󲍝\nvacat\n",
+    "transcription": "<󲎆󲏻>󲏓\n<󲎆󲏻>󲏓\nvacat\nX󲌐󲎇󲍝*󲊝\n",
     "transliteratedWords": [
+        "<",
+        "KO-",
+        ">",
+        "Rv",
         "\n",
-        "*",
-        "153",
-        "\n",
-        "X",
-        "059-054-031",
+        "<",
+        "KO-",
+        ">",
+        "Rv",
         "\n",
         "vacat",
+        "\n",
+        "X",
+        "MA?-DE-RE",
+        "*",
+        "153",
         "\n"
     ],
     "words": [
+        "<",
+        "󲎆󲏻",
+        ">",
+        "󲏓",
         "\n",
-        "*",
-        "󲊝",
+        "<",
+        "󲎆󲏻",
+        ">",
+        "󲏓",
+        "\n",
+        "vacat",
         "\n",
         "X",
         "󲌐󲎇󲍝",
-        "\n",
-        "vacat",
+        "*",
+        "󲊝",
         "\n"
     ]
 }],
@@ -7773,6 +8504,14 @@ var inscriptions = new Map([
         "images/257a.jpg",
         "images/257b.jpg",
         "images/257c.jpg"
+    ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n",
+        "PU-KO (HT 31a.1); cf. A-*301-KI-TA-A (TY Zb 4)",
+        "\n"
     ],
     "name": "257",
     "parsedInscription": "󲍐󲎮󲍝\n󲏏󲎦󲍝\nX󲏕󲎆\n",
@@ -7783,12 +8522,12 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮󲍝\n󲏏󲎦󲍝\nX󲏕󲎆\n",
     "transliteratedWords": [
-        "038-010-031",
+        "JA-RI-RE",
         "\n",
-        "036-092-031",
+        "SA2-RU-RE",
         "\n",
         "X",
-        "046-044",
+        "A-KO",
         "\n"
     ],
     "words": [
@@ -7806,6 +8545,10 @@ var inscriptions = new Map([
         "images/202a.jpg",
         "images/202b.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA-NE (common)",
+        "\n"
+    ],
     "name": "202",
     "parsedInscription": "󲎹󲎀\n󲎀󲏻󲏑󲏻󲏐\n",
     "tracingImages": [
@@ -7814,11 +8557,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎀\n󲎀󲏻󲏑󲏻󲏐\n",
     "transliteratedWords": [
-        "042-019",
+        "A-SA",
         "\n",
-        "019-",
-        "095",
-        "-052",
+        "SA-",
+        "RA",
+        "-NE",
         "\n"
     ],
     "words": [
@@ -7836,6 +8579,14 @@ var inscriptions = new Map([
         "images/267b.jpg",
         "images/267c.jpg"
     ],
+    "linearA": [
+        "DA-RI-DA (HT 10a.4, 85a.2, 93a.7, 122a.7), DI-RE-DI-NA (HT 98a.2-3)",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n",
+        "TU-SU (PK 1.6-7)",
+        "\n"
+    ],
     "name": "267",
     "parsedInscription": "󲎇󲎮󲎇\nX󲏏󲎦\nX󲍖󲍅\n",
     "tracingImages": [
@@ -7844,13 +8595,13 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎇󲎮󲎇\nX󲏏󲎦\nX󲍖󲍅\n",
     "transliteratedWords": [
-        "054-010-054",
+        "DE-RI-DE",
         "\n",
         "X",
-        "036-092",
+        "SA2-RU",
         "\n",
         "X",
-        "050-011",
+        "TI-SI",
         "\n"
     ],
     "words": [
@@ -7870,6 +8621,10 @@ var inscriptions = new Map([
         "images/232b.jpg",
         "images/232c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "232",
     "parsedInscription": "]󲎺><\n",
     "tracingImages": [
@@ -7878,7 +8633,7 @@ var inscriptions = new Map([
     "transcription": "]󲎺><\n",
     "transliteratedWords": [
         "]",
-        "049",
+        "RO3",
         ">",
         "<",
         "\n"
@@ -7897,6 +8652,12 @@ var inscriptions = new Map([
         "images/246b.jpg",
         "images/246c.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n",
+        "NU-WI (HT 115b.2), I-NA-WA (PH 6.1); cf. poss. NA-WI[ (HT 111b.3) *305-WA-NA (ZA 6a.1)",
+        "\n"
+    ],
     "name": "246",
     "parsedInscription": "󲎆󲏓\n󲏨󲏀><\n",
     "tracingImages": [
@@ -7905,9 +8666,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲏓\n󲏨󲏀><\n",
     "transliteratedWords": [
-        "044-005",
+        "KO-Rv",
         "\n",
-        "006-041",
+        "NWA-WA",
         ">",
         "<",
         "\n"
@@ -7926,22 +8687,19 @@ var inscriptions = new Map([
         "images/082a.jpg",
         "images/082b.jpg"
     ],
+    "linearA": [],
     "name": "082",
-    "parsedInscription": "󲊗󲎷󲏀\nvacat\n",
+    "parsedInscription": "󲊗󲎷󲏀\n",
     "tracingImages": [
         "images/082a-t.jpg"
     ],
-    "transcription": "󲊗󲎷󲏀\nvacat\n",
+    "transcription": "󲊗󲎷󲏀\n",
     "transliteratedWords": [
-        "020-016-041",
-        "\n",
-        "vacat",
+        "AI-KI-WA",
         "\n"
     ],
     "words": [
         "󲊗󲎷󲏀",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -7950,6 +8708,14 @@ var inscriptions = new Map([
         "images/271a.jpg",
         "images/271b.jpg",
         "images/271c.jpg"
+    ],
+    "linearA": [
+        "KA-NA (HT 23a.1); cf. ]KU-NI[ (HT 29+83.3), ]RI-KA-NE (ARKH 3a.1) MA+RU (HT 12.4-5, PH 5a.3), ]MA+RU-RE (KH 43.a)",
+        "\n",
+        "SI-RE[ (HT 4.2)",
+        "\n",
+        "A-RA-KO-KU-*333- (KO(?) Zf 2)",
+        "\n"
     ],
     "name": "271",
     "parsedInscription": "󲎯󲎷󲏻󲎻󲏻󲏔><\n󲏀󲏻󲍝󲏻󲍅><\n󲍔󲎆󲎎><\n",
@@ -7960,19 +8726,19 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎯󲎷󲏻󲎻󲏻󲏔><\n󲏀󲏻󲍝󲏻󲍅><\n󲍔󲎆󲎎><\n",
     "transliteratedWords": [
-        "012-016-",
-        "062",
-        "-018",
+        "MU-KI-",
+        "NA",
+        "-RA4",
         ">",
         "<",
         "\n",
-        "041-",
-        "031",
-        "-011",
+        "WA-",
+        "RE",
+        "-SI",
         ">",
         "<",
         "\n",
-        "060-044-056",
+        "KO2-KO-KU",
         ">",
         "<",
         "\n"
@@ -8003,20 +8769,22 @@ var inscriptions = new Map([
         "images/109c.jpg",
         "images/109d.jpg"
     ],
+    "linearA": [],
     "name": "109",
-    "parsedInscription": "󲎀󲏆|󲉛•[\n󲏏󲎦[\n",
+    "parsedInscription": "󲎀󲏆|󲉛•[\n󲏏󲎦𐄒[\n",
     "tracingImages": [
         "images/109a-t.jpg",
         "images/109c-t.jpg"
     ],
-    "transcription": "󲎀󲏆|󲉛•[\n󲏏󲎦[\n",
+    "transcription": "󲎀󲏆|󲉛•[\n󲏏󲎦𐄒[\n",
     "transliteratedWords": [
-        "019-034",
+        "SA-TA",
         "|",
-        "003-•",
+        "VIR3-•",
         "[",
         "\n",
-        "036-092",
+        "SA2-RU",
+        "30",
         "[",
         "\n"
     ],
@@ -8027,6 +8795,7 @@ var inscriptions = new Map([
         "[",
         "\n",
         "󲏏󲎦",
+        "𐄒",
         "[",
         "\n"
     ]
@@ -8038,38 +8807,45 @@ var inscriptions = new Map([
         "images/029c.jpg",
         "images/029d.jpg"
     ],
+    "linearA": [],
     "name": "029",
-    "parsedInscription": "\n]󲎹><\nX󲍔󲏻󲏻󲍎󲏻•\n]󲎀󲏻󲉒><\n",
+    "parsedInscription": "󲎹[><\n]󲎀󲏻󲏻󲉒><\nX󲍔󲏻󲏻󲍎󲏻•\n",
     "tracingImages": [
         "images/029b-t.jpg",
         "images/029c-t.jpg",
         "images/029d-t.jpg"
     ],
-    "transcription": "\n]󲎹><\nX󲍔󲏻󲏻󲍎󲏻•\n]󲎀󲏻󲉒><\n",
+    "transcription": "󲎹[><\n]󲎀󲏻󲏻󲉒><\nX󲍔󲏻󲏻󲍎󲏻•\n",
     "transliteratedWords": [
+        "A",
+        "[",
+        ">",
+        "<",
         "\n",
         "]",
-        "042",
+        "SA",
+        "-",
+        "KE",
         ">",
         "<",
         "\n",
         "X",
-        "060",
+        "KO2",
         "-",
-        "070",
+        "RO",
         "-•",
-        "\n",
-        "]",
-        "019",
-        "-055",
-        ">",
-        "<",
         "\n"
     ],
     "words": [
+        "󲎹",
+        "[",
+        ">",
+        "<",
         "\n",
         "]",
-        "󲎹",
+        "󲎀",
+        "󲏻󲏻",
+        "󲉒",
         ">",
         "<",
         "\n",
@@ -8078,12 +8854,6 @@ var inscriptions = new Map([
         "󲏻󲏻",
         "󲍎",
         "󲏻•",
-        "\n",
-        "]",
-        "󲎀",
-        "󲏻󲉒",
-        ">",
-        "<",
         "\n"
     ]
 }],
@@ -8092,6 +8862,10 @@ var inscriptions = new Map([
         "images/225a.jpg",
         "images/225b.jpg"
     ],
+    "linearA": [
+        "A-RI (PH 6.1, 3), A-RU (HT 9a.5-6, HT 49a.6)",
+        "\n"
+    ],
     "name": "225",
     "parsedInscription": "󲍕󲋧󲍅><\n",
     "tracingImages": [
@@ -8099,7 +8873,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍕󲋧󲍅><\n",
     "transliteratedWords": [
-        "068-009-011",
+        "Rv-A2-SI",
         ">",
         "<",
         "\n"
@@ -8117,6 +8891,14 @@ var inscriptions = new Map([
         "images/288b.jpg",
         "images/288d.jpg"
     ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIIIJA+RU (HT 6a.3)",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n"
+    ],
     "name": "288",
     "parsedInscription": "󲍐󲎮\n󲎆󲏓\n󲏏󲎦\n",
     "tracingImages": [
@@ -8125,11 +8907,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮\n󲎆󲏓\n󲏏󲎦\n",
     "transliteratedWords": [
-        "038-010",
+        "JA-RI",
         "\n",
-        "044-005",
+        "KO-Rv",
         "\n",
-        "036-092",
+        "SA2-RU",
         "\n"
     ],
     "words": [
@@ -8145,6 +8927,12 @@ var inscriptions = new Map([
     "images": [
         "images/147a.jpg"
     ],
+    "linearA": [
+        "logogram; cf. HT 30; HT 34",
+        "\n",
+        "~KI-RO A (\"owed\"); cf. HT 37",
+        "\n"
+    ],
     "name": "147",
     "parsedInscription": "󲎆󲏓\n",
     "tracingImages": [
@@ -8152,7 +8940,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲏓\n",
     "transliteratedWords": [
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -8164,6 +8952,10 @@ var inscriptions = new Map([
     "images": [
         "images/171a.jpg"
     ],
+    "linearA": [
+        "<NI-RA (HT 23b.1)",
+        "\n"
+    ],
     "name": "171",
     "parsedInscription": "󲎻󲎍><\n",
     "tracingImages": [
@@ -8171,7 +8963,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎻󲎍><\n",
     "transliteratedWords": [
-        "062-040",
+        "NA-RO2",
         ">",
         "<",
         "\n"
@@ -8190,34 +8982,19 @@ var inscriptions = new Map([
         "images/009c.jpg",
         "images/009d.jpg"
     ],
+    "linearA": [],
     "name": "009",
-    "parsedInscription": "\nvacat\n]󲊯󲊘><\nvacat\n",
+    "parsedInscription": "󲊯󲊘\n",
     "tracingImages": [
         "images/009c-t.jpg"
     ],
-    "transcription": "\nvacat\n]󲊯󲊘><\nvacat\n",
+    "transcription": "󲊯󲊘\n",
     "transliteratedWords": [
-        "\n",
-        "vacat",
-        "\n",
-        "]",
-        "065-063",
-        ">",
-        "<",
-        "\n",
-        "vacat",
+        "NU?-PA",
         "\n"
     ],
     "words": [
-        "\n",
-        "vacat",
-        "\n",
-        "]",
         "󲊯󲊘",
-        ">",
-        "<",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -8229,45 +9006,50 @@ var inscriptions = new Map([
         "images/115d.jpg",
         "images/115e.jpg"
     ],
+    "linearA": [],
     "name": "115",
-    "parsedInscription": "]󲉸󲎝󲏆\n]•󲍡󲍔\n]vacat\n]vacat\n",
+    "parsedInscription": "]󲉸󲎝󲏆\n󲍔󲏻󲎺*󲈥[\n]vacant\n",
     "tracingImages": [
         "images/115a-t.jpg",
         "images/115b-t.jpg"
     ],
-    "transcription": "]󲉸󲎝󲏆\n]•󲍡󲍔\n]vacat\n]vacat\n",
+    "transcription": "]󲉸󲎝󲏆\n󲍔󲏻󲎺*󲈥[\n]vacant\n",
     "transliteratedWords": [
         "]",
-        "035-053-034",
+        "SU-JA-TA",
+        "\n",
+        "KO2-",
+        "RO3",
+        "*",
+        "152",
+        "[",
         "\n",
         "]",
-        "•-013-060",
-        "\n",
-        "]",
-        "vacat",
-        "\n",
-        "]",
-        "vacat",
+        "vacant",
         "\n"
     ],
     "words": [
         "]",
         "󲉸󲎝󲏆",
         "\n",
-        "]",
-        "•󲍡󲍔",
+        "󲍔󲏻",
+        "󲎺",
+        "*",
+        "󲈥",
+        "[",
         "\n",
         "]",
-        "vacat",
-        "\n",
-        "]",
-        "vacat",
+        "vacant",
         "\n"
     ]
 }],
 ["166",{
     "images": [
         "images/166a.jpg"
+    ],
+    "linearA": [
+        "KE-KI-RU (HT 94b.2), KI-KI-RA-JA (HT 86b.1), QA-QA-RU (HT 93a.4-5), QA-KU-RE, QE-KU-RE (HT 20.2-3; HT Wc 3017) KA-QA (PK 1.1)",
+        "\n"
     ],
     "name": "166",
     "parsedInscription": "󲎎󲊶󲍝\n",
@@ -8276,7 +9058,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎎󲊶󲍝\n",
     "transliteratedWords": [
-        "056-047-031",
+        "KU-QE-RE",
         "\n"
     ],
     "words": [
@@ -8288,6 +9070,12 @@ var inscriptions = new Map([
     "images": [
         "images/148a.jpg"
     ],
+    "linearA": [
+        "cf. JA-KI-SI-KI-NU (ARKH Zf 9)",
+        "\n",
+        "A-SI-JA-KA (HT 28a.1, b.1, heading)",
+        "\n"
+    ],
     "name": "148",
     "parsedInscription": "󲍅󲍐󲎷><\n",
     "tracingImages": [
@@ -8295,7 +9083,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍅󲍐󲎷><\n",
     "transliteratedWords": [
-        "011-038-016",
+        "SI-JA-KI",
         ">",
         "<",
         "\n"
@@ -8312,6 +9100,7 @@ var inscriptions = new Map([
         "images/041a.jpg",
         "images/041b.jpg"
     ],
+    "linearA": [],
     "name": "041",
     "parsedInscription": "X󲍱󲊶󲏀•𐄇𐄈\nX󲇧󲍅•󲏅𐄒𐄈\n",
     "tracingImages": [
@@ -8321,12 +9110,13 @@ var inscriptions = new Map([
     "transcription": "X󲍱󲊶󲏀•𐄇𐄈\nX󲇧󲍅•󲏅𐄒𐄈\n",
     "transliteratedWords": [
         "X",
-        "069-047-041-•",
+        "RA2-QE-WA-•",
         "1",
         "2",
         "\n",
         "X",
-        "085-011-•-001",
+        "WI-SI-•",
+        "VIR1",
         "32",
         "\n"
     ],
@@ -8337,7 +9127,8 @@ var inscriptions = new Map([
         "𐄈",
         "\n",
         "X",
-        "󲇧󲍅•󲏅",
+        "󲇧󲍅•",
+        "󲏅",
         "𐄒𐄈",
         "\n"
     ]
@@ -8350,40 +9141,22 @@ var inscriptions = new Map([
         "images/067d.jpg",
         "images/067e.jpg"
     ],
+    "linearA": [],
     "name": "067",
-    "parsedInscription": "]Δ*󲉱𐄙*󲍻ΔΘ*󲍚𐄇\n]*󲎼𐄇\n]*󲈥𐄇X󲎦󲍝𐄇\nX•[\n",
+    "parsedInscription": "X󲎦󲍝\n\n\n\nX•[\n",
     "tracingImages": [
         "images/067a-t.jpg",
         "images/067b-t.jpg",
         "images/067c-t.jpg",
         "images/067d-t.jpg"
     ],
-    "transcription": "]Δ*󲉱𐄙*󲍻ΔΘ*󲍚𐄇\n]*󲎼𐄇\n]*󲈥𐄇X󲎦󲍝𐄇\nX•[\n",
+    "transcription": "X󲎦󲍝\n\n\n\nX•[\n",
     "transliteratedWords": [
-        "]",
-        "Δ",
-        "*",
-        "171",
-        "100",
-        "*",
-        "155",
-        "ΔΘ",
-        "*",
-        "156",
-        "1",
-        "\n",
-        "]",
-        "*",
-        "180",
-        "1",
-        "\n",
-        "]",
-        "*",
-        "152",
-        "1",
         "X",
-        "092-031",
-        "1",
+        "RU-RE",
+        "\n",
+        "\n",
+        "\n",
         "\n",
         "X",
         "•",
@@ -8391,30 +9164,11 @@ var inscriptions = new Map([
         "\n"
     ],
     "words": [
-        "]",
-        "Δ",
-        "*",
-        "󲉱",
-        "𐄙",
-        "*",
-        "󲍻",
-        "ΔΘ",
-        "*",
-        "󲍚",
-        "𐄇",
-        "\n",
-        "]",
-        "*",
-        "󲎼",
-        "𐄇",
-        "\n",
-        "]",
-        "*",
-        "󲈥",
-        "𐄇",
         "X",
         "󲎦󲍝",
-        "𐄇",
+        "\n",
+        "\n",
+        "\n",
         "\n",
         "X",
         "•",
@@ -8429,6 +9183,12 @@ var inscriptions = new Map([
         "images/285c.jpg",
         "images/285d.jpg"
     ],
+    "linearA": [
+        "cf. MA-DI (HT 3.1 & 7, HT 69.2, HT 85b.5, HT 97a.4, HT 118.1 [heading, with 5. KU-RO]; PH(?) 31a.2)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "285",
     "parsedInscription": "󲍮•\n]󲎆󲏻󲎺[\n",
     "tracingImages": [
@@ -8437,11 +9197,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍮•\n]󲎆󲏻󲎺[\n",
     "transliteratedWords": [
-        "029-•",
+        "MA-•",
         "\n",
         "]",
-        "044-",
-        "049",
+        "KO-",
+        "RO3",
         "[",
         "\n"
     ],
@@ -8462,6 +9222,7 @@ var inscriptions = new Map([
         "images/116c.jpg",
         "images/116d.jpg"
     ],
+    "linearA": [],
     "name": "116",
     "parsedInscription": "]󲍎|vacat\n]vacat\ndeest\n]••\n",
     "tracingImages": [
@@ -8471,7 +9232,7 @@ var inscriptions = new Map([
     "transcription": "]󲍎|vacat\n]vacat\ndeest\n]••\n",
     "transliteratedWords": [
         "]",
-        "070",
+        "RO",
         "|",
         "vacat",
         "\n",
@@ -8507,143 +9268,76 @@ var inscriptions = new Map([
         "images/059c.jpg",
         "images/059d.jpg"
     ],
+    "linearA": [],
     "name": "059",
-    "parsedInscription": "X󲎿󲎺󲎺X󲎆󲏓𐄓[\nX󲍐󲈣󲋈󲍎X𐄜[\nX󲍔󲏻󲍡X󲎿󲍮󲏩X󲍡󲏻•[\n]𐄇𐄒vestigia[\n]𐄣𐄛[]𐄛[\n]󲍝󲋁󲍰X󲎆󲎺[\n󲇞󲎺𐄐𐄇X󲎆󲎺𐄌X󲎦󲏏[]ΞΞΞΞΞ[\nX󲎿󲎺󲎙󲎹[]󲎎󲍎󲍰𐄐𐄇[\n",
+    "parsedInscription": "X󲎿󲎺󲎺\nX󲍐󲈣󲋈󲍎\nX󲍔\nX󲎿󲍮󲏩\nvestigia\n\n]󲍝󲋁󲍰\n\n\nX󲎦󲏏[\nX󲎿󲎺󲏻󲎙\n",
     "tracingImages": [
         "images/059a-t.jpg",
         "images/059b-t.jpg",
         "images/059c-t.jpg",
         "images/059d-t.jpg"
     ],
-    "transcription": "X󲎿󲎺󲎺X󲎆󲏓𐄓[\nX󲍐󲈣󲋈󲍎X𐄜[\nX󲍔󲏻󲍡X󲎿󲍮󲏩X󲍡󲏻•[\n]𐄇𐄒vestigia[\n]𐄣𐄛[]𐄛[\n]󲍝󲋁󲍰X󲎆󲎺[\n󲇞󲎺𐄐𐄇X󲎆󲎺𐄌X󲎦󲏏[]ΞΞΞΞΞ[\nX󲎿󲎺󲎙󲎹[]󲎎󲍎󲍰𐄐𐄇[\n",
+    "transcription": "X󲎿󲎺󲎺\nX󲍐󲈣󲋈󲍎\nX󲍔\nX󲎿󲍮󲏩\nvestigia\n\n]󲍝󲋁󲍰\n\n\nX󲎦󲏏[\nX󲎿󲎺󲏻󲎙\n",
     "transliteratedWords": [
         "X",
-        "028-049-049",
-        "X",
-        "044-005",
-        "40",
-        "[",
+        "KU2-RO3-RO3",
         "\n",
         "X",
-        "038-071-066-070",
-        "X",
-        "400",
-        "[",
+        "JA-?-?-RO",
         "\n",
         "X",
-        "060-",
-        "013",
-        "X",
-        "028-029-002",
-        "X",
-        "013",
-        "-•",
-        "[",
+        "KO2",
         "\n",
-        "]",
-        "1",
-        "30",
+        "X",
+        "KU2-MA",
+        "VIR2",
+        "\n",
         "vestigia",
-        "[",
+        "\n",
         "\n",
         "]",
-        "2300",
-        "[",
-        "]",
-        "300",
-        "[",
+        "RE-PI-termination sign",
         "\n",
-        "]",
-        "031-021-061",
-        "X",
-        "044-049",
-        "[",
         "\n",
-        "072-049",
-        "11",
+        "\n",
         "X",
-        "044-049",
-        "6",
-        "X",
-        "092-036",
-        "[",
-        "]",
-        "ΞΞΞ",
-        "ΞΞ",
+        "RU-SA2",
         "[",
         "\n",
         "X",
-        "028-049-007-042",
-        "[",
-        "]",
-        "056-070-061",
-        "11",
-        "[",
+        "KU2-RO3-",
+        "MI",
         "\n"
     ],
     "words": [
         "X",
         "󲎿󲎺󲎺",
-        "X",
-        "󲎆󲏓",
-        "𐄓",
-        "[",
         "\n",
         "X",
         "󲍐󲈣󲋈󲍎",
-        "X",
-        "𐄜",
-        "[",
         "\n",
         "X",
-        "󲍔󲏻",
-        "󲍡",
-        "X",
-        "󲎿󲍮󲏩",
-        "X",
-        "󲍡",
-        "󲏻•",
-        "[",
+        "󲍔",
         "\n",
-        "]",
-        "𐄇",
-        "𐄒",
+        "X",
+        "󲎿󲍮",
+        "󲏩",
+        "\n",
         "vestigia",
-        "[",
         "\n",
-        "]",
-        "𐄣𐄛",
-        "[",
-        "]",
-        "𐄛",
-        "[",
         "\n",
         "]",
         "󲍝󲋁󲍰",
-        "X",
-        "󲎆󲎺",
-        "[",
         "\n",
-        "󲇞󲎺",
-        "𐄐𐄇",
-        "X",
-        "󲎆󲎺",
-        "𐄌",
+        "\n",
+        "\n",
         "X",
         "󲎦󲏏",
         "[",
-        "]",
-        "ΞΞΞ",
-        "ΞΞ",
-        "[",
         "\n",
         "X",
-        "󲎿󲎺󲎙󲎹",
-        "[",
-        "]",
-        "󲎎󲍎󲍰",
-        "𐄐𐄇",
-        "[",
+        "󲎿󲎺󲏻",
+        "󲎙",
         "\n"
     ]
 }],
@@ -8654,6 +9348,10 @@ var inscriptions = new Map([
         "images/279c.jpg",
         "images/279d.jpg"
     ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "279",
     "parsedInscription": "󲍐󲎮󲍝\n",
     "tracingImages": [
@@ -8662,7 +9360,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮󲍝\n",
     "transliteratedWords": [
-        "038-010-031",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
@@ -8677,36 +9375,39 @@ var inscriptions = new Map([
         "images/005c.jpg",
         "images/005d.jpg"
     ],
+    "linearA": [],
     "name": "005",
-    "parsedInscription": "\nvacat\n]󲊶󲎦[><\nvacat\n",
+    "parsedInscription": "]󲎆󲎺\n󲏀󲊗󲎿[\nvacat\n]󲊶󲎦[\n",
     "tracingImages": [
         "images/005c-t.jpg"
     ],
-    "transcription": "\nvacat\n]󲊶󲎦[><\nvacat\n",
+    "transcription": "]󲎆󲎺\n󲏀󲊗󲎿[\nvacat\n]󲊶󲎦[\n",
     "transliteratedWords": [
+        "]",
+        "KO-RO3",
+        "\n",
+        "WA-AI-KU2",
+        "[",
         "\n",
         "vacat",
         "\n",
         "]",
-        "047-092",
+        "QE-RU",
         "[",
-        ">",
-        "<",
-        "\n",
-        "vacat",
         "\n"
     ],
     "words": [
+        "]",
+        "󲎆󲎺",
+        "\n",
+        "󲏀󲊗󲎿",
+        "[",
         "\n",
         "vacat",
         "\n",
         "]",
         "󲊶󲎦",
         "[",
-        ">",
-        "<",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
@@ -8716,6 +9417,10 @@ var inscriptions = new Map([
         "images/221b.jpg",
         "images/221c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "221",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -8723,7 +9428,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -8737,6 +9442,12 @@ var inscriptions = new Map([
         "images/242b.jpg",
         "images/242c.jpg"
     ],
+    "linearA": [
+        "-KU-MI-NA, DA-KU-MI-NE, KO-MU, KU-MA-*065, KU-MI-NA-QE, KU-MI[, ]KU-MA-RO, ]KI-MI-RA 2 [, KU-ME-TA ME-KI-DI, MA-KA-I-SE/TA, MA-KA-RI-TE, MI-KI-SE-NA, MI-KA[, ]-PU-MA-KU[",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "242",
     "parsedInscription": "󲎎󲌐><\n󲍐󲎮󲍝\n",
     "tracingImages": [
@@ -8745,11 +9456,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎎󲌐><\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
-        "056-059",
+        "KU-MA?",
         ">",
         "<",
         "\n",
-        "038-010-031",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
@@ -8768,6 +9479,16 @@ var inscriptions = new Map([
         "images/307c.jpg",
         "images/307d.jpg"
     ],
+    "linearA": [
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\"); ]RE ... KU-RO, cf. HT 109",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\"); ]RE ... KU-RO, cf. HT 109",
+        "\n",
+        "KU-RO (\"balance,\" \"total\"); cf. TELA+KU (HT 39.3)",
+        "\n"
+    ],
     "name": "307",
     "parsedInscription": "X󲎀󲏻󲍡󲏻󲎺\n󲍎󲎿󲍝>?\n󲍎󲍝󲎎><\nX󲏀󲍝󲎆X><\n",
     "tracingImages": [
@@ -8779,20 +9500,20 @@ var inscriptions = new Map([
     "transcription": "X󲎀󲏻󲍡󲏻󲎺\n󲍎󲎿󲍝>?\n󲍎󲍝󲎎><\nX󲏀󲍝󲎆X><\n",
     "transliteratedWords": [
         "X",
-        "019-",
-        "013",
-        "-049",
+        "SA-",
+        "BOS/MU2",
+        "-RO3",
         "\n",
-        "070-028-031",
+        "RO-KU2-RE",
         ">",
         "?",
         "\n",
-        "070-031-056",
+        "RO-RE-KU",
         ">",
         "<",
         "\n",
         "X",
-        "041-031-044",
+        "WA-RE-KO",
         "X",
         ">",
         "<",
@@ -8828,39 +9549,40 @@ var inscriptions = new Map([
         "images/095d.jpg",
         "images/095e.jpg"
     ],
+    "linearA": [],
     "name": "095",
-    "parsedInscription": "󲎹󲋈󲎗󲎹𐄚𐄖[\n󲍰󲎻󲎹𐄠𐄘[\nvacat\nvacat\n",
+    "parsedInscription": "󲎹󲎗*󲈽𐄚𐄖[\n󲎹󲎻󲍰𐄠𐄘[\nvacant\n",
     "tracingImages": [
         "images/095a-t.jpg",
         "images/095b-t.jpg"
     ],
-    "transcription": "󲎹󲋈󲎗󲎹𐄚𐄖[\n󲍰󲎻󲎹𐄠𐄘[\nvacat\nvacat\n",
+    "transcription": "󲎹󲎗*󲈽𐄚𐄖[\n󲎹󲎻󲍰𐄠𐄘[\nvacant\n",
     "transliteratedWords": [
-        "042-066-077-042",
+        "A-RU2",
+        "*",
+        "175",
         "270",
         "[",
         "\n",
-        "061-062-042",
+        "A-NA-termination sign",
         "890",
         "[",
         "\n",
-        "vacat",
-        "\n",
-        "vacat",
+        "vacant",
         "\n"
     ],
     "words": [
-        "󲎹󲋈󲎗󲎹",
+        "󲎹󲎗",
+        "*",
+        "󲈽",
         "𐄚𐄖",
         "[",
         "\n",
-        "󲍰󲎻󲎹",
+        "󲎹󲎻󲍰",
         "𐄠𐄘",
         "[",
         "\n",
-        "vacat",
-        "\n",
-        "vacat",
+        "vacant",
         "\n"
     ]
 }],
@@ -8869,32 +9591,33 @@ var inscriptions = new Map([
         "images/038a.jpg",
         "images/038b.jpg"
     ],
+    "linearA": [],
     "name": "038",
-    "parsedInscription": "X󲎀󲎗󲍮\nX󲏈󲍡󲎺X󲏈󲍱󲍎𐄙𐄐\n",
+    "parsedInscription": "󲎀󲎗󲍮\n󲏈󲎺*󲈥\n󲏈󲍎󲍱𐄙𐄐\n",
     "tracingImages": [
         "images/038a-t.jpg",
         "images/038b-t.jpg"
     ],
-    "transcription": "X󲎀󲎗󲍮\nX󲏈󲍡󲎺X󲏈󲍱󲍎𐄙𐄐\n",
+    "transcription": "󲎀󲎗󲍮\n󲏈󲎺*󲈥\n󲏈󲍎󲍱𐄙𐄐\n",
     "transliteratedWords": [
-        "X",
-        "019-077-029",
+        "SA-RU2-MA",
         "\n",
-        "X",
-        "057-013-049",
-        "X",
-        "057-069-070",
+        "KI-RO3",
+        "*",
+        "152",
+        "\n",
+        "KI-RO-RA2",
         "110",
         "\n"
     ],
     "words": [
-        "X",
         "󲎀󲎗󲍮",
         "\n",
-        "X",
-        "󲏈󲍡󲎺",
-        "X",
-        "󲏈󲍱󲍎",
+        "󲏈󲎺",
+        "*",
+        "󲈥",
+        "\n",
+        "󲏈󲍎󲍱",
         "𐄙𐄐",
         "\n"
     ]
@@ -8902,6 +9625,10 @@ var inscriptions = new Map([
 ["165",{
     "images": [
         "images/165a.jpg"
+    ],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n"
     ],
     "name": "165",
     "parsedInscription": "]󲎆󲏓\n",
@@ -8911,7 +9638,7 @@ var inscriptions = new Map([
     "transcription": "]󲎆󲏓\n",
     "transliteratedWords": [
         "]",
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -8926,31 +9653,39 @@ var inscriptions = new Map([
         "images/283b.jpg",
         "images/283c.jpg"
     ],
+    "linearA": [
+        "~KI-RO (\"owed\")",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "KU-PA (HT 110a.2; ZA 11a.5), KU-PI (ZA 14.3)",
+        "\n"
+    ],
     "name": "283",
-    "parsedInscription": "󲎆󲏓|\n󲎆󲎺\nX󲎎󲍡󲍨\n",
+    "parsedInscription": "X󲎎󲍡󲍨\n󲎆󲏓|\n󲎆󲎺\n",
     "tracingImages": [
         "images/283a-t.jpg",
         "images/283b-t.jpg"
     ],
-    "transcription": "󲎆󲏓|\n󲎆󲎺\nX󲎎󲍡󲍨\n",
+    "transcription": "X󲎎󲍡󲍨\n󲎆󲏓|\n󲎆󲎺\n",
     "transliteratedWords": [
-        "044-005",
+        "X",
+        "KU-BOS/MU2-PU",
+        "\n",
+        "KO-Rv",
         "|",
         "\n",
-        "044-049",
-        "\n",
-        "X",
-        "056-013-058",
+        "KO-RO3",
         "\n"
     ],
     "words": [
+        "X",
+        "󲎎󲍡󲍨",
+        "\n",
         "󲎆󲏓",
         "|",
         "\n",
         "󲎆󲎺",
-        "\n",
-        "X",
-        "󲎎󲍡󲍨",
         "\n"
     ]
 }],
@@ -8958,6 +9693,14 @@ var inscriptions = new Map([
     "images": [
         "images/274a.jpg",
         "images/274b.jpg"
+    ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
     ],
     "name": "274",
     "parsedInscription": "󲎆󲎺\n󲎆󲏓\n󲍐󲎮󲍝\n",
@@ -8968,11 +9711,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n󲎆󲏓\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n",
-        "044-005",
+        "KO-Rv",
         "\n",
-        "038-010-031",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
@@ -8992,24 +9735,26 @@ var inscriptions = new Map([
         "images/055d.jpg",
         "images/055e.jpg"
     ],
+    "linearA": [],
     "name": "055",
-    "parsedInscription": "]󲏬󲏻󲏔󲍎[><\n]󲍎󲏻󲍨[]><𐄐\ndeest\ndeest\n",
+    "parsedInscription": "󲏈󲏻]󲏬󲏔󲍎[><\n]󲍎󲏻󲍨[]><𐄐\ndeest\n",
     "tracingImages": [
         "images/055a-t.jpg",
         "images/055b-t.jpg"
     ],
-    "transcription": "]󲏬󲏻󲏔󲍎[><\n]󲍎󲏻󲍨[]><𐄐\ndeest\ndeest\n",
+    "transcription": "󲏈󲏻]󲏬󲏔󲍎[><\n]󲍎󲏻󲍨[]><𐄐\ndeest\n",
     "transliteratedWords": [
+        "KI-",
         "]",
-        "033",
-        "-018-070",
+        "A *047",
+        "RA4-RO",
         "[",
         ">",
         "<",
         "\n",
         "]",
-        "070",
-        "-058",
+        "RO",
+        "-PU",
         "[",
         "]",
         ">",
@@ -9017,14 +9762,13 @@ var inscriptions = new Map([
         "10",
         "\n",
         "deest",
-        "\n",
-        "deest",
         "\n"
     ],
     "words": [
+        "󲏈󲏻",
         "]",
         "󲏬",
-        "󲏻󲏔󲍎",
+        "󲏔󲍎",
         "[",
         ">",
         "<",
@@ -9039,8 +9783,6 @@ var inscriptions = new Map([
         "𐄐",
         "\n",
         "deest",
-        "\n",
-        "deest",
         "\n"
     ]
 }],
@@ -9049,13 +9791,17 @@ var inscriptions = new Map([
         "images/327a.jpg",
         "images/327b.jpg"
     ],
+    "linearA": [
+        "U-NA-RU-KA-NA-TI (PK Za 11c), A-RI-NI-TA (HT 25a.3, ZA 8.2-3), DA-RU-NE-TE (HT 98b.2), I-*79-RI-NI-TA (PH 6.2)",
+        "\n"
+    ],
     "name": "327",
     "parsedInscription": "󲎺󲏀󲏨󲏻󲏈\n",
     "tracingImages": [],
     "transcription": "󲎺󲏀󲏨󲏻󲏈\n",
     "transliteratedWords": [
-        "049-041-006-",
-        "057",
+        "RO3-WA-NWA-",
+        "KI",
         "\n"
     ],
     "words": [
@@ -9071,31 +9817,41 @@ var inscriptions = new Map([
         "images/304c.jpg",
         "images/304d.jpg"
     ],
+    "linearA": [
+        "PU2-MI (PK 1.6), PA-MI[ (TY 3b.4)",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III) SA-TA (HT 117a.7), SI-TU (HT We 1019; ZA *20.3)",
+        "\n",
+        "cf. O-RA 2 -DI-NE (HT 6a.4)",
+        "\n",
+        "",
+        "\n"
+    ],
     "name": "304",
-    "parsedInscription": "󲎜󲍡catface><\nX󲏏󲍡><\n󲍅󲏻󲎮><\n󲏎󲍡󲍝><\n",
+    "parsedInscription": "󲎜󲍡catface><\nX󲏏󲍡><\n󲏎󲍡󲍝><\n󲍅󲏻󲎮><\n",
     "tracingImages": [
         "images/304a-t.jpg",
         "images/304b-t.jpg",
         "images/304d-t.jpg"
     ],
-    "transcription": "󲎜󲍡catface><\nX󲏏󲍡><\n󲍅󲏻󲎮><\n󲏎󲍡󲍝><\n",
+    "transcription": "󲎜󲍡catface><\nX󲏏󲍡><\n󲏎󲍡󲍝><\n󲍅󲏻󲎮><\n",
     "transliteratedWords": [
-        "039-013",
+        "PA3-BOS/MU2",
         "catface",
         ">",
         "<",
         "\n",
         "X",
-        "036-013",
+        "SA2-BOS/MU2",
         ">",
         "<",
         "\n",
-        "011-",
-        "010",
+        "O?-BOS/MU2-RE",
         ">",
         "<",
         "\n",
-        "076-013-031",
+        "SI-",
+        "RI",
         ">",
         "<",
         "\n"
@@ -9111,12 +9867,12 @@ var inscriptions = new Map([
         ">",
         "<",
         "\n",
-        "󲍅󲏻",
-        "󲎮",
+        "󲏎󲍡󲍝",
         ">",
         "<",
         "\n",
-        "󲏎󲍡󲍝",
+        "󲍅󲏻",
+        "󲎮",
         ">",
         "<",
         "\n"
@@ -9126,13 +9882,17 @@ var inscriptions = new Map([
     "images": [
         "images/331a.jpg"
     ],
+    "linearA": [
+        "TE-KU",
+        "\n"
+    ],
     "name": "331",
     "parsedInscription": "X󲎹󲏫\n",
     "tracingImages": [],
     "transcription": "X󲎹󲏫\n",
     "transliteratedWords": [
         "X",
-        "042-091",
+        "A-?",
         "\n"
     ],
     "words": [
@@ -9146,22 +9906,24 @@ var inscriptions = new Map([
         "images/042a.jpg",
         "images/042b.jpg"
     ],
+    "linearA": [],
     "name": "042",
-    "parsedInscription": "X󲈊󲍅󲍮X󲌦󲍎𐄙\nX󲎆󲎺𐄞𐄒𐄊|𐄚𐄓𐄉\n",
+    "parsedInscription": "X󲈊󲍅󲍮\nX󲌦󲍎𐄉\nX󲎆󲎺𐄞𐄒𐄊|𐄚𐄓𐄉\n",
     "tracingImages": [
         "images/042a-t.jpg",
         "images/042b-t.jpg"
     ],
-    "transcription": "X󲈊󲍅󲍮X󲌦󲍎𐄙\nX󲎆󲎺𐄞𐄒𐄊|𐄚𐄓𐄉\n",
+    "transcription": "X󲈊󲍅󲍮\nX󲌦󲍎𐄉\nX󲎆󲎺𐄞𐄒𐄊|𐄚𐄓𐄉\n",
     "transliteratedWords": [
         "X",
-        "037-011-029",
-        "X",
-        "043-070",
-        "100",
+        "Rv-SI-MA",
         "\n",
         "X",
-        "044-049",
+        "SO-RO",
+        "3",
+        "\n",
+        "X",
+        "KO-RO3",
         "634",
         "|",
         "243",
@@ -9170,9 +9932,10 @@ var inscriptions = new Map([
     "words": [
         "X",
         "󲈊󲍅󲍮",
+        "\n",
         "X",
         "󲌦󲍎",
-        "𐄙",
+        "𐄉",
         "\n",
         "X",
         "󲎆󲎺",
@@ -9188,6 +9951,10 @@ var inscriptions = new Map([
         "images/220b.jpg",
         "images/220c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "220",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -9195,7 +9962,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -9209,30 +9976,31 @@ var inscriptions = new Map([
         "images/087b.jpg",
         "images/087c.jpg"
     ],
+    "linearA": [],
     "name": "087",
-    "parsedInscription": "󲉉󲉊•[\nvacat\n",
+    "parsedInscription": "󲉉󲉊•[\n",
     "tracingImages": [
         "images/087a-t.jpg"
     ],
-    "transcription": "󲉉󲉊•[\nvacat\n",
+    "transcription": "󲉉󲉊•[\n",
     "transliteratedWords": [
-        "064-096-•",
+        "DA-QA-•",
         "[",
-        "\n",
-        "vacat",
         "\n"
     ],
     "words": [
         "󲉉󲉊•",
         "[",
-        "\n",
-        "vacat",
         "\n"
     ]
 }],
 ["134",{
     "images": [
         "images/134a.jpg"
+    ],
+    "linearA": [
+        "A-SA-SA-RA (common)",
+        "\n"
     ],
     "name": "134",
     "parsedInscription": "󲎹󲎀\n",
@@ -9241,7 +10009,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲎀\n",
     "transliteratedWords": [
-        "042-019",
+        "A-SA",
         "\n"
     ],
     "words": [
@@ -9253,6 +10021,12 @@ var inscriptions = new Map([
     "images": [
         "images/182a.jpg"
     ],
+    "linearA": [
+        "SE-KU-TU (HT 115a.3)",
+        "\n",
+        "PI-TA-KA-SE (HT 21.1-2); PI-TA-KE-SI (HT 87.2) WI-JA-SU-MA-TI-TI- (HT Zd 157), ]SA-MA-TI (HT 39.3)",
+        "\n"
+    ],
     "name": "182",
     "parsedInscription": "󲎎󲎌󲍮󲍅0\n",
     "tracingImages": [
@@ -9260,7 +10034,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎎󲎌󲍮󲍅0\n",
     "transliteratedWords": [
-        "056-025-029-011",
+        "KU-TE-MA-SI",
         "0",
         "\n"
     ],
@@ -9276,60 +10050,35 @@ var inscriptions = new Map([
         "images/068b.jpg",
         "images/068c.jpg"
     ],
+    "linearA": [],
     "name": "068",
-    "parsedInscription": "*󲍚𐄐*󲈼𐄋*󲈽ΠΠΠ\n*󲊝𐄐𐄋*󲉿𐄎ΠΠΠ\nvacat\n",
+    "parsedInscription": "*󲉿\n*󲍚\n*󲊝\nvacat\n",
     "tracingImages": [
         "images/068b-t.jpg"
     ],
-    "transcription": "*󲍚𐄐*󲈼𐄋*󲈽ΠΠΠ\n*󲊝𐄐𐄋*󲉿𐄎ΠΠΠ\nvacat\n",
+    "transcription": "*󲉿\n*󲍚\n*󲊝\nvacat\n",
     "transliteratedWords": [
         "*",
+        "154",
+        "\n",
+        "*",
         "156",
-        "10",
-        "*",
-        "151",
-        "5",
-        "*",
-        "175",
-        "Π",
-        "Π",
-        "Π",
         "\n",
         "*",
         "153",
-        "15",
-        "*",
-        "154",
-        "8",
-        "Π",
-        "Π",
-        "Π",
         "\n",
         "vacat",
         "\n"
     ],
     "words": [
         "*",
+        "󲉿",
+        "\n",
+        "*",
         "󲍚",
-        "𐄐",
-        "*",
-        "󲈼",
-        "𐄋",
-        "*",
-        "󲈽",
-        "Π",
-        "Π",
-        "Π",
         "\n",
         "*",
         "󲊝",
-        "𐄐𐄋",
-        "*",
-        "󲉿",
-        "𐄎",
-        "Π",
-        "Π",
-        "Π",
         "\n",
         "vacat",
         "\n"
@@ -9344,121 +10093,84 @@ var inscriptions = new Map([
         "images/049e.jpg",
         "images/049f.jpg"
     ],
+    "linearA": [],
     "name": "049",
-    "parsedInscription": "X󲏕󲏻󲊘[]|X󲎿•󲏻󲎺𐄚[]|X󲎆󲎺𐄓\nX󲏈󲌒𐄑|X󲎆󲎺𐄛|X󲇴•𐄋𐄔\nX󲏆󲎎𐄧𐄜|X󲎀󲎍󲍰𐄢𐄛[\nX󲎿󲎍󲍬𐄝𐄔[]X󲇷󲉛[]𐄇𐄌0\n",
+    "parsedInscription": "X󲏕󲏻󲊘\nX󲎿•󲏻󲎺\nX󲎆󲎺\nX󲏈󲌒\nX󲎆󲎺\nX󲇴•\nX󲎀󲎍󲍰\nX󲎿󲎍*󲍬\nX󲇷󲉛[]\n",
     "tracingImages": [
         "images/049a-t.jpg",
         "images/049b-t.jpg",
         "images/049c-t.jpg",
         "images/049d-t.jpg"
     ],
-    "transcription": "X󲏕󲏻󲊘[]|X󲎿•󲏻󲎺𐄚[]|X󲎆󲎺𐄓\nX󲏈󲌒𐄑|X󲎆󲎺𐄛|X󲇴•𐄋𐄔\nX󲏆󲎎𐄧𐄜|X󲎀󲎍󲍰𐄢𐄛[\nX󲎿󲎍󲍬𐄝𐄔[]X󲇷󲉛[]𐄇𐄌0\n",
+    "transcription": "X󲏕󲏻󲊘\nX󲎿•󲏻󲎺\nX󲎆󲎺\nX󲏈󲌒\nX󲎆󲎺\nX󲇴•\nX󲎀󲎍󲍰\nX󲎿󲎍*󲍬\nX󲇷󲉛[]\n",
     "transliteratedWords": [
         "X",
-        "046",
-        "-063",
-        "[",
-        "]",
-        "|",
-        "X",
-        "028-•-",
-        "049",
-        "200",
-        "[",
-        "]",
-        "|",
-        "X",
-        "044-049",
-        "40",
+        "A",
+        "-PA",
         "\n",
         "X",
-        "057-023",
-        "20",
-        "|",
-        "X",
-        "044-049",
-        "300",
-        "|",
-        "X",
-        "027-•",
-        "5",
-        "50",
+        "KU2-•-",
+        "RO3",
         "\n",
         "X",
-        "034-056",
-        "6400",
-        "|",
-        "X",
-        "019-040-061",
-        "1300",
-        "[",
+        "KO-RO3",
         "\n",
         "X",
-        "028-040-004",
-        "550",
-        "[",
-        "]",
+        "KI-TU",
+        "\n",
         "X",
-        "088-003",
+        "KO-RO3",
+        "\n",
+        "X",
+        "RA3-•",
+        "\n",
+        "X",
+        "SA-RO2-termination sign",
+        "\n",
+        "X",
+        "KU2-RO2",
+        "*",
+        "MUL",
+        "\n",
+        "X",
+        "Linear A *313+VIR3",
         "[",
         "]",
-        "1",
-        "6",
-        "0",
         "\n"
     ],
     "words": [
         "X",
         "󲏕",
         "󲏻󲊘",
-        "[",
-        "]",
-        "|",
+        "\n",
         "X",
         "󲎿•󲏻",
         "󲎺",
-        "𐄚",
-        "[",
-        "]",
-        "|",
+        "\n",
         "X",
         "󲎆󲎺",
-        "𐄓",
         "\n",
         "X",
         "󲏈󲌒",
-        "𐄑",
-        "|",
+        "\n",
         "X",
         "󲎆󲎺",
-        "𐄛",
-        "|",
+        "\n",
         "X",
         "󲇴•",
-        "𐄋",
-        "𐄔",
         "\n",
-        "X",
-        "󲏆󲎎",
-        "𐄧𐄜",
-        "|",
         "X",
         "󲎀󲎍󲍰",
-        "𐄢𐄛",
-        "[",
         "\n",
         "X",
-        "󲎿󲎍󲍬",
-        "𐄝𐄔",
-        "[",
-        "]",
+        "󲎿󲎍",
+        "*",
+        "󲍬",
+        "\n",
         "X",
         "󲇷󲉛",
         "[",
         "]",
-        "𐄇",
-        "𐄌",
-        "0",
         "\n"
     ]
 }],
@@ -9467,6 +10179,7 @@ var inscriptions = new Map([
         "images/164a.jpg",
         "images/164b.jpg"
     ],
+    "linearA": [],
     "name": "164",
     "parsedInscription": "󲍐󲎺󲏻󲍡󲏻󲎗><\n",
     "tracingImages": [
@@ -9474,9 +10187,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎺󲏻󲍡󲏻󲎗><\n",
     "transliteratedWords": [
-        "038-049-",
-        "013",
-        "-077",
+        "JA-RO3-",
+        "BOS/MU2",
+        "-RU2",
         ">",
         "<",
         "\n"
@@ -9496,6 +10209,12 @@ var inscriptions = new Map([
         "images/244b.jpg",
         "images/244c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIV",
+        "\n"
+    ],
     "name": "244",
     "parsedInscription": "󲎆󲎺\n󲏈󲏆󲎎\n",
     "tracingImages": [
@@ -9504,9 +10223,9 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n󲏈󲏆󲎎\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n",
-        "057-034-056",
+        "KI-TA-KU",
         "\n"
     ],
     "words": [
@@ -9523,23 +10242,28 @@ var inscriptions = new Map([
         "images/070c.jpg",
         "images/070d.jpg"
     ],
+    "linearA": [],
     "name": "070",
-    "parsedInscription": "󲎹󲏆󲏻󲎙󲏻󲎍\n",
+    "parsedInscription": "*󲈽󲏆󲏻󲎙󲏻󲎍\n",
     "tracingImages": [
         "images/070a-t.jpg",
         "images/070b-t.jpg",
         "images/070c-t.jpg",
         "images/070d-t.jpg"
     ],
-    "transcription": "󲎹󲏆󲏻󲎙󲏻󲎍\n",
+    "transcription": "*󲈽󲏆󲏻󲎙󲏻󲎍\n",
     "transliteratedWords": [
-        "042-034-",
-        "007",
-        "-040",
+        "*",
+        "175",
+        "TA-",
+        "MI",
+        "-RO2",
         "\n"
     ],
     "words": [
-        "󲎹󲏆󲏻",
+        "*",
+        "󲈽",
+        "󲏆󲏻",
         "󲎙",
         "󲏻󲎍",
         "\n"
@@ -9552,6 +10276,7 @@ var inscriptions = new Map([
         "images/300c.jpg",
         "images/300d.jpg"
     ],
+    "linearA": [],
     "name": "300",
     "parsedInscription": "󲎆󲎺\n󲍐󲎮󲍝\nX󲎆󲏏󲏔\n󲎧󲍖><\n",
     "tracingImages": [
@@ -9562,14 +10287,14 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n󲍐󲎮󲍝\nX󲎆󲏏󲏔\n󲎧󲍖><\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n",
-        "038-010-031",
+        "JA-RI-RE",
         "\n",
         "X",
-        "044-036-018",
+        "KO-SA2-RA4",
         "\n",
-        "014-050",
+        "I-TI",
         ">",
         "<",
         "\n"
@@ -9593,22 +10318,23 @@ var inscriptions = new Map([
         "images/075a.jpg",
         "images/075b.jpg"
     ],
+    "linearA": [],
     "name": "075",
-    "parsedInscription": "•󲍔󲋧\nvacat\n",
+    "parsedInscription": "󲋧󲍔󲏻•\nvacat\n",
     "tracingImages": [
         "images/075a-t.jpg"
     ],
-    "transcription": "•󲍔󲋧\nvacat\n",
+    "transcription": "󲋧󲍔󲏻•\nvacat\n",
     "transliteratedWords": [
+        "A2-KO2-",
         "•",
-        "060-009",
         "\n",
         "vacat",
         "\n"
     ],
     "words": [
+        "󲋧󲍔󲏻",
         "•",
-        "󲍔󲋧",
         "\n",
         "vacat",
         "\n"
@@ -9621,26 +10347,36 @@ var inscriptions = new Map([
         "images/296c.jpg",
         "images/296d.jpg"
     ],
+    "linearA": [
+        "] KI -MI-RA 2 [ (HT 54a.3)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "JA - JA [ (PK Za 18); JA-PA (ZA 4a.3-4); WA-JA-PI-[] (HT 9b.1) PA-JA (HT 41a.4)",
+        "\n",
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIV",
+        "\n"
+    ],
     "name": "296",
-    "parsedInscription": "󲎿󲎙󲏔><\n󲎝󲍐󲎜><\n󲎆󲎺\n󲏈󲏆󲎎\n",
+    "parsedInscription": "󲎿󲎙󲏔><\n󲎆󲎺\n󲎝󲍐󲎜><\n󲏈󲏆󲎎\n",
     "tracingImages": [
         "images/296a-t.jpg",
         "images/296b-t.jpg",
         "images/296d-t.jpg"
     ],
-    "transcription": "󲎿󲎙󲏔><\n󲎝󲍐󲎜><\n󲎆󲎺\n󲏈󲏆󲎎\n",
+    "transcription": "󲎿󲎙󲏔><\n󲎆󲎺\n󲎝󲍐󲎜><\n󲏈󲏆󲎎\n",
     "transliteratedWords": [
-        "028-007-018",
+        "KU2-MI-RA4",
         ">",
         "<",
         "\n",
-        "053-038-039",
+        "KO-RO3",
+        "\n",
+        "JA-JA-PA3",
         ">",
         "<",
         "\n",
-        "044-049",
-        "\n",
-        "057-034-056",
+        "KI-TA-KU",
         "\n"
     ],
     "words": [
@@ -9648,11 +10384,11 @@ var inscriptions = new Map([
         ">",
         "<",
         "\n",
+        "󲎆󲎺",
+        "\n",
         "󲎝󲍐󲎜",
         ">",
         "<",
-        "\n",
-        "󲎆󲎺",
         "\n",
         "󲏈󲏆󲎎",
         "\n"
@@ -9662,6 +10398,10 @@ var inscriptions = new Map([
     "images": [
         "images/153a.jpg"
     ],
+    "linearA": [
+        "A-DU",
+        "\n"
+    ],
     "name": "153",
     "parsedInscription": "󲎇•[><\n",
     "tracingImages": [
@@ -9669,7 +10409,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎇•[><\n",
     "transliteratedWords": [
-        "054-•",
+        "DE-•",
         "[",
         ">",
         "<",
@@ -9689,13 +10429,17 @@ var inscriptions = new Map([
         "images/316b.jpg",
         "images/316c.jpg"
     ],
+    "linearA": [
+        "U-NA-RU-KA-NA-TI (PK Za 11c), A-RI-NI-TA (HT 25a.3, ZA 8.2-3), DA-RU-NE-TE (HT 98b.2), I-*79-RI-NI-TA (PH 6.2)",
+        "\n"
+    ],
     "name": "316",
     "parsedInscription": "X󲎺󲏀󲏨󲎌\n",
     "tracingImages": [],
     "transcription": "X󲎺󲏀󲏨󲎌\n",
     "transliteratedWords": [
         "X",
-        "049-041-006-025",
+        "RO3-WA-NWA-TE",
         "\n"
     ],
     "words": [
@@ -9704,9 +10448,87 @@ var inscriptions = new Map([
         "\n"
     ]
 }],
+["120",{
+    "images": [
+        "images/120a.jpg",
+        "images/120b.jpg",
+        "images/120c.jpg",
+        "images/120d.jpg",
+        "images/120e.jpg"
+    ],
+    "linearA": [],
+    "name": "120",
+    "parsedInscription": "*󲎷[]𐄛\n󲋸󲎺*󲈥|󲍖[󲏻󲏈󲎎\n󲍐󲍝*󲎌𐄙[\n󲍦󲎀*󲈥|󲍖󲏈󲎎\n",
+    "tracingImages": [
+        "images/120a-t.jpg",
+        "images/120b-t.jpg",
+        "images/120c-t.jpg"
+    ],
+    "transcription": "*󲎷[]𐄛\n󲋸󲎺*󲈥|󲍖[󲏻󲏈󲎎\n󲍐󲍝*󲎌𐄙[\n󲍦󲎀*󲈥|󲍖󲏈󲎎\n",
+    "transliteratedWords": [
+        "*",
+        "KI",
+        "[",
+        "]",
+        "300",
+        "\n",
+        "KU4-RO3",
+        "*",
+        "152",
+        "|",
+        "TI",
+        "[",
+        "-KI-KU",
+        "\n",
+        "JA-RE",
+        "*",
+        "TE",
+        "100",
+        "[",
+        "\n",
+        "A3-SA",
+        "*",
+        "152",
+        "|",
+        "TI-KI-KU",
+        "\n"
+    ],
+    "words": [
+        "*",
+        "󲎷",
+        "[",
+        "]",
+        "𐄛",
+        "\n",
+        "󲋸󲎺",
+        "*",
+        "󲈥",
+        "|",
+        "󲍖",
+        "[",
+        "󲏻󲏈󲎎",
+        "\n",
+        "󲍐󲍝",
+        "*",
+        "󲎌",
+        "𐄙",
+        "[",
+        "\n",
+        "󲍦󲎀",
+        "*",
+        "󲈥",
+        "|",
+        "󲍖󲏈󲎎",
+        "\n"
+    ]
+}],
 ["172",{
     "images": [
         "images/172a.jpg"
+    ],
+    "linearA": [
+        "KA-RE-RO (HT Wc 3003)",
+        "\n"
     ],
     "name": "172",
     "parsedInscription": "󲎮󲎦󲎿><\n",
@@ -9715,7 +10537,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎮󲎦󲎿><\n",
     "transliteratedWords": [
-        "010-092-028",
+        "RI-RU-KU2",
         ">",
         "<",
         "\n"
@@ -9733,6 +10555,10 @@ var inscriptions = new Map([
         "images/209b.jpg",
         "images/209c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "209",
     "parsedInscription": "]󲎆󲎺\n",
     "tracingImages": [
@@ -9743,7 +10569,7 @@ var inscriptions = new Map([
     "transcription": "]󲎆󲎺\n",
     "transliteratedWords": [
         "]",
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -9756,6 +10582,10 @@ var inscriptions = new Map([
     "images": [
         "images/196a.jpg"
     ],
+    "linearA": [
+        "SA-MA (HT 6b.5-6, 10a.1, 52a.1; ZA 10b.3-4); cf. SA-MA-TI (HT 39.3), SA-MA-RO (HT 88.5-6)",
+        "\n"
+    ],
     "name": "196",
     "parsedInscription": "X󲎀󲍰\n",
     "tracingImages": [
@@ -9764,7 +10594,7 @@ var inscriptions = new Map([
     "transcription": "X󲎀󲍰\n",
     "transliteratedWords": [
         "X",
-        "019-061",
+        "SA-termination sign",
         "\n"
     ],
     "words": [
@@ -9777,6 +10607,24 @@ var inscriptions = new Map([
     "images": [
         "images/314a.jpg"
     ],
+    "linearA": [
+        "-TA-RI-SE-, A-TU-RI-SI-TI, TU-RU-SA",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "-TO-MA-RO- (KO (?) Zf 2), WA-TU-MA-RE (HT 128a.2)",
+        "\n",
+        "PU-KO (HT 31a.1); cf. A-*301-KI-TA-A (TY Zb 4)",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n",
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\") ~KI-RO (\"owed\")",
+        "\n",
+        "RO-SI-RA[ (ZA 9.3-4); RU-SA (HT 96a.3); cf. SA-RA 2 (see Notes to Signgroups, App. III); SA-RO (HT 94b.3), SA-RU (HT 95a.3. b.1; HT 123.4-5)",
+        "\n"
+    ],
     "name": "314",
     "parsedInscription": "X󲍖󲍝󲏆\n󲎆󲎺\nX󲍖󲎙󲏔\nX󲏕󲏻*󲉕󲎆\n󲍐󲎮󲍝\nX󲏏󲎦󲍝\n󲎆󲎺\n󲏔󲏻󲌦\n󲏔󲌦\n<󲎆>󲏻󲏓\n",
     "tracingImages": [
@@ -9785,34 +10633,34 @@ var inscriptions = new Map([
     "transcription": "X󲍖󲍝󲏆\n󲎆󲎺\nX󲍖󲎙󲏔\nX󲏕󲏻*󲉕󲎆\n󲍐󲎮󲍝\nX󲏏󲎦󲍝\n󲎆󲎺\n󲏔󲏻󲌦\n󲏔󲌦\n<󲎆>󲏻󲏓\n",
     "transliteratedWords": [
         "X",
-        "050-031-034",
+        "TI-RE-TA",
         "\n",
-        "044-049",
-        "\n",
-        "X",
-        "050-007-018",
+        "KO-RO3",
         "\n",
         "X",
-        "046-",
+        "TI-MI-RA4",
+        "\n",
+        "X",
+        "A-",
         "*",
-        "168-044",
+        "168-KO",
         "\n",
-        "038-010-031",
+        "JA-RI-RE",
         "\n",
         "X",
-        "036-092-031",
+        "SA2-RU-RE",
         "\n",
-        "044-049",
+        "KO-RO3",
         "\n",
-        "018",
-        "-043",
+        "RA4",
+        "-SO",
         "\n",
-        "018-043",
+        "RA4-SO",
         "\n",
         "<",
-        "044",
+        "KO",
         ">",
-        "-005",
+        "-Rv",
         "\n"
     ],
     "words": [
@@ -9854,6 +10702,10 @@ var inscriptions = new Map([
         "images/233b.jpg",
         "images/233c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "233",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -9861,7 +10713,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -9875,42 +10727,48 @@ var inscriptions = new Map([
         "images/251b.jpg",
         "images/251c.jpg"
     ],
+    "linearA": [
+        "I-JA (CR Zf 1) A-I-[ (HT 115b.4)",
+        "\n",
+        "A-SA-SA-RA-NE (common)",
+        "\n"
+    ],
     "name": "251",
-    "parsedInscription": "󲎀󲏻󲏑󲏻󲏻󲏐\n󲎹󲎀\n󲏪󲏻󲏻󲍐><\n",
+    "parsedInscription": "󲏪󲏻󲏻󲍐><\n󲎀󲏻󲏑󲏻󲏻󲏐\n󲎹󲎀\n",
     "tracingImages": [
         "images/251a-t.jpg",
         "images/251b-t.jpg",
         "images/251c-t.jpg"
     ],
-    "transcription": "󲎀󲏻󲏑󲏻󲏻󲏐\n󲎹󲎀\n󲏪󲏻󲏻󲍐><\n",
+    "transcription": "󲏪󲏻󲏻󲍐><\n󲎀󲏻󲏑󲏻󲏻󲏐\n󲎹󲎀\n",
     "transliteratedWords": [
-        "019-",
-        "095",
+        "E?",
         "-",
-        "052",
-        "\n",
-        "042-019",
-        "\n",
-        "094",
-        "-",
-        "038",
+        "JA",
         ">",
         "<",
+        "\n",
+        "SA-",
+        "RA",
+        "-",
+        "NE",
+        "\n",
+        "A-SA",
         "\n"
     ],
     "words": [
+        "󲏪",
+        "󲏻󲏻",
+        "󲍐",
+        ">",
+        "<",
+        "\n",
         "󲎀󲏻",
         "󲏑",
         "󲏻󲏻",
         "󲏐",
         "\n",
         "󲎹󲎀",
-        "\n",
-        "󲏪",
-        "󲏻󲏻",
-        "󲍐",
-        ">",
-        "<",
         "\n"
     ]
 }],
@@ -9925,6 +10783,7 @@ var inscriptions = new Map([
         "images/117h.jpg",
         "images/117i.jpg"
     ],
+    "linearA": [],
     "name": "117",
     "parsedInscription": "]󲉒󲏻󲊗[]󲍅󲏻󲎍\n]deest\n]vacat[]vacat[\n]vacat[]vacat[\n•[\n",
     "tracingImages": [
@@ -9935,12 +10794,12 @@ var inscriptions = new Map([
     "transcription": "]󲉒󲏻󲊗[]󲍅󲏻󲎍\n]deest\n]vacat[]vacat[\n]vacat[]vacat[\n•[\n",
     "transliteratedWords": [
         "]",
-        "055-",
-        "020",
+        "KE-",
+        "AI",
         "[",
         "]",
-        "011-",
-        "040",
+        "SI-",
+        "RO2",
         "\n",
         "]",
         "deest",
@@ -10000,6 +10859,10 @@ var inscriptions = new Map([
         "images/238b.jpg",
         "images/238c.jpg"
     ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIV",
+        "\n"
+    ],
     "name": "238",
     "parsedInscription": "󲏈󲏆󲎎\n",
     "tracingImages": [
@@ -10007,7 +10870,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲏈󲏆󲎎\n",
     "transliteratedWords": [
-        "057-034-056",
+        "KI-TA-KU",
         "\n"
     ],
     "words": [
@@ -10021,6 +10884,10 @@ var inscriptions = new Map([
         "images/239b.jpg",
         "images/239c.jpg"
     ],
+    "linearA": [
+        "A-RI-SU (HT 118.3-4)",
+        "\n"
+    ],
     "name": "239",
     "parsedInscription": "󲍐󲏻󲎮󲏻󲏻󲏆\n",
     "tracingImages": [
@@ -10028,10 +10895,10 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲏻󲎮󲏻󲏻󲏆\n",
     "transliteratedWords": [
-        "038-",
-        "010",
+        "JA-",
+        "RI",
         "-",
-        "034",
+        "TA",
         "\n"
     ],
     "words": [
@@ -10048,6 +10915,10 @@ var inscriptions = new Map([
         "images/219b.jpg",
         "images/219c.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "219",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -10055,7 +10926,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -10070,54 +10941,73 @@ var inscriptions = new Map([
         "images/027c.jpg",
         "images/027d.jpg"
     ],
+    "linearA": [],
     "name": "027",
-    "parsedInscription": "\nX󲎹󲏀󲍅\nX󲎦󲇚󲉔\nX󲏈󲎌󲏆[\n",
+    "parsedInscription": "󲎦󲍨catface\n]󲏔\nX󲎹󲍅*󲉓\nX󲏈󲎌󲏆[\nX󲎦󲇚󲉔\n",
     "tracingImages": [
         "images/027b-t.jpg",
         "images/027c-t.jpg",
         "images/027d-t.jpg"
     ],
-    "transcription": "\nX󲎹󲏀󲍅\nX󲎦󲇚󲉔\nX󲏈󲎌󲏆[\n",
+    "transcription": "󲎦󲍨catface\n]󲏔\nX󲎹󲍅*󲉓\nX󲏈󲎌󲏆[\nX󲎦󲇚󲉔\n",
     "transliteratedWords": [
+        "RU-PU",
+        "catface",
+        "\n",
+        "]",
+        "RA4",
         "\n",
         "X",
-        "042-041-011",
+        "A-SI",
+        "*",
+        "163",
         "\n",
         "X",
-        "092-067-032",
-        "\n",
-        "X",
-        "057-025-034",
+        "KI-TE-TA",
         "[",
+        "\n",
+        "X",
+        "RU-?-RE2",
         "\n"
     ],
     "words": [
+        "󲎦󲍨",
+        "catface",
+        "\n",
+        "]",
+        "󲏔",
         "\n",
         "X",
-        "󲎹󲏀󲍅",
-        "\n",
-        "X",
-        "󲎦󲇚󲉔",
+        "󲎹󲍅",
+        "*",
+        "󲉓",
         "\n",
         "X",
         "󲏈󲎌󲏆",
         "[",
+        "\n",
+        "X",
+        "󲎦󲇚󲉔",
         "\n"
     ]
 }],
 ["317",{
     "images": [],
+    "linearA": [
+        "KI-RI-TA2 (HT 114a.1; HT 121.1 (heading/placename), KI-RE-TA2 (HT 85b.1-2; HT 129.1); the objective ]KI-RE-TA-NA (KH 2.3, 2nd heading). Cf. SU-KI-RI-TA (PH Wa 32; cf. HT HT Zb 158b) KU common (e.g., HT 127b.4-5; HT Wa 1471-1622); and as adjunct *188+KU, TELA+KU, GRA+KU TU-NU (KA Zf 1)",
+        "\n"
+    ],
     "name": "317",
     "parsedInscription": "󲎹󲏈󲏻󲎮󲏻󲏆󲎿󲏻󲏥󲏻󲏻󲊯\n",
     "tracingImages": [],
     "transcription": "󲎹󲏈󲏻󲎮󲏻󲏆󲎿󲏻󲏥󲏻󲏻󲊯\n",
     "transliteratedWords": [
-        "042-057-",
-        "010",
-        "-034-028-",
-        "093",
+        "A-KI-",
+        "RI",
+        "-TA-KU2-",
+        "TI",
         "-",
-        "065",
+        "NU?",
         "\n"
     ],
     "words": [
@@ -10134,6 +11024,10 @@ var inscriptions = new Map([
     "images": [
         "images/141a.jpg"
     ],
+    "linearA": [
+        "PA-RA (HT 128a.1), PA-RA (PH 5a.3); cf. PA-RA-NE (HT 115a.4)",
+        "\n"
+    ],
     "name": "141",
     "parsedInscription": "󲊘󲍝{quadruped}><\n",
     "tracingImages": [
@@ -10141,7 +11035,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲊘󲍝{quadruped}><\n",
     "transliteratedWords": [
-        "063-031",
+        "PA-RE",
         "{quadruped}",
         ">",
         "<",
@@ -10159,6 +11053,10 @@ var inscriptions = new Map([
     "images": [
         "images/168a.jpg"
     ],
+    "linearA": [
+        "",
+        "\n"
+    ],
     "name": "168",
     "parsedInscription": "󲎹󲍎[><\n",
     "tracingImages": [
@@ -10166,7 +11064,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎹󲍎[><\n",
     "transliteratedWords": [
-        "042-070",
+        "A-RO",
         "[",
         ">",
         "<",
@@ -10185,20 +11083,18 @@ var inscriptions = new Map([
         "images/046a.jpg",
         "images/046b.jpg"
     ],
+    "linearA": [],
     "name": "046",
-    "parsedInscription": "󲎺󲏻󲎀󲏻󲌒><\n*󲇮𐄙\n",
+    "parsedInscription": "󲎺󲏻󲎀󲏻󲌒*󲇮𐄙\n",
     "tracingImages": [
         "images/046a-t.jpg",
         "images/046b-t.jpg"
     ],
-    "transcription": "󲎺󲏻󲎀󲏻󲌒><\n*󲇮𐄙\n",
+    "transcription": "󲎺󲏻󲎀󲏻󲌒*󲇮𐄙\n",
     "transliteratedWords": [
-        "049-",
-        "019",
-        "-023",
-        ">",
-        "<",
-        "\n",
+        "RO3-",
+        "SA",
+        "-TU",
         "*",
         "166",
         "100",
@@ -10208,9 +11104,6 @@ var inscriptions = new Map([
         "󲎺󲏻",
         "󲎀",
         "󲏻󲌒",
-        ">",
-        "<",
-        "\n",
         "*",
         "󲇮",
         "𐄙",
@@ -10222,20 +11115,19 @@ var inscriptions = new Map([
         "images/074a.jpg",
         "images/074b.jpg"
     ],
+    "linearA": [],
     "name": "074",
-    "parsedInscription": "󲎹󲍎󲍔󲎆\nvacat\n",
+    "parsedInscription": "\nvacat\n",
     "tracingImages": [
         "images/074a-t.jpg"
     ],
-    "transcription": "󲎹󲍎󲍔󲎆\nvacat\n",
+    "transcription": "\nvacat\n",
     "transliteratedWords": [
-        "042-070-060-044",
         "\n",
         "vacat",
         "\n"
     ],
     "words": [
-        "󲎹󲍎󲍔󲎆",
         "\n",
         "vacat",
         "\n"
@@ -10247,6 +11139,12 @@ var inscriptions = new Map([
         "images/243b.jpg",
         "images/243c.jpg"
     ],
+    "linearA": [
+        "KA-RO-NA (HT 11a.2), I-KU-RI-NA (HT 90.1) U-NA-RU-KA-NA-TI (PK ZA 11) U-NA-RU-KA-NA-TI (PK ZA 11)",
+        "\n",
+        "TE-KI (HT 13.3-4, HT 122a.3), TE-KE (HT 85a.5)",
+        "\n"
+    ],
     "name": "243",
     "parsedInscription": "\n󲏨󲏈󲎦0\n󲏈󲌒><\n",
     "tracingImages": [
@@ -10256,10 +11154,10 @@ var inscriptions = new Map([
     "transcription": "\n󲏨󲏈󲎦0\n󲏈󲌒><\n",
     "transliteratedWords": [
         "\n",
-        "006-057-092",
+        "NWA-KI-RU",
         "0",
         "\n",
-        "057-023",
+        "KI-TU",
         ">",
         "<",
         "\n"
@@ -10282,26 +11180,40 @@ var inscriptions = new Map([
         "images/298c.jpg",
         "images/298d.jpg"
     ],
+    "linearA": [
+        "KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "",
+        "\n",
+        "DU-RE-ZA-SE (ZA 10a.5, ZA 10b.1-2)",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n",
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "298",
-    "parsedInscription": "X󲎎󲍎󲎍\nX󲍎󲍰󲎀󲎣󲍎\n󲍐󲎮󲍝\n󲎆󲏓\n󲎆󲎺\n",
+    "parsedInscription": "X󲎎󲍎󲎍\nX󲍎󲍰󲎀󲎣󲍎\n󲎆󲏓\n󲎆󲎺\n󲍐󲎮󲍝\n",
     "tracingImages": [
         "images/298a-t.jpg",
         "images/298c-t.jpg",
         "images/298d-t.jpg"
     ],
-    "transcription": "X󲎎󲍎󲎍\nX󲍎󲍰󲎀󲎣󲍎\n󲍐󲎮󲍝\n󲎆󲏓\n󲎆󲎺\n",
+    "transcription": "X󲎎󲍎󲎍\nX󲍎󲍰󲎀󲎣󲍎\n󲎆󲏓\n󲎆󲎺\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "X",
-        "056-070-040",
+        "KU-RO-RO2",
         "\n",
         "X",
-        "070-061-019-045-070",
+        "RO-termination sign-SA-ZE-RO",
         "\n",
-        "038-010-031",
+        "KO-Rv",
         "\n",
-        "044-005",
+        "KO-RO3",
         "\n",
-        "044-049",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
@@ -10311,11 +11223,11 @@ var inscriptions = new Map([
         "X",
         "󲍎󲍰󲎀󲎣󲍎",
         "\n",
-        "󲍐󲎮󲍝",
-        "\n",
         "󲎆󲏓",
         "\n",
         "󲎆󲎺",
+        "\n",
+        "󲍐󲎮󲍝",
         "\n"
     ]
 }],
@@ -10324,6 +11236,12 @@ var inscriptions = new Map([
         "images/252a.jpg",
         "images/252b.jpg",
         "images/252c.jpg"
+    ],
+    "linearA": [
+        "A-SA-SA-RA-NE (common)",
+        "\n",
+        "",
+        "\n"
     ],
     "name": "252",
     "parsedInscription": "󲎀󲏑󲏐\n󲎹󲎀\n󲎻󲏻•••\n",
@@ -10334,11 +11252,11 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎀󲏑󲏐\n󲎹󲎀\n󲎻󲏻•••\n",
     "transliteratedWords": [
-        "019-095-052",
+        "SA-RA-NE",
         "\n",
-        "042-019",
+        "A-SA",
         "\n",
-        "062",
+        "NA",
         "-•-•-•",
         "\n"
     ],
@@ -10357,6 +11275,7 @@ var inscriptions = new Map([
         "images/100a.jpg",
         "images/100b.jpg"
     ],
+    "linearA": [],
     "name": "100",
     "parsedInscription": "*󲍻𐄐𐄇\nvacat\n",
     "tracingImages": [
@@ -10387,6 +11306,14 @@ var inscriptions = new Map([
         "images/287c.jpg",
         "images/287d.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n",
+        "RO+RO(=*504) (KH 18.4, KH Wa 1001g, KH Wa 1002g); RE-RO (HT Wc 3012b); RU-RA 2 (HT 11b.1)",
+        "\n",
+        "~KI-RO (\"owed\")",
+        "\n"
+    ],
     "name": "287",
     "parsedInscription": "󲎆󲎺\n󲍎󲍰󲍱><\n󲎆󲏓\n",
     "tracingImages": [
@@ -10396,13 +11323,13 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n󲍎󲍰󲍱><\n󲎆󲏓\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n",
-        "070-061-069",
+        "RO-termination sign-RA2",
         ">",
         "<",
         "\n",
-        "044-005",
+        "KO-Rv",
         "\n"
     ],
     "words": [
@@ -10422,6 +11349,10 @@ var inscriptions = new Map([
         "images/204b.jpg",
         "images/204d.jpg"
     ],
+    "linearA": [
+        "JA-SI (KN Zb 4; cf. PK Za 12c), JA-SI-E (KE Zb 4)",
+        "\n"
+    ],
     "name": "204",
     "parsedInscription": "X󲍐󲏆󲏻󲋈\n",
     "tracingImages": [
@@ -10430,8 +11361,8 @@ var inscriptions = new Map([
     "transcription": "X󲍐󲏆󲏻󲋈\n",
     "transliteratedWords": [
         "X",
-        "038-034-",
-        "066",
+        "JA-TA-",
+        "?",
         "\n"
     ],
     "words": [
@@ -10448,31 +11379,41 @@ var inscriptions = new Map([
         "images/306c.jpg",
         "images/306d.jpg"
     ],
+    "linearA": [
+        ">DA-KU-NA (HT 103.4), DA-MI-NU (HT 117a.8) , DI-RI-NA (HT 93a.1-2; HT 102.3), DU-SU-NI (HT 108.2)",
+        "\n",
+        "-SI-JA-SE, SA-JA-MA (HT 31.3) A-JA-SE",
+        "\n",
+        "KI-RI-TA 2 (HT 114a.1; HT 121.1); cf. SU-KI-RI-TA (PH Wa 32)",
+        "\n",
+        "PU-KO (HT 31.1), -PA-KU-NU- (KN Zc 6) KU-PA (ZA 11a.5, b.3), KU-PA (HT 110.1; KH 29.2), KU+PA (HT We 1020), KU-PA-JA (HT 116a.1-2) cf. KU-PA 3 -NU (HT 1.3-4; HT 3.6; HT 49a.6-7; HT 88.5; HT 117a.3; HT 122a.6&7; PH(?) 31a.3) cf. KU-PA-RI (PE 2.1-2), KU-PA 3 -RI-JA (HT 24a.1) cf. I-KU-PA 3 -NA (AP Za 3), I-KU-PA 3 -TI- cf. KA-KU-PA (HT 16.1; HT Wc 3015, 3016), KU-PA 3 -NA-TU (HT 47a.1-2; HT 119.3), KU-PA 3 -PA 3 (HT 88.4), KU-PA-*79 (KH 5.3-4)",
+        "\n"
+    ],
     "name": "306",
-    "parsedInscription": "󲏐󲍖󲎇><\n󲏏󲍐󲏻󲏎><\n󲎜󲎎󲏻󲎧><\n󲏈󲏔󲍖><\n",
+    "parsedInscription": "󲏐󲍖󲎇><\n󲏏󲍐󲏻󲏎><\n󲏈󲏔󲍖><\n󲎜󲎎󲏻󲎧><\n",
     "tracingImages": [
         "images/306a-t.jpg",
         "images/306b-t.jpg",
         "images/306c-t.jpg",
         "images/306d-t.jpg"
     ],
-    "transcription": "󲏐󲍖󲎇><\n󲏏󲍐󲏻󲏎><\n󲎜󲎎󲏻󲎧><\n󲏈󲏔󲍖><\n",
+    "transcription": "󲏐󲍖󲎇><\n󲏏󲍐󲏻󲏎><\n󲏈󲏔󲍖><\n󲎜󲎎󲏻󲎧><\n",
     "transliteratedWords": [
-        "052-050-054",
+        "NE-TI-DE",
         ">",
         "<",
         "\n",
-        "036-038-",
-        "076",
+        "SA2-JA-",
+        "O?",
         ">",
         "<",
         "\n",
-        "039-056-",
-        "014",
+        "KI-RA4-TI",
         ">",
         "<",
         "\n",
-        "057-018-050",
+        "PA3-KU-",
+        "I",
         ">",
         "<",
         "\n"
@@ -10487,12 +11428,12 @@ var inscriptions = new Map([
         ">",
         "<",
         "\n",
-        "󲎜󲎎󲏻",
-        "󲎧",
+        "󲏈󲏔󲍖",
         ">",
         "<",
         "\n",
-        "󲏈󲏔󲍖",
+        "󲎜󲎎󲏻",
+        "󲎧",
         ">",
         "<",
         "\n"
@@ -10502,6 +11443,10 @@ var inscriptions = new Map([
     "images": [
         "images/201a.jpg"
     ],
+    "linearA": [
+        "A-SA-SA-RA (common)",
+        "\n"
+    ],
     "name": "201",
     "parsedInscription": "X󲎹󲎀••\n",
     "tracingImages": [
@@ -10510,7 +11455,7 @@ var inscriptions = new Map([
     "transcription": "X󲎹󲎀••\n",
     "transliteratedWords": [
         "X",
-        "042-019-•-•",
+        "A-SA-•-•",
         "\n"
     ],
     "words": [
@@ -10525,6 +11470,10 @@ var inscriptions = new Map([
         "images/214b.jpg",
         "images/214c.jpg"
     ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "214",
     "parsedInscription": "󲍐󲎮\n",
     "tracingImages": [
@@ -10532,7 +11481,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮\n",
     "transliteratedWords": [
-        "038-010",
+        "JA-RI",
         "\n"
     ],
     "words": [
@@ -10546,6 +11495,10 @@ var inscriptions = new Map([
         "images/241b.jpg",
         "images/241c.jpg"
     ],
+    "linearA": [
+        "",
+        "\n"
+    ],
     "name": "241",
     "parsedInscription": "X󲏪󲏻󲏻󲏏󲏻•\n",
     "tracingImages": [
@@ -10554,9 +11507,9 @@ var inscriptions = new Map([
     "transcription": "X󲏪󲏻󲏻󲏏󲏻•\n",
     "transliteratedWords": [
         "X",
-        "094",
+        "E?",
         "-",
-        "036",
+        "SA2",
         "-•",
         "\n"
     ],
@@ -10573,6 +11526,10 @@ var inscriptions = new Map([
     "images": [
         "images/169a.jpg"
     ],
+    "linearA": [
+        "signgroup related to SA-RA 2 (see Notes to Signgroups, App. XXXIII)",
+        "\n"
+    ],
     "name": "169",
     "parsedInscription": "󲍐󲎮󲍝\n",
     "tracingImages": [
@@ -10580,7 +11537,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲍐󲎮󲍝\n",
     "transliteratedWords": [
-        "038-010-031",
+        "JA-RI-RE",
         "\n"
     ],
     "words": [
@@ -10593,24 +11550,25 @@ var inscriptions = new Map([
         "images/079a.jpg",
         "images/079b.jpg"
     ],
+    "linearA": [],
     "name": "079",
-    "parsedInscription": "󲍕󲏻󲎗󲏻󲉄\nvacat\n",
+    "parsedInscription": "󲉄󲏻󲎗󲏻󲍕\nvacat\n",
     "tracingImages": [
         "images/079a-t.jpg"
     ],
-    "transcription": "󲍕󲏻󲎗󲏻󲉄\nvacat\n",
+    "transcription": "󲉄󲏻󲎗󲏻󲍕\nvacat\n",
     "transliteratedWords": [
-        "068-",
-        "077",
-        "-015",
+        "DU/DO2?-",
+        "RU2",
+        "-Rv",
         "\n",
         "vacat",
         "\n"
     ],
     "words": [
-        "󲍕󲏻",
+        "󲉄󲏻",
         "󲎗",
-        "󲏻󲉄",
+        "󲏻󲍕",
         "\n",
         "vacat",
         "\n"
@@ -10620,6 +11578,10 @@ var inscriptions = new Map([
     "images": [
         "images/161a.jpg"
     ],
+    "linearA": [
+        "~KU-RO (\"balance,\" \"total\")",
+        "\n"
+    ],
     "name": "161",
     "parsedInscription": "󲎆󲎺\n",
     "tracingImages": [
@@ -10627,7 +11589,7 @@ var inscriptions = new Map([
     ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
-        "044-049",
+        "KO-RO3",
         "\n"
     ],
     "words": [
@@ -10642,28 +11604,38 @@ var inscriptions = new Map([
         "images/310c.jpg",
         "images/310d.jpg"
     ],
+    "linearA": [
+        "a toponymn related to SA-RA 2 & A-DU; see Notes to Signgroups, App. XXXIV",
+        "\n",
+        "-AU-TA- (KO(?) Zf 2)",
+        "\n",
+        "A-JA (SY Za 2d); cf. A-JA-KU (KN Zf 13), A-JA-[ (PK Za 18), ]A-JA[ (PE Zc 4)",
+        "\n",
+        "PU-KO (HT 31a.1); cf. A-*301-KI-TA-A (TY Zb 4)",
+        "\n"
+    ],
     "name": "310",
-    "parsedInscription": "󲏈󲏆󲎎\n󲊉󲍖{001}><\n󲏕󲎆\n󲎹󲍐><\n",
+    "parsedInscription": "󲏈󲏆󲎎\n󲊉󲍖{001}><\n󲎹󲍐><\n󲏕󲎆\n",
     "tracingImages": [
         "images/310a-t.jpg",
         "images/310b-t.jpg",
         "images/310c-t.jpg",
         "images/310d-t.jpg"
     ],
-    "transcription": "󲏈󲏆󲎎\n󲊉󲍖{001}><\n󲏕󲎆\n󲎹󲍐><\n",
+    "transcription": "󲏈󲏆󲎎\n󲊉󲍖{001}><\n󲎹󲍐><\n󲏕󲎆\n",
     "transliteratedWords": [
-        "057-034-056",
+        "KI-TA-KU",
         "\n",
-        "017-050",
+        "AU-TI",
         "{001}",
         ">",
         "<",
         "\n",
-        "046-044",
-        "\n",
-        "042-038",
+        "A-JA",
         ">",
         "<",
+        "\n",
+        "A-KO",
         "\n"
     ],
     "words": [
@@ -10674,11 +11646,11 @@ var inscriptions = new Map([
         ">",
         "<",
         "\n",
-        "󲏕󲎆",
-        "\n",
         "󲎹󲍐",
         ">",
         "<",
+        "\n",
+        "󲏕󲎆",
         "\n"
     ]
 }],
@@ -10687,22 +11659,23 @@ var inscriptions = new Map([
         "images/077a.jpg",
         "images/077b.jpg"
     ],
+    "linearA": [],
     "name": "077",
-    "parsedInscription": "󲍝󲏻󲉒󲉂\nvacat\n",
+    "parsedInscription": "󲉂󲉒󲏻󲍝\nvacat\n",
     "tracingImages": [
         "images/077a-t.jpg"
     ],
-    "transcription": "󲍝󲏻󲉒󲉂\nvacat\n",
+    "transcription": "󲉂󲉒󲏻󲍝\nvacat\n",
     "transliteratedWords": [
-        "031",
-        "-055-081",
+        "?-KE-",
+        "RE",
         "\n",
         "vacat",
         "\n"
     ],
     "words": [
+        "󲉂󲉒󲏻",
         "󲍝",
-        "󲏻󲉒󲉂",
         "\n",
         "vacat",
         "\n"
@@ -10715,43 +11688,42 @@ var inscriptions = new Map([
         "images/023c.jpg",
         "images/023d.jpg"
     ],
+    "linearA": [],
     "name": "023",
-    "parsedInscription": "\nvacat\nX󲎹󲏻󲎣󲏻󲍮\n*159bis\n",
+    "parsedInscription": "󲊘󲍝{quadruped}\nvacat\nX󲎹󲎣󲍮󲌒\n",
     "tracingImages": [
         "images/023c-t.jpg",
         "images/023d-t.jpg"
     ],
-    "transcription": "\nvacat\nX󲎹󲏻󲎣󲏻󲍮\n*159bis\n",
+    "transcription": "󲊘󲍝{quadruped}\nvacat\nX󲎹󲎣󲍮󲌒\n",
     "transliteratedWords": [
+        "PA-RE",
+        "{quadruped}",
         "\n",
         "vacat",
         "\n",
         "X",
-        "042-",
-        "045",
-        "-029",
-        "\n",
-        "*",
-        "159bis",
+        "A-ZE-MA-TU",
         "\n"
     ],
     "words": [
+        "󲊘󲍝",
+        "{quadruped}",
         "\n",
         "vacat",
         "\n",
         "X",
-        "󲎹󲏻",
-        "󲎣",
-        "󲏻󲍮",
-        "\n",
-        "*",
-        "159bis",
+        "󲎹󲎣󲍮󲌒",
         "\n"
     ]
 }],
 ["191",{
     "images": [
         "images/191a.jpg"
+    ],
+    "linearA": [
+        "SA-RA 2 (see Notes to Signgroups, App. III)",
+        "\n"
     ],
     "name": "191",
     "parsedInscription": "X󲏏󲎍󲏻󲎺[\n",
@@ -10761,8 +11733,8 @@ var inscriptions = new Map([
     "transcription": "X󲏏󲎍󲏻󲎺[\n",
     "transliteratedWords": [
         "X",
-        "036-040-",
-        "049",
+        "SA2-RO2-",
+        "RO3",
         "[",
         "\n"
     ],
@@ -10776,157 +11748,159 @@ var inscriptions = new Map([
 }],
 ]);
 var wordsInCorpus = new Map([
-["󲎆󲏓", 32],
-[">", 121],
-["<", 113],
-["󲎆󲎺", 64],
-["]", 139],
-["[", 114],
-["vacat", 74],
+["󲎆󲏓", 36],
+[">", 118],
+["<", 114],
+["󲎆󲎺", 62],
+["]", 122],
+["[", 104],
+["vacat", 49],
 ["?", 10],
-["𐄙𐄐", 4],
-["𐄈", 10],
+["𐄙𐄐", 2],
+["𐄈", 9],
 ["󲏏󲎦󲍝", 7],
+["󲎹•", 2],
 ["󲎗", 3],
 ["󲏕󲎆", 5],
 ["󲍐󲎮󲍝", 23],
-["X", 178],
+["X", 156],
 ["󲍕", 2],
+["*", 89],
+["󲈥", 12],
 ["󲎹󲎇󲍰", 3],
-["𐄙", 6],
-["󲏦", 2],
-["infra", 2],
-["mutila", 4],
+["𐄙", 5],
+["vacant", 4],
+["󲏦", 3],
 ["supra", 2],
-["󲏻󲏻", 18],
+["mutila", 2],
+["󲎀", 8],
+["󲏻󲏻", 22],
 ["󲏕", 4],
-["󲎀", 7],
-["|", 29],
-["󲏀", 3],
+["159bis", 3],
+["|", 30],
+["󲏆󲏻", 2],
+["󲏀", 5],
+["041/", 2],
+["󲉓", 4],
+["󲏦󲏻", 2],
 ["󲏏󲎦", 7],
-["󲍝", 4],
-["󲍡", 8],
-["󲎻", 4],
-["󲎿󲎺󲏀󲉛", 2],
+["󲏈", 5],
+["󲏻󲎺", 6],
+["󲍝", 6],
+["󲍡", 3],
+["󲍎󲍝󲏆", 2],
+["󲎻", 3],
+["󲎿󲎺", 3],
+["󲈼", 2],
 ["󲋧", 2],
+["󲏻󲎇󲍰", 4],
+["•", 12],
 ["󲍐󲎮", 12],
-["󲍎󲍝󲎀", 3],
-["𐄠", 2],
-["𐄝𐄓", 2],
-["󲎆", 4],
-["deest", 16],
-["󲎺", 9],
-["󲎹󲏻", 2],
-["󲍖", 2],
-["0", 16],
-["󲍅󲎎", 3],
-["*", 82],
-["󲊝", 7],
-["󲎹", 7],
-["𐄓", 6],
+["󲍎󲍝󲎀", 4],
+["deest", 13],
+["󲎺", 13],
+["󲍖", 3],
+["0", 15],
+["󲏔󲎜󲏓", 2],
+["󲍅󲎎", 4],
+["󲊝", 8],
+["󲎹󲍰", 3],
+["󲎹", 9],
+["𐄓", 3],
 ["󲎹󲍐", 4],
-["•󲏻", 5],
+["󲎹󲍎󲍐", 2],
+["•󲏻", 4],
 ["{001}", 2],
-["󲊶", 2],
-["󲎹󲎀", 11],
+["󲏻󲍎", 5],
+["󲊶", 3],
+["󲇬", 4],
+["󲎺󲍎󲍎", 3],
+["󲎹󲎀", 12],
 ["󲎀󲏑󲏐", 4],
 ["󲊉󲍖", 2],
-["𐄋", 3],
-["𐄌", 4],
-["󲉿", 2],
-["󲎆󲏻", 2],
+["󲊯", 2],
+["𐄌", 2],
+["󲉿", 3],
+["󲎆󲏻", 6],
 ["󲎧", 3],
-["󲍰", 3],
-["󲍚", 7],
+["󲍰", 2],
+["󲍚", 4],
 ["󲍐", 8],
-["󲎮", 5],
-["ΛΔ", 2],
-["󲈯", 2],
-["󲍻", 7],
-["Λ", 3],
+["󲎮", 4],
+["󲎆", 3],
+["󲏓", 4],
 ["󲍮", 4],
-["𐄇", 29],
-["𐄐𐄈", 2],
-["󲉯", 4],
-["Θ", 4],
-["󲎹󲎀••", 2],
-["𐄕", 4],
-["𐄔", 6],
-["󲏻󲍎", 2],
-["vestigia", 4],
-["󲎌", 2],
+["󲎀󲏻", 4],
+["󲏑", 4],
+["󲏻󲏐", 3],
+["𐄕", 2],
+["𐄑", 7],
+["𐄔", 3],
+["󲎿", 4],
+["𐄐", 4],
+["󲎷", 3],
+["󲏈󲌒", 3],
 ["󲏈󲏆󲏻", 2],
 ["󲎎", 4],
-["GRA", 2],
-["𐄚", 2],
-["•", 11],
 ["󲏏", 2],
 ["󲏻•", 5],
+["𐄇", 16],
 ["󲈊󲍅󲍮", 2],
 ["󲎦", 3],
-["󲏻󲎺", 4],
-["󲏆󲎎", 2],
-["󲎎󲊶󲍝", 2],
-["󲍖󲎷", 2],
+["󲎍", 2],
+["󲎎󲊶󲍝", 3],
+["󲍖󲎷", 3],
 ["󲏨󲏈󲎦", 2],
-["󲏈", 2],
-["𐄑", 8],
-["󲌒", 2],
+["𐄉", 2],
+["󲍎", 6],
 ["󲌦󲍎", 2],
+["󲏈󲏻", 2],
 ["󲋸", 2],
 ["󲎻󲎍", 2],
-["󲇬", 2],
 ["󲏆", 2],
 ["󲎝", 2],
-["𐄐", 5],
 ["󲍐󲏻", 2],
 ["󲎇", 2],
-["𐄜𐄔", 2],
 ["󲏈󲏆󲎎", 7],
-["󲎹󲍰", 2],
-["󲏈󲍡󲎺", 2],
-["󲉢", 3],
-["󲈁", 4],
 ["󲍝󲋁󲍰", 2],
-["••", 2],
 ["󲎺󲏻", 2],
 ["󲎦󲍝", 2],
-["𐄛", 3],
-["󲈥", 4],
-["Δ", 7],
-["󲎼", 3],
-["𐄒𐄈", 3],
-["󲇞󲎺", 3],
-["󲍎", 4],
+["󲇞󲎺", 2],
+["󲎽", 2],
+["󲎍󲍮󲍮", 2],
+["󲈽", 5],
+["󲎌", 2],
+["󲎹󲍎", 2],
 ["{070}", 2],
+["󲎦󲍨", 2],
 ["󲇰", 2],
 ["󲇲", 2],
-["󲎎󲍎", 2],
+["󲇞", 2],
 ["{", 3],
+["󲍬", 2],
 ["152}", 2],
-["󲎿", 3],
-["󲉱", 2],
-["Γ", 3],
+["𐄒𐄈", 2],
 ["𐄊", 2],
-["󲍼", 2],
-["󲎃", 3],
-["󲎄", 3],
+["󲏀󲏻", 2],
+["󲍦", 2],
+["󲏈󲎺", 2],
 ["󲋧󲎗󲍡󲊗", 2],
 ["𐄒", 4],
 ["󲎆󲏏󲏔", 2],
-["󲏻󲎇󲍰", 2],
-["󲎂", 2],
+["󲎃", 2],
 ["󲍽", 2],
-["󲈂", 2],
+["󲎄", 2],
+["󲍻", 2],
+["󲎂", 2],
+["QE", 2],
 ["󲏩", 2],
-["󲎣", 2],
-["󲍕󲏻", 2],
-["󲏑", 3],
-["󲏻󲏐", 2],
-["󲎀󲏻", 3],
-["𐄐𐄇", 3],
+["󲏻󲍕", 2],
+["󲍔", 2],
+["󲎙", 2],
+["catface", 2],
 ["󲍅󲏻", 2],
-["Π", 6],
-["󲏈󲌒", 2],
+["󲏔", 2],
 ["󲏪", 2],
+["󲊘󲍝", 2],
+["{quadruped}", 2],
 ]);

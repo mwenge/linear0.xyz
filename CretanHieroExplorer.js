@@ -326,6 +326,21 @@ function loadInscription(inscription) {
   }
   item.appendChild(transcript);
 
+  if (inscription.linearA.length > 0) {
+    transcript = document.createElement("div");
+    transcript.className = 'item text-item linear-a' + " " + classForSize;
+    for (var i = 0; i < inscription.linearA.length; i++) {
+      var word = inscription.linearA[i];
+      var elementName = word == "\n" ? "br" : "span";
+      var span = document.createElement(elementName);
+      if (elementName == "span") {
+        span.textContent = word;
+      }
+      transcript.appendChild(span);
+    }
+    item.appendChild(transcript);
+  }
+
   var label = document.createElement("div");
   label.className = 'label';
   label.textContent = inscription.name;
