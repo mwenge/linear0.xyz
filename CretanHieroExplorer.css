@@ -1,7 +1,12 @@
 body {
   padding-top: 5vh;
 }
-
+@font-face {
+  font-family: 'Noto Sans Linear A and B';
+  font-style: normal;
+  font-weight: 400;
+  src: url(NotoSansLinearA-LinearB.ttf) format('truetype');
+}
 .item-container {
   float: left;
   margin: 10px;
@@ -54,7 +59,7 @@ input:focus::placeholder { color:transparent; }
 }
 .item {
   float: left;
-  font-family: 'CretanHieroglyphsRegular', 'Courier', sans-serif;
+  font-family: 'CretanHieroglyphsRegular', 'Noto Sans Linear A and B', 'Courier', sans-serif;
   padding: 10px;
   border: 1px solid grey;
   max-width: 150px;
@@ -151,7 +156,7 @@ input:focus::placeholder { color:transparent; }
   border: 1px solid black;
   overflow-y: auto;
   font-family: 'Courier', serif;
-  font-size: 10px;
+  font-size: 16px;
   display: none;
   z-index: 400;
   box-sizing: border-box;
