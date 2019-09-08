@@ -89,6 +89,9 @@ input:focus::placeholder { color:transparent; }
 .lineara-explorer {
   background-color: purple;
 }
+.cypro-minoan-explorer {
+  background-color: olive;
+}
 .other-explorer {
   font-family: 'Courier', serif;
   opacity: 0.8;
