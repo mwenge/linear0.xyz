@@ -27,9 +27,16 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-console.log("If you have any feedback or issues contact me @mwenge on Twitter or open a ticket at https://github.com/mwenge/LinearBExplorer/issues")
+
+var result = document.getElementById("result");
+result.addEventListener("animationend", function() { result.style.display = "none"; result.style.animationDelay = "0s";});
+
+console.log("If you have any feedback or issues contact me @mwenge on Twitter or open a ticket at https://github.com/mwenge/LinearAExplorer/issues")
 document.onkeydown = checkKey;
 function checkKey(e) {
+  if (search == document.activeElement) {
+    return true;
+  }
   e = e || window.event;
   var menu_was_showing = help_menu.style.display != "none";
   help_menu.style.display = "none";
@@ -53,13 +60,68 @@ function checkKey(e) {
     case 83: // 's' - sort inscriptions by closest edit distance to 
              // inscription currently hovered over
       var current = getInscriptionHoveredOver();
-      sortNearest(current);
+      if (current) {
+        result.style.display = "inline-block";
+        result.textContent = "Sorting by edit distance.";
+        sortNearest(current);
+        result.textContent = "Sorted by edit distance.";
+      }
+      break;
+    case 84: // 't' - toggle translation
+      toggleTranslation(document);
+      break;
+    case 87: // 'w' - highlight words according to frequency
+      updateDisplayOfWordFrequency(document, true);
+      break;
+    case 73: // 'i' - copy image of inscription to clipboard
+      var current = getInscriptionHoveredOver();
+      result.style.display = "inline-block";
+      result.textContent = "Copying Image to clipboard";
+      if (current) {
+        captureImage(current);
+      }
+      result.textContent = "Image copied to clipboard";
       break;
     case 89: // 'y' - show commentary for inscription currently hovered over
       var current = getInscriptionHoveredOver();
-      showCommentaryForInscription(current.id);
+      if (current) {
+        showCommentaryForInscription(current.id);
+      }
+      break;
+    case 90: // 'z' - zoom
+      var current = getInscriptionHoveredOver();
+      zoomItem(current);
+      break;
+    case 49: // '1 to 9' - save state to 1 to 9
+    case 50: 
+    case 51:
+    case 52:
+    case 53:
+    case 54:
+    case 55:
+    case 56:
+    case 57:
+      result.style.display = "none";
+      result.style.display = "inline-block";
+      if (e.shiftKey) {
+        loadSearchTerms(e.keyCode);
+        result.textContent = "Loaded search terms";
+      } else {
+        saveSearchTerms(e.keyCode);
+        result.textContent = "Saved search terms";
+      }
+      break;
+    case 67: // 'c' - clear search terms
+      var container = document.getElementById("search-terms");
+      container.innerHTML = "";
+      applySearchTerms();
       break;
   }
+}
+
+function closeZoomedWindow(e) {
+  zoomItem(null);
+  e.stopPropagation();
 }
 
 function showCommentaryForInscription(inscription) {
@@ -91,7 +153,7 @@ function showCommentaryForInscription(inscription) {
         commentBox.style.display = "block";
       }
   };
-  inscription = inscription.replace(/[a-z]/g, "");
+  inscription = inscription.replace(/[a-z]$/g, "");
   xhttp.open("GET", "commentary/" + inscription + ".html", true);
   xhttp.send();
 }
@@ -101,27 +163,54 @@ function getInscriptionHoveredOver() {
   var nn;
   while (n) {
     nn = n;
-    if (nn.className == "item-container") {
+    if (nn.className.includes("item-container")) {
       return nn;
     }
     n = nn.querySelector(":hover");
   }
-  return nn;
+  return null;
 }
 
-function highlightMatchesInElement(element, searchTerm) {
+var cycleColor = (function () {
+  var frequency = .3;
+  var i = 0;
+  return function () {
+    i++;
+    red   = Math.sin(frequency*i + 0) * 55 + 200;
+    green = Math.sin(frequency*i + 2) * 55 + 200;
+    blue  = Math.sin(frequency*i + 4) * 55 + 200;
+    return "rgba(" + red + ", " + green + ", " + blue + ", 0.5)";
+  }
+})();
+
+function hasMatchForHighlight(fullWordMatch, searchTerm, text) {
+  if (fullWordMatch) {
+    return (searchTerm == text);
+  }
+  return (text.includes(searchTerm));
+}
+
+function highlightMatchesInElement(element, searchTerm, highlightColor) {
+  if (searchTerm == "") {
+    return;
+  }
+  var fullWordMatch = searchTerm.includes("\"");
+  searchTerm = searchTerm.replace(/\"/g, "");
   for (var j = 0; j < element.children.length; j++) {
     var span = element.children[j];
-    if (searchTerm != "" && span.textContent.includes(searchTerm)) {
+    if (hasMatchForHighlight(fullWordMatch, searchTerm, stripErased(span.textContent.trim()))) {
       var inscription = element.getAttribute("inscription");
       if (!inscription) {
         continue;
       }
       var translation = document.getElementById(inscription + "-translation-" + j);
-      translation.style.backgroundColor = "yellow";
+      translation.style.backgroundColor = highlightColor;
+      var transliteration = document.getElementById(inscription + "-transliteration-" + j);
+      transliteration.style.backgroundColor = highlightColor;
       var transcription = document.getElementById(inscription + "-transcription-" + j);
-      transcription.style.backgroundColor = "yellow";
+      transcription.style.backgroundColor = highlightColor;
       highlightedSearchElements.push(translation);
+      highlightedSearchElements.push(transliteration);
       highlightedSearchElements.push(transcription);
     }
   }
@@ -136,34 +225,28 @@ function clearHighlights() {
 
 var highlightedSearchElements = [];
 function updateSearch(event) {
-  clearHighlights();
-  document.getElementById("search-terms").innerHTML = "";
   var searchTerm = event.target.value;
-  for (var inscription of inscriptions.values()) {
-    if (searchTerm == "") {
-			if (inscription.element) {
-        inscription.element.style.display = "flex";
-			}
-			continue;
-		}
-    if (inscription.transcription.includes(searchTerm) || inscription.name.includes(searchTerm)) {
-      loadInscription(inscription);
-      inscription.element.style.display = "flex";
-      highlightMatchesInElement(inscription.element, searchTerm);
-    } else if (inscription.element) {
-      inscription.element.style.display = "none";
-    }
-  } 
+  if (!searchTerm.length) {
+    return;
+  }
+  updateSearchTerms(event, searchTerm);
 }
 
-function makeMoveLens(lens, img, result, cx, cy) {
+function makeMoveLens(lens, img, result, stack) {
   return function(e) {
     result.style.display = "flex";
     lens.style.display = "block";
-    result.style.width = (result.parentElement.offsetWidth * 2) + "px";
-    result.style.height = result.parentElement.offsetHeight + "px";
-    lens.style.width = (result.parentElement.offsetWidth / 2) + "px";
-    lens.style.height = (result.parentElement.offsetHeight / 5) + "px";
+    if (stack) {
+      result.style.width = (result.parentElement.offsetWidth / 2) + "px";
+      result.style.height = result.parentElement.offsetHeight + "px";
+      lens.style.width = (result.parentElement.offsetWidth / 5) + "px";
+      lens.style.height = (result.parentElement.offsetHeight / 2) + "px";
+    } else {
+      result.style.width = (result.parentElement.offsetWidth * 2) + "px";
+      result.style.height = result.parentElement.offsetHeight + "px";
+      lens.style.width = (result.parentElement.offsetWidth / 2) + "px";
+      lens.style.height = (result.parentElement.offsetHeight / 5) + "px";
+    }
 
     var availableHeight = result.parentElement.getBoundingClientRect().top;
     if (availableHeight < (result.parentElement.offsetHeight / 2)) {
@@ -217,12 +300,13 @@ function makeHideElements(elements) {
     for (var index in elements) {
       elements[index].style.display = "none";
     }
+    e.stopPropagation();
   };
 }
 
-function addImageToItem(item, imageToAdd, name) {
+function addImageToItem(item, imageToAdd, name, stack) {
   var itemShell = document.createElement("div");
-  itemShell.className = 'item-shell';
+  itemShell.className = 'item-shell' + (stack ? ' stacked-item-shell' : '');
   item.appendChild(itemShell);
 
   var itemZoom = document.createElement("div");
@@ -235,7 +319,7 @@ function addImageToItem(item, imageToAdd, name) {
   itemZoom.appendChild(label);
 
   var inscriptionImage = document.createElement("div");
-  inscriptionImage.className = 'item';
+  inscriptionImage.className = 'item' + (stack ? ' stacked-image-item' : '');
   var imageWrapper = document.createElement("div");
   imageWrapper.setAttribute("class", "img-wrapper");
   inscriptionImage.appendChild(imageWrapper);
@@ -247,15 +331,62 @@ function addImageToItem(item, imageToAdd, name) {
   var img = document.createElement("img");
   img.src = imageToAdd;
   img.height = "200";
-  img.setAttribute("onerror", "this.src='images/noimagesmall.png'");
   img.addEventListener("error", makeHideElements([inscriptionImage]));
   imageWrapper.appendChild(img);
   itemShell.appendChild(inscriptionImage);
 
   itemZoom.style.backgroundImage = "url('" + img.src + "')";
-  lens.addEventListener("mousemove", makeMoveLens(lens, img, itemZoom));
-  img.addEventListener("mousemove", makeMoveLens(lens, img, itemZoom));
+  lens.addEventListener("mousemove", makeMoveLens(lens, img, itemZoom, stack));
+  img.addEventListener("mousemove", makeMoveLens(lens, img, itemZoom, stack));
   itemShell.addEventListener("mouseout", makeHideElements([lens, itemZoom]));
+}
+
+
+var captureImage = function(root) {
+  html2canvas(root, {
+    backgroundColor: null
+  })
+    .then(function(canvas) {
+      canvas.toBlob(function(blob) { 
+            const item = new ClipboardItem({ "image/png": blob });
+            navigator.clipboard.write([item]); 
+      });
+    })
+};
+
+with ({zoomedElement : null}) var zoomItem = function(item) {
+  var itemToZoom = item;
+  if (zoomedElement) {
+    itemToZoom = zoomedElement;
+    zoomedElement = null;
+  } else {
+    zoomedElement = item;
+  }
+  if (!itemToZoom) {
+    return;
+  }
+  
+  Array.prototype.map.call(itemToZoom.getElementsByClassName("item-shell"), x => x.classList.toggle("zoomed-item"));
+  Array.prototype.map.call(itemToZoom.getElementsByClassName("item"), x => x.classList.toggle("zoomed-item"));
+  Array.prototype.map.call(itemToZoom.getElementsByClassName("close-window"), x => x.classList.toggle("zoomed-close-window"));
+  itemToZoom.classList.toggle("zoomed-item-container");
+}
+
+with ({displayed : true}) var updateDisplayOfWordFrequency = function(root, update) {
+    if (update) {
+      displayed = !displayed;
+    }
+    Array.prototype.map.call(root.getElementsByTagName("span"), x => displayed ? x.classList.add("word-frequency-none") : x.classList.remove("word-frequency-none"));
+}
+
+function getClassNameForWord(word) {
+  word = stripErased(word);
+  var stem = "word-frequency-";
+  if (wordsInCorpus.has(word)) {
+    var wordCount = Math.min(10, wordsInCorpus.get(word));
+    return stem + wordCount; 
+  }
+  return stem + "1"; 
 }
 
 function getClassForInscriptionSize(wordCount) {
@@ -265,7 +396,16 @@ function getClassForInscriptionSize(wordCount) {
   if (wordCount > 50) {
     return "medium-inscription";
   }
-  return "small-inscription";
+  return "medium-inscription";
+}
+
+function displayingTranslation(container) {
+  var lastChild = container.lastChild;
+  if (!lastChild || lastChild.nodeName != "DIV") {
+    return false;
+  }
+  var displayingTranslation = lastChild.getElementsByClassName("translation-item")[0].style.display == "block";
+  return displayingTranslation;
 }
 
 function loadInscription(inscription) {
@@ -273,74 +413,134 @@ function loadInscription(inscription) {
     return null;
   }
 
+  var stack = (inscription.displayHint == "row") ? true : false;
   var item = document.createElement("div");
-  item.className = 'item-container';
+  item.className = 'item-container' + (stack ? ' stacked-item-container' : "");
   item.id = inscription.name;
   item.setAttribute("onclick", "showCommentaryForInscription('" + inscription.name + "')");
 
   inscription.images.forEach( image => {
-    addImageToItem(item, image, inscription.name)
+    addImageToItem(item, image, inscription.name, stack)
   });
-  if (inscription.tracingImages) {
-    inscription.tracingImages.forEach( image => {
-      addImageToItem(item, image, inscription.name)
-    });
-  }
+  inscription.tracingImages.forEach( image => {
+    addImageToItem(item, image, inscription.name, stack)
+  });
 
-  var classForSize = getClassForInscriptionSize(inscription.transliteratedWords.length);
   var transcript = document.createElement("div");
-  transcript.className = 'item text-item' + " " + classForSize;
+  transcript.className = 'item text-item' + (stack ? ' stacked-text-item' : "");
   transcript.setAttribute("inscription", inscription.name);
   for (var i = 0; i < inscription.words.length; i++) {
     var word = inscription.words[i];
     var elementName = word == "\n" ? "br" : "span";
     var span = document.createElement(elementName);
     if (elementName == "span") {
-      span.textContent = word + " ";
+      span.textContent = word;
+      span.className = getClassNameForWord(word);
+      span.classList.add("word-frequency-none");
 
-      var searchTerm = word.replace(/𐝫/g, "");
+      var searchTerm = stripErased(word);
       span.id = inscription.name + "-transcription-" + i;
       span.setAttribute("onmouseover", "highlightWords(event, '" + inscription.name + "', '" + i + "')");
       span.setAttribute("onmouseout", "clearHighlight(event, '" + inscription.name + "', '" + i + "')");
-      span.setAttribute("onclick", "updateSearchTerms(event, '" + inscription.name + "', '" + i + "')");
+      span.setAttribute("onclick", "updateSearchTerms(event, '\"" + span.textContent + "\"')");
     }
     transcript.appendChild(span);
   }
   item.appendChild(transcript);
 
-  transcript = document.createElement("div");
-  transcript.className = 'item text-item transliteration-item' + " " + classForSize;
-  transcript.setAttribute("inscription", inscription.name);
-  for (var i = 0; i < inscription.transliteratedWords.length; i++) {
-    var word = inscription.transliteratedWords[i];
-    var elementName = word == "\n" ? "br" : "span";
-    var span = document.createElement(elementName);
-    if (elementName == "span") {
-      span.textContent = word + " ";
-      span.id = inscription.name + "-translation-" + i;
-      span.setAttribute("onmouseover", "highlightWords(event, '" + inscription.name + "', '" + i + "')");
-      span.setAttribute("onmouseout", "clearHighlight(event, '" + inscription.name + "', '" + i + "')");
-      span.setAttribute("onclick", "updateSearchTerms(event, '" + inscription.name + "', '" + i + "')");
-    }
-    transcript.appendChild(span);
+  var transliteration = populateText(inscription, "transliteration", inscription.transliteratedWords, stack);
+  item.appendChild(transliteration);
+
+  var translation = populateText(inscription, "translation", inscription.transliteratedWords.map(x => getDictionaryEntry(x)), stack);
+  translation.style.display = "none";
+  item.appendChild(translation);
+
+  var tagContainer = document.createElement("div");
+  tagContainer.className = 'tag-container';
+  item.appendChild(tagContainer);
+
+  if (inscription.scribe) {
+    var label = document.createElement("div");
+    label.className = 'tag';
+    label.textContent = inscription.scribe;
+    tagContainer.appendChild(label);
+    label.setAttribute("onclick", "updateSearchTerms(event, '\"" + inscription.scribe + "\"')");
   }
-  item.appendChild(transcript);
+  if (tags.has(inscription.name)) {
+    tags.get(inscription.name).forEach( tag => {
+      var label = document.createElement("div");
+      label.className = 'tag';
+      label.textContent = tag;
+      tagContainer.appendChild(label);
+      label.setAttribute("onclick", "updateSearchTerms(event, '\"" + tag + "\"')");
+    });
+  }
 
   var label = document.createElement("div");
   label.className = 'label';
   label.textContent = inscription.name;
   item.appendChild(label);
-  inscription.element = item;
 
+  var label = document.createElement("div");
+  label.className = "close-window";
+  label.id = inscription.name + "-close-window";
+  label.onclick = closeZoomedWindow;
+  item.appendChild(label);
+
+
+  inscription.element = item;
+  if (displayingTranslation(container)) {
+    toggleTranslation(item);
+  }
   container.appendChild(item);
-  inscriptionsToLoad.delete(inscription.name);
-  
+
+  updateDisplayOfWordFrequency(item, false);
+
   return item;
 }
 
+function getDictionaryEntry(word) {
+  if (!dictionary.has(word)) {
+    return word;
+  }
+  value = dictionary.get(word);
+  if (value == "") {
+    return word;
+  }
+  return value;
+}
+
+function populateText(inscription, type, words, stack) {
+  transcript = document.createElement("div");
+  transcript.className = 'item text-item ' + type + '-item' + (stack ? ' stacked-text-item' : "")
+  transcript.setAttribute("inscription", inscription.name);
+  for (var i = 0; i < words.length; i++) {
+    var word = words[i];
+    var elementName = word == "\n" ? "br" : "span";
+    var span = document.createElement(elementName);
+    if (elementName == "span") {
+      span.textContent = word + " ";
+      span.className = getClassNameForWord(inscription.words[i]);
+      span.classList.add("word-frequency-none");
+      span.id = inscription.name + "-" + type + "-" + i;
+      span.setAttribute("onmouseover", "highlightWords(event, '" + inscription.name + "', '" + i + "')");
+      span.setAttribute("onmouseout", "clearHighlight(event, '" + inscription.name + "', '" + i + "')");
+      span.setAttribute("onclick", "updateSearchTerms(event, '\"" + inscription.words[i] + "\"')");
+    }
+    transcript.appendChild(span);
+  }
+  transcript.appendChild(document.createElement("br"));
+  transcript.appendChild(document.createElement("br"));
+  return transcript;
+}
+
+function toggleTranslation(container) {
+  Array.prototype.map.call(container.getElementsByClassName("translation-item"), x => x.style.display == "none" ? x.style.display = "block" : x.style.display = "none");
+  Array.prototype.map.call(container.getElementsByClassName("transliteration-item"), x => x.style.display == "none" ? x.style.display = "block" : x.style.display = "none");
+}
+
 function addWordTip(word, inscription) {
-  word = word.replace(/𐝫/g, "");
-  word = word.replace(/ /g, "");
+  word = stripErased(word.trim());
   var wordCount = 0;
   if (wordsInCorpus.has(word)) {
     wordCount = wordsInCorpus.get(word) - 1;
@@ -355,6 +555,18 @@ function addWordTip(word, inscription) {
   }
   tip.style.display = "block";
   tip.innerHTML = "";
+/*
+  var wordCommentElement = document.createElement("div");
+  wordCommentElement.className = "lexicon";
+  wordCommentElement.textContent = lexicon.get(word);
+
+  if (lexicon.has(word)) {
+    var wordCommentElement = document.createElement("div");
+    wordCommentElement.className = "lexicon";
+    wordCommentElement.textContent = lexicon.get(word);
+    tip.appendChild(wordCommentElement);
+  }
+*/
 
   var tipText = "";
   switch(wordCount) {
@@ -386,12 +598,15 @@ function updateTipText(string) {
 }
 
 function highlightWords(evt, name, index) {
-  var items = ["transcription", "translation"];
+  var items = ["transcription", "translation", "transliteration"];
   for (var i = 0; i < items.length; i++) {
     var item = items[i];
     var element = document.getElementById(name + "-" + item + "-" + index);
     if (item == "transcription") {
       addWordTip(element.textContent, name);
+    }
+    if (element.style.backgroundColor) {
+      continue;
     }
     element.style.backgroundColor = "yellow";
   }
@@ -402,7 +617,7 @@ function clearHighlight(evt, name, index) {
   if (tip) {
     tip.style.display = "none";
   }
-  var items = ["transcription", "translation"];
+  var items = ["transcription", "transliteration", "translation"];
   for (var i = 0; i < items.length; i++) {
     var item = items[i];
     var element = document.getElementById(name + "-" + item + "-" + index);
@@ -413,29 +628,71 @@ function clearHighlight(evt, name, index) {
   }
 }
 
-function updateSearchTerms(evt, name, index) {
-  var element = document.getElementById(name + "-transcription-" + index);
-  var searchTerm = element.textContent.replace(/𐝫/g, "").replace(/ /g, "");
+function updateSearchTerms(evt, searchTerm) {
+  var searchTerm = stripErased(searchTerm);
   var container = document.getElementById("search-terms");
-  var existingElement = document.getElementById(searchTerm);
+  var existingElement = document.getElementById("search-for-" +  searchTerm);
   if (existingElement) {
     return;
   }
   var item = document.createElement("div");
   item.className = 'search-term';
   item.textContent = searchTerm;
-  item.id = searchTerm;
+  item.id = "search-for-" + searchTerm;
   item.setAttribute("term", searchTerm);
   item.setAttribute("onclick", "removeFilter(event)");
+
+  item.setAttribute("highlightColor", cycleColor());
+
   container.appendChild(item);
   applySearchTerms();
   evt.stopPropagation();
 }
 
+function saveSearchTerms(key) {
+  var number = key - 48;
+  var container = document.getElementById("search-terms");
+  localStorage.setItem(key, container.innerHTML);
+  changeIcon("icons/" + number + '.png');
+}
+
+function loadSearchTerms(key) {
+  var number = key - 48;
+  var container = document.getElementById("search-terms");
+  container.innerHTML = localStorage.getItem(key);
+  applySearchTerms();
+  changeIcon("icons/" + number + '.png');
+}
+
+function hasMatch(fullWordMatch, searchTerm, inscription) {
+  
+  if (!fullWordMatch) {
+    var containsTerm = inscription.transliteratedWords.filter(word => word.includes(searchTerm)).length > 0;
+    return (containsTerm ||
+        inscription.transcription.includes(searchTerm) ||
+        inscription.name.includes(searchTerm) ||
+        inscription.words.includes(searchTerm) ||
+        inscription.words.map(x => stripErased(x)).includes(searchTerm) ||
+        (tags.has(inscription.name) && tags.get(inscription.name).includes(searchTerm)) ||
+        inscription.scribe == searchTerm);
+  }
+
+  var containsTerm = inscription.transliteratedWords.filter(word => word == searchTerm).length > 0;
+  return (containsTerm ||
+      inscription.name == searchTerm ||
+      inscription.words.includes(searchTerm) ||
+      inscription.words.map(x => stripErased(x)).includes(searchTerm) ||
+      (tags.has(inscription.name) && tags.get(inscription.name).includes(searchTerm)) ||
+      inscription.scribe == searchTerm);
+}
+
 function applySearchTerms() {
   var searchTerms = document.getElementById("search-terms");
   var numberOfSearchTerms = searchTerms.children.length;	
+  var searchTermValues = Array.prototype.slice.call(searchTerms.children)
+                         .map(x => stripErased(x.textContent));
   clearHighlights();
+
   for (var inscription of inscriptions.values()) {
     if (!numberOfSearchTerms) {
       if (inscription.element) {
@@ -443,18 +700,16 @@ function applySearchTerms() {
       }
       continue;
     }
+    var shouldDisplay = false;
+    searchTermValues.forEach( searchTerm => {
+      var fullWordMatch = searchTerm.includes("\"");
+      searchTerm = searchTerm.replace(/\"/g, "");
 
-    var shouldDisplay = true;
-    for (var j = 0; j < numberOfSearchTerms; j++) {
-      var element = searchTerms.children[j];
-      var searchTerm = element.textContent;
-      var searchTerm = element.textContent.replace(/𐝫/g, "");
-      if (!inscription.words.includes(searchTerm) &&
-          !inscription.words.map(x => x.replace(/𐝫/g, "")).includes(searchTerm)) {
-        shouldDisplay = false;
-        break;
+      if (hasMatch(fullWordMatch, searchTerm, inscription)) {
+        shouldDisplay = true;
       }
-    }
+    });
+
     if (!shouldDisplay) {
       if (inscription.element) {
         inscription.element.style.display = "none";
@@ -466,11 +721,12 @@ function applySearchTerms() {
       inscription.element.style.display = "flex";
     }
     for (index in searchTerms.children) {
-      var term = searchTerms.children[index].textContent;
+      var searchElement = searchTerms.children.item(index);
+      var term = searchElement.textContent;
       for (var j = 0; j < inscription.element.children.length; j++) {
         var element = inscription.element.children[j];
-        console.log("highlighting");
-        highlightMatchesInElement(element, term);
+        var highlightColor = searchElement.getAttribute("highlightColor");
+        highlightMatchesInElement(element, term, highlightColor);
       }
     }
   }
@@ -509,14 +765,23 @@ function updateSortStatus(inscription) {
 
 function searchForWord(evt, name, index) {
   var element = document.getElementById(name + "-transcription-" + index);
-  var searchTerm = element.textContent.replace(/𐝫/g, "");
+  var searchTerm = stripErased(element.textContent);
   var searchBox = document.getElementById("search");
   searchBox.value = searchTerm;
   searchBox.dispatchEvent(new InputEvent("input"));
 }
 
-var inscriptionsAsArray = Array.from(inscriptions.entries());	
-var inscriptionsToLoad = new Map(inscriptions);
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+// Shuffle the inscriptions so we display a different group at the top every time
+var inscriptionsToLoad = shuffleArray(Array.from(inscriptions.keys()))[Symbol.iterator]();
+
 // create config object: rootMargin and threshold
 // are two properties exposed by the interface
 const config = {
@@ -524,54 +789,94 @@ const config = {
   threshold: 0
 };
 
-// register the config object with an instance
-// of intersectionObserver
+// Load inscriptions as they come into view
 let observer = new IntersectionObserver(function(entries, self) {
-  // iterate over each entry
   entries.forEach(entry => {
-    // process just the images that are intersecting.
-    // isIntersecting is a property exposed by the interface
-    if(entry.isIntersecting) {
-      // custom function that copies the path to the img
-      // from data-src to src
-		  var key = inscriptionsToLoad.keys().next().value;	
+    // Only load new inscriptions if a search isn't active
+    if(entry.isIntersecting && !highlightedSearchElements.length) {
+		  var key = inscriptionsToLoad.next().value;
       if (key) {
         var visibleInscription = loadInscription(inscriptions.get(key));
         observer.observe(visibleInscription);
       }
-      // the image is now in place, stop watching
       self.unobserve(entry.target);
     }
   });
 }, config);
 
 function loadExplorer() {
-  for (var i = 0; i < 100; i++) {
-    var key = inscriptionsToLoad.keys().next().value;	
+  for (var i = 0; i < 20; i++) {
+    var key = inscriptionsToLoad.next().value;	
     var visibleInscription = loadInscription(inscriptions.get(key));
     observer.observe(visibleInscription);
   }
 }
 
+function levensteinDistance(a, b, inscriptions, target) {
+  var s = inscriptions.get(a.id).parsedInscription.replace(/𐝫|\n/g, "");
+  var t = inscriptions.get(b.id).parsedInscription;
+  var x = s.levenstein(target);
+  var y = t.levenstein(target);
+  if (x < y) {
+    return -1;
+  }
+  if (x > y) {
+    return 1;
+  }
+  return 0;
+}
+
+function intersect(a, b) {
+    var t;
+    if (b.length > a.length) t = b, b = a, a = t;
+    return a.filter(function (e) {
+        return b.indexOf(e) > -1;
+    }).length;
+}
+
+function useWord(word) {
+  if (!word) {
+    return false;
+  }
+  if (word == '\u{1076b}')
+    return false; 
+  if (word >= '\u{10100}' && word <= '\u{1013f}') {
+    return false;
+  }
+  if (word >= '\u{10740}' && word <= '\u{10755}') {
+    return false;
+  }
+  if (word == '\n') {
+    return false;
+  }
+  return true;
+}
+
+function stripErased(word) {
+  return word.replace(/\u{1076b}/gu, "");
+}
+
+function similarity(a, b, inscriptions, target) {
+  var s = inscriptions.get(a.id).words.map(stripErased).filter(useWord);
+  var t = inscriptions.get(b.id).words.map(stripErased).filter(useWord);
+  var x = intersect(s, target);
+  var y = intersect(t, target);
+  if (x > y) {
+    return -1;
+  }
+  if (x < y) {
+    return 1;
+  }
+  return 0;
+}
+
 function sortNearest(current) {
-  var string = inscriptions.get(current.id).parsedInscription;
+  var target = inscriptions.get(current.id).words.map(stripErased).filter(useWord);
   updateTipText("Sorting..");
   var p = document.getElementById('container');
   Array.prototype.slice.call(p.children)
     .map(function (x) { return p.removeChild(x); })
-    .sort(function(a, b) {
-          var s = inscriptions.get(a.id).parsedInscription.replace(/𐝫|\n/g, "");
-          var t = inscriptions.get(b.id).parsedInscription;
-          var x = s.levenstein(string);
-          var y = t.levenstein(string);
-          if (x < y) {
-            return -1;
-          }
-          if (x > y) {
-            return 1;
-          }
-          return 0;
-    })
+    .sort(function(a, b) { return similarity(a, b, inscriptions, target); })
     .forEach(function (x) { p.appendChild(x); });
   updateTipText("");
   updateSortStatus(current.id);
@@ -606,4 +911,3 @@ String.prototype.levenstein = function(string) {
   String.prototype.levenstein.cachedDistances.set(b+a, result);
   return result;
 }
-
