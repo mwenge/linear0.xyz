@@ -1,5 +1,10 @@
 var inscriptions = new Map([
 ["073",{
+    "facsimileImages": [
+        "images/073a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/073a.jpg",
         "images/073b.jpg"
@@ -8,9 +13,6 @@ var inscriptions = new Map([
     "name": "073",
     "parsedInscription": "󲇴󲏆󲍎\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/073a-t.jpg"
-    ],
     "transcription": "󲇴󲏆󲍎\nvacat\n",
     "transliteratedWords": [
         "RA₃-TA-RO",
@@ -26,6 +28,11 @@ var inscriptions = new Map([
     ]
 }],
 ["151",{
+    "facsimileImages": [
+        "images/151a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/151a.jpg"
     ],
@@ -33,9 +40,6 @@ var inscriptions = new Map([
     "name": "151",
     "parsedInscription": "󲎹󲎝><\n",
     "site": "",
-    "tracingImages": [
-        "images/151a-t.jpg"
-    ],
     "transcription": "󲎹󲎝><\n",
     "transliteratedWords": [
         "A-JA",
@@ -51,14 +55,16 @@ var inscriptions = new Map([
     ]
 }],
 ["185",{
+    "facsimileImages": [
+        "images/185a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [],
     "linearA": [],
     "name": "185",
     "parsedInscription": "X󲍎󲎎󲏈󲍅><\n",
     "site": "",
-    "tracingImages": [
-        "images/185a-t.jpg"
-    ],
     "transcription": "X󲍎󲎎󲏈󲍅><\n",
     "transliteratedWords": [
         "X",
@@ -76,6 +82,12 @@ var inscriptions = new Map([
     ]
 }],
 ["026",{
+    "facsimileImages": [
+        "images/026c-t.jpg",
+        "images/026d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/026a.jpg",
         "images/026b.jpg",
@@ -86,10 +98,6 @@ var inscriptions = new Map([
     "name": "026",
     "parsedInscription": "\nvacat\n*󲊝\nX󲍅󲎦\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/026c-t.jpg",
-        "images/026d-t.jpg"
-    ],
     "transcription": "\nvacat\n*󲊝\nX󲍅󲎦\n",
     "transliteratedWords": [
         "\n",
@@ -115,6 +123,11 @@ var inscriptions = new Map([
     ]
 }],
 ["011",{
+    "facsimileImages": [
+        "images/011c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/011a.jpg",
         "images/011b.jpg",
@@ -125,9 +138,6 @@ var inscriptions = new Map([
     "name": "011",
     "parsedInscription": "\nvacat\nvacat\n󲎺󲎺󲎿[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/011c-t.jpg"
-    ],
     "transcription": "\nvacat\nvacat\n󲎺󲎺󲎿[\n",
     "transliteratedWords": [
         "\n",
@@ -153,6 +163,11 @@ var inscriptions = new Map([
     ]
 }],
 ["231",{
+    "facsimileImages": [
+        "images/231a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/231a.jpg",
         "images/231b.jpg",
@@ -162,9 +177,6 @@ var inscriptions = new Map([
     "name": "231",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/231a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -176,6 +188,11 @@ var inscriptions = new Map([
     ]
 }],
 ["146",{
+    "facsimileImages": [
+        "images/146a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/146a.jpg"
     ],
@@ -183,9 +200,6 @@ var inscriptions = new Map([
     "name": "146",
     "parsedInscription": "󲍅[><\n",
     "site": "",
-    "tracingImages": [
-        "images/146a-t.jpg"
-    ],
     "transcription": "󲍅[><\n",
     "transliteratedWords": [
         "SI",
@@ -203,6 +217,12 @@ var inscriptions = new Map([
     ]
 }],
 ["092",{
+    "facsimileImages": [
+        "images/092a-t.jpg",
+        "images/092c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/092a.jpg",
         "images/092b.jpg",
@@ -213,10 +233,6 @@ var inscriptions = new Map([
     "name": "092",
     "parsedInscription": "]󲍰󲉏󲉔[\n]vacat|󲎝[\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/092a-t.jpg",
-        "images/092c-t.jpg"
-    ],
     "transcription": "]󲍰󲉏󲉔[\n]vacat|󲎝[\n",
     "transliteratedWords": [
         "]",
@@ -244,6 +260,11 @@ var inscriptions = new Map([
     ]
 }],
 ["006",{
+    "facsimileImages": [
+        "images/006c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/006a.jpg",
         "images/006b.jpg",
@@ -254,9 +275,6 @@ var inscriptions = new Map([
     "name": "006",
     "parsedInscription": "\nvacat\nvacat\n*󲉿\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/006c-t.jpg"
-    ],
     "transcription": "\nvacat\nvacat\n*󲉿\n",
     "transliteratedWords": [
         "\n",
@@ -280,6 +298,12 @@ var inscriptions = new Map([
     ]
 }],
 ["040",{
+    "facsimileImages": [
+        "images/040a-t.jpg",
+        "images/040b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/040a.jpg",
         "images/040b.jpg"
@@ -288,10 +312,6 @@ var inscriptions = new Map([
     "name": "040",
     "parsedInscription": "X󲎀󲍎󲍰X󲇞󲎜\nX󲎆󲎺𐄈X󲍕󲍝𐄊\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/040a-t.jpg",
-        "images/040b-t.jpg"
-    ],
     "transcription": "X󲎀󲍎󲍰X󲇞󲎜\nX󲎆󲎺𐄈X󲍕󲍝𐄊\n",
     "transliteratedWords": [
         "X",
@@ -323,6 +343,11 @@ var inscriptions = new Map([
     ]
 }],
 ["234",{
+    "facsimileImages": [
+        "images/234a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/234a.jpg",
         "images/234b.jpg",
@@ -332,9 +357,6 @@ var inscriptions = new Map([
     "name": "234",
     "parsedInscription": "󲊉󲍖><\n",
     "site": "",
-    "tracingImages": [
-        "images/234a-t.jpg"
-    ],
     "transcription": "󲊉󲍖><\n",
     "transliteratedWords": [
         "AU-TI",
@@ -350,6 +372,12 @@ var inscriptions = new Map([
     ]
 }],
 ["243",{
+    "facsimileImages": [
+        "images/243b-t.jpg",
+        "images/243c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/243a.jpg",
         "images/243b.jpg",
@@ -359,10 +387,6 @@ var inscriptions = new Map([
     "name": "243",
     "parsedInscription": "\n󲏨󲏈󲎦0\n󲏈󲌒><\n",
     "site": "",
-    "tracingImages": [
-        "images/243b-t.jpg",
-        "images/243c-t.jpg"
-    ],
     "transcription": "\n󲏨󲏈󲎦0\n󲏈󲌒><\n",
     "transliteratedWords": [
         "\n",
@@ -386,6 +410,12 @@ var inscriptions = new Map([
     ]
 }],
 ["024",{
+    "facsimileImages": [
+        "images/024c-t.jpg",
+        "images/024d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/024a.jpg",
         "images/024b.jpg",
@@ -396,10 +426,6 @@ var inscriptions = new Map([
     "name": "024",
     "parsedInscription": "\nvacat\n*󲊝\nX󲍅󲎎\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/024c-t.jpg",
-        "images/024d-t.jpg"
-    ],
     "transcription": "\nvacat\n*󲊝\nX󲍅󲎎\n",
     "transliteratedWords": [
         "\n",
@@ -425,6 +451,12 @@ var inscriptions = new Map([
     ]
 }],
 ["115",{
+    "facsimileImages": [
+        "images/115a-t.jpg",
+        "images/115b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/115a.jpg",
         "images/115b.jpg",
@@ -436,10 +468,6 @@ var inscriptions = new Map([
     "name": "115",
     "parsedInscription": "]󲉸󲎝󲏆\n]•󲍡󲍔\n]vacat\n]vacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/115a-t.jpg",
-        "images/115b-t.jpg"
-    ],
     "transcription": "]󲉸󲎝󲏆\n]•󲍡󲍔\n]vacat\n]vacat\n",
     "transliteratedWords": [
         "]",
@@ -471,12 +499,14 @@ var inscriptions = new Map([
     ]
 }],
 ["325",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [],
     "linearA": [],
     "name": "325",
     "parsedInscription": "󲎿[\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "󲎿[\n",
     "transliteratedWords": [
         "KU₂",
@@ -490,6 +520,14 @@ var inscriptions = new Map([
     ]
 }],
 ["049",{
+    "facsimileImages": [
+        "images/049a-t.jpg",
+        "images/049b-t.jpg",
+        "images/049c-t.jpg",
+        "images/049d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/049a.jpg",
         "images/049b.jpg",
@@ -502,12 +540,6 @@ var inscriptions = new Map([
     "name": "049",
     "parsedInscription": "X󲏕󲊘[]|X󲎿•󲎺𐄚[]|X󲎆󲎺𐄓\nX󲏈󲌒𐄑|X󲎆󲎺𐄛|X󲇴•𐄋𐄔\nX󲏆󲎎𐄧𐄜|X󲎀󲎍󲍰𐄢𐄛[\nX󲎿󲎍󲍬𐄝𐄔[]X󲇷󲉛[]𐄇𐄌0\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/049a-t.jpg",
-        "images/049b-t.jpg",
-        "images/049c-t.jpg",
-        "images/049d-t.jpg"
-    ],
     "transcription": "X󲏕󲊘[]|X󲎿•󲎺𐄚[]|X󲎆󲎺𐄓\nX󲏈󲌒𐄑|X󲎆󲎺𐄛|X󲇴•𐄋𐄔\nX󲏆󲎎𐄧𐄜|X󲎀󲎍󲍰𐄢𐄛[\nX󲎿󲎍󲍬𐄝𐄔[]X󲇷󲉛[]𐄇𐄌0\n",
     "transliteratedWords": [
         "X",
@@ -619,6 +651,12 @@ var inscriptions = new Map([
     ]
 }],
 ["045",{
+    "facsimileImages": [
+        "images/045a-t.jpg",
+        "images/045b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/045a.jpg",
         "images/045b.jpg"
@@ -627,10 +665,6 @@ var inscriptions = new Map([
     "name": "045",
     "parsedInscription": "X󲍅󲎗󲏆\n*󲇬𐄇\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/045a-t.jpg",
-        "images/045b-t.jpg"
-    ],
     "transcription": "X󲍅󲎗󲏆\n*󲇬𐄇\n",
     "transliteratedWords": [
         "X",
@@ -652,6 +686,13 @@ var inscriptions = new Map([
     ]
 }],
 ["003",{
+    "facsimileImages": [
+        "images/003b-t.jpg",
+        "images/003c-t.jpg",
+        "images/003d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/003a.jpg",
         "images/003b.jpg",
@@ -662,11 +703,6 @@ var inscriptions = new Map([
     "name": "003",
     "parsedInscription": "\nX󲎷󲎇\nX󲏈󲎷󲍖󲎷󲎹X\nX󲋧󲎗󲍡󲊗\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/003b-t.jpg",
-        "images/003c-t.jpg",
-        "images/003d-t.jpg"
-    ],
     "transcription": "\nX󲎷󲎇\nX󲏈󲎷󲍖󲎷󲎹X\nX󲋧󲎗󲍡󲊗\n",
     "transliteratedWords": [
         "\n",
@@ -698,6 +734,12 @@ var inscriptions = new Map([
     ]
 }],
 ["207",{
+    "facsimileImages": [
+        "images/207a-t.jpg",
+        "images/207b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/207b.jpg"
     ],
@@ -705,10 +747,6 @@ var inscriptions = new Map([
     "name": "207",
     "parsedInscription": "X󲎦-󲋸[\n󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/207a-t.jpg",
-        "images/207b-t.jpg"
-    ],
     "transcription": "X󲎦-󲋸[\n󲎆󲎺\n",
     "transliteratedWords": [
         "X",
@@ -732,6 +770,14 @@ var inscriptions = new Map([
     ]
 }],
 ["059",{
+    "facsimileImages": [
+        "images/059a-t.jpg",
+        "images/059b-t.jpg",
+        "images/059c-t.jpg",
+        "images/059d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/059a.jpg",
         "images/059b.jpg",
@@ -742,12 +788,6 @@ var inscriptions = new Map([
     "name": "059",
     "parsedInscription": "X󲎿󲎺󲎺X󲎆󲏓𐄓[\nX󲍐󲈣󲋈󲍎X𐄜[\nX󲍔󲍡X󲎿󲍮󲏩X󲍡-•[\n]𐄇𐄒vestigia[\n]𐄣𐄛[]𐄛[\n]󲍝󲋁󲍰X󲎆󲎺[\n󲇞󲎺𐄐𐄇X󲎆󲎺𐄌X󲎦󲏏[]󲆤󲆤󲆤󲆤󲆤[\nX󲎿󲎺󲎙󲎹[]󲎎󲍎󲍰𐄐𐄇[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/059a-t.jpg",
-        "images/059b-t.jpg",
-        "images/059c-t.jpg",
-        "images/059d-t.jpg"
-    ],
     "transcription": "X󲎿󲎺󲎺X󲎆󲏓𐄓[\nX󲍐󲈣󲋈󲍎X𐄜[\nX󲍔󲍡X󲎿󲍮󲏩X󲍡-•[\n]𐄇𐄒vestigia[\n]𐄣𐄛[]𐄛[\n]󲍝󲋁󲍰X󲎆󲎺[\n󲇞󲎺𐄐𐄇X󲎆󲎺𐄌X󲎦󲏏[]󲆤󲆤󲆤󲆤󲆤[\nX󲎿󲎺󲎙󲎹[]󲎎󲍎󲍰𐄐𐄇[\n",
     "transliteratedWords": [
         "X",
@@ -881,6 +921,11 @@ var inscriptions = new Map([
     ]
 }],
 ["235",{
+    "facsimileImages": [
+        "images/235a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/235a.jpg",
         "images/235b.jpg"
@@ -889,9 +934,6 @@ var inscriptions = new Map([
     "name": "235",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/235a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -903,6 +945,13 @@ var inscriptions = new Map([
     ]
 }],
 ["117",{
+    "facsimileImages": [
+        "images/117a-t.jpg",
+        "images/117e-t.jpg",
+        "images/117i-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/117a.jpg",
         "images/117b.jpg",
@@ -917,11 +966,6 @@ var inscriptions = new Map([
     "name": "117",
     "parsedInscription": "]󲉒󲊗[]󲍅󲎍\n]deest\n]vacat[]vacat[\n]vacat[]vacat[\n•[\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/117a-t.jpg",
-        "images/117e-t.jpg",
-        "images/117i-t.jpg"
-    ],
     "transcription": "]󲉒󲊗[]󲍅󲎍\n]deest\n]vacat[]vacat[\n]vacat[]vacat[\n•[\n",
     "transliteratedWords": [
         "]",
@@ -985,6 +1029,11 @@ var inscriptions = new Map([
     ]
 }],
 ["107",{
+    "facsimileImages": [
+        "images/107a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/107a.jpg",
         "images/107b.jpg",
@@ -994,9 +1043,6 @@ var inscriptions = new Map([
     "name": "107",
     "parsedInscription": "supramutila\n]•󲊗•\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/107a-t.jpg"
-    ],
     "transcription": "supramutila\n]•󲊗•\nvacat\n",
     "transliteratedWords": [
         "supra",
@@ -1020,6 +1066,11 @@ var inscriptions = new Map([
     ]
 }],
 ["208",{
+    "facsimileImages": [
+        "images/208a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/208a.jpg",
         "images/208b.jpg",
@@ -1029,9 +1080,6 @@ var inscriptions = new Map([
     "name": "208",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/208a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -1043,6 +1091,11 @@ var inscriptions = new Map([
     ]
 }],
 ["009",{
+    "facsimileImages": [
+        "images/009c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/009a.jpg",
         "images/009b.jpg",
@@ -1053,9 +1106,6 @@ var inscriptions = new Map([
     "name": "009",
     "parsedInscription": "\nvacat\nvacat\n]󲊯󲊘><\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/009c-t.jpg"
-    ],
     "transcription": "\nvacat\nvacat\n]󲊯󲊘><\n",
     "transliteratedWords": [
         "\n",
@@ -1083,6 +1133,13 @@ var inscriptions = new Map([
     ]
 }],
 ["271",{
+    "facsimileImages": [
+        "images/271a-t.jpg",
+        "images/271b-t.jpg",
+        "images/271c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/271a.jpg",
         "images/271b.jpg",
@@ -1092,11 +1149,6 @@ var inscriptions = new Map([
     "name": "271",
     "parsedInscription": "󲎯󲎷󲎻󲏔><\n󲏀󲍝󲍅><\n󲍔󲎆󲎎><\n",
     "site": "",
-    "tracingImages": [
-        "images/271a-t.jpg",
-        "images/271b-t.jpg",
-        "images/271c-t.jpg"
-    ],
     "transcription": "󲎯󲎷󲎻󲏔><\n󲏀󲍝󲍅><\n󲍔󲎆󲎎><\n",
     "transliteratedWords": [
         "MU-KI-",
@@ -1136,6 +1188,11 @@ var inscriptions = new Map([
     ]
 }],
 ["284",{
+    "facsimileImages": [
+        "images/284a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/284a.jpg",
         "images/284b.jpg",
@@ -1146,9 +1203,6 @@ var inscriptions = new Map([
     "name": "284",
     "parsedInscription": "󲎆󲎺\n󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/284a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -1164,6 +1218,11 @@ var inscriptions = new Map([
     ]
 }],
 ["229",{
+    "facsimileImages": [
+        "images/229a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/229a.jpg",
         "images/229b.jpg",
@@ -1173,9 +1232,6 @@ var inscriptions = new Map([
     "name": "229",
     "parsedInscription": "󲏏󲎦\n",
     "site": "",
-    "tracingImages": [
-        "images/229a-t.jpg"
-    ],
     "transcription": "󲏏󲎦\n",
     "transliteratedWords": [
         "SA₂-RU",
@@ -1187,6 +1243,11 @@ var inscriptions = new Map([
     ]
 }],
 ["145",{
+    "facsimileImages": [
+        "images/145a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/145a.jpg"
     ],
@@ -1194,9 +1255,6 @@ var inscriptions = new Map([
     "name": "145",
     "parsedInscription": "󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/145a-t.jpg"
-    ],
     "transcription": "󲎆󲏓\n",
     "transliteratedWords": [
         "KO-Rv",
@@ -1208,6 +1266,11 @@ var inscriptions = new Map([
     ]
 }],
 ["134",{
+    "facsimileImages": [
+        "images/134a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/134a.jpg"
     ],
@@ -1215,9 +1278,6 @@ var inscriptions = new Map([
     "name": "134",
     "parsedInscription": "󲎹󲎀\n",
     "site": "",
-    "tracingImages": [
-        "images/134a-t.jpg"
-    ],
     "transcription": "󲎹󲎀\n",
     "transliteratedWords": [
         "A-SA",
@@ -1229,6 +1289,13 @@ var inscriptions = new Map([
     ]
 }],
 ["057",{
+    "facsimileImages": [
+        "images/057a-t.jpg",
+        "images/057c-t.jpg",
+        "images/057d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/057a.jpg",
         "images/057b.jpg",
@@ -1240,11 +1307,6 @@ var inscriptions = new Map([
     "name": "057",
     "parsedInscription": "󲎹󲍮󲉔󲍅𐄐\nX󲈋󲉔󲍡𐄑|vacat\nX󲍐󲎇󲏆𐄑|vacat\nX󲍅󲍮󲈊𐄔|vacat\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/057a-t.jpg",
-        "images/057c-t.jpg",
-        "images/057d-t.jpg"
-    ],
     "transcription": "󲎹󲍮󲉔󲍅𐄐\nX󲈋󲉔󲍡𐄑|vacat\nX󲍐󲎇󲏆𐄑|vacat\nX󲍅󲍮󲈊𐄔|vacat\n",
     "transliteratedWords": [
         "A-MA-RE₂-SI",
@@ -1298,6 +1360,11 @@ var inscriptions = new Map([
     ]
 }],
 ["238",{
+    "facsimileImages": [
+        "images/238a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/238a.jpg",
         "images/238b.jpg",
@@ -1307,9 +1374,6 @@ var inscriptions = new Map([
     "name": "238",
     "parsedInscription": "󲏈󲏆󲎎\n",
     "site": "",
-    "tracingImages": [
-        "images/238a-t.jpg"
-    ],
     "transcription": "󲏈󲏆󲎎\n",
     "transliteratedWords": [
         "KI-TA-KU",
@@ -1321,6 +1385,11 @@ var inscriptions = new Map([
     ]
 }],
 ["225",{
+    "facsimileImages": [
+        "images/225a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/225a.jpg",
         "images/225b.jpg"
@@ -1329,9 +1398,6 @@ var inscriptions = new Map([
     "name": "225",
     "parsedInscription": "󲍕󲋧󲍅><\n",
     "site": "",
-    "tracingImages": [
-        "images/225a-t.jpg"
-    ],
     "transcription": "󲍕󲋧󲍅><\n",
     "transliteratedWords": [
         "Rv-A₂-SI",
@@ -1347,6 +1413,12 @@ var inscriptions = new Map([
     ]
 }],
 ["244",{
+    "facsimileImages": [
+        "images/244a-t.jpg",
+        "images/244b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/244a.jpg",
         "images/244b.jpg",
@@ -1356,10 +1428,6 @@ var inscriptions = new Map([
     "name": "244",
     "parsedInscription": "󲎆󲎺\n󲏈󲏆󲎎\n",
     "site": "",
-    "tracingImages": [
-        "images/244a-t.jpg",
-        "images/244b-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n󲏈󲏆󲎎\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -1375,6 +1443,11 @@ var inscriptions = new Map([
     ]
 }],
 ["196",{
+    "facsimileImages": [
+        "images/196a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/196a.jpg"
     ],
@@ -1382,9 +1455,6 @@ var inscriptions = new Map([
     "name": "196",
     "parsedInscription": "X󲎀󲍰\n",
     "site": "",
-    "tracingImages": [
-        "images/196a-t.jpg"
-    ],
     "transcription": "X󲎀󲍰\n",
     "transliteratedWords": [
         "X",
@@ -1398,6 +1468,13 @@ var inscriptions = new Map([
     ]
 }],
 ["289",{
+    "facsimileImages": [
+        "images/289b-t.jpg",
+        "images/289c-t.jpg",
+        "images/289d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/289a.jpg",
         "images/289b.jpg",
@@ -1408,11 +1485,6 @@ var inscriptions = new Map([
     "name": "289",
     "parsedInscription": "]•-•-•-󲎎󲍅•><\n]•0𐄌𐄈[]󲏆󲎮[><\n]•󲎦󲎎󲏆•[><\n",
     "site": "",
-    "tracingImages": [
-        "images/289b-t.jpg",
-        "images/289c-t.jpg",
-        "images/289d-t.jpg"
-    ],
     "transcription": "]•-•-•-󲎎󲍅•><\n]•0𐄌𐄈[]󲏆󲎮[><\n]•󲎦󲎎󲏆•[><\n",
     "transliteratedWords": [
         "]",
@@ -1464,6 +1536,11 @@ var inscriptions = new Map([
     ]
 }],
 ["168",{
+    "facsimileImages": [
+        "images/168a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/168a.jpg"
     ],
@@ -1471,9 +1548,6 @@ var inscriptions = new Map([
     "name": "168",
     "parsedInscription": "󲎹󲍎[><\n",
     "site": "",
-    "tracingImages": [
-        "images/168a-t.jpg"
-    ],
     "transcription": "󲎹󲍎[><\n",
     "transliteratedWords": [
         "A-RO",
@@ -1491,6 +1565,12 @@ var inscriptions = new Map([
     ]
 }],
 ["275",{
+    "facsimileImages": [
+        "images/275b-t.jpg",
+        "images/275c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/275a.jpg",
         "images/275b.jpg",
@@ -1500,10 +1580,6 @@ var inscriptions = new Map([
     "name": "275",
     "parsedInscription": "󲍐󲎮\n󲏕󲎆\n󲎧-•[><\n",
     "site": "",
-    "tracingImages": [
-        "images/275b-t.jpg",
-        "images/275c-t.jpg"
-    ],
     "transcription": "󲍐󲎮\n󲏕󲎆\n󲎧-•[><\n",
     "transliteratedWords": [
         "JA-RI",
@@ -1531,6 +1607,12 @@ var inscriptions = new Map([
     ]
 }],
 ["250",{
+    "facsimileImages": [
+        "images/250a-t.jpg",
+        "images/250c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/250a.jpg",
         "images/250b.jpg",
@@ -1540,10 +1622,6 @@ var inscriptions = new Map([
     "name": "250",
     "parsedInscription": "󲎆󲏓\n󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/250a-t.jpg",
-        "images/250c-t.jpg"
-    ],
     "transcription": "󲎆󲏓\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "KO-Rv",
@@ -1559,6 +1637,12 @@ var inscriptions = new Map([
     ]
 }],
 ["109",{
+    "facsimileImages": [
+        "images/109a-t.jpg",
+        "images/109c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/109a.jpg",
         "images/109b.jpg",
@@ -1569,10 +1653,6 @@ var inscriptions = new Map([
     "name": "109",
     "parsedInscription": "󲎀󲏆|󲉛•[\n󲏏󲎦[\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/109a-t.jpg",
-        "images/109c-t.jpg"
-    ],
     "transcription": "󲎀󲏆|󲉛•[\n󲏏󲎦[\n",
     "transliteratedWords": [
         "SA-TA",
@@ -1596,6 +1676,9 @@ var inscriptions = new Map([
     ]
 }],
 ["179",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/179a.jpg"
     ],
@@ -1603,7 +1686,6 @@ var inscriptions = new Map([
     "name": "179",
     "parsedInscription": "󲎹󲎀|󲎀•[\n",
     "site": "",
-    "tracingImages": [],
     "transcription": "󲎹󲎀|󲎀•[\n",
     "transliteratedWords": [
         "A-SA",
@@ -1621,6 +1703,12 @@ var inscriptions = new Map([
     ]
 }],
 ["034",{
+    "facsimileImages": [
+        "images/034a-t.jpg",
+        "images/034b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/034a.jpg",
         "images/034b.jpg"
@@ -1629,10 +1717,6 @@ var inscriptions = new Map([
     "name": "034",
     "parsedInscription": "X󲎇󲍰󲍡[\n]󲇞󲎺𐄐\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/034a-t.jpg",
-        "images/034b-t.jpg"
-    ],
     "transcription": "X󲎇󲍰󲍡[\n]󲇞󲎺𐄐\n",
     "transliteratedWords": [
         "X",
@@ -1656,6 +1740,11 @@ var inscriptions = new Map([
     ]
 }],
 ["167",{
+    "facsimileImages": [
+        "images/167a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/167a.jpg"
     ],
@@ -1663,9 +1752,6 @@ var inscriptions = new Map([
     "name": "167",
     "parsedInscription": "󲎺󲍎󲍎><\n",
     "site": "",
-    "tracingImages": [
-        "images/167a-t.jpg"
-    ],
     "transcription": "󲎺󲍎󲍎><\n",
     "transliteratedWords": [
         "RO₃-RO-RO",
@@ -1681,6 +1767,13 @@ var inscriptions = new Map([
     ]
 }],
 ["252",{
+    "facsimileImages": [
+        "images/252a-t.jpg",
+        "images/252b-t.jpg",
+        "images/252c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/252a.jpg",
         "images/252b.jpg",
@@ -1690,11 +1783,6 @@ var inscriptions = new Map([
     "name": "252",
     "parsedInscription": "󲎀󲏑󲏐\n󲎹󲎀\n󲎻-•-•-•\n",
     "site": "",
-    "tracingImages": [
-        "images/252a-t.jpg",
-        "images/252b-t.jpg",
-        "images/252c-t.jpg"
-    ],
     "transcription": "󲎀󲏑󲏐\n󲎹󲎀\n󲎻-•-•-•\n",
     "transliteratedWords": [
         "SA-RA-NE",
@@ -1716,6 +1804,11 @@ var inscriptions = new Map([
     ]
 }],
 ["132",{
+    "facsimileImages": [
+        "images/132a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/132a.jpg"
     ],
@@ -1723,9 +1816,6 @@ var inscriptions = new Map([
     "name": "132",
     "parsedInscription": "X󲍦󲎎󲍎0\n",
     "site": "",
-    "tracingImages": [
-        "images/132a-t.jpg"
-    ],
     "transcription": "X󲍦󲎎󲍎0\n",
     "transliteratedWords": [
         "X",
@@ -1741,12 +1831,14 @@ var inscriptions = new Map([
     ]
 }],
 [".ht",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [],
     "linearA": [],
     "name": ".ht",
     "parsedInscription": "X󲎹󲎀••\n",
     "site": "",
-    "tracingImages": [],
     "transcription": "X󲎹󲎀••\n",
     "transliteratedWords": [
         "X",
@@ -1760,6 +1852,13 @@ var inscriptions = new Map([
     ]
 }],
 ["259",{
+    "facsimileImages": [
+        "images/259a-t.jpg",
+        "images/259b-t.jpg",
+        "images/259c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/259a.jpg",
         "images/259b.jpg",
@@ -1769,11 +1868,6 @@ var inscriptions = new Map([
     "name": "259",
     "parsedInscription": "󲎆󲎺\n󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/259a-t.jpg",
-        "images/259b-t.jpg",
-        "images/259c-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n󲎆󲏓\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -1789,6 +1883,11 @@ var inscriptions = new Map([
     ]
 }],
 ["143",{
+    "facsimileImages": [
+        "images/143a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/143a.jpg"
     ],
@@ -1796,9 +1895,6 @@ var inscriptions = new Map([
     "name": "143",
     "parsedInscription": "󲎹•><\n",
     "site": "",
-    "tracingImages": [
-        "images/143a-t.jpg"
-    ],
     "transcription": "󲎹•><\n",
     "transliteratedWords": [
         "A-•",
@@ -1814,6 +1910,13 @@ var inscriptions = new Map([
     ]
 }],
 ["052",{
+    "facsimileImages": [
+        "images/052a-t.jpg",
+        "images/052c-t.jpg",
+        "images/052d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/052a.jpg",
         "images/052c.jpg",
@@ -1824,11 +1927,6 @@ var inscriptions = new Map([
     "name": "052",
     "parsedInscription": "]󲍰𐄕X󲊘󲊶󲍰󲍝𐄓\n]X󲏈󲎦󲍰𐄚𐄘\n]𐄔𐄔𐄖\n]󲍮󲍎𐄟𐄐\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/052a-t.jpg",
-        "images/052c-t.jpg",
-        "images/052d-t.jpg"
-    ],
     "transcription": "]󲍰𐄕X󲊘󲊶󲍰󲍝𐄓\n]X󲏈󲎦󲍰𐄚𐄘\n]𐄔𐄔𐄖\n]󲍮󲍎𐄟𐄐\n",
     "transliteratedWords": [
         "]",
@@ -1880,6 +1978,11 @@ var inscriptions = new Map([
     ]
 }],
 ["086",{
+    "facsimileImages": [
+        "images/086a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/086a.jpg",
         "images/086b.jpg",
@@ -1890,9 +1993,6 @@ var inscriptions = new Map([
     "name": "086",
     "parsedInscription": "󲍕󲎷[\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/086a-t.jpg"
-    ],
     "transcription": "󲍕󲎷[\nvacat\n",
     "transliteratedWords": [
         "Rv-",
@@ -1912,6 +2012,14 @@ var inscriptions = new Map([
     ]
 }],
 ["066",{
+    "facsimileImages": [
+        "images/066a-t.jpg",
+        "images/066b-t.jpg",
+        "images/066c-t.jpg",
+        "images/066d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/066a.jpg",
         "images/066b.jpg",
@@ -1923,12 +2031,6 @@ var inscriptions = new Map([
     "name": "066",
     "parsedInscription": "]󲆣󲆡*󲈯󲆣󲆢*󲍻󲆣\n]󲍮\n]󲏓󲊘𐄇\n]*󲈱𐄐𐄈*󲉯󲆢\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/066a-t.jpg",
-        "images/066b-t.jpg",
-        "images/066c-t.jpg",
-        "images/066d-t.jpg"
-    ],
     "transcription": "]󲆣󲆡*󲈯󲆣󲆢*󲍻󲆣\n]󲍮\n]󲏓󲊘𐄇\n]*󲈱𐄐𐄈*󲉯󲆢\n",
     "transliteratedWords": [
         "]",
@@ -1984,6 +2086,11 @@ var inscriptions = new Map([
     ]
 }],
 ["005",{
+    "facsimileImages": [
+        "images/005c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/005a.jpg",
         "images/005b.jpg",
@@ -1994,9 +2101,6 @@ var inscriptions = new Map([
     "name": "005",
     "parsedInscription": "\nvacat\nvacat\n]󲊶󲎦[><\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/005c-t.jpg"
-    ],
     "transcription": "\nvacat\nvacat\n]󲊶󲎦[><\n",
     "transliteratedWords": [
         "\n",
@@ -2026,6 +2130,11 @@ var inscriptions = new Map([
     ]
 }],
 ["097",{
+    "facsimileImages": [
+        "images/097c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/097a.jpg",
         "images/097b.jpg",
@@ -2036,9 +2145,6 @@ var inscriptions = new Map([
     "name": "097",
     "parsedInscription": "𐄈impressions(notH:lionattacksbull)\n\n\n󲎍󲍎󲍐\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/097c-t.jpg"
-    ],
     "transcription": "𐄈impressions(notH:lionattacksbull)\n\n\n󲎍󲍎󲍐\n",
     "transliteratedWords": [
         "2",
@@ -2070,6 +2176,12 @@ var inscriptions = new Map([
     ]
 }],
 ["089",{
+    "facsimileImages": [
+        "images/089a-t.jpg",
+        "images/089c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/089a.jpg",
         "images/089b.jpg",
@@ -2081,10 +2193,6 @@ var inscriptions = new Map([
     "name": "089",
     "parsedInscription": "󲎆󲎺󲌒|\n󲏆󲏀󲌇|󲏦󲏦󲏦󲏀\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/089a-t.jpg",
-        "images/089c-t.jpg"
-    ],
     "transcription": "󲎆󲎺󲌒|\n󲏆󲏀󲌇|󲏦󲏦󲏦󲏀\n",
     "transliteratedWords": [
         "KO-RO₃-TU",
@@ -2108,6 +2216,11 @@ var inscriptions = new Map([
     ]
 }],
 ["184",{
+    "facsimileImages": [
+        "images/184a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/184a.jpg"
     ],
@@ -2115,9 +2228,6 @@ var inscriptions = new Map([
     "name": "184",
     "parsedInscription": "X󲎆󲍡󲍎\n",
     "site": "",
-    "tracingImages": [
-        "images/184a-t.jpg"
-    ],
     "transcription": "X󲎆󲍡󲍎\n",
     "transliteratedWords": [
         "X",
@@ -2131,6 +2241,11 @@ var inscriptions = new Map([
     ]
 }],
 ["223",{
+    "facsimileImages": [
+        "images/223c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/223a.jpg",
         "images/223b.jpg",
@@ -2140,9 +2255,6 @@ var inscriptions = new Map([
     "name": "223",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/223c-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -2154,6 +2266,11 @@ var inscriptions = new Map([
     ]
 }],
 ["280",{
+    "facsimileImages": [
+        "images/280a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/280a.jpg",
         "images/280b.jpg",
@@ -2164,9 +2281,6 @@ var inscriptions = new Map([
     "name": "280",
     "parsedInscription": "󲎹󲎿󲏓><\n",
     "site": "",
-    "tracingImages": [
-        "images/280a-t.jpg"
-    ],
     "transcription": "󲎹󲎿󲏓><\n",
     "transliteratedWords": [
         "A-KU₂-Rv",
@@ -2182,6 +2296,12 @@ var inscriptions = new Map([
     ]
 }],
 ["103",{
+    "facsimileImages": [
+        "images/103a-t.jpg",
+        "images/103b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/103a.jpg",
         "images/103b.jpg"
@@ -2190,10 +2310,6 @@ var inscriptions = new Map([
     "name": "103",
     "parsedInscription": "]󲍎󲉒󲏈󲎎[\n]*󲉓[\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/103a-t.jpg",
-        "images/103b-t.jpg"
-    ],
     "transcription": "]󲍎󲉒󲏈󲎎[\n]*󲉓[\n",
     "transliteratedWords": [
         "]",
@@ -2221,6 +2337,14 @@ var inscriptions = new Map([
     ]
 }],
 ["292",{
+    "facsimileImages": [
+        "images/292a-t.jpg",
+        "images/292b-t.jpg",
+        "images/292c-t.jpg",
+        "images/292d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/292b.jpg",
         "images/292c.jpg",
@@ -2230,12 +2354,6 @@ var inscriptions = new Map([
     "name": "292",
     "parsedInscription": "󲎹󲎀\n*󲎄*󲎂\n*󲎃*󲍽\n󲎀󲏑󲏐\n",
     "site": "",
-    "tracingImages": [
-        "images/292a-t.jpg",
-        "images/292b-t.jpg",
-        "images/292c-t.jpg",
-        "images/292d-t.jpg"
-    ],
     "transcription": "󲎹󲎀\n*󲎄*󲎂\n*󲎃*󲍽\n󲎀󲏑󲏐\n",
     "transliteratedWords": [
         "A-SA-",
@@ -2275,6 +2393,11 @@ var inscriptions = new Map([
     ]
 }],
 ["193",{
+    "facsimileImages": [
+        "images/193a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/193a.jpg"
     ],
@@ -2282,9 +2405,6 @@ var inscriptions = new Map([
     "name": "193",
     "parsedInscription": "󲎷󲎀󲎎0\n",
     "site": "",
-    "tracingImages": [
-        "images/193a-t.jpg"
-    ],
     "transcription": "󲎷󲎀󲎎0\n",
     "transliteratedWords": [
         "KI-SA-KU",
@@ -2298,6 +2418,11 @@ var inscriptions = new Map([
     ]
 }],
 ["212",{
+    "facsimileImages": [
+        "images/212a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/212a.jpg",
         "images/212b.jpg",
@@ -2307,9 +2432,6 @@ var inscriptions = new Map([
     "name": "212",
     "parsedInscription": "󲍐󲎮\n",
     "site": "",
-    "tracingImages": [
-        "images/212a-t.jpg"
-    ],
     "transcription": "󲍐󲎮\n",
     "transliteratedWords": [
         "JA-RI",
@@ -2321,6 +2443,14 @@ var inscriptions = new Map([
     ]
 }],
 ["309",{
+    "facsimileImages": [
+        "images/309a-t.jpg",
+        "images/309b-t.jpg",
+        "images/309c-t.jpg",
+        "images/309d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/309a.jpg",
         "images/309b.jpg",
@@ -2331,12 +2461,6 @@ var inscriptions = new Map([
     "name": "309",
     "parsedInscription": "󲎆󲏓\nX󲎹󲎍󲎝󲏀\nX󲏏󲎦󲍝\n󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/309a-t.jpg",
-        "images/309b-t.jpg",
-        "images/309c-t.jpg",
-        "images/309d-t.jpg"
-    ],
     "transcription": "󲎆󲏓\nX󲎹󲎍󲎝󲏀\nX󲏏󲎦󲍝\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "KO-Rv",
@@ -2364,6 +2488,13 @@ var inscriptions = new Map([
     ]
 }],
 ["269",{
+    "facsimileImages": [
+        "images/269a-t.jpg",
+        "images/269b-t.jpg",
+        "images/269c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/269a.jpg",
         "images/269b.jpg",
@@ -2373,11 +2504,6 @@ var inscriptions = new Map([
     "name": "269",
     "parsedInscription": "󲍐󲎮󲍝[\n󲎺󲎺[\n]󲏕󲎆\n",
     "site": "",
-    "tracingImages": [
-        "images/269a-t.jpg",
-        "images/269b-t.jpg",
-        "images/269c-t.jpg"
-    ],
     "transcription": "󲍐󲎮󲍝[\n󲎺󲎺[\n]󲏕󲎆\n",
     "transliteratedWords": [
         "JA-RI-RE",
@@ -2407,6 +2533,14 @@ var inscriptions = new Map([
     ]
 }],
 ["118",{
+    "facsimileImages": [
+        "images/118b-t.jpg",
+        "images/118c-t.jpg",
+        "images/118d-t.jpg",
+        "images/118e-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/118a.jpg",
         "images/118b.jpg",
@@ -2419,12 +2553,6 @@ var inscriptions = new Map([
     "name": "118",
     "parsedInscription": "󲎎󲍎*󲉮𐄐󲆣*󲉱𐄇󲆟*󲉲𐄇[]*󲊝𐄇󲆟\n󲎍󲏈*󲉴𐄇󲆟*󲉳𐄈󲆡\n*󲍻𐄊󲆣󲆡*󲍚𐄑󲆣*󲉵𐄚𐄓\n*󲉯𐄇*󲉰𐄇\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/118b-t.jpg",
-        "images/118c-t.jpg",
-        "images/118d-t.jpg",
-        "images/118e-t.jpg"
-    ],
     "transcription": "󲎎󲍎*󲉮𐄐󲆣*󲉱𐄇󲆟*󲉲𐄇[]*󲊝𐄇󲆟\n󲎍󲏈*󲉴𐄇󲆟*󲉳𐄈󲆡\n*󲍻𐄊󲆣󲆡*󲍚𐄑󲆣*󲉵𐄚𐄓\n*󲉯𐄇*󲉰𐄇\n",
     "transliteratedWords": [
         "KU-RO",
@@ -2528,6 +2656,11 @@ var inscriptions = new Map([
     ]
 }],
 ["136",{
+    "facsimileImages": [
+        "images/136a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/136a.jpg",
         "images/136e.jpg"
@@ -2536,9 +2669,6 @@ var inscriptions = new Map([
     "name": "136",
     "parsedInscription": "󲎹󲎀\n",
     "site": "",
-    "tracingImages": [
-        "images/136a-t.jpg"
-    ],
     "transcription": "󲎹󲎀\n",
     "transliteratedWords": [
         "A-SA",
@@ -2550,6 +2680,11 @@ var inscriptions = new Map([
     ]
 }],
 ["282",{
+    "facsimileImages": [
+        "images/282a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/282a.jpg",
         "images/282b.jpg",
@@ -2560,9 +2695,6 @@ var inscriptions = new Map([
     "name": "282",
     "parsedInscription": "󲍦󲎀-󲏏><\n",
     "site": "",
-    "tracingImages": [
-        "images/282a-t.jpg"
-    ],
     "transcription": "󲍦󲎀-󲏏><\n",
     "transliteratedWords": [
         "A₃-",
@@ -2584,6 +2716,12 @@ var inscriptions = new Map([
     ]
 }],
 ["022",{
+    "facsimileImages": [
+        "images/022c-t.jpg",
+        "images/022d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/022a.jpg",
         "images/022b.jpg",
@@ -2594,10 +2732,6 @@ var inscriptions = new Map([
     "name": "022",
     "parsedInscription": "\nvacat\n]•-󲍝\nX󲉒󲍎󲎺[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/022c-t.jpg",
-        "images/022d-t.jpg"
-    ],
     "transcription": "\nvacat\n]•-󲍝\nX󲉒󲍎󲎺[\n",
     "transliteratedWords": [
         "\n",
@@ -2627,6 +2761,11 @@ var inscriptions = new Map([
     ]
 }],
 ["153",{
+    "facsimileImages": [
+        "images/153a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/153a.jpg"
     ],
@@ -2634,9 +2773,6 @@ var inscriptions = new Map([
     "name": "153",
     "parsedInscription": "󲎇•[><\n",
     "site": "",
-    "tracingImages": [
-        "images/153a-t.jpg"
-    ],
     "transcription": "󲎇•[><\n",
     "transliteratedWords": [
         "DE-•",
@@ -2654,6 +2790,12 @@ var inscriptions = new Map([
     ]
 }],
 ["020",{
+    "facsimileImages": [
+        "images/020b-t.jpg",
+        "images/020d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/020a.jpg",
         "images/020b.jpg",
@@ -2664,10 +2806,6 @@ var inscriptions = new Map([
     "name": "020",
     "parsedInscription": "\n]•-󲈑><\n]󲊶><\n\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/020b-t.jpg",
-        "images/020d-t.jpg"
-    ],
     "transcription": "\n]•-󲈑><\n]󲊶><\n\n",
     "transliteratedWords": [
         "\n",
@@ -2701,6 +2839,9 @@ var inscriptions = new Map([
     ]
 }],
 ["324",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/324a.jpg"
     ],
@@ -2708,7 +2849,6 @@ var inscriptions = new Map([
     "name": "324",
     "parsedInscription": "X󲏈󲌒󲍎󲏔\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "X󲏈󲌒󲍎󲏔\n",
     "transliteratedWords": [
         "X",
@@ -2722,6 +2862,9 @@ var inscriptions = new Map([
     ]
 }],
 ["316",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/316a.jpg",
         "images/316b.jpg",
@@ -2731,7 +2874,6 @@ var inscriptions = new Map([
     "name": "316",
     "parsedInscription": "X󲎺󲏀󲏨󲎌\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "X󲎺󲏀󲏨󲎌\n",
     "transliteratedWords": [
         "X",
@@ -2745,6 +2887,12 @@ var inscriptions = new Map([
     ]
 }],
 ["116",{
+    "facsimileImages": [
+        "images/116a-t.jpg",
+        "images/116d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/116a.jpg",
         "images/116b.jpg",
@@ -2755,10 +2903,6 @@ var inscriptions = new Map([
     "name": "116",
     "parsedInscription": "]󲍎|vacat\n]vacat\ndeest\n]••\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/116a-t.jpg",
-        "images/116d-t.jpg"
-    ],
     "transcription": "]󲍎|vacat\n]vacat\ndeest\n]••\n",
     "transliteratedWords": [
         "]",
@@ -2792,6 +2936,13 @@ var inscriptions = new Map([
     ]
 }],
 ["254",{
+    "facsimileImages": [
+        "images/254a-t.jpg",
+        "images/254b-t.jpg",
+        "images/254c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/254a.jpg",
         "images/254b.jpg",
@@ -2801,11 +2952,6 @@ var inscriptions = new Map([
     "name": "254",
     "parsedInscription": "󲎮󲍝\n󲎆󲏓\n󲏏󲎦󲍝>?\n",
     "site": "",
-    "tracingImages": [
-        "images/254a-t.jpg",
-        "images/254b-t.jpg",
-        "images/254c-t.jpg"
-    ],
     "transcription": "󲎮󲍝\n󲎆󲏓\n󲏏󲎦󲍝>?\n",
     "transliteratedWords": [
         "RI-RE",
@@ -2829,6 +2975,11 @@ var inscriptions = new Map([
     ]
 }],
 ["141",{
+    "facsimileImages": [
+        "images/141a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/141a.jpg"
     ],
@@ -2836,9 +2987,6 @@ var inscriptions = new Map([
     "name": "141",
     "parsedInscription": "󲊘󲍝{quadruped}><\n",
     "site": "",
-    "tracingImages": [
-        "images/141a-t.jpg"
-    ],
     "transcription": "󲊘󲍝{quadruped}><\n",
     "transliteratedWords": [
         "PA-RE",
@@ -2860,6 +3008,11 @@ var inscriptions = new Map([
     ]
 }],
 ["007",{
+    "facsimileImages": [
+        "images/007d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/007a.jpg",
         "images/007b.jpg",
@@ -2870,9 +3023,6 @@ var inscriptions = new Map([
     "name": "007",
     "parsedInscription": "\nvacat\n]*󲍚\n\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/007d-t.jpg"
-    ],
     "transcription": "\nvacat\n]*󲍚\n\n",
     "transliteratedWords": [
         "\n",
@@ -2896,6 +3046,11 @@ var inscriptions = new Map([
     ]
 }],
 ["014",{
+    "facsimileImages": [
+        "images/014c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/014a.jpg",
         "images/014b.jpg",
@@ -2906,9 +3061,6 @@ var inscriptions = new Map([
     "name": "014",
     "parsedInscription": "\ndeest\nvacat\n]•-󲍐[><\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/014c-t.jpg"
-    ],
     "transcription": "\ndeest\nvacat\n]•-󲍐[><\n",
     "transliteratedWords": [
         "\n",
@@ -2940,6 +3092,11 @@ var inscriptions = new Map([
     ]
 }],
 ["213",{
+    "facsimileImages": [
+        "images/213a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/213a.jpg",
         "images/213b.jpg",
@@ -2949,9 +3106,6 @@ var inscriptions = new Map([
     "name": "213",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/213a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -2963,6 +3117,9 @@ var inscriptions = new Map([
     ]
 }],
 ["327",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/327a.jpg",
         "images/327b.jpg"
@@ -2971,7 +3128,6 @@ var inscriptions = new Map([
     "name": "327",
     "parsedInscription": "󲎺󲏀󲏨󲏈\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "󲎺󲏀󲏨󲏈\n",
     "transliteratedWords": [
         "RO₃-WA-NWA-",
@@ -2985,6 +3141,11 @@ var inscriptions = new Map([
     ]
 }],
 ["199",{
+    "facsimileImages": [
+        "images/199a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/199a.jpg"
     ],
@@ -2992,9 +3153,6 @@ var inscriptions = new Map([
     "name": "199",
     "parsedInscription": "󲍎[\n",
     "site": "",
-    "tracingImages": [
-        "images/199a-t.jpg"
-    ],
     "transcription": "󲍎[\n",
     "transliteratedWords": [
         "RO",
@@ -3008,6 +3166,11 @@ var inscriptions = new Map([
     ]
 }],
 ["135",{
+    "facsimileImages": [
+        "images/135a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/135a.jpg"
     ],
@@ -3015,9 +3178,6 @@ var inscriptions = new Map([
     "name": "135",
     "parsedInscription": "󲎹󲎀\n",
     "site": "",
-    "tracingImages": [
-        "images/135a-t.jpg"
-    ],
     "transcription": "󲎹󲎀\n",
     "transliteratedWords": [
         "A-SA",
@@ -3029,6 +3189,11 @@ var inscriptions = new Map([
     ]
 }],
 ["186",{
+    "facsimileImages": [
+        "images/186a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/186a.jpg"
     ],
@@ -3036,9 +3201,6 @@ var inscriptions = new Map([
     "name": "186",
     "parsedInscription": "X󲎿󲍰󲎺󲊶0\n",
     "site": "",
-    "tracingImages": [
-        "images/186a-t.jpg"
-    ],
     "transcription": "X󲎿󲍰󲎺󲊶0\n",
     "transliteratedWords": [
         "X",
@@ -3054,6 +3216,13 @@ var inscriptions = new Map([
     ]
 }],
 ["290",{
+    "facsimileImages": [
+        "images/290b-t.jpg",
+        "images/290c-t.jpg",
+        "images/290d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/290a.jpg",
         "images/290c.jpg",
@@ -3063,11 +3232,6 @@ var inscriptions = new Map([
     "name": "290",
     "parsedInscription": "󲎆󲎺\n󲎗󲎷󲏬><\nX󲏦󲍝󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/290b-t.jpg",
-        "images/290c-t.jpg",
-        "images/290d-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n󲎗󲎷󲏬><\nX󲏦󲍝󲏓\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -3093,6 +3257,11 @@ var inscriptions = new Map([
     ]
 }],
 ["100",{
+    "facsimileImages": [
+        "images/100a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/100a.jpg",
         "images/100b.jpg"
@@ -3101,9 +3270,6 @@ var inscriptions = new Map([
     "name": "100",
     "parsedInscription": "*󲍻𐄐𐄇\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/100a-t.jpg"
-    ],
     "transcription": "*󲍻𐄐𐄇\nvacat\n",
     "transliteratedWords": [
         "*",
@@ -3123,6 +3289,11 @@ var inscriptions = new Map([
     ]
 }],
 ["197",{
+    "facsimileImages": [
+        "images/197a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/197a.jpg"
     ],
@@ -3130,9 +3301,6 @@ var inscriptions = new Map([
     "name": "197",
     "parsedInscription": "X󲍝󲋁󲍰\n",
     "site": "",
-    "tracingImages": [
-        "images/197a-t.jpg"
-    ],
     "transcription": "X󲍝󲋁󲍰\n",
     "transliteratedWords": [
         "X",
@@ -3146,6 +3314,12 @@ var inscriptions = new Map([
     ]
 }],
 ["095",{
+    "facsimileImages": [
+        "images/095a-t.jpg",
+        "images/095b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/095a.jpg",
         "images/095b.jpg",
@@ -3157,10 +3331,6 @@ var inscriptions = new Map([
     "name": "095",
     "parsedInscription": "󲎹󲋈󲎗󲎹𐄚𐄖[\n󲍰󲎻󲎹𐄠𐄘[\nvacat\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/095a-t.jpg",
-        "images/095b-t.jpg"
-    ],
     "transcription": "󲎹󲋈󲎗󲎹𐄚𐄖[\n󲍰󲎻󲎹𐄠𐄘[\nvacat\nvacat\n",
     "transliteratedWords": [
         "A-?-RU₂-A",
@@ -3192,6 +3362,11 @@ var inscriptions = new Map([
     ]
 }],
 ["133",{
+    "facsimileImages": [
+        "images/133a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/133a.jpg"
     ],
@@ -3199,9 +3374,6 @@ var inscriptions = new Map([
     "name": "133",
     "parsedInscription": "󲍎󲎿󲏀{curvedobject}0\n",
     "site": "",
-    "tracingImages": [
-        "images/133a-t.jpg"
-    ],
     "transcription": "󲍎󲎿󲏀{curvedobject}0\n",
     "transliteratedWords": [
         "RO-KU₂-WA",
@@ -3223,6 +3395,13 @@ var inscriptions = new Map([
     ]
 }],
 ["209",{
+    "facsimileImages": [
+        "images/209a-t.jpg",
+        "images/209b-t.jpg",
+        "images/209d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/209a.jpg",
         "images/209b.jpg",
@@ -3232,11 +3411,6 @@ var inscriptions = new Map([
     "name": "209",
     "parsedInscription": "]󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/209a-t.jpg",
-        "images/209b-t.jpg",
-        "images/209d-t.jpg"
-    ],
     "transcription": "]󲎆󲎺\n",
     "transliteratedWords": [
         "]",
@@ -3250,6 +3424,11 @@ var inscriptions = new Map([
     ]
 }],
 ["180",{
+    "facsimileImages": [
+        "images/180a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/180a.jpg"
     ],
@@ -3257,9 +3436,6 @@ var inscriptions = new Map([
     "name": "180",
     "parsedInscription": "󲎆󲎺󲍖󲎎0\n",
     "site": "",
-    "tracingImages": [
-        "images/180a-t.jpg"
-    ],
     "transcription": "󲎆󲎺󲍖󲎎0\n",
     "transliteratedWords": [
         "KO-RO₃-TI-KU",
@@ -3273,6 +3449,12 @@ var inscriptions = new Map([
     ]
 }],
 ["203",{
+    "facsimileImages": [
+        "images/203a-t.jpg",
+        "images/203b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/203a.jpg",
         "images/203b.jpg"
@@ -3281,10 +3463,6 @@ var inscriptions = new Map([
     "name": "203",
     "parsedInscription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "site": "",
-    "tracingImages": [
-        "images/203a-t.jpg",
-        "images/203b-t.jpg"
-    ],
     "transcription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "transliteratedWords": [
         "A-SA",
@@ -3300,6 +3478,13 @@ var inscriptions = new Map([
     ]
 }],
 ["027",{
+    "facsimileImages": [
+        "images/027b-t.jpg",
+        "images/027c-t.jpg",
+        "images/027d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/027a.jpg",
         "images/027b.jpg",
@@ -3310,11 +3495,6 @@ var inscriptions = new Map([
     "name": "027",
     "parsedInscription": "\nX󲎹󲏀󲍅\nX󲏈󲎌󲏆[\nX󲎦󲇚󲉔\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/027b-t.jpg",
-        "images/027c-t.jpg",
-        "images/027d-t.jpg"
-    ],
     "transcription": "\nX󲎹󲏀󲍅\nX󲏈󲎌󲏆[\nX󲎦󲇚󲉔\n",
     "transliteratedWords": [
         "\n",
@@ -3344,6 +3524,13 @@ var inscriptions = new Map([
     ]
 }],
 ["261",{
+    "facsimileImages": [
+        "images/261a-t.jpg",
+        "images/261b-t.jpg",
+        "images/261c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/261a.jpg",
         "images/261c.jpg"
@@ -3352,11 +3539,6 @@ var inscriptions = new Map([
     "name": "261",
     "parsedInscription": "󲎆󲏓\n󲍐󲎮󲍝\n󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/261a-t.jpg",
-        "images/261b-t.jpg",
-        "images/261c-t.jpg"
-    ],
     "transcription": "󲎆󲏓\n󲍐󲎮󲍝\n󲎆󲎺\n",
     "transliteratedWords": [
         "KO-Rv",
@@ -3376,6 +3558,11 @@ var inscriptions = new Map([
     ]
 }],
 ["240",{
+    "facsimileImages": [
+        "images/240a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/240a.jpg",
         "images/240b.jpg",
@@ -3385,9 +3572,6 @@ var inscriptions = new Map([
     "name": "240",
     "parsedInscription": "{󲏅}󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/240a-t.jpg"
-    ],
     "transcription": "{󲏅}󲎆󲎺\n",
     "transliteratedWords": [
         "{",
@@ -3405,6 +3589,11 @@ var inscriptions = new Map([
     ]
 }],
 ["221",{
+    "facsimileImages": [
+        "images/221b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/221a.jpg",
         "images/221b.jpg",
@@ -3414,9 +3603,6 @@ var inscriptions = new Map([
     "name": "221",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/221b-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -3428,6 +3614,11 @@ var inscriptions = new Map([
     ]
 }],
 ["245",{
+    "facsimileImages": [
+        "images/245c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/245a.jpg",
         "images/245b.jpg",
@@ -3437,9 +3628,6 @@ var inscriptions = new Map([
     "name": "245",
     "parsedInscription": "󲎺•[\n󲍮󲎧•[\n",
     "site": "",
-    "tracingImages": [
-        "images/245c-t.jpg"
-    ],
     "transcription": "󲎺•[\n󲍮󲎧•[\n",
     "transliteratedWords": [
         "RO₃-•",
@@ -3459,6 +3647,11 @@ var inscriptions = new Map([
     ]
 }],
 ["198",{
+    "facsimileImages": [
+        "images/198a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/198a.jpg"
     ],
@@ -3466,9 +3659,6 @@ var inscriptions = new Map([
     "name": "198",
     "parsedInscription": "󲍎󲋸><\n",
     "site": "",
-    "tracingImages": [
-        "images/198a-t.jpg"
-    ],
     "transcription": "󲍎󲋸><\n",
     "transliteratedWords": [
         "RO-KU₄",
@@ -3484,6 +3674,11 @@ var inscriptions = new Map([
     ]
 }],
 ["192",{
+    "facsimileImages": [
+        "images/192a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/192a.jpg"
     ],
@@ -3491,9 +3686,6 @@ var inscriptions = new Map([
     "name": "192",
     "parsedInscription": "X󲎀󲍡󲎍0\n",
     "site": "",
-    "tracingImages": [
-        "images/192a-t.jpg"
-    ],
     "transcription": "X󲎀󲍡󲎍0\n",
     "transliteratedWords": [
         "X",
@@ -3509,6 +3701,11 @@ var inscriptions = new Map([
     ]
 }],
 ["170",{
+    "facsimileImages": [
+        "images/170a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/170a.jpg"
     ],
@@ -3516,9 +3713,6 @@ var inscriptions = new Map([
     "name": "170",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/170a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -3530,6 +3724,11 @@ var inscriptions = new Map([
     ]
 }],
 ["152",{
+    "facsimileImages": [
+        "images/152a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/152a.jpg"
     ],
@@ -3537,9 +3736,6 @@ var inscriptions = new Map([
     "name": "152",
     "parsedInscription": "\n\n]󲎹󲍰[]\nX󲏈󲎺*󲈥\n\n\n\n\n]󲎿󲎺\nX󲍎󲍝󲎀\n",
     "site": "",
-    "tracingImages": [
-        "images/152a-t.jpg"
-    ],
     "transcription": "\n\n]󲎹󲍰[]\nX󲏈󲎺*󲈥\n\n\n\n\n]󲎿󲎺\nX󲍎󲍝󲎀\n",
     "transliteratedWords": [
         "\n",
@@ -3593,6 +3789,11 @@ var inscriptions = new Map([
     ]
 }],
 ["076",{
+    "facsimileImages": [
+        "images/076a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/076a.jpg",
         "images/076b.jpg"
@@ -3601,9 +3802,6 @@ var inscriptions = new Map([
     "name": "076",
     "parsedInscription": "󲍦󲎎󲍡\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/076a-t.jpg"
-    ],
     "transcription": "󲍦󲎎󲍡\nvacat\n",
     "transliteratedWords": [
         "A₃-KU-BOS/MU₂",
@@ -3619,6 +3817,9 @@ var inscriptions = new Map([
     ]
 }],
 ["329",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/329a.jpg"
     ],
@@ -3626,7 +3827,6 @@ var inscriptions = new Map([
     "name": "329",
     "parsedInscription": "X󲎺󲎹\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "X󲎺󲎹\n",
     "transliteratedWords": [
         "X",
@@ -3640,6 +3840,12 @@ var inscriptions = new Map([
     ]
 }],
 ["090",{
+    "facsimileImages": [
+        "images/090a-t.jpg",
+        "images/090c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/090a.jpg",
         "images/090b.jpg",
@@ -3651,10 +3857,6 @@ var inscriptions = new Map([
     "name": "090",
     "parsedInscription": "󲎷󲍐󲎙󲏦\n𐄨\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/090a-t.jpg",
-        "images/090c-t.jpg"
-    ],
     "transcription": "󲎷󲍐󲎙󲏦\n𐄨\n",
     "transliteratedWords": [
         "KI-JA-MI-KU₃",
@@ -3670,6 +3872,11 @@ var inscriptions = new Map([
     ]
 }],
 ["163",{
+    "facsimileImages": [
+        "images/163a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/163a.jpg"
     ],
@@ -3677,9 +3884,6 @@ var inscriptions = new Map([
     "name": "163",
     "parsedInscription": "󲎹󲍎󲍐\n",
     "site": "",
-    "tracingImages": [
-        "images/163a-t.jpg"
-    ],
     "transcription": "󲎹󲍎󲍐\n",
     "transliteratedWords": [
         "A-RO-JA",
@@ -3691,6 +3895,14 @@ var inscriptions = new Map([
     ]
 }],
 ["067",{
+    "facsimileImages": [
+        "images/067a-t.jpg",
+        "images/067b-t.jpg",
+        "images/067c-t.jpg",
+        "images/067d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/067a.jpg",
         "images/067b.jpg",
@@ -3702,12 +3914,6 @@ var inscriptions = new Map([
     "name": "067",
     "parsedInscription": "]󲆡*󲉱𐄙*󲍻󲆡󲆢*󲍚𐄇\n]*󲎼𐄇\n]*󲈥𐄇X󲎦󲍝𐄇\nX•[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/067a-t.jpg",
-        "images/067b-t.jpg",
-        "images/067c-t.jpg",
-        "images/067d-t.jpg"
-    ],
     "transcription": "]󲆡*󲉱𐄙*󲍻󲆡󲆢*󲍚𐄇\n]*󲎼𐄇\n]*󲈥𐄇X󲎦󲍝𐄇\nX•[\n",
     "transliteratedWords": [
         "]",
@@ -3773,6 +3979,15 @@ var inscriptions = new Map([
     ]
 }],
 ["056",{
+    "facsimileImages": [
+        "images/056a-t.jpg",
+        "images/056b-t.jpg",
+        "images/056c-t.jpg",
+        "images/056d-t.jpg",
+        "images/056e-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/056a.jpg",
         "images/056b.jpg",
@@ -3783,13 +3998,6 @@ var inscriptions = new Map([
     "name": "056",
     "parsedInscription": "X󲍎󲍝󲎀X󲎆󲎺𐄗𐄋\n𐄠𐄝𐄓󲎆𐄓𐄊\nX󲎹󲏈󲍎𐄠X󲎆󲎺𐄗𐄉\nX󲈈󲍰\nX󲎹󲏈󲍐𐄜𐄗𐄉\n󲎆󲎺𐄓𐄌\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/056a-t.jpg",
-        "images/056b-t.jpg",
-        "images/056c-t.jpg",
-        "images/056d-t.jpg",
-        "images/056e-t.jpg"
-    ],
     "transcription": "X󲍎󲍝󲎀X󲎆󲎺𐄗𐄋\n𐄠𐄝𐄓󲎆𐄓𐄊\nX󲎹󲏈󲍎𐄠X󲎆󲎺𐄗𐄉\nX󲈈󲍰\nX󲎹󲏈󲍐𐄜𐄗𐄉\n󲎆󲎺𐄓𐄌\n",
     "transliteratedWords": [
         "X",
@@ -3853,6 +4061,11 @@ var inscriptions = new Map([
     ]
 }],
 ["214",{
+    "facsimileImages": [
+        "images/214a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/214a.jpg",
         "images/214b.jpg",
@@ -3862,9 +4075,6 @@ var inscriptions = new Map([
     "name": "214",
     "parsedInscription": "󲍐󲎮\n",
     "site": "",
-    "tracingImages": [
-        "images/214a-t.jpg"
-    ],
     "transcription": "󲍐󲎮\n",
     "transliteratedWords": [
         "JA-RI",
@@ -3876,6 +4086,11 @@ var inscriptions = new Map([
     ]
 }],
 ["080",{
+    "facsimileImages": [
+        "images/080a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/080a.jpg",
         "images/080b.jpg"
@@ -3884,9 +4099,6 @@ var inscriptions = new Map([
     "name": "080",
     "parsedInscription": "󲎯󲍝󲉆\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/080a-t.jpg"
-    ],
     "transcription": "󲎯󲍝󲉆\nvacat\n",
     "transliteratedWords": [
         "MU-",
@@ -3906,6 +4118,11 @@ var inscriptions = new Map([
     ]
 }],
 ["224",{
+    "facsimileImages": [
+        "images/224a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/224a.jpg",
         "images/224b.jpg",
@@ -3915,9 +4132,6 @@ var inscriptions = new Map([
     "name": "224",
     "parsedInscription": "]󲎹󲍐><\n",
     "site": "",
-    "tracingImages": [
-        "images/224a-t.jpg"
-    ],
     "transcription": "]󲎹󲍐><\n",
     "transliteratedWords": [
         "]",
@@ -3935,6 +4149,12 @@ var inscriptions = new Map([
     ]
 }],
 ["033",{
+    "facsimileImages": [
+        "images/033a-t.jpg",
+        "images/033b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/033a.jpg",
         "images/033b.jpg"
@@ -3943,10 +4163,6 @@ var inscriptions = new Map([
     "name": "033",
     "parsedInscription": "]󲍖󲎀󲍐•[><\n]󲎹[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/033a-t.jpg",
-        "images/033b-t.jpg"
-    ],
     "transcription": "]󲍖󲎀󲍐•[><\n]󲎹[\n",
     "transliteratedWords": [
         "]",
@@ -3976,6 +4192,11 @@ var inscriptions = new Map([
     ]
 }],
 ["129",{
+    "facsimileImages": [
+        "images/129a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/129a.jpg"
     ],
@@ -3983,9 +4204,6 @@ var inscriptions = new Map([
     "name": "129",
     "parsedInscription": "󲎹󲎍󲎺0\n",
     "site": "",
-    "tracingImages": [
-        "images/129a-t.jpg"
-    ],
     "transcription": "󲎹󲎍󲎺0\n",
     "transliteratedWords": [
         "A-RO₂-RO₃",
@@ -3999,6 +4217,12 @@ var inscriptions = new Map([
     ]
 }],
 ["047",{
+    "facsimileImages": [
+        "images/047a-t.jpg",
+        "images/047b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/047a.jpg",
         "images/047b.jpg"
@@ -4007,10 +4231,6 @@ var inscriptions = new Map([
     "name": "047",
     "parsedInscription": "X󲎝󲎝󲎗\nX󲈤󲎆*󲍚𐄜𐄓𐄇\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/047a-t.jpg",
-        "images/047b-t.jpg"
-    ],
     "transcription": "X󲎝󲎝󲎗\nX󲈤󲎆*󲍚𐄜𐄓𐄇\n",
     "transliteratedWords": [
         "X",
@@ -4036,6 +4256,11 @@ var inscriptions = new Map([
     ]
 }],
 ["139",{
+    "facsimileImages": [
+        "images/139a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/139a.jpg"
     ],
@@ -4043,9 +4268,6 @@ var inscriptions = new Map([
     "name": "139",
     "parsedInscription": "X󲋧󲎗󲍡󲊗\n",
     "site": "",
-    "tracingImages": [
-        "images/139a-t.jpg"
-    ],
     "transcription": "X󲋧󲎗󲍡󲊗\n",
     "transliteratedWords": [
         "X",
@@ -4059,6 +4281,13 @@ var inscriptions = new Map([
     ]
 }],
 ["273",{
+    "facsimileImages": [
+        "images/273a-t.jpg",
+        "images/273b-t.jpg",
+        "images/273c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/273a.jpg",
         "images/273b.jpg",
@@ -4068,11 +4297,6 @@ var inscriptions = new Map([
     "name": "273",
     "parsedInscription": "X󲎇󲏓󲍖><\n󲎀󲍝󲍰><\nX󲍎󲏓󲍖><\n",
     "site": "",
-    "tracingImages": [
-        "images/273a-t.jpg",
-        "images/273b-t.jpg",
-        "images/273c-t.jpg"
-    ],
     "transcription": "X󲎇󲏓󲍖><\n󲎀󲍝󲍰><\nX󲍎󲏓󲍖><\n",
     "transliteratedWords": [
         "X",
@@ -4108,6 +4332,11 @@ var inscriptions = new Map([
     ]
 }],
 ["010",{
+    "facsimileImages": [
+        "images/010c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/010a.jpg",
         "images/010b.jpg",
@@ -4118,9 +4347,6 @@ var inscriptions = new Map([
     "name": "010",
     "parsedInscription": "\ndeest\nvacat\n•󲍐•\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/010c-t.jpg"
-    ],
     "transcription": "\ndeest\nvacat\n•󲍐•\n",
     "transliteratedWords": [
         "\n",
@@ -4142,6 +4368,12 @@ var inscriptions = new Map([
     ]
 }],
 ["002",{
+    "facsimileImages": [
+        "images/002c-t.jpg",
+        "images/002d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/002a.jpg",
         "images/002b.jpg",
@@ -4152,10 +4384,6 @@ var inscriptions = new Map([
     "name": "002",
     "parsedInscription": "\n\n]󲍖󲎷>?\nX󲍡󲎎󲍕\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/002c-t.jpg",
-        "images/002d-t.jpg"
-    ],
     "transcription": "\n\n]󲍖󲎷>?\nX󲍡󲎎󲍕\n",
     "transliteratedWords": [
         "\n",
@@ -4185,6 +4413,12 @@ var inscriptions = new Map([
     ]
 }],
 ["093",{
+    "facsimileImages": [
+        "images/093a-t.jpg",
+        "images/093c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/093a.jpg",
         "images/093b.jpg",
@@ -4196,10 +4430,6 @@ var inscriptions = new Map([
     "name": "093",
     "parsedInscription": "]󲍐\n]󲎀\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/093a-t.jpg",
-        "images/093c-t.jpg"
-    ],
     "transcription": "]󲍐\n]󲎀\n",
     "transliteratedWords": [
         "]",
@@ -4219,6 +4449,11 @@ var inscriptions = new Map([
     ]
 }],
 ["140",{
+    "facsimileImages": [
+        "images/140a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/140a.jpg"
     ],
@@ -4226,9 +4461,6 @@ var inscriptions = new Map([
     "name": "140",
     "parsedInscription": "󲎆{󲍡}󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/140a-t.jpg"
-    ],
     "transcription": "󲎆{󲍡}󲏓\n",
     "transliteratedWords": [
         "KO-",
@@ -4248,6 +4480,11 @@ var inscriptions = new Map([
     ]
 }],
 ["211",{
+    "facsimileImages": [
+        "images/211a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/211a.jpg",
         "images/211b.jpg",
@@ -4257,9 +4494,6 @@ var inscriptions = new Map([
     "name": "211",
     "parsedInscription": "X󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/211a-t.jpg"
-    ],
     "transcription": "X󲎆󲎺\n",
     "transliteratedWords": [
         "X",
@@ -4273,6 +4507,14 @@ var inscriptions = new Map([
     ]
 }],
 ["294",{
+    "facsimileImages": [
+        "images/294a-t.jpg",
+        "images/294b-t.jpg",
+        "images/294c-t.jpg",
+        "images/294d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/294a.jpg",
         "images/294b.jpg",
@@ -4282,12 +4524,6 @@ var inscriptions = new Map([
     "name": "294",
     "parsedInscription": "X󲎌049(•?)040(•?)\nX󲌐󲏈󲎧󲏀󲎀󲊶󲍎󲎦󲎀󲎆󲍖󲎀󲎿󲎎\n󲎦057(•?)034(•?)016󲎎><\n•󲎎󲍰-󲎗\nX󲎌󲎌••\n",
     "site": "",
-    "tracingImages": [
-        "images/294a-t.jpg",
-        "images/294b-t.jpg",
-        "images/294c-t.jpg",
-        "images/294d-t.jpg"
-    ],
     "transcription": "X󲎌049(•?)040(•?)\nX󲌐󲏈󲎧󲏀󲎀󲊶󲍎󲎦󲎀󲎆󲍖󲎀󲎿󲎎\n󲎦057(•?)034(•?)016󲎎><\n•󲎎󲍰-󲎗\nX󲎌󲎌••\n",
     "transliteratedWords": [
         "X",
@@ -4335,6 +4571,14 @@ var inscriptions = new Map([
     ]
 }],
 ["054",{
+    "facsimileImages": [
+        "images/054a-t.jpg",
+        "images/054c-t.jpg",
+        "images/054d-t.jpg",
+        "images/054e-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/054a.jpg",
         "images/054b.jpg",
@@ -4346,12 +4590,6 @@ var inscriptions = new Map([
     "name": "054",
     "parsedInscription": "]󲎹󲍰[]𐄙𐄐X󲏈󲍡󲎺󲉢\nvacat\n]󲈁𐄙𐄔𐄔\n]󲍮󲎺𐄜𐄔\nX󲍎󲍝󲎀𐄕\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/054a-t.jpg",
-        "images/054c-t.jpg",
-        "images/054d-t.jpg",
-        "images/054e-t.jpg"
-    ],
     "transcription": "]󲎹󲍰[]𐄙𐄐X󲏈󲍡󲎺󲉢\nvacat\n]󲈁𐄙𐄔𐄔\n]󲍮󲎺𐄜𐄔\nX󲍎󲍝󲎀𐄕\n",
     "transliteratedWords": [
         "]",
@@ -4409,6 +4647,12 @@ var inscriptions = new Map([
     ]
 }],
 ["016",{
+    "facsimileImages": [
+        "images/016b-t.jpg",
+        "images/016c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/016a.jpg",
         "images/016b.jpg",
@@ -4419,10 +4663,6 @@ var inscriptions = new Map([
     "name": "016",
     "parsedInscription": "\nX••\nvacat\n󲎺󲎎•><\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/016b-t.jpg",
-        "images/016c-t.jpg"
-    ],
     "transcription": "\nX••\nvacat\n󲎺󲎎•><\n",
     "transliteratedWords": [
         "\n",
@@ -4450,6 +4690,14 @@ var inscriptions = new Map([
     ]
 }],
 ["065",{
+    "facsimileImages": [
+        "images/065a-t.jpg",
+        "images/065b-t.jpg",
+        "images/065c-t.jpg",
+        "images/065d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/065a.jpg",
         "images/065b.jpg",
@@ -4462,12 +4710,6 @@ var inscriptions = new Map([
     "name": "065",
     "parsedInscription": "X󲇞󲎺󲈣󲍖󲏓󲊘𐄇X󲊶󲎝𐄇\nX󲎦󲍝𐄇󲎹*󲉯󲆢*󲉯𐄛*󲈥𐄇\n*󲍚𐄈󲆡*󲎼𐄒𐄈*󲈥𐄇X󲏬󲊶*󲈩󲆡\n󲇞󲎺𐄇*󲊁󲆡*󲈯󲆢*󲍻󲆡󲆢\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/065a-t.jpg",
-        "images/065b-t.jpg",
-        "images/065c-t.jpg",
-        "images/065d-t.jpg"
-    ],
     "transcription": "X󲇞󲎺󲈣󲍖󲏓󲊘𐄇X󲊶󲎝𐄇\nX󲎦󲍝𐄇󲎹*󲉯󲆢*󲉯𐄛*󲈥𐄇\n*󲍚𐄈󲆡*󲎼𐄒𐄈*󲈥𐄇X󲏬󲊶*󲈩󲆡\n󲇞󲎺𐄇*󲊁󲆡*󲈯󲆢*󲍻󲆡󲆢\n",
     "transliteratedWords": [
         "X",
@@ -4575,6 +4817,11 @@ var inscriptions = new Map([
     ]
 }],
 ["187",{
+    "facsimileImages": [
+        "images/187a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/187a.jpg"
     ],
@@ -4582,9 +4829,6 @@ var inscriptions = new Map([
     "name": "187",
     "parsedInscription": "󲎝󲍦><\n",
     "site": "",
-    "tracingImages": [
-        "images/187a-t.jpg"
-    ],
     "transcription": "󲎝󲍦><\n",
     "transliteratedWords": [
         "JA-A₃",
@@ -4600,6 +4844,12 @@ var inscriptions = new Map([
     ]
 }],
 ["267",{
+    "facsimileImages": [
+        "images/267a-t.jpg",
+        "images/267b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/267a.jpg",
         "images/267b.jpg",
@@ -4609,10 +4859,6 @@ var inscriptions = new Map([
     "name": "267",
     "parsedInscription": "󲎇󲎮󲎇\nX󲏏󲎦\nX󲍖󲍅\n",
     "site": "",
-    "tracingImages": [
-        "images/267a-t.jpg",
-        "images/267b-t.jpg"
-    ],
     "transcription": "󲎇󲎮󲎇\nX󲏏󲎦\nX󲍖󲍅\n",
     "transliteratedWords": [
         "DE-RI-DE",
@@ -4636,6 +4882,12 @@ var inscriptions = new Map([
     ]
 }],
 ["299",{
+    "facsimileImages": [
+        "images/299a-t.jpg",
+        "images/299c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/299b.jpg",
         "images/299c.jpg",
@@ -4645,10 +4897,6 @@ var inscriptions = new Map([
     "name": "299",
     "parsedInscription": "X󲎆󲎺\n󲎆󲏓\n󲍐󲎮󲍝\n󲏏󲎦\n",
     "site": "",
-    "tracingImages": [
-        "images/299a-t.jpg",
-        "images/299c-t.jpg"
-    ],
     "transcription": "X󲎆󲎺\n󲎆󲏓\n󲍐󲎮󲍝\n󲏏󲎦\n",
     "transliteratedWords": [
         "X",
@@ -4674,6 +4922,14 @@ var inscriptions = new Map([
     ]
 }],
 ["061",{
+    "facsimileImages": [
+        "images/061a-t.jpg",
+        "images/061b-t.jpg",
+        "images/061c-t.jpg",
+        "images/061e-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/061a.jpg",
         "images/061b.jpg",
@@ -4685,12 +4941,6 @@ var inscriptions = new Map([
     "name": "061",
     "parsedInscription": "]󲌒󲉔𐄇|󲎹󲎎󲍝𐄇\n]•󲏆󲎎𐄇|X󲈊󲍅󲍮𐄇\n]•[]|󲍎󲎀󲋧𐄇\n]󲎦󲎺𐄇|󲏆󲎎󲎀󲎺𐄇\n󲎎󲍎󲍎𐄐𐄈\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/061a-t.jpg",
-        "images/061b-t.jpg",
-        "images/061c-t.jpg",
-        "images/061e-t.jpg"
-    ],
     "transcription": "]󲌒󲉔𐄇|󲎹󲎎󲍝𐄇\n]•󲏆󲎎𐄇|X󲈊󲍅󲍮𐄇\n]•[]|󲍎󲎀󲋧𐄇\n]󲎦󲎺𐄇|󲏆󲎎󲎀󲎺𐄇\n󲎎󲍎󲍎𐄐𐄈\n",
     "transliteratedWords": [
         "]",
@@ -4770,6 +5020,11 @@ var inscriptions = new Map([
     ]
 }],
 ["200",{
+    "facsimileImages": [
+        "images/200a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/200a.jpg"
     ],
@@ -4777,9 +5032,6 @@ var inscriptions = new Map([
     "name": "200",
     "parsedInscription": "󲍮󲏀󲎎󲍐󲎗><\n",
     "site": "",
-    "tracingImages": [
-        "images/200a-t.jpg"
-    ],
     "transcription": "󲍮󲏀󲎎󲍐󲎗><\n",
     "transliteratedWords": [
         "MA-WA-KU-JA-",
@@ -4797,6 +5049,11 @@ var inscriptions = new Map([
     ]
 }],
 ["148",{
+    "facsimileImages": [
+        "images/148a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/148a.jpg"
     ],
@@ -4804,9 +5061,6 @@ var inscriptions = new Map([
     "name": "148",
     "parsedInscription": "󲍅󲍐󲎷><\n",
     "site": "",
-    "tracingImages": [
-        "images/148a-t.jpg"
-    ],
     "transcription": "󲍅󲍐󲎷><\n",
     "transliteratedWords": [
         "SI-JA-KI",
@@ -4822,6 +5076,12 @@ var inscriptions = new Map([
     ]
 }],
 ["018",{
+    "facsimileImages": [
+        "images/018b-t.jpg",
+        "images/018c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/018a.jpg",
         "images/018b.jpg",
@@ -4832,10 +5092,6 @@ var inscriptions = new Map([
     "name": "018",
     "parsedInscription": "\nX󲋧󲎎󲍰\nvacat\nX󲊗󲊶X󲎆󲏓\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/018b-t.jpg",
-        "images/018c-t.jpg"
-    ],
     "transcription": "\nX󲋧󲎎󲍰\nvacat\nX󲊗󲊶X󲎆󲏓\n",
     "transliteratedWords": [
         "\n",
@@ -4865,6 +5121,11 @@ var inscriptions = new Map([
     ]
 }],
 ["164",{
+    "facsimileImages": [
+        "images/164b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/164a.jpg",
         "images/164b.jpg"
@@ -4873,9 +5134,6 @@ var inscriptions = new Map([
     "name": "164",
     "parsedInscription": "󲍐󲎺󲍡󲎗><\n",
     "site": "",
-    "tracingImages": [
-        "images/164b-t.jpg"
-    ],
     "transcription": "󲍐󲎺󲍡󲎗><\n",
     "transliteratedWords": [
         "JA-RO₃-",
@@ -4895,6 +5153,11 @@ var inscriptions = new Map([
     ]
 }],
 ["166",{
+    "facsimileImages": [
+        "images/166a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/166a.jpg"
     ],
@@ -4902,9 +5165,6 @@ var inscriptions = new Map([
     "name": "166",
     "parsedInscription": "󲎎󲊶󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/166a-t.jpg"
-    ],
     "transcription": "󲎎󲊶󲍝\n",
     "transliteratedWords": [
         "KU-QE-RE",
@@ -4916,6 +5176,11 @@ var inscriptions = new Map([
     ]
 }],
 ["177",{
+    "facsimileImages": [
+        "images/177a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/177a.jpg"
     ],
@@ -4923,9 +5188,6 @@ var inscriptions = new Map([
     "name": "177",
     "parsedInscription": "]*󲍚\n",
     "site": "",
-    "tracingImages": [
-        "images/177a-t.jpg"
-    ],
     "transcription": "]*󲍚\n",
     "transliteratedWords": [
         "]",
@@ -4941,6 +5203,13 @@ var inscriptions = new Map([
     ]
 }],
 ["287",{
+    "facsimileImages": [
+        "images/287a-t.jpg",
+        "images/287b-t.jpg",
+        "images/287d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/287a.jpg",
         "images/287b.jpg",
@@ -4951,11 +5220,6 @@ var inscriptions = new Map([
     "name": "287",
     "parsedInscription": "󲎆󲎺\n󲍎󲍰󲍱><\n󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/287a-t.jpg",
-        "images/287b-t.jpg",
-        "images/287d-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n󲍎󲍰󲍱><\n󲎆󲏓\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -4979,6 +5243,11 @@ var inscriptions = new Map([
     ]
 }],
 ["194",{
+    "facsimileImages": [
+        "images/194a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/194a.jpg"
     ],
@@ -4986,9 +5255,6 @@ var inscriptions = new Map([
     "name": "194",
     "parsedInscription": "X󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/194a-t.jpg"
-    ],
     "transcription": "X󲎆󲏓\n",
     "transliteratedWords": [
         "X",
@@ -5002,6 +5268,11 @@ var inscriptions = new Map([
     ]
 }],
 ["012",{
+    "facsimileImages": [
+        "images/012c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/012a.jpg",
         "images/012b.jpg",
@@ -5012,9 +5283,6 @@ var inscriptions = new Map([
     "name": "012",
     "parsedInscription": "\ndeest\n\n]X󲎿󲎺[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/012c-t.jpg"
-    ],
     "transcription": "\ndeest\n\n]X󲎿󲎺[\n",
     "transliteratedWords": [
         "\n",
@@ -5040,6 +5308,11 @@ var inscriptions = new Map([
     ]
 }],
 ["087",{
+    "facsimileImages": [
+        "images/087a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/087a.jpg",
         "images/087b.jpg",
@@ -5049,9 +5322,6 @@ var inscriptions = new Map([
     "name": "087",
     "parsedInscription": "󲉉󲉊•[\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/087a-t.jpg"
-    ],
     "transcription": "󲉉󲉊•[\nvacat\n",
     "transliteratedWords": [
         "DA-QA-•",
@@ -5069,6 +5339,12 @@ var inscriptions = new Map([
     ]
 }],
 ["283",{
+    "facsimileImages": [
+        "images/283a-t.jpg",
+        "images/283b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/283a.jpg",
         "images/283b.jpg",
@@ -5078,10 +5354,6 @@ var inscriptions = new Map([
     "name": "283",
     "parsedInscription": "X󲎎󲍡󲍨\n󲎆󲏓|\n󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/283a-t.jpg",
-        "images/283b-t.jpg"
-    ],
     "transcription": "X󲎎󲍡󲍨\n󲎆󲏓|\n󲎆󲎺\n",
     "transliteratedWords": [
         "X",
@@ -5105,6 +5377,11 @@ var inscriptions = new Map([
     ]
 }],
 ["131",{
+    "facsimileImages": [
+        "images/131a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/131a.jpg"
     ],
@@ -5112,9 +5389,6 @@ var inscriptions = new Map([
     "name": "131",
     "parsedInscription": "󲏏󲎦\n",
     "site": "",
-    "tracingImages": [
-        "images/131a-t.jpg"
-    ],
     "transcription": "󲏏󲎦\n",
     "transliteratedWords": [
         "SA₂-RU",
@@ -5126,6 +5400,11 @@ var inscriptions = new Map([
     ]
 }],
 ["161",{
+    "facsimileImages": [
+        "images/161a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/161a.jpg"
     ],
@@ -5133,9 +5412,6 @@ var inscriptions = new Map([
     "name": "161",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/161a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -5147,6 +5423,11 @@ var inscriptions = new Map([
     ]
 }],
 ["124",{
+    "facsimileImages": [
+        "images/124a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/124a.jpg"
     ],
@@ -5154,9 +5435,6 @@ var inscriptions = new Map([
     "name": "124",
     "parsedInscription": "X󲎍󲍮󲍮><\n",
     "site": "",
-    "tracingImages": [
-        "images/124a-t.jpg"
-    ],
     "transcription": "X󲎍󲍮󲍮><\n",
     "transliteratedWords": [
         "X",
@@ -5174,6 +5452,12 @@ var inscriptions = new Map([
     ]
 }],
 ["060",{
+    "facsimileImages": [
+        "images/060a-t.jpg",
+        "images/060c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/060a.jpg",
         "images/060b.jpg",
@@ -5184,10 +5468,6 @@ var inscriptions = new Map([
     "name": "060",
     "parsedInscription": "X󲎿󲎺󲏀󲉛[\nvacat\nX󲋧󲎇󲍰•[\nvacat\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/060a-t.jpg",
-        "images/060c-t.jpg"
-    ],
     "transcription": "X󲎿󲎺󲏀󲉛[\nvacat\nX󲋧󲎇󲍰•[\nvacat\n",
     "transliteratedWords": [
         "X",
@@ -5221,6 +5501,12 @@ var inscriptions = new Map([
     ]
 }],
 ["288",{
+    "facsimileImages": [
+        "images/288a-t.jpg",
+        "images/288d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/288a.jpg",
         "images/288b.jpg",
@@ -5230,10 +5516,6 @@ var inscriptions = new Map([
     "name": "288",
     "parsedInscription": "󲍐󲎮\n󲎆󲏓\n󲏏󲎦\n",
     "site": "",
-    "tracingImages": [
-        "images/288a-t.jpg",
-        "images/288d-t.jpg"
-    ],
     "transcription": "󲍐󲎮\n󲎆󲏓\n󲏏󲎦\n",
     "transliteratedWords": [
         "JA-RI",
@@ -5253,6 +5535,11 @@ var inscriptions = new Map([
     ]
 }],
 ["155",{
+    "facsimileImages": [
+        "images/155a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/155a.jpg"
     ],
@@ -5260,9 +5547,6 @@ var inscriptions = new Map([
     "name": "155",
     "parsedInscription": "󲎇󲎮><\n",
     "site": "",
-    "tracingImages": [
-        "images/155a-t.jpg"
-    ],
     "transcription": "󲎇󲎮><\n",
     "transliteratedWords": [
         "DE-RI",
@@ -5278,6 +5562,11 @@ var inscriptions = new Map([
     ]
 }],
 ["072",{
+    "facsimileImages": [
+        "images/072a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/072a.jpg",
         "images/072b.jpg"
@@ -5286,9 +5575,6 @@ var inscriptions = new Map([
     "name": "072",
     "parsedInscription": "󲍅󲍐󲍮\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/072a-t.jpg"
-    ],
     "transcription": "󲍅󲍐󲍮\nvacat\n",
     "transliteratedWords": [
         "SI-JA-",
@@ -5306,6 +5592,11 @@ var inscriptions = new Map([
     ]
 }],
 ["236",{
+    "facsimileImages": [
+        "images/236a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/236a.jpg",
         "images/236b.jpg",
@@ -5315,9 +5606,6 @@ var inscriptions = new Map([
     "name": "236",
     "parsedInscription": "X󲎯󲍎󲋼\n",
     "site": "",
-    "tracingImages": [
-        "images/236a-t.jpg"
-    ],
     "transcription": "X󲎯󲍎󲋼\n",
     "transliteratedWords": [
         "X",
@@ -5331,6 +5619,12 @@ var inscriptions = new Map([
     ]
 }],
 ["091",{
+    "facsimileImages": [
+        "images/091a-t.jpg",
+        "images/091c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/091a.jpg",
         "images/091b.jpg",
@@ -5341,10 +5635,6 @@ var inscriptions = new Map([
     "name": "091",
     "parsedInscription": "󲎹󲍡󲋧[\n󲍎󲍝󲏆[\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/091a-t.jpg",
-        "images/091c-t.jpg"
-    ],
     "transcription": "󲎹󲍡󲋧[\n󲍎󲍝󲏆[\n",
     "transliteratedWords": [
         "A-BOS/MU₂-A₂",
@@ -5364,6 +5654,11 @@ var inscriptions = new Map([
     ]
 }],
 ["123",{
+    "facsimileImages": [
+        "images/123a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/123a.jpg"
     ],
@@ -5371,9 +5666,6 @@ var inscriptions = new Map([
     "name": "123",
     "parsedInscription": "󲎦󲍨><\n",
     "site": "",
-    "tracingImages": [
-        "images/123a-t.jpg"
-    ],
     "transcription": "󲎦󲍨><\n",
     "transliteratedWords": [
         "RU-PU",
@@ -5389,6 +5681,11 @@ var inscriptions = new Map([
     ]
 }],
 ["190",{
+    "facsimileImages": [
+        "images/190a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/190a.jpg"
     ],
@@ -5396,9 +5693,6 @@ var inscriptions = new Map([
     "name": "190",
     "parsedInscription": "󲎀󲏈󲍮><\n",
     "site": "",
-    "tracingImages": [
-        "images/190a-t.jpg"
-    ],
     "transcription": "󲎀󲏈󲍮><\n",
     "transliteratedWords": [
         "SA",
@@ -5416,6 +5710,13 @@ var inscriptions = new Map([
     ]
 }],
 ["272",{
+    "facsimileImages": [
+        "images/272a-t.jpg",
+        "images/272b-t.jpg",
+        "images/272c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/272a.jpg",
         "images/272b.jpg",
@@ -5425,11 +5726,6 @@ var inscriptions = new Map([
     "name": "272",
     "parsedInscription": "󲍐󲎮󲍝\n󲏏󲎦󲍝>?\nX󲍕󲎮󲍅󲊗><\n",
     "site": "",
-    "tracingImages": [
-        "images/272a-t.jpg",
-        "images/272b-t.jpg",
-        "images/272c-t.jpg"
-    ],
     "transcription": "󲍐󲎮󲍝\n󲏏󲎦󲍝>?\nX󲍕󲎮󲍅󲊗><\n",
     "transliteratedWords": [
         "JA-RI-RE",
@@ -5461,6 +5757,12 @@ var inscriptions = new Map([
     ]
 }],
 ["206",{
+    "facsimileImages": [
+        "images/206a-t.jpg",
+        "images/206b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/206a.jpg",
         "images/206b.jpg"
@@ -5469,10 +5771,6 @@ var inscriptions = new Map([
     "name": "206",
     "parsedInscription": "*󲍼*󲎃*󲎄\n*󲍻󲆡󲆧\n",
     "site": "",
-    "tracingImages": [
-        "images/206a-t.jpg",
-        "images/206b-t.jpg"
-    ],
     "transcription": "*󲍼*󲎃*󲎄\n*󲍻󲆡󲆧\n",
     "transliteratedWords": [
         "*",
@@ -5504,6 +5802,11 @@ var inscriptions = new Map([
     ]
 }],
 ["068",{
+    "facsimileImages": [
+        "images/068b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/068a.jpg",
         "images/068b.jpg",
@@ -5513,9 +5816,6 @@ var inscriptions = new Map([
     "name": "068",
     "parsedInscription": "*󲍚𐄐*󲈼𐄋*󲈽󲆥󲆥󲆥\n*󲊝𐄐𐄋*󲉿𐄎󲆥󲆥󲆥\nvacat\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/068b-t.jpg"
-    ],
     "transcription": "*󲍚𐄐*󲈼𐄋*󲈽󲆥󲆥󲆥\n*󲊝𐄐𐄋*󲉿𐄎󲆥󲆥󲆥\nvacat\n",
     "transliteratedWords": [
         "*",
@@ -5571,6 +5871,14 @@ var inscriptions = new Map([
     ]
 }],
 ["062",{
+    "facsimileImages": [
+        "images/062a-t.jpg",
+        "images/062b-t.jpg",
+        "images/062c-t.jpg",
+        "images/062d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/062a.jpg",
         "images/062b.jpg",
@@ -5582,12 +5890,6 @@ var inscriptions = new Map([
     "name": "062",
     "parsedInscription": "]󲎇󲍰X󲎹󲏆󲎺\n]𐄇𐄓\n]•󲎇󲍰\n]𐄒\n]󲎹󲎇󲍰\n]𐄝𐄓\n]󲎹󲎇󲍰\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/062a-t.jpg",
-        "images/062b-t.jpg",
-        "images/062c-t.jpg",
-        "images/062d-t.jpg"
-    ],
     "transcription": "]󲎇󲍰X󲎹󲏆󲎺\n]𐄇𐄓\n]•󲎇󲍰\n]𐄒\n]󲎹󲎇󲍰\n]𐄝𐄓\n]󲎹󲎇󲍰\n",
     "transliteratedWords": [
         "]",
@@ -5649,6 +5951,11 @@ var inscriptions = new Map([
     ]
 }],
 ["074",{
+    "facsimileImages": [
+        "images/074a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/074a.jpg",
         "images/074b.jpg"
@@ -5657,9 +5964,6 @@ var inscriptions = new Map([
     "name": "074",
     "parsedInscription": "󲎹󲍎󲍔󲎆\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/074a-t.jpg"
-    ],
     "transcription": "󲎹󲍎󲍔󲎆\nvacat\n",
     "transliteratedWords": [
         "A-RO-KO₂-KO",
@@ -5675,6 +5979,11 @@ var inscriptions = new Map([
     ]
 }],
 ["078",{
+    "facsimileImages": [
+        "images/078a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/078a.jpg",
         "images/078b.jpg",
@@ -5684,9 +5993,6 @@ var inscriptions = new Map([
     "name": "078",
     "parsedInscription": "󲉃󲊶󲎀•[\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/078a-t.jpg"
-    ],
     "transcription": "󲉃󲊶󲎀•[\nvacat\n",
     "transliteratedWords": [
         "?-",
@@ -5708,6 +6014,11 @@ var inscriptions = new Map([
     ]
 }],
 ["130",{
+    "facsimileImages": [
+        "images/130a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/130a.jpg"
     ],
@@ -5715,9 +6026,6 @@ var inscriptions = new Map([
     "name": "130",
     "parsedInscription": "󲏐󲎇󲍐0\n",
     "site": "",
-    "tracingImages": [
-        "images/130a-t.jpg"
-    ],
     "transcription": "󲏐󲎇󲍐0\n",
     "transliteratedWords": [
         "NE-DE-",
@@ -5733,6 +6041,12 @@ var inscriptions = new Map([
     ]
 }],
 ["101",{
+    "facsimileImages": [
+        "images/101a-t.jpg",
+        "images/101b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/101a.jpg",
         "images/101b.jpg"
@@ -5741,10 +6055,6 @@ var inscriptions = new Map([
     "name": "101",
     "parsedInscription": "󲎹󲏀󲎺\n𐄟𐄉[\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/101a-t.jpg",
-        "images/101b-t.jpg"
-    ],
     "transcription": "󲎹󲏀󲎺\n𐄟𐄉[\n",
     "transliteratedWords": [
         "A-WA-RO₃",
@@ -5762,6 +6072,11 @@ var inscriptions = new Map([
     ]
 }],
 ["210",{
+    "facsimileImages": [
+        "images/210a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/210a.jpg",
         "images/210b.jpg",
@@ -5771,9 +6086,6 @@ var inscriptions = new Map([
     "name": "210",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/210a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -5785,6 +6097,13 @@ var inscriptions = new Map([
     ]
 }],
 ["063",{
+    "facsimileImages": [
+        "images/063a-t.jpg",
+        "images/063b-t.jpg",
+        "images/063d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/063a.jpg",
         "images/063b.jpg",
@@ -5795,11 +6114,6 @@ var inscriptions = new Map([
     "name": "063",
     "parsedInscription": "]󲏨󲏈󲎦|𐄙𐄋[\n]󲏀󲏨𐄉|󲎆󲎺[\n]󲏈󲎝><𐄑[]|[]󲎺󲍰><𐄑[\ndeest\ndeest\ndeest\n]󲎝󲏨[><\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/063a-t.jpg",
-        "images/063b-t.jpg",
-        "images/063d-t.jpg"
-    ],
     "transcription": "]󲏨󲏈󲎦|𐄙𐄋[\n]󲏀󲏨𐄉|󲎆󲎺[\n]󲏈󲎝><𐄑[]|[]󲎺󲍰><𐄑[\ndeest\ndeest\ndeest\n]󲎝󲏨[><\n",
     "transliteratedWords": [
         "]",
@@ -5891,6 +6205,11 @@ var inscriptions = new Map([
     ]
 }],
 ["015",{
+    "facsimileImages": [
+        "images/015c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/015a.jpg",
         "images/015c.jpg",
@@ -5900,9 +6219,6 @@ var inscriptions = new Map([
     "name": "015",
     "parsedInscription": "\n\n\n󲍅󲎎[><\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/015c-t.jpg"
-    ],
     "transcription": "\n\n\n󲍅󲎎[><\n",
     "transliteratedWords": [
         "\n",
@@ -5926,6 +6242,13 @@ var inscriptions = new Map([
     ]
 }],
 ["298",{
+    "facsimileImages": [
+        "images/298a-t.jpg",
+        "images/298c-t.jpg",
+        "images/298d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/298a.jpg",
         "images/298b.jpg",
@@ -5936,11 +6259,6 @@ var inscriptions = new Map([
     "name": "298",
     "parsedInscription": "X󲎎󲍎󲎍\nX󲍎󲍰󲎀󲎣󲍎\n󲎆󲏓\n󲎆󲎺\n󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/298a-t.jpg",
-        "images/298c-t.jpg",
-        "images/298d-t.jpg"
-    ],
     "transcription": "X󲎎󲍎󲎍\nX󲍎󲍰󲎀󲎣󲍎\n󲎆󲏓\n󲎆󲎺\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "X",
@@ -5972,6 +6290,14 @@ var inscriptions = new Map([
     ]
 }],
 ["071",{
+    "facsimileImages": [
+        "images/071a-t.jpg",
+        "images/071b-t.jpg",
+        "images/071c-t.jpg",
+        "images/071d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/071a.jpg",
         "images/071b.jpg",
@@ -5982,17 +6308,16 @@ var inscriptions = new Map([
     "name": "071",
     "parsedInscription": "",
     "site": "Malia",
-    "tracingImages": [
-        "images/071a-t.jpg",
-        "images/071b-t.jpg",
-        "images/071c-t.jpg",
-        "images/071d-t.jpg"
-    ],
     "transcription": "",
     "transliteratedWords": [],
     "words": []
 }],
 ["188",{
+    "facsimileImages": [
+        "images/188a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/188a.jpg"
     ],
@@ -6000,9 +6325,6 @@ var inscriptions = new Map([
     "name": "188",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/188a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-",
@@ -6016,6 +6338,11 @@ var inscriptions = new Map([
     ]
 }],
 ["175",{
+    "facsimileImages": [
+        "images/175a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/175a.jpg"
     ],
@@ -6023,9 +6350,6 @@ var inscriptions = new Map([
     "name": "175",
     "parsedInscription": "󲎹󲎀•?•?><\n",
     "site": "",
-    "tracingImages": [
-        "images/175a-t.jpg"
-    ],
     "transcription": "󲎹󲎀•?•?><\n",
     "transliteratedWords": [
         "A",
@@ -6043,6 +6367,13 @@ var inscriptions = new Map([
     ]
 }],
 ["274",{
+    "facsimileImages": [
+        "images/274a-t.jpg",
+        "images/274b-t.jpg",
+        "images/274c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/274a.jpg",
         "images/274b.jpg"
@@ -6051,11 +6382,6 @@ var inscriptions = new Map([
     "name": "274",
     "parsedInscription": "󲎆󲎺\n󲎆󲏓\n󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/274a-t.jpg",
-        "images/274b-t.jpg",
-        "images/274c-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n󲎆󲏓\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -6075,6 +6401,11 @@ var inscriptions = new Map([
     ]
 }],
 ["098",{
+    "facsimileImages": [
+        "images/098a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/098a.jpg",
         "images/098b.jpg"
@@ -6083,9 +6414,6 @@ var inscriptions = new Map([
     "name": "098",
     "parsedInscription": "X•-󲇞󲍐󲎙󲎷\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/098a-t.jpg"
-    ],
     "transcription": "X•-󲇞󲍐󲎙󲎷\nvacat\n",
     "transliteratedWords": [
         "X",
@@ -6107,6 +6435,9 @@ var inscriptions = new Map([
     ]
 }],
 ["094",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/094a.jpg",
         "images/094b.jpg",
@@ -6118,7 +6449,6 @@ var inscriptions = new Map([
     "name": "094",
     "parsedInscription": "vacat\nvacat\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "vacat\nvacat\n",
     "transliteratedWords": [
         "vacat",
@@ -6134,6 +6464,12 @@ var inscriptions = new Map([
     ]
 }],
 ["017",{
+    "facsimileImages": [
+        "images/017b-t.jpg",
+        "images/017c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/017a.jpg",
         "images/017b.jpg",
@@ -6144,10 +6480,6 @@ var inscriptions = new Map([
     "name": "017",
     "parsedInscription": "\n*󲊝\nvacat\nX󲌐󲎇󲍝\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/017b-t.jpg",
-        "images/017c-t.jpg"
-    ],
     "transcription": "\n*󲊝\nvacat\nX󲌐󲎇󲍝\n",
     "transliteratedWords": [
         "\n",
@@ -6173,6 +6505,14 @@ var inscriptions = new Map([
     ]
 }],
 ["311",{
+    "facsimileImages": [
+        "images/311a-t.jpg",
+        "images/311b-t.jpg",
+        "images/311c-t.jpg",
+        "images/311d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/311a.jpg",
         "images/311b.jpg",
@@ -6183,12 +6523,6 @@ var inscriptions = new Map([
     "name": "311",
     "parsedInscription": "󲍐-󲎮\n•?-•?-•?\n󲎆-󲎺\n󲎆-󲏓><\n",
     "site": "",
-    "tracingImages": [
-        "images/311a-t.jpg",
-        "images/311b-t.jpg",
-        "images/311c-t.jpg",
-        "images/311d-t.jpg"
-    ],
     "transcription": "󲍐-󲎮\n•?-•?-•?\n󲎆-󲎺\n󲎆-󲏓><\n",
     "transliteratedWords": [
         "JA",
@@ -6228,6 +6562,13 @@ var inscriptions = new Map([
     ]
 }],
 ["029",{
+    "facsimileImages": [
+        "images/029b-t.jpg",
+        "images/029c-t.jpg",
+        "images/029d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/029a.jpg",
         "images/029b.jpg",
@@ -6238,11 +6579,6 @@ var inscriptions = new Map([
     "name": "029",
     "parsedInscription": "\n]󲎹><\n]󲎀󲉒><\nX󲍔-󲍎-•\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/029b-t.jpg",
-        "images/029c-t.jpg",
-        "images/029d-t.jpg"
-    ],
     "transcription": "\n]󲎹><\n]󲎀󲉒><\nX󲍔-󲍎-•\n",
     "transliteratedWords": [
         "\n",
@@ -6286,6 +6622,11 @@ var inscriptions = new Map([
     ]
 }],
 ["099",{
+    "facsimileImages": [
+        "images/099a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/099a.jpg",
         "images/099b.jpg"
@@ -6294,9 +6635,6 @@ var inscriptions = new Map([
     "name": "099",
     "parsedInscription": "]󲎺󲍔•[\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/099a-t.jpg"
-    ],
     "transcription": "]󲎺󲍔•[\nvacat\n",
     "transliteratedWords": [
         "]",
@@ -6316,6 +6654,14 @@ var inscriptions = new Map([
     ]
 }],
 ["070",{
+    "facsimileImages": [
+        "images/070a-t.jpg",
+        "images/070b-t.jpg",
+        "images/070c-t.jpg",
+        "images/070d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/070a.jpg",
         "images/070b.jpg",
@@ -6326,12 +6672,6 @@ var inscriptions = new Map([
     "name": "070",
     "parsedInscription": "󲎹󲏆󲎙󲎍\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/070a-t.jpg",
-        "images/070b-t.jpg",
-        "images/070c-t.jpg",
-        "images/070d-t.jpg"
-    ],
     "transcription": "󲎹󲏆󲎙󲎍\n",
     "transliteratedWords": [
         "A-TA-",
@@ -6347,6 +6687,11 @@ var inscriptions = new Map([
     ]
 }],
 ["233",{
+    "facsimileImages": [
+        "images/233a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/233a.jpg",
         "images/233b.jpg",
@@ -6356,9 +6701,6 @@ var inscriptions = new Map([
     "name": "233",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/233a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -6370,6 +6712,11 @@ var inscriptions = new Map([
     ]
 }],
 ["138",{
+    "facsimileImages": [
+        "images/138a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/138a.jpg"
     ],
@@ -6377,9 +6724,6 @@ var inscriptions = new Map([
     "name": "138",
     "parsedInscription": "X󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/138a-t.jpg"
-    ],
     "transcription": "X󲎆󲏓\n",
     "transliteratedWords": [
         "X",
@@ -6393,6 +6737,12 @@ var inscriptions = new Map([
     ]
 }],
 ["102",{
+    "facsimileImages": [
+        "images/102a-t.jpg",
+        "images/102b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/102a.jpg",
         "images/102b.jpg"
@@ -6401,10 +6751,6 @@ var inscriptions = new Map([
     "name": "102",
     "parsedInscription": "󲎿󲏀[\n]𐄒\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/102a-t.jpg",
-        "images/102b-t.jpg"
-    ],
     "transcription": "󲎿󲏀[\n]𐄒\n",
     "transliteratedWords": [
         "KU₂-WA",
@@ -6424,6 +6770,11 @@ var inscriptions = new Map([
     ]
 }],
 ["217",{
+    "facsimileImages": [
+        "images/217b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/217a.jpg",
         "images/217b.jpg",
@@ -6433,9 +6784,6 @@ var inscriptions = new Map([
     "name": "217",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/217b-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -6447,6 +6795,11 @@ var inscriptions = new Map([
     ]
 }],
 ["084",{
+    "facsimileImages": [
+        "images/084a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/084a.jpg",
         "images/084b.jpg"
@@ -6455,9 +6808,6 @@ var inscriptions = new Map([
     "name": "084",
     "parsedInscription": "]•󲎷•[\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/084a-t.jpg"
-    ],
     "transcription": "]•󲎷•[\nvacat\n",
     "transliteratedWords": [
         "]",
@@ -6477,6 +6827,12 @@ var inscriptions = new Map([
     ]
 }],
 ["044",{
+    "facsimileImages": [
+        "images/044a-t.jpg",
+        "images/044b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/044a.jpg",
         "images/044b.jpg"
@@ -6485,10 +6841,6 @@ var inscriptions = new Map([
     "name": "044",
     "parsedInscription": "]󲍐󲎮󲍕><\n*󲊝GRA𐄚•\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/044a-t.jpg",
-        "images/044b-t.jpg"
-    ],
     "transcription": "]󲍐󲎮󲍕><\n*󲊝GRA𐄚•\n",
     "transliteratedWords": [
         "]",
@@ -6518,6 +6870,11 @@ var inscriptions = new Map([
     ]
 }],
 ["126",{
+    "facsimileImages": [
+        "images/126a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/126a.jpg"
     ],
@@ -6525,9 +6882,6 @@ var inscriptions = new Map([
     "name": "126",
     "parsedInscription": "X󲏏󲊶󲋧󲎎󲎻><\n",
     "site": "",
-    "tracingImages": [
-        "images/126a-t.jpg"
-    ],
     "transcription": "X󲏏󲊶󲋧󲎎󲎻><\n",
     "transliteratedWords": [
         "X",
@@ -6545,6 +6899,9 @@ var inscriptions = new Map([
     ]
 }],
 ["318",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/318a.jpg"
     ],
@@ -6552,7 +6909,6 @@ var inscriptions = new Map([
     "name": "318",
     "parsedInscription": "󲏦󲎦󲎦><\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "󲏦󲎦󲎦><\n",
     "transliteratedWords": [
         "KU₃",
@@ -6570,6 +6926,12 @@ var inscriptions = new Map([
     ]
 }],
 ["019",{
+    "facsimileImages": [
+        "images/019b-t.jpg",
+        "images/019c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/019a.jpg",
         "images/019b.jpg",
@@ -6580,10 +6942,6 @@ var inscriptions = new Map([
     "name": "019",
     "parsedInscription": "\nX•[\nvacat\n󲎌-󲏕•[><\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/019b-t.jpg",
-        "images/019c-t.jpg"
-    ],
     "transcription": "\nX•[\nvacat\n󲎌-󲏕•[><\n",
     "transliteratedWords": [
         "\n",
@@ -6621,6 +6979,12 @@ var inscriptions = new Map([
     ]
 }],
 ["043",{
+    "facsimileImages": [
+        "images/043a-t.jpg",
+        "images/043b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/043a.jpg",
         "images/043b.jpg"
@@ -6629,10 +6993,6 @@ var inscriptions = new Map([
     "name": "043",
     "parsedInscription": "󲎙󲎮󲏨󲌒>?\n󲎌󲎮|󲍺󲍖\n󲍎󲊶󲊶\nGRA𐄒𐄈\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/043a-t.jpg",
-        "images/043b-t.jpg"
-    ],
     "transcription": "󲎙󲎮󲏨󲌒>?\n󲎌󲎮|󲍺󲍖\n󲍎󲊶󲊶\nGRA𐄒𐄈\n",
     "transliteratedWords": [
         "MI-RI-NWA-TU",
@@ -6666,6 +7026,14 @@ var inscriptions = new Map([
     ]
 }],
 ["307",{
+    "facsimileImages": [
+        "images/307a-t.jpg",
+        "images/307b-t.jpg",
+        "images/307c-t.jpg",
+        "images/307d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/307a.jpg",
         "images/307b.jpg",
@@ -6676,12 +7044,6 @@ var inscriptions = new Map([
     "name": "307",
     "parsedInscription": "X󲎀󲍡󲎺\n󲍎󲎿󲍝>?\n󲍎󲍝󲎎><\nX󲏀󲍝󲎆X><\n",
     "site": "",
-    "tracingImages": [
-        "images/307a-t.jpg",
-        "images/307b-t.jpg",
-        "images/307c-t.jpg",
-        "images/307d-t.jpg"
-    ],
     "transcription": "X󲎀󲍡󲎺\n󲍎󲎿󲍝>?\n󲍎󲍝󲎎><\nX󲏀󲍝󲎆X><\n",
     "transliteratedWords": [
         "X",
@@ -6727,6 +7089,12 @@ var inscriptions = new Map([
     ]
 }],
 ["041",{
+    "facsimileImages": [
+        "images/041a-t.jpg",
+        "images/041b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/041a.jpg",
         "images/041b.jpg"
@@ -6735,10 +7103,6 @@ var inscriptions = new Map([
     "name": "041",
     "parsedInscription": "X󲍱󲊶󲏀•𐄇𐄈\nX󲇧󲍅•󲏅𐄒𐄈\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/041a-t.jpg",
-        "images/041b-t.jpg"
-    ],
     "transcription": "X󲍱󲊶󲏀•𐄇𐄈\nX󲇧󲍅•󲏅𐄒𐄈\n",
     "transliteratedWords": [
         "X",
@@ -6764,6 +7128,14 @@ var inscriptions = new Map([
     ]
 }],
 ["301",{
+    "facsimileImages": [
+        "images/301a-t.jpg",
+        "images/301b-t.jpg",
+        "images/301c-t.jpg",
+        "images/301d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/301a.jpg",
         "images/301b.jpg",
@@ -6774,12 +7146,6 @@ var inscriptions = new Map([
     "name": "301",
     "parsedInscription": "X󲎆󲎺\nX󲎆󲏓\nX󲎹󲎀󲍝\nX󲏔󲏕\n",
     "site": "",
-    "tracingImages": [
-        "images/301a-t.jpg",
-        "images/301b-t.jpg",
-        "images/301c-t.jpg",
-        "images/301d-t.jpg"
-    ],
     "transcription": "X󲎆󲎺\nX󲎆󲏓\nX󲎹󲎀󲍝\nX󲏔󲏕\n",
     "transliteratedWords": [
         "X",
@@ -6811,6 +7177,11 @@ var inscriptions = new Map([
     ]
 }],
 ["083",{
+    "facsimileImages": [
+        "images/083a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/083a.jpg",
         "images/083b.jpg"
@@ -6819,9 +7190,6 @@ var inscriptions = new Map([
     "name": "083",
     "parsedInscription": "󲉈󲏆\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/083a-t.jpg"
-    ],
     "transcription": "󲉈󲏆\nvacat\n",
     "transliteratedWords": [
         "PU₂?-TA",
@@ -6837,6 +7205,11 @@ var inscriptions = new Map([
     ]
 }],
 ["315",{
+    "facsimileImages": [
+        "images/315c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/315a.jpg",
         "images/315b.jpg",
@@ -6848,9 +7221,6 @@ var inscriptions = new Map([
     "name": "315",
     "parsedInscription": "*󲎽~LinearB*𐄙𐄒𐄊\n",
     "site": "",
-    "tracingImages": [
-        "images/315c-t.jpg"
-    ],
     "transcription": "*󲎽~LinearB*𐄙𐄒𐄊\n",
     "transliteratedWords": [
         "*",
@@ -6872,6 +7242,13 @@ var inscriptions = new Map([
     ]
 }],
 ["276",{
+    "facsimileImages": [
+        "images/276a-t.jpg",
+        "images/276b-t.jpg",
+        "images/276c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/276a.jpg",
         "images/276b.jpg",
@@ -6881,11 +7258,6 @@ var inscriptions = new Map([
     "name": "276",
     "parsedInscription": "󲎹󲍐><\n󲍝󲏨󲏆><\n󲏓󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/276a-t.jpg",
-        "images/276b-t.jpg",
-        "images/276c-t.jpg"
-    ],
     "transcription": "󲎹󲍐><\n󲍝󲏨󲏆><\n󲏓󲎆󲎺\n",
     "transliteratedWords": [
         "A-JA",
@@ -6913,6 +7285,11 @@ var inscriptions = new Map([
     ]
 }],
 ["031",{
+    "facsimileImages": [
+        "images/031a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/031a.jpg",
         "images/031b.jpg"
@@ -6921,9 +7298,6 @@ var inscriptions = new Map([
     "name": "031",
     "parsedInscription": "󲏆󲎺󲎎󲏐\nvacat\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/031a-t.jpg"
-    ],
     "transcription": "󲏆󲎺󲎎󲏐\nvacat\n",
     "transliteratedWords": [
         "TA-RO₃-KU-NE",
@@ -6939,6 +7313,12 @@ var inscriptions = new Map([
     ]
 }],
 ["286",{
+    "facsimileImages": [
+        "images/286a-t.jpg",
+        "images/286b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/286a.jpg",
         "images/286b.jpg",
@@ -6949,10 +7329,6 @@ var inscriptions = new Map([
     "name": "286",
     "parsedInscription": "󲍐󲎮\n󲊶󲍎><\n",
     "site": "",
-    "tracingImages": [
-        "images/286a-t.jpg",
-        "images/286b-t.jpg"
-    ],
     "transcription": "󲍐󲎮\n󲊶󲍎><\n",
     "transliteratedWords": [
         "JA-RI",
@@ -6972,6 +7348,11 @@ var inscriptions = new Map([
     ]
 }],
 ["313",{
+    "facsimileImages": [
+        "images/313b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/313a.jpg",
         "images/313b.jpg",
@@ -6982,9 +7363,6 @@ var inscriptions = new Map([
     "name": "313",
     "parsedInscription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "site": "",
-    "tracingImages": [
-        "images/313b-t.jpg"
-    ],
     "transcription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "transliteratedWords": [
         "A-SA",
@@ -7000,6 +7378,11 @@ var inscriptions = new Map([
     ]
 }],
 ["220",{
+    "facsimileImages": [
+        "images/220a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/220a.jpg",
         "images/220b.jpg",
@@ -7009,9 +7392,6 @@ var inscriptions = new Map([
     "name": "220",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/220a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -7023,6 +7403,11 @@ var inscriptions = new Map([
     ]
 }],
 ["169",{
+    "facsimileImages": [
+        "images/169a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/169a.jpg"
     ],
@@ -7030,9 +7415,6 @@ var inscriptions = new Map([
     "name": "169",
     "parsedInscription": "󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/169a-t.jpg"
-    ],
     "transcription": "󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "JA-RI-RE",
@@ -7044,6 +7426,13 @@ var inscriptions = new Map([
     ]
 }],
 ["265",{
+    "facsimileImages": [
+        "images/265a-t.jpg",
+        "images/265b-t.jpg",
+        "images/265c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/265a.jpg",
         "images/265b.jpg",
@@ -7053,11 +7442,6 @@ var inscriptions = new Map([
     "name": "265",
     "parsedInscription": "X󲍐󲎮\nX󲏏󲎦\nX󲌦󲋧>?\n",
     "site": "",
-    "tracingImages": [
-        "images/265a-t.jpg",
-        "images/265b-t.jpg",
-        "images/265c-t.jpg"
-    ],
     "transcription": "X󲍐󲎮\nX󲏏󲎦\nX󲌦󲋧>?\n",
     "transliteratedWords": [
         "X",
@@ -7087,6 +7471,14 @@ var inscriptions = new Map([
     ]
 }],
 ["306",{
+    "facsimileImages": [
+        "images/306a-t.jpg",
+        "images/306b-t.jpg",
+        "images/306c-t.jpg",
+        "images/306d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/306a.jpg",
         "images/306b.jpg",
@@ -7097,12 +7489,6 @@ var inscriptions = new Map([
     "name": "306",
     "parsedInscription": "󲏐󲍖󲎇><\n󲏏󲍐󲏎><\n󲏈󲏔󲍖><\n󲎜󲎎󲎧><\n",
     "site": "",
-    "tracingImages": [
-        "images/306a-t.jpg",
-        "images/306b-t.jpg",
-        "images/306c-t.jpg",
-        "images/306d-t.jpg"
-    ],
     "transcription": "󲏐󲍖󲎇><\n󲏏󲍐󲏎><\n󲏈󲏔󲍖><\n󲎜󲎎󲎧><\n",
     "transliteratedWords": [
         "NE-TI-DE",
@@ -7146,6 +7532,11 @@ var inscriptions = new Map([
     ]
 }],
 ["195",{
+    "facsimileImages": [
+        "images/195a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/195a.jpg"
     ],
@@ -7153,9 +7544,6 @@ var inscriptions = new Map([
     "name": "195",
     "parsedInscription": "󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/195a-t.jpg"
-    ],
     "transcription": "󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "JA-RI-RE",
@@ -7167,6 +7555,9 @@ var inscriptions = new Map([
     ]
 }],
 ["106",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/106a.jpg",
         "images/106b.jpg",
@@ -7178,7 +7569,6 @@ var inscriptions = new Map([
     "name": "106",
     "parsedInscription": "]󲍡󲎺\nvacat\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "]󲍡󲎺\nvacat\n",
     "transliteratedWords": [
         "]",
@@ -7196,6 +7586,11 @@ var inscriptions = new Map([
     ]
 }],
 ["037",{
+    "facsimileImages": [
+        "images/037a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/037a.jpg",
         "images/037b.jpg"
@@ -7204,9 +7599,6 @@ var inscriptions = new Map([
     "name": "037",
     "parsedInscription": "󲎹󲎇󲍰\n󲊉󲎜𐄙\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/037a-t.jpg"
-    ],
     "transcription": "󲎹󲎇󲍰\n󲊉󲎜𐄙\n",
     "transliteratedWords": [
         "A-DE-termination sign",
@@ -7224,6 +7616,13 @@ var inscriptions = new Map([
     ]
 }],
 ["264",{
+    "facsimileImages": [
+        "images/264a-t.jpg",
+        "images/264b-t.jpg",
+        "images/264c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/264a.jpg",
         "images/264b.jpg",
@@ -7233,11 +7632,6 @@ var inscriptions = new Map([
     "name": "264",
     "parsedInscription": "X󲍡󲍖{*󲍬MUL}\n{*󲈥}󲎆󲏓\n{*󲈥}󲎆󲎺{󲎺}\n",
     "site": "",
-    "tracingImages": [
-        "images/264a-t.jpg",
-        "images/264b-t.jpg",
-        "images/264c-t.jpg"
-    ],
     "transcription": "X󲍡󲍖{*󲍬MUL}\n{*󲈥}󲎆󲏓\n{*󲈥}󲎆󲎺{󲎺}\n",
     "transliteratedWords": [
         "X",
@@ -7291,6 +7685,11 @@ var inscriptions = new Map([
     ]
 }],
 ["218",{
+    "facsimileImages": [
+        "images/218c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/218a.jpg",
         "images/218b.jpg",
@@ -7300,9 +7699,6 @@ var inscriptions = new Map([
     "name": "218",
     "parsedInscription": "󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/218c-t.jpg"
-    ],
     "transcription": "󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "JA-RI-RE",
@@ -7314,6 +7710,14 @@ var inscriptions = new Map([
     ]
 }],
 ["302",{
+    "facsimileImages": [
+        "images/302a-t.jpg",
+        "images/302b-t.jpg",
+        "images/302c-t.jpg",
+        "images/302d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/302a.jpg",
         "images/302b.jpg",
@@ -7324,12 +7728,6 @@ var inscriptions = new Map([
     "name": "302",
     "parsedInscription": "󲏈󲏆󲎆󲎺><\n󲏕󲎆\n󲍐󲎮󲍝\n󲏨󲎻󲎯\n",
     "site": "",
-    "tracingImages": [
-        "images/302a-t.jpg",
-        "images/302b-t.jpg",
-        "images/302c-t.jpg",
-        "images/302d-t.jpg"
-    ],
     "transcription": "󲏈󲏆󲎆󲎺><\n󲏕󲎆\n󲍐󲎮󲍝\n󲏨󲎻󲎯\n",
     "transliteratedWords": [
         "KI-TA-KO-RO₃",
@@ -7357,12 +7755,14 @@ var inscriptions = new Map([
     ]
 }],
 ["058",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [],
     "linearA": [],
     "name": "058",
     "parsedInscription": "X󲎹󲎇󲍰𐄢𐄞𐄓\n󲊶󲍎󲍝𐄗󲈑󲉔󲏆𐄔\n󲎮󲍎󲏓𐄕X󲏆󲏩𐄑\n󲎿󲍐󲏩𐄘󲈑󲉔󲍎󲌒-󲎣𐄒\n",
     "site": "Knossos",
-    "tracingImages": [],
     "transcription": "X󲎹󲎇󲍰𐄢𐄞𐄓\n󲊶󲍎󲍝𐄗󲈑󲉔󲏆𐄔\n󲎮󲍎󲏓𐄕X󲏆󲏩𐄑\n󲎿󲍐󲏩𐄘󲈑󲉔󲍎󲌒-󲎣𐄒\n",
     "transliteratedWords": [
         "X",
@@ -7420,6 +7820,11 @@ var inscriptions = new Map([
     ]
 }],
 ["082",{
+    "facsimileImages": [
+        "images/082a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/082a.jpg",
         "images/082b.jpg"
@@ -7428,9 +7833,6 @@ var inscriptions = new Map([
     "name": "082",
     "parsedInscription": "󲊗󲎷󲏀\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/082a-t.jpg"
-    ],
     "transcription": "󲊗󲎷󲏀\nvacat\n",
     "transliteratedWords": [
         "AI-KI-WA",
@@ -7446,6 +7848,9 @@ var inscriptions = new Map([
     ]
 }],
 ["321",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/321a.jpg"
     ],
@@ -7453,7 +7858,6 @@ var inscriptions = new Map([
     "name": "321",
     "parsedInscription": "]󲎎󲍎><\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "]󲎎󲍎><\n",
     "transliteratedWords": [
         "]",
@@ -7471,6 +7875,11 @@ var inscriptions = new Map([
     ]
 }],
 ["081",{
+    "facsimileImages": [
+        "images/081a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/081a.jpg",
         "images/081b.jpg"
@@ -7479,9 +7888,6 @@ var inscriptions = new Map([
     "name": "081",
     "parsedInscription": "󲎿󲍎\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/081a-t.jpg"
-    ],
     "transcription": "󲎿󲍎\nvacat\n",
     "transliteratedWords": [
         "KU₂-RO",
@@ -7497,16 +7903,18 @@ var inscriptions = new Map([
     ]
 }],
 ["228",{
+    "facsimileImages": [
+        "images/228a-t.jpg",
+        "images/228b-t.jpg",
+        "images/228c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [],
     "linearA": [],
     "name": "228",
     "parsedInscription": "󲍐󲎮\n",
     "site": "",
-    "tracingImages": [
-        "images/228a-t.jpg",
-        "images/228b-t.jpg",
-        "images/228c-t.jpg"
-    ],
     "transcription": "󲍐󲎮\n",
     "transliteratedWords": [
         "JA-RI",
@@ -7518,6 +7926,11 @@ var inscriptions = new Map([
     ]
 }],
 ["013",{
+    "facsimileImages": [
+        "images/013c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/013a.jpg",
         "images/013b.jpg",
@@ -7528,9 +7941,6 @@ var inscriptions = new Map([
     "name": "013",
     "parsedInscription": "\nvacat\nvacat\nX•󲎻󲍅󲎎|X󲎆•[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/013c-t.jpg"
-    ],
     "transcription": "\nvacat\nvacat\nX•󲎻󲍅󲎎|X󲎆•[\n",
     "transliteratedWords": [
         "\n",
@@ -7562,6 +7972,12 @@ var inscriptions = new Map([
     ]
 }],
 ["042",{
+    "facsimileImages": [
+        "images/042a-t.jpg",
+        "images/042b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/042a.jpg",
         "images/042b.jpg"
@@ -7570,10 +7986,6 @@ var inscriptions = new Map([
     "name": "042",
     "parsedInscription": "X󲈊󲍅󲍮X󲌦󲍎𐄙\nX󲎆󲎺𐄞𐄒𐄊|𐄚𐄓𐄉\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/042a-t.jpg",
-        "images/042b-t.jpg"
-    ],
     "transcription": "X󲈊󲍅󲍮X󲌦󲍎𐄙\nX󲎆󲎺𐄞𐄒𐄊|𐄚𐄓𐄉\n",
     "transliteratedWords": [
         "X",
@@ -7605,6 +8017,13 @@ var inscriptions = new Map([
     ]
 }],
 ["048",{
+    "facsimileImages": [
+        "images/048a-t.jpg",
+        "images/048b-t.jpg",
+        "images/048c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/048a.jpg",
         "images/048b.jpg",
@@ -7615,11 +8034,6 @@ var inscriptions = new Map([
     "name": "048",
     "parsedInscription": "*󲇰𐄈*󲇲𐄈\n*󲇲𐄈[\n*󲇰𐄈•[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/048a-t.jpg",
-        "images/048b-t.jpg",
-        "images/048c-t.jpg"
-    ],
     "transcription": "*󲇰𐄈*󲇲𐄈\n*󲇲𐄈[\n*󲇰𐄈•[\n",
     "transliteratedWords": [
         "*",
@@ -7663,6 +8077,11 @@ var inscriptions = new Map([
     ]
 }],
 ["004",{
+    "facsimileImages": [
+        "images/004c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/004a.jpg",
         "images/004b.jpg",
@@ -7673,9 +8092,6 @@ var inscriptions = new Map([
     "name": "004",
     "parsedInscription": "\nvacat\nvacat\nX󲎀󲍐󲌐\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/004c-t.jpg"
-    ],
     "transcription": "\nvacat\nvacat\nX󲎀󲍐󲌐\n",
     "transliteratedWords": [
         "\n",
@@ -7699,6 +8115,11 @@ var inscriptions = new Map([
     ]
 }],
 ["205",{
+    "facsimileImages": [
+        "images/205a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/205a.jpg",
         "images/205b.jpg"
@@ -7707,9 +8128,6 @@ var inscriptions = new Map([
     "name": "205",
     "parsedInscription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "site": "",
-    "tracingImages": [
-        "images/205a-t.jpg"
-    ],
     "transcription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "transliteratedWords": [
         "A-SA",
@@ -7725,6 +8143,9 @@ var inscriptions = new Map([
     ]
 }],
 ["331",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/331a.jpg"
     ],
@@ -7732,7 +8153,6 @@ var inscriptions = new Map([
     "name": "331",
     "parsedInscription": "X󲎹󲏫\n",
     "site": "Prodromos",
-    "tracingImages": [],
     "transcription": "X󲎹󲏫\n",
     "transliteratedWords": [
         "X",
@@ -7746,6 +8166,11 @@ var inscriptions = new Map([
     ]
 }],
 ["183",{
+    "facsimileImages": [
+        "images/183a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/183a.jpg"
     ],
@@ -7753,9 +8178,6 @@ var inscriptions = new Map([
     "name": "183",
     "parsedInscription": "X󲍐󲍎󲍅><\n",
     "site": "",
-    "tracingImages": [
-        "images/183a-t.jpg"
-    ],
     "transcription": "X󲍐󲍎󲍅><\n",
     "transliteratedWords": [
         "X",
@@ -7773,6 +8195,12 @@ var inscriptions = new Map([
     ]
 }],
 ["036",{
+    "facsimileImages": [
+        "images/036a-t.jpg",
+        "images/036b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/036a.jpg",
         "images/036b.jpg"
@@ -7781,10 +8209,6 @@ var inscriptions = new Map([
     "name": "036",
     "parsedInscription": "X󲌒󲍰󲎀󲏈\n𐄙\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/036a-t.jpg",
-        "images/036b-t.jpg"
-    ],
     "transcription": "X󲌒󲍰󲎀󲏈\n𐄙\n",
     "transliteratedWords": [
         "X",
@@ -7806,6 +8230,13 @@ var inscriptions = new Map([
     ]
 }],
 ["263",{
+    "facsimileImages": [
+        "images/263a-t.jpg",
+        "images/263b-t.jpg",
+        "images/263c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/263a.jpg",
         "images/263b.jpg",
@@ -7815,11 +8246,6 @@ var inscriptions = new Map([
     "name": "263",
     "parsedInscription": "󲏏󲎦\n󲍐󲎮󲍝\n󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/263a-t.jpg",
-        "images/263b-t.jpg",
-        "images/263c-t.jpg"
-    ],
     "transcription": "󲏏󲎦\n󲍐󲎮󲍝\n󲎆󲏓\n",
     "transliteratedWords": [
         "SA₂-",
@@ -7841,6 +8267,11 @@ var inscriptions = new Map([
     ]
 }],
 ["127",{
+    "facsimileImages": [
+        "images/127a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/127a.jpg"
     ],
@@ -7848,9 +8279,6 @@ var inscriptions = new Map([
     "name": "127",
     "parsedInscription": "󲎻󲎍><\n",
     "site": "",
-    "tracingImages": [
-        "images/127a-t.jpg"
-    ],
     "transcription": "󲎻󲎍><\n",
     "transliteratedWords": [
         "NA-RO₂",
@@ -7866,6 +8294,13 @@ var inscriptions = new Map([
     ]
 }],
 ["291",{
+    "facsimileImages": [
+        "images/291b-t.jpg",
+        "images/291c-t.jpg",
+        "images/291d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/291a.jpg",
         "images/291b.jpg",
@@ -7876,11 +8311,6 @@ var inscriptions = new Map([
     "name": "291",
     "parsedInscription": "\n*󲍼|*󲎃\n*󲍽|*󲎄\n*󲍻|*󲎂\n",
     "site": "",
-    "tracingImages": [
-        "images/291b-t.jpg",
-        "images/291c-t.jpg",
-        "images/291d-t.jpg"
-    ],
     "transcription": "\n*󲍼|*󲎃\n*󲍽|*󲎄\n*󲍻|*󲎂\n",
     "transliteratedWords": [
         "\n",
@@ -7926,6 +8356,11 @@ var inscriptions = new Map([
     ]
 }],
 ["125",{
+    "facsimileImages": [
+        "images/125a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/125a.jpg"
     ],
@@ -7933,9 +8368,6 @@ var inscriptions = new Map([
     "name": "125",
     "parsedInscription": "󲎹󲏐󲏆󲎣0\n",
     "site": "",
-    "tracingImages": [
-        "images/125a-t.jpg"
-    ],
     "transcription": "󲎹󲏐󲏆󲎣0\n",
     "transliteratedWords": [
         "A-NE-",
@@ -7953,6 +8385,11 @@ var inscriptions = new Map([
     ]
 }],
 ["182",{
+    "facsimileImages": [
+        "images/182a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/182a.jpg"
     ],
@@ -7960,9 +8397,6 @@ var inscriptions = new Map([
     "name": "182",
     "parsedInscription": "󲎎󲎌󲍮󲍅0\n",
     "site": "",
-    "tracingImages": [
-        "images/182a-t.jpg"
-    ],
     "transcription": "󲎎󲎌󲍮󲍅0\n",
     "transliteratedWords": [
         "KU-TE-MA-SI",
@@ -7976,6 +8410,13 @@ var inscriptions = new Map([
     ]
 }],
 ["297",{
+    "facsimileImages": [
+        "images/297a-t.jpg",
+        "images/297b-t.jpg",
+        "images/297d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/297a.jpg",
         "images/297b.jpg",
@@ -7986,11 +8427,6 @@ var inscriptions = new Map([
     "name": "297",
     "parsedInscription": "󲍖󲎀><\n󲎆󲎺\n󲎆󲏓{󲍰}\n󲍅󲎎><\n󲍐󲍦><\n󲏏󲎮><\n",
     "site": "",
-    "tracingImages": [
-        "images/297a-t.jpg",
-        "images/297b-t.jpg",
-        "images/297d-t.jpg"
-    ],
     "transcription": "󲍖󲎀><\n󲎆󲎺\n󲎆󲏓{󲍰}\n󲍅󲎎><\n󲍐󲍦><\n󲏏󲎮><\n",
     "transliteratedWords": [
         "TI-SA",
@@ -8044,6 +8480,11 @@ var inscriptions = new Map([
     ]
 }],
 ["227",{
+    "facsimileImages": [
+        "images/227a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/227a.jpg",
         "images/227b.jpg",
@@ -8053,9 +8494,6 @@ var inscriptions = new Map([
     "name": "227",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/227a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -8067,6 +8505,11 @@ var inscriptions = new Map([
     ]
 }],
 ["147",{
+    "facsimileImages": [
+        "images/147a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/147a.jpg"
     ],
@@ -8074,9 +8517,6 @@ var inscriptions = new Map([
     "name": "147",
     "parsedInscription": "󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/147a-t.jpg"
-    ],
     "transcription": "󲎆󲏓\n",
     "transliteratedWords": [
         "KO-Rv",
@@ -8088,6 +8528,12 @@ var inscriptions = new Map([
     ]
 }],
 ["108",{
+    "facsimileImages": [
+        "images/108a-t.jpg",
+        "images/108c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/108a.jpg",
         "images/108b.jpg",
@@ -8099,10 +8545,6 @@ var inscriptions = new Map([
     "name": "108",
     "parsedInscription": "*󲉚𐄋[\n]𐄌\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/108a-t.jpg",
-        "images/108c-t.jpg"
-    ],
     "transcription": "*󲉚𐄋[\n]𐄌\n",
     "transliteratedWords": [
         "*",
@@ -8126,6 +8568,11 @@ var inscriptions = new Map([
     ]
 }],
 ["001",{
+    "facsimileImages": [
+        "images/001c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/001a.jpg",
         "images/001b.jpg",
@@ -8136,9 +8583,6 @@ var inscriptions = new Map([
     "name": "001",
     "parsedInscription": "\n\n\nX󲎝󲏆󲍝󲍎\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/001c-t.jpg"
-    ],
     "transcription": "\n\n\nX󲎝󲏆󲍝󲍎\n",
     "transliteratedWords": [
         "\n",
@@ -8160,6 +8604,14 @@ var inscriptions = new Map([
     ]
 }],
 ["303",{
+    "facsimileImages": [
+        "images/303a-t.jpg",
+        "images/303b-t.jpg",
+        "images/303c-t.jpg",
+        "images/303d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/303a.jpg",
         "images/303b.jpg",
@@ -8170,12 +8622,6 @@ var inscriptions = new Map([
     "name": "303",
     "parsedInscription": "X󲎻󲊗󲎿\n󲎹󲎇󲍰\n󲎆󲎺\n󲎀󲎜󲍐󲍝><\n",
     "site": "",
-    "tracingImages": [
-        "images/303a-t.jpg",
-        "images/303b-t.jpg",
-        "images/303c-t.jpg",
-        "images/303d-t.jpg"
-    ],
     "transcription": "X󲎻󲊗󲎿\n󲎹󲎇󲍰\n󲎆󲎺\n󲎀󲎜󲍐󲍝><\n",
     "transliteratedWords": [
         "X",
@@ -8211,6 +8657,13 @@ var inscriptions = new Map([
     ]
 }],
 ["251",{
+    "facsimileImages": [
+        "images/251a-t.jpg",
+        "images/251b-t.jpg",
+        "images/251c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/251a.jpg",
         "images/251b.jpg",
@@ -8220,11 +8673,6 @@ var inscriptions = new Map([
     "name": "251",
     "parsedInscription": "󲏪-󲍐><\n󲎀󲏑-󲏐\n󲎹󲎀\n",
     "site": "",
-    "tracingImages": [
-        "images/251a-t.jpg",
-        "images/251b-t.jpg",
-        "images/251c-t.jpg"
-    ],
     "transcription": "󲏪-󲍐><\n󲎀󲏑-󲏐\n󲎹󲎀\n",
     "transliteratedWords": [
         "E?",
@@ -8258,6 +8706,11 @@ var inscriptions = new Map([
     ]
 }],
 ["171",{
+    "facsimileImages": [
+        "images/171a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/171a.jpg"
     ],
@@ -8265,9 +8718,6 @@ var inscriptions = new Map([
     "name": "171",
     "parsedInscription": "󲎻󲎍><\n",
     "site": "",
-    "tracingImages": [
-        "images/171a-t.jpg"
-    ],
     "transcription": "󲎻󲎍><\n",
     "transliteratedWords": [
         "NA-RO₂",
@@ -8283,6 +8733,13 @@ var inscriptions = new Map([
     ]
 }],
 ["268",{
+    "facsimileImages": [
+        "images/268a-t.jpg",
+        "images/268b-t.jpg",
+        "images/268c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/268a.jpg",
         "images/268b.jpg",
@@ -8292,11 +8749,6 @@ var inscriptions = new Map([
     "name": "268",
     "parsedInscription": "{󲍎}󲎆󲏓\n󲍐󲎮{󲍎}\n󲏨{object}󲍎><\n",
     "site": "",
-    "tracingImages": [
-        "images/268a-t.jpg",
-        "images/268b-t.jpg",
-        "images/268c-t.jpg"
-    ],
     "transcription": "{󲍎}󲎆󲏓\n󲍐󲎮{󲍎}\n󲏨{object}󲍎><\n",
     "transliteratedWords": [
         "{",
@@ -8340,6 +8792,11 @@ var inscriptions = new Map([
     ]
 }],
 ["226",{
+    "facsimileImages": [
+        "images/226a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/226a.jpg",
         "images/226b.jpg",
@@ -8349,9 +8806,6 @@ var inscriptions = new Map([
     "name": "226",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/226a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -8363,6 +8817,13 @@ var inscriptions = new Map([
     ]
 }],
 ["296",{
+    "facsimileImages": [
+        "images/296a-t.jpg",
+        "images/296b-t.jpg",
+        "images/296d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/296a.jpg",
         "images/296b.jpg",
@@ -8373,11 +8834,6 @@ var inscriptions = new Map([
     "name": "296",
     "parsedInscription": "󲎿󲎙󲏔><\n󲎆󲎺\n󲎝󲍐󲎜><\n󲏈󲏆󲎎\n",
     "site": "",
-    "tracingImages": [
-        "images/296a-t.jpg",
-        "images/296b-t.jpg",
-        "images/296d-t.jpg"
-    ],
     "transcription": "󲎿󲎙󲏔><\n󲎆󲎺\n󲎝󲍐󲎜><\n󲏈󲏆󲎎\n",
     "transliteratedWords": [
         "KU₂-MI-RA₄",
@@ -8409,6 +8865,11 @@ var inscriptions = new Map([
     ]
 }],
 ["328",{
+    "facsimileImages": [
+        "images/328a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/328a.jpg"
     ],
@@ -8416,9 +8877,6 @@ var inscriptions = new Map([
     "name": "328",
     "parsedInscription": "󲎻󲏆󲏩󲎎󲍎󲎌󲎀󲏦󲍎󲏪󲏆󲎎󲎗󲎺󲍐󲍮\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/328a-t.jpg"
-    ],
     "transcription": "󲎻󲏆󲏩󲎎󲍎󲎌󲎀󲏦󲍎󲏪󲏆󲎎󲎗󲎺󲍐󲍮\n",
     "transliteratedWords": [
         "NA",
@@ -8432,6 +8890,14 @@ var inscriptions = new Map([
     ]
 }],
 ["300",{
+    "facsimileImages": [
+        "images/300a-t.jpg",
+        "images/300b-t.jpg",
+        "images/300c-t.jpg",
+        "images/300d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/300a.jpg",
         "images/300b.jpg",
@@ -8442,12 +8908,6 @@ var inscriptions = new Map([
     "name": "300",
     "parsedInscription": "󲎆󲎺\n󲍐󲎮󲍝\nX󲎆󲏏󲏔\n󲎧󲍖><\n",
     "site": "",
-    "tracingImages": [
-        "images/300a-t.jpg",
-        "images/300b-t.jpg",
-        "images/300c-t.jpg",
-        "images/300d-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n󲍐󲎮󲍝\nX󲎆󲏏󲏔\n󲎧󲍖><\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -8477,6 +8937,12 @@ var inscriptions = new Map([
     ]
 }],
 ["038",{
+    "facsimileImages": [
+        "images/038a-t.jpg",
+        "images/038b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/038a.jpg",
         "images/038b.jpg"
@@ -8485,10 +8951,6 @@ var inscriptions = new Map([
     "name": "038",
     "parsedInscription": "X󲎀󲎗󲍮\nX󲏈󲍡󲎺X󲏈󲍱󲍎𐄙𐄐\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/038a-t.jpg",
-        "images/038b-t.jpg"
-    ],
     "transcription": "X󲎀󲎗󲍮\nX󲏈󲍡󲎺X󲏈󲍱󲍎𐄙𐄐\n",
     "transliteratedWords": [
         "X",
@@ -8514,6 +8976,12 @@ var inscriptions = new Map([
     ]
 }],
 ["242",{
+    "facsimileImages": [
+        "images/242a-t.jpg",
+        "images/242b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/242a.jpg",
         "images/242b.jpg",
@@ -8523,10 +8991,6 @@ var inscriptions = new Map([
     "name": "242",
     "parsedInscription": "󲎎󲌐><\n󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/242a-t.jpg",
-        "images/242b-t.jpg"
-    ],
     "transcription": "󲎎󲌐><\n󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "KU-MA?",
@@ -8546,6 +9010,13 @@ var inscriptions = new Map([
     ]
 }],
 ["304",{
+    "facsimileImages": [
+        "images/304a-t.jpg",
+        "images/304b-t.jpg",
+        "images/304d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/304a.jpg",
         "images/304b.jpg",
@@ -8556,11 +9027,6 @@ var inscriptions = new Map([
     "name": "304",
     "parsedInscription": "󲎜󲍡catface><\nX󲏏󲍡><\n󲏎󲍡󲍝><\n󲍅󲎮><\n",
     "site": "",
-    "tracingImages": [
-        "images/304a-t.jpg",
-        "images/304b-t.jpg",
-        "images/304d-t.jpg"
-    ],
     "transcription": "󲎜󲍡catface><\nX󲏏󲍡><\n󲏎󲍡󲍝><\n󲍅󲎮><\n",
     "transliteratedWords": [
         "PA₃-BOS/MU₂",
@@ -8606,6 +9072,12 @@ var inscriptions = new Map([
     ]
 }],
 ["025",{
+    "facsimileImages": [
+        "images/025c-t.jpg",
+        "images/025d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/025a.jpg",
         "images/025b.jpg",
@@ -8616,10 +9088,6 @@ var inscriptions = new Map([
     "name": "025",
     "parsedInscription": "\nvacat\n]󲍐><\n]•󲍐󲍅><\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/025c-t.jpg",
-        "images/025d-t.jpg"
-    ],
     "transcription": "\nvacat\n]󲍐><\n]•󲍐󲍅><\n",
     "transliteratedWords": [
         "\n",
@@ -8653,6 +9121,11 @@ var inscriptions = new Map([
     ]
 }],
 ["030",{
+    "facsimileImages": [
+        "images/030a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/030a.jpg",
         "images/030b.jpg"
@@ -8661,9 +9134,6 @@ var inscriptions = new Map([
     "name": "030",
     "parsedInscription": "󲍕-󲏕-󲎀>?\nvacat\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/030a-t.jpg"
-    ],
     "transcription": "󲍕-󲏕-󲎀>?\nvacat\n",
     "transliteratedWords": [
         "Rv",
@@ -8691,6 +9161,12 @@ var inscriptions = new Map([
     ]
 }],
 ["247",{
+    "facsimileImages": [
+        "images/247b-t.jpg",
+        "images/247c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/247a.jpg",
         "images/247b.jpg",
@@ -8700,10 +9176,6 @@ var inscriptions = new Map([
     "name": "247",
     "parsedInscription": "󲎆󲎺\nX󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/247b-t.jpg",
-        "images/247c-t.jpg"
-    ],
     "transcription": "󲎆󲎺\nX󲎆󲏓\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -8721,6 +9193,11 @@ var inscriptions = new Map([
     ]
 }],
 ["085",{
+    "facsimileImages": [
+        "images/085a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/085a.jpg",
         "images/085b.jpg",
@@ -8732,9 +9209,6 @@ var inscriptions = new Map([
     "name": "085",
     "parsedInscription": "󲍕󲍰\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/085a-t.jpg"
-    ],
     "transcription": "󲍕󲍰\nvacat\n",
     "transliteratedWords": [
         "Rv-termination sign",
@@ -8750,6 +9224,12 @@ var inscriptions = new Map([
     ]
 }],
 ["021",{
+    "facsimileImages": [
+        "images/021c-t.jpg",
+        "images/021d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/021a.jpg",
         "images/021c.jpg",
@@ -8759,10 +9239,6 @@ var inscriptions = new Map([
     "name": "021",
     "parsedInscription": "\nvacat\n*󲊝\nX󲍐󲊉󲎺󲏆\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/021c-t.jpg",
-        "images/021d-t.jpg"
-    ],
     "transcription": "\nvacat\n*󲊝\nX󲍐󲊉󲎺󲏆\n",
     "transliteratedWords": [
         "\n",
@@ -8788,6 +9264,12 @@ var inscriptions = new Map([
     ]
 }],
 ["104",{
+    "facsimileImages": [
+        "images/104a-t.jpg",
+        "images/104b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/104a.jpg",
         "images/104b.jpg"
@@ -8796,10 +9278,6 @@ var inscriptions = new Map([
     "name": "104",
     "parsedInscription": "󲉔󲋧󲎎\n*󲉕𐄙\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/104a-t.jpg",
-        "images/104b-t.jpg"
-    ],
     "transcription": "󲉔󲋧󲎎\n*󲉕𐄙\n",
     "transliteratedWords": [
         "RE₂-A₂-KU",
@@ -8819,6 +9297,11 @@ var inscriptions = new Map([
     ]
 }],
 ["088",{
+    "facsimileImages": [
+        "images/088a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/088a.jpg",
         "images/088b.jpg",
@@ -8830,9 +9313,6 @@ var inscriptions = new Map([
     "name": "088",
     "parsedInscription": "]󲍝󲏀\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/088a-t.jpg"
-    ],
     "transcription": "]󲍝󲏀\nvacat\n",
     "transliteratedWords": [
         "]",
@@ -8850,6 +9330,12 @@ var inscriptions = new Map([
     ]
 }],
 ["046",{
+    "facsimileImages": [
+        "images/046a-t.jpg",
+        "images/046b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/046a.jpg",
         "images/046b.jpg"
@@ -8858,10 +9344,6 @@ var inscriptions = new Map([
     "name": "046",
     "parsedInscription": "󲎺󲎀󲌒><\n*󲇮𐄙\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/046a-t.jpg",
-        "images/046b-t.jpg"
-    ],
     "transcription": "󲎺󲎀󲌒><\n*󲇮𐄙\n",
     "transliteratedWords": [
         "RO₃-",
@@ -8889,6 +9371,11 @@ var inscriptions = new Map([
     ]
 }],
 ["165",{
+    "facsimileImages": [
+        "images/165a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/165a.jpg"
     ],
@@ -8896,9 +9383,6 @@ var inscriptions = new Map([
     "name": "165",
     "parsedInscription": "]󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/165a-t.jpg"
-    ],
     "transcription": "]󲎆󲏓\n",
     "transliteratedWords": [
         "]",
@@ -8912,6 +9396,12 @@ var inscriptions = new Map([
     ]
 }],
 ["110",{
+    "facsimileImages": [
+        "images/110a-t.jpg",
+        "images/110c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/110a.jpg",
         "images/110b.jpg",
@@ -8922,10 +9412,6 @@ var inscriptions = new Map([
     "name": "110",
     "parsedInscription": "󲎆󲎍[\n󲇧-[\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/110a-t.jpg",
-        "images/110c-t.jpg"
-    ],
     "transcription": "󲎆󲎍[\n󲇧-[\n",
     "transliteratedWords": [
         "KO-RO₂",
@@ -8947,6 +9433,11 @@ var inscriptions = new Map([
     ]
 }],
 ["230",{
+    "facsimileImages": [
+        "images/230a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/230a.jpg",
         "images/230b.jpg",
@@ -8956,9 +9447,6 @@ var inscriptions = new Map([
     "name": "230",
     "parsedInscription": "{󲋸}󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/230a-t.jpg"
-    ],
     "transcription": "{󲋸}󲎆󲎺\n",
     "transliteratedWords": [
         "{",
@@ -8976,6 +9464,11 @@ var inscriptions = new Map([
     ]
 }],
 ["142",{
+    "facsimileImages": [
+        "images/142a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/142a.jpg"
     ],
@@ -8983,9 +9476,6 @@ var inscriptions = new Map([
     "name": "142",
     "parsedInscription": "󲏔󲎜󲏓0\n",
     "site": "",
-    "tracingImages": [
-        "images/142a-t.jpg"
-    ],
     "transcription": "󲏔󲎜󲏓0\n",
     "transliteratedWords": [
         "RA₄-PA₃-Rv",
@@ -8999,6 +9489,11 @@ var inscriptions = new Map([
     ]
 }],
 ["079",{
+    "facsimileImages": [
+        "images/079a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/079a.jpg",
         "images/079b.jpg"
@@ -9007,9 +9502,6 @@ var inscriptions = new Map([
     "name": "079",
     "parsedInscription": "󲍕󲎗󲉄\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/079a-t.jpg"
-    ],
     "transcription": "󲍕󲎗󲉄\nvacat\n",
     "transliteratedWords": [
         "Rv-",
@@ -9029,6 +9521,11 @@ var inscriptions = new Map([
     ]
 }],
 ["215",{
+    "facsimileImages": [
+        "images/215a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/215a.jpg",
         "images/215b.jpg",
@@ -9038,9 +9535,6 @@ var inscriptions = new Map([
     "name": "215",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/215a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -9052,6 +9546,13 @@ var inscriptions = new Map([
     ]
 }],
 ["255",{
+    "facsimileImages": [
+        "images/255a-t.jpg",
+        "images/255b-t.jpg",
+        "images/255c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/255a.jpg",
         "images/255b.jpg",
@@ -9061,11 +9562,6 @@ var inscriptions = new Map([
     "name": "255",
     "parsedInscription": "X󲎆󲏏󲏔\nX󲏕󲎆\nX󲎿󲎺󲎹󲍝󲎎󲏏><\n",
     "site": "",
-    "tracingImages": [
-        "images/255a-t.jpg",
-        "images/255b-t.jpg",
-        "images/255c-t.jpg"
-    ],
     "transcription": "X󲎆󲏏󲏔\nX󲏕󲎆\nX󲎿󲎺󲎹󲍝󲎎󲏏><\n",
     "transliteratedWords": [
         "X",
@@ -9095,6 +9591,14 @@ var inscriptions = new Map([
     ]
 }],
 ["111",{
+    "facsimileImages": [
+        "images/111a-t.jpg",
+        "images/111b-t.jpg",
+        "images/111c-t.jpg",
+        "images/111d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/111a.jpg",
         "images/111b.jpg",
@@ -9107,12 +9611,6 @@ var inscriptions = new Map([
     "name": "111",
     "parsedInscription": "•-[]𐄕[\nvestigia\nvestigia\n]󲎌[\nvestigia\n]𐄓[\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/111a-t.jpg",
-        "images/111b-t.jpg",
-        "images/111c-t.jpg",
-        "images/111d-t.jpg"
-    ],
     "transcription": "•-[]𐄕[\nvestigia\nvestigia\n]󲎌[\nvestigia\n]𐄓[\n",
     "transliteratedWords": [
         "•-",
@@ -9160,6 +9658,13 @@ var inscriptions = new Map([
     ]
 }],
 ["256",{
+    "facsimileImages": [
+        "images/256a-t.jpg",
+        "images/256b-t.jpg",
+        "images/256c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/256a.jpg",
         "images/256b.jpg",
@@ -9169,11 +9674,6 @@ var inscriptions = new Map([
     "name": "256",
     "parsedInscription": "󲍐󲌦󲎺0\n",
     "site": "",
-    "tracingImages": [
-        "images/256a-t.jpg",
-        "images/256b-t.jpg",
-        "images/256c-t.jpg"
-    ],
     "transcription": "󲍐󲌦󲎺0\n",
     "transliteratedWords": [
         "JA-SO-RO₃",
@@ -9187,6 +9687,11 @@ var inscriptions = new Map([
     ]
 }],
 ["150",{
+    "facsimileImages": [
+        "images/150a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/150a.jpg"
     ],
@@ -9194,9 +9699,6 @@ var inscriptions = new Map([
     "name": "150",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/150a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -9208,6 +9710,11 @@ var inscriptions = new Map([
     ]
 }],
 ["219",{
+    "facsimileImages": [
+        "images/219b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/219a.jpg",
         "images/219b.jpg",
@@ -9217,9 +9724,6 @@ var inscriptions = new Map([
     "name": "219",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/219b-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -9231,6 +9735,9 @@ var inscriptions = new Map([
     ]
 }],
 ["330",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/330a.jpg"
     ],
@@ -9238,7 +9745,6 @@ var inscriptions = new Map([
     "name": "330",
     "parsedInscription": "]󲍮󲉉•[\t><\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "]󲍮󲉉•[\t><\n",
     "transliteratedWords": [
         "]",
@@ -9260,6 +9766,11 @@ var inscriptions = new Map([
     ]
 }],
 ["232",{
+    "facsimileImages": [
+        "images/232a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/232a.jpg",
         "images/232b.jpg",
@@ -9269,9 +9780,6 @@ var inscriptions = new Map([
     "name": "232",
     "parsedInscription": "]󲎺><\n",
     "site": "",
-    "tracingImages": [
-        "images/232a-t.jpg"
-    ],
     "transcription": "]󲎺><\n",
     "transliteratedWords": [
         "]",
@@ -9289,6 +9797,13 @@ var inscriptions = new Map([
     ]
 }],
 ["277",{
+    "facsimileImages": [
+        "images/277a-t.jpg",
+        "images/277b-t.jpg",
+        "images/277c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/277a.jpg",
         "images/277b.jpg",
@@ -9298,11 +9813,6 @@ var inscriptions = new Map([
     "name": "277",
     "parsedInscription": "󲎆󲏓\n󲎦󲎀󲍡><\n󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/277a-t.jpg",
-        "images/277b-t.jpg",
-        "images/277c-t.jpg"
-    ],
     "transcription": "󲎆󲏓\n󲎦󲎀󲍡><\n󲎆󲎺\n",
     "transliteratedWords": [
         "KO-Rv",
@@ -9326,6 +9836,11 @@ var inscriptions = new Map([
     ]
 }],
 ["201",{
+    "facsimileImages": [
+        "images/201a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/201a.jpg"
     ],
@@ -9333,9 +9848,6 @@ var inscriptions = new Map([
     "name": "201",
     "parsedInscription": "X󲎹󲎀••\n",
     "site": "",
-    "tracingImages": [
-        "images/201a-t.jpg"
-    ],
     "transcription": "X󲎹󲎀••\n",
     "transliteratedWords": [
         "X",
@@ -9349,6 +9861,11 @@ var inscriptions = new Map([
     ]
 }],
 ["222",{
+    "facsimileImages": [
+        "images/222b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/222a.jpg",
         "images/222b.jpg"
@@ -9357,9 +9874,6 @@ var inscriptions = new Map([
     "name": "222",
     "parsedInscription": "\n󲎹󲎀󲍎󲋧><\n",
     "site": "",
-    "tracingImages": [
-        "images/222b-t.jpg"
-    ],
     "transcription": "\n󲎹󲎀󲍎󲋧><\n",
     "transliteratedWords": [
         "\n",
@@ -9377,15 +9891,17 @@ var inscriptions = new Map([
     ]
 }],
 ["266",{
+    "facsimileImages": [
+        "images/266a-t.jpg",
+        "images/266b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [],
     "linearA": [],
     "name": "266",
     "parsedInscription": "󲎆󲏓\n󲎆󲎌󲎺><\n󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/266a-t.jpg",
-        "images/266b-t.jpg"
-    ],
     "transcription": "󲎆󲏓\n󲎆󲎌󲎺><\n󲎆󲎺\n",
     "transliteratedWords": [
         "KO-Rv",
@@ -9409,6 +9925,12 @@ var inscriptions = new Map([
     ]
 }],
 ["055",{
+    "facsimileImages": [
+        "images/055a-t.jpg",
+        "images/055b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/055a.jpg",
         "images/055b.jpg",
@@ -9420,10 +9942,6 @@ var inscriptions = new Map([
     "name": "055",
     "parsedInscription": "]󲏬󲏔󲍎[><\n]󲍎󲍨[]><𐄐\ndeest\ndeest\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/055a-t.jpg",
-        "images/055b-t.jpg"
-    ],
     "transcription": "]󲏬󲏔󲍎[><\n]󲍎󲍨[]><𐄐\ndeest\ndeest\n",
     "transliteratedWords": [
         "]",
@@ -9471,6 +9989,11 @@ var inscriptions = new Map([
     ]
 }],
 ["077",{
+    "facsimileImages": [
+        "images/077a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/077a.jpg",
         "images/077b.jpg"
@@ -9479,9 +10002,6 @@ var inscriptions = new Map([
     "name": "077",
     "parsedInscription": "󲍝󲉒󲉂\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/077a-t.jpg"
-    ],
     "transcription": "󲍝󲉒󲉂\nvacat\n",
     "transliteratedWords": [
         "RE",
@@ -9499,6 +10019,14 @@ var inscriptions = new Map([
     ]
 }],
 ["295",{
+    "facsimileImages": [
+        "images/295a-t.jpg",
+        "images/295b-t.jpg",
+        "images/295c-t.jpg",
+        "images/295d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/295a.jpg",
         "images/295b.jpg",
@@ -9509,12 +10037,6 @@ var inscriptions = new Map([
     "name": "295",
     "parsedInscription": "󲎆󲎺\nX󲍮󲎗󲎺\n󲎆󲏓Catface/*󲉏\nX󲏈󲏆󲎎\n",
     "site": "",
-    "tracingImages": [
-        "images/295a-t.jpg",
-        "images/295b-t.jpg",
-        "images/295c-t.jpg",
-        "images/295d-t.jpg"
-    ],
     "transcription": "󲎆󲎺\nX󲍮󲎗󲎺\n󲎆󲏓Catface/*󲉏\nX󲏈󲏆󲎎\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -9550,6 +10072,11 @@ var inscriptions = new Map([
     ]
 }],
 ["237",{
+    "facsimileImages": [
+        "images/237a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/237a.jpg",
         "images/237b.jpg",
@@ -9559,9 +10086,6 @@ var inscriptions = new Map([
     "name": "237",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/237a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -9573,6 +10097,11 @@ var inscriptions = new Map([
     ]
 }],
 ["173",{
+    "facsimileImages": [
+        "images/173a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/173a.jpg"
     ],
@@ -9580,9 +10109,6 @@ var inscriptions = new Map([
     "name": "173",
     "parsedInscription": "󲏈󲏆󲎎\n",
     "site": "",
-    "tracingImages": [
-        "images/173a-t.jpg"
-    ],
     "transcription": "󲏈󲏆󲎎\n",
     "transliteratedWords": [
         "KI-TA-KU",
@@ -9594,6 +10120,11 @@ var inscriptions = new Map([
     ]
 }],
 ["154",{
+    "facsimileImages": [
+        "images/154a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/154a.jpg"
     ],
@@ -9601,9 +10132,6 @@ var inscriptions = new Map([
     "name": "154",
     "parsedInscription": "󲎹󲍐><\n",
     "site": "",
-    "tracingImages": [
-        "images/154a-t.jpg"
-    ],
     "transcription": "󲎹󲍐><\n",
     "transliteratedWords": [
         "A-JA",
@@ -9619,6 +10147,9 @@ var inscriptions = new Map([
     ]
 }],
 ["320",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/320a.jpg"
     ],
@@ -9626,7 +10157,6 @@ var inscriptions = new Map([
     "name": "320",
     "parsedInscription": "󲏀󲌐󲎌>?\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "󲏀󲌐󲎌>?\n",
     "transliteratedWords": [
         "WA-MA?-TE",
@@ -9642,6 +10172,11 @@ var inscriptions = new Map([
     ]
 }],
 ["075",{
+    "facsimileImages": [
+        "images/075a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/075a.jpg",
         "images/075b.jpg"
@@ -9650,9 +10185,6 @@ var inscriptions = new Map([
     "name": "075",
     "parsedInscription": "•󲍔󲋧\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/075a-t.jpg"
-    ],
     "transcription": "•󲍔󲋧\nvacat\n",
     "transliteratedWords": [
         "•",
@@ -9670,6 +10202,12 @@ var inscriptions = new Map([
     ]
 }],
 ["279",{
+    "facsimileImages": [
+        "images/279b-t.jpg",
+        "images/279c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/279a.jpg",
         "images/279b.jpg",
@@ -9680,10 +10218,6 @@ var inscriptions = new Map([
     "name": "279",
     "parsedInscription": "󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/279b-t.jpg",
-        "images/279c-t.jpg"
-    ],
     "transcription": "󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "JA-RI-RE",
@@ -9695,6 +10229,12 @@ var inscriptions = new Map([
     ]
 }],
 ["246",{
+    "facsimileImages": [
+        "images/246a-t.jpg",
+        "images/246b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/246a.jpg",
         "images/246b.jpg",
@@ -9704,10 +10244,6 @@ var inscriptions = new Map([
     "name": "246",
     "parsedInscription": "󲎆󲏓\n󲏨󲏀><\n",
     "site": "",
-    "tracingImages": [
-        "images/246a-t.jpg",
-        "images/246b-t.jpg"
-    ],
     "transcription": "󲎆󲏓\n󲏨󲏀><\n",
     "transliteratedWords": [
         "KO-Rv",
@@ -9727,6 +10263,12 @@ var inscriptions = new Map([
     ]
 }],
 ["039",{
+    "facsimileImages": [
+        "images/039a-t.jpg",
+        "images/039b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/039a.jpg",
         "images/039b.jpg"
@@ -9735,10 +10277,6 @@ var inscriptions = new Map([
     "name": "039",
     "parsedInscription": "X󲎎󲌒X󲌦󲍎X󲊗󲎗\nX󲎹󲊉X󲏈󲌒󲏦𐄙𐄑\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/039a-t.jpg",
-        "images/039b-t.jpg"
-    ],
     "transcription": "X󲎎󲌒X󲌦󲍎X󲊗󲎗\nX󲎹󲊉X󲏈󲌒󲏦𐄙𐄑\n",
     "transliteratedWords": [
         "X",
@@ -9776,6 +10314,11 @@ var inscriptions = new Map([
     ]
 }],
 ["172",{
+    "facsimileImages": [
+        "images/172a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/172a.jpg"
     ],
@@ -9783,9 +10326,6 @@ var inscriptions = new Map([
     "name": "172",
     "parsedInscription": "󲎮󲎦󲎿><\n",
     "site": "",
-    "tracingImages": [
-        "images/172a-t.jpg"
-    ],
     "transcription": "󲎮󲎦󲎿><\n",
     "transliteratedWords": [
         "RI-RU-KU₂",
@@ -9801,6 +10341,11 @@ var inscriptions = new Map([
     ]
 }],
 ["189",{
+    "facsimileImages": [
+        "images/189a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/189a.jpg"
     ],
@@ -9808,9 +10353,6 @@ var inscriptions = new Map([
     "name": "189",
     "parsedInscription": "]󲎹󲎇[><\n",
     "site": "",
-    "tracingImages": [
-        "images/189a-t.jpg"
-    ],
     "transcription": "]󲎹󲎇[><\n",
     "transliteratedWords": [
         "]",
@@ -9830,6 +10372,11 @@ var inscriptions = new Map([
     ]
 }],
 ["137",{
+    "facsimileImages": [
+        "images/137a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/137a.jpg"
     ],
@@ -9837,9 +10384,6 @@ var inscriptions = new Map([
     "name": "137",
     "parsedInscription": "󲎹󲎀\n",
     "site": "",
-    "tracingImages": [
-        "images/137a-t.jpg"
-    ],
     "transcription": "󲎹󲎀\n",
     "transliteratedWords": [
         "A-SA",
@@ -9851,6 +10395,11 @@ var inscriptions = new Map([
     ]
 }],
 ["239",{
+    "facsimileImages": [
+        "images/239a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/239a.jpg",
         "images/239b.jpg",
@@ -9860,9 +10409,6 @@ var inscriptions = new Map([
     "name": "239",
     "parsedInscription": "󲍐󲎮-󲏆\n",
     "site": "",
-    "tracingImages": [
-        "images/239a-t.jpg"
-    ],
     "transcription": "󲍐󲎮-󲏆\n",
     "transliteratedWords": [
         "JA-",
@@ -9880,6 +10426,12 @@ var inscriptions = new Map([
     ]
 }],
 ["285",{
+    "facsimileImages": [
+        "images/285a-t.jpg",
+        "images/285b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/285a.jpg",
         "images/285b.jpg",
@@ -9890,10 +10442,6 @@ var inscriptions = new Map([
     "name": "285",
     "parsedInscription": "󲍮•\n]󲎆󲎺[\n",
     "site": "",
-    "tracingImages": [
-        "images/285a-t.jpg",
-        "images/285b-t.jpg"
-    ],
     "transcription": "󲍮•\n]󲎆󲎺[\n",
     "transliteratedWords": [
         "MA-•",
@@ -9915,6 +10463,11 @@ var inscriptions = new Map([
     ]
 }],
 ["204",{
+    "facsimileImages": [
+        "images/204a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/204a.jpg",
         "images/204b.jpg",
@@ -9924,9 +10477,6 @@ var inscriptions = new Map([
     "name": "204",
     "parsedInscription": "X󲍐󲏆󲋈\n",
     "site": "",
-    "tracingImages": [
-        "images/204a-t.jpg"
-    ],
     "transcription": "X󲍐󲏆󲋈\n",
     "transliteratedWords": [
         "X",
@@ -9942,6 +10492,11 @@ var inscriptions = new Map([
     ]
 }],
 ["178",{
+    "facsimileImages": [
+        "images/178a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/178a.jpg"
     ],
@@ -9949,9 +10504,6 @@ var inscriptions = new Map([
     "name": "178",
     "parsedInscription": "]󲎹󲎺-󲍖[0\n",
     "site": "",
-    "tracingImages": [
-        "images/178a-t.jpg"
-    ],
     "transcription": "]󲎹󲎺-󲍖[0\n",
     "transliteratedWords": [
         "]",
@@ -9975,6 +10527,9 @@ var inscriptions = new Map([
     ]
 }],
 ["216",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/216a.jpg",
         "images/216b.jpg",
@@ -9984,7 +10539,6 @@ var inscriptions = new Map([
     "name": "216",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -9996,6 +10550,12 @@ var inscriptions = new Map([
     ]
 }],
 ["032",{
+    "facsimileImages": [
+        "images/032a-t.jpg",
+        "images/032b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/032a.jpg",
         "images/032b.jpg"
@@ -10004,10 +10564,6 @@ var inscriptions = new Map([
     "name": "032",
     "parsedInscription": "X󲎎󲊶󲍝X󲍖󲎷\nX󲏈󲊶󲍰\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/032a-t.jpg",
-        "images/032b-t.jpg"
-    ],
     "transcription": "X󲎎󲊶󲍝X󲍖󲎷\nX󲏈󲊶󲍰\n",
     "transliteratedWords": [
         "X",
@@ -10031,6 +10587,11 @@ var inscriptions = new Map([
     ]
 }],
 ["035",{
+    "facsimileImages": [
+        "images/035b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/035a.jpg",
         "images/035b.jpg"
@@ -10039,9 +10600,6 @@ var inscriptions = new Map([
     "name": "035",
     "parsedInscription": "]•󲎹󲍰><\n]󲇟[]󲎹><𐄓\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/035b-t.jpg"
-    ],
     "transcription": "]•󲎹󲍰><\n]󲇟[]󲎹><𐄓\n",
     "transliteratedWords": [
         "]",
@@ -10077,6 +10635,11 @@ var inscriptions = new Map([
     ]
 }],
 ["144",{
+    "facsimileImages": [
+        "images/144a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/144a.jpg"
     ],
@@ -10084,9 +10647,6 @@ var inscriptions = new Map([
     "name": "144",
     "parsedInscription": "]󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/144a-t.jpg"
-    ],
     "transcription": "]󲎆󲏓\n",
     "transliteratedWords": [
         "]",
@@ -10100,6 +10660,13 @@ var inscriptions = new Map([
     ]
 }],
 ["260",{
+    "facsimileImages": [
+        "images/260a-t.jpg",
+        "images/260b-t.jpg",
+        "images/260c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/260a.jpg",
         "images/260b.jpg",
@@ -10109,11 +10676,6 @@ var inscriptions = new Map([
     "name": "260",
     "parsedInscription": "󲎆󲎺\n󲍐󲎮\n󲏈󲏆󲎎\n",
     "site": "",
-    "tracingImages": [
-        "images/260a-t.jpg",
-        "images/260b-t.jpg",
-        "images/260c-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n󲍐󲎮\n󲏈󲏆󲎎\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -10133,6 +10695,11 @@ var inscriptions = new Map([
     ]
 }],
 ["241",{
+    "facsimileImages": [
+        "images/241a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/241a.jpg",
         "images/241b.jpg",
@@ -10142,9 +10709,6 @@ var inscriptions = new Map([
     "name": "241",
     "parsedInscription": "X󲏪-󲏏-•\n",
     "site": "",
-    "tracingImages": [
-        "images/241a-t.jpg"
-    ],
     "transcription": "X󲏪-󲏏-•\n",
     "transliteratedWords": [
         "X",
@@ -10164,6 +10728,11 @@ var inscriptions = new Map([
     ]
 }],
 ["191",{
+    "facsimileImages": [
+        "images/191a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/191a.jpg"
     ],
@@ -10171,9 +10740,6 @@ var inscriptions = new Map([
     "name": "191",
     "parsedInscription": "X󲏏󲎍󲎺[\n",
     "site": "",
-    "tracingImages": [
-        "images/191a-t.jpg"
-    ],
     "transcription": "X󲏏󲎍󲎺[\n",
     "transliteratedWords": [
         "X",
@@ -10191,6 +10757,12 @@ var inscriptions = new Map([
     ]
 }],
 ["023",{
+    "facsimileImages": [
+        "images/023c-t.jpg",
+        "images/023d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/023a.jpg",
         "images/023b.jpg",
@@ -10201,10 +10773,6 @@ var inscriptions = new Map([
     "name": "023",
     "parsedInscription": "\nvacat\n*𐄇𐄋𐄏bis\nX󲎹󲎣󲍮\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/023c-t.jpg",
-        "images/023d-t.jpg"
-    ],
     "transcription": "\nvacat\n*𐄇𐄋𐄏bis\nX󲎹󲎣󲍮\n",
     "transliteratedWords": [
         "\n",
@@ -10234,6 +10802,9 @@ var inscriptions = new Map([
     ]
 }],
 ["322",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/322a.jpg"
     ],
@@ -10241,7 +10812,6 @@ var inscriptions = new Map([
     "name": "322",
     "parsedInscription": "󲍦󲍕\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "󲍦󲍕\n",
     "transliteratedWords": [
         "A₃-Rv",
@@ -10253,6 +10823,11 @@ var inscriptions = new Map([
     ]
 }],
 ["278",{
+    "facsimileImages": [
+        "images/278c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/278a.jpg",
         "images/278c.jpg",
@@ -10262,9 +10837,6 @@ var inscriptions = new Map([
     "name": "278",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/278c-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -10276,6 +10848,13 @@ var inscriptions = new Map([
     ]
 }],
 ["262",{
+    "facsimileImages": [
+        "images/262a-t.jpg",
+        "images/262b-t.jpg",
+        "images/262c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/262a.jpg",
         "images/262b.jpg",
@@ -10285,11 +10864,6 @@ var inscriptions = new Map([
     "name": "262",
     "parsedInscription": "󲏏󲎦{󲎦}󲍝\n󲍐󲎮󲍝\n󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/262a-t.jpg",
-        "images/262b-t.jpg",
-        "images/262c-t.jpg"
-    ],
     "transcription": "󲏏󲎦{󲎦}󲍝\n󲍐󲎮󲍝\n󲎆󲏓\n",
     "transliteratedWords": [
         "SA₂-RU",
@@ -10317,6 +10891,11 @@ var inscriptions = new Map([
     ]
 }],
 ["157",{
+    "facsimileImages": [
+        "images/157a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/157a.jpg"
     ],
@@ -10324,9 +10903,6 @@ var inscriptions = new Map([
     "name": "157",
     "parsedInscription": "󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/157a-t.jpg"
-    ],
     "transcription": "󲎆󲎺\n",
     "transliteratedWords": [
         "KO-RO₃",
@@ -10338,6 +10914,14 @@ var inscriptions = new Map([
     ]
 }],
 ["305",{
+    "facsimileImages": [
+        "images/305a-t.jpg",
+        "images/305b-t.jpg",
+        "images/305c-t.jpg",
+        "images/305d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/305a.jpg",
         "images/305c.jpg",
@@ -10347,12 +10931,6 @@ var inscriptions = new Map([
     "name": "305",
     "parsedInscription": "󲎹󲋈󲎷󲎻><\n󲎆󲎺\nX*󲎽|*󲎼\n󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/305a-t.jpg",
-        "images/305b-t.jpg",
-        "images/305c-t.jpg",
-        "images/305d-t.jpg"
-    ],
     "transcription": "󲎹󲋈󲎷󲎻><\n󲎆󲎺\nX*󲎽|*󲎼\n󲎆󲏓\n",
     "transliteratedWords": [
         "A-?-KI-NA",
@@ -10390,6 +10968,13 @@ var inscriptions = new Map([
     ]
 }],
 ["120",{
+    "facsimileImages": [
+        "images/120a-t.jpg",
+        "images/120b-t.jpg",
+        "images/120c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/120a.jpg",
         "images/120b.jpg",
@@ -10401,11 +10986,6 @@ var inscriptions = new Map([
     "name": "120",
     "parsedInscription": "*󲎷[]𐄛\n󲋸󲎺*󲈥|󲍖[󲏈󲎎\n󲍐󲍝*󲎌𐄙[\n󲍦󲎀*󲈥|󲍖󲏈󲎎\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/120a-t.jpg",
-        "images/120b-t.jpg",
-        "images/120c-t.jpg"
-    ],
     "transcription": "*󲎷[]𐄛\n󲋸󲎺*󲈥|󲍖[󲏈󲎎\n󲍐󲍝*󲎌𐄙[\n󲍦󲎀*󲈥|󲍖󲏈󲎎\n",
     "transliteratedWords": [
         "*",
@@ -10465,6 +11045,11 @@ var inscriptions = new Map([
     ]
 }],
 ["162",{
+    "facsimileImages": [
+        "images/162a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/162a.jpg"
     ],
@@ -10472,9 +11057,6 @@ var inscriptions = new Map([
     "name": "162",
     "parsedInscription": "󲍐󲎮󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/162a-t.jpg"
-    ],
     "transcription": "󲍐󲎮󲍝\n",
     "transliteratedWords": [
         "JA-RI-RE",
@@ -10486,6 +11068,12 @@ var inscriptions = new Map([
     ]
 }],
 ["051",{
+    "facsimileImages": [
+        "images/051a-t.jpg",
+        "images/051c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/051a.jpg",
         "images/051b.jpg",
@@ -10497,10 +11085,6 @@ var inscriptions = new Map([
     "name": "051",
     "parsedInscription": "]•󲏦𐄜𐄔\n]•𐄑[\n]𐄌\nvacat\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/051a-t.jpg",
-        "images/051c-t.jpg"
-    ],
     "transcription": "]•󲏦𐄜𐄔\n]•𐄑[\n]𐄌\nvacat\n",
     "transliteratedWords": [
         "]",
@@ -10536,6 +11120,14 @@ var inscriptions = new Map([
     ]
 }],
 ["310",{
+    "facsimileImages": [
+        "images/310a-t.jpg",
+        "images/310b-t.jpg",
+        "images/310c-t.jpg",
+        "images/310d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/310a.jpg",
         "images/310b.jpg",
@@ -10546,12 +11138,6 @@ var inscriptions = new Map([
     "name": "310",
     "parsedInscription": "󲏈󲏆󲎎\n󲊉󲍖{󲏅}><\n󲎹󲍐><\n󲏕󲎆\n",
     "site": "",
-    "tracingImages": [
-        "images/310a-t.jpg",
-        "images/310b-t.jpg",
-        "images/310c-t.jpg",
-        "images/310d-t.jpg"
-    ],
     "transcription": "󲏈󲏆󲎎\n󲊉󲍖{󲏅}><\n󲎹󲍐><\n󲏕󲎆\n",
     "transliteratedWords": [
         "KI-TA-KU",
@@ -10589,6 +11175,14 @@ var inscriptions = new Map([
     ]
 }],
 ["053",{
+    "facsimileImages": [
+        "images/053a-t.jpg",
+        "images/053c-t.jpg",
+        "images/053d-t.jpg",
+        "images/053e-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/053a.jpg",
         "images/053b.jpg",
@@ -10600,12 +11194,6 @@ var inscriptions = new Map([
     "name": "053",
     "parsedInscription": "]X󲎿󲎺󲏀󲉛\n]•󲍨󲍝󲎎\n]X*󲈁󲉢X*󲈂󲈁\n]•X󲎷󲏈󲍡󲇿󲈀[\n]*󲈁𐄙𐄐[]X*󲈂󲉢[\nX󲍨󲏩𐄑𐄈\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/053a-t.jpg",
-        "images/053c-t.jpg",
-        "images/053d-t.jpg",
-        "images/053e-t.jpg"
-    ],
     "transcription": "]X󲎿󲎺󲏀󲉛\n]•󲍨󲍝󲎎\n]X*󲈁󲉢X*󲈂󲈁\n]•X󲎷󲏈󲍡󲇿󲈀[\n]*󲈁𐄙𐄐[]X*󲈂󲉢[\nX󲍨󲏩𐄑𐄈\n",
     "transliteratedWords": [
         "]",
@@ -10697,6 +11285,11 @@ var inscriptions = new Map([
     ]
 }],
 ["312",{
+    "facsimileImages": [
+        "images/312b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/312a.jpg",
         "images/312c.jpg"
@@ -10705,9 +11298,6 @@ var inscriptions = new Map([
     "name": "312",
     "parsedInscription": "󲍐󲎮󲍝\n󲊶󲎺󲍡><\nX󲏎󲍡\n󲏏󲎦󲍝\n",
     "site": "",
-    "tracingImages": [
-        "images/312b-t.jpg"
-    ],
     "transcription": "󲍐󲎮󲍝\n󲊶󲎺󲍡><\nX󲏎󲍡\n󲏏󲎦󲍝\n",
     "transliteratedWords": [
         "JA-RI-RE",
@@ -10739,6 +11329,11 @@ var inscriptions = new Map([
     ]
 }],
 ["281",{
+    "facsimileImages": [
+        "images/281b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/281a.jpg",
         "images/281b.jpg",
@@ -10749,9 +11344,6 @@ var inscriptions = new Map([
     "name": "281",
     "parsedInscription": "󲏈󲏆󲎎\n",
     "site": "",
-    "tracingImages": [
-        "images/281b-t.jpg"
-    ],
     "transcription": "󲏈󲏆󲎎\n",
     "transliteratedWords": [
         "KI-TA-",
@@ -10765,6 +11357,12 @@ var inscriptions = new Map([
     ]
 }],
 ["069",{
+    "facsimileImages": [
+        "images/069a-t.jpg",
+        "images/069b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/069a.jpg",
         "images/069b.jpg",
@@ -10774,10 +11372,6 @@ var inscriptions = new Map([
     "name": "069",
     "parsedInscription": "supramutila\n]•󲋸•[\n]󲋸󲍎[><\n]󲍐[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/069a-t.jpg",
-        "images/069b-t.jpg"
-    ],
     "transcription": "supramutila\n]•󲋸•[\n]󲋸󲍎[><\n]󲍐[\n",
     "transliteratedWords": [
         "supra",
@@ -10821,6 +11415,12 @@ var inscriptions = new Map([
     ]
 }],
 ["202",{
+    "facsimileImages": [
+        "images/202a-t.jpg",
+        "images/202b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/202a.jpg",
         "images/202b.jpg"
@@ -10829,10 +11429,6 @@ var inscriptions = new Map([
     "name": "202",
     "parsedInscription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "site": "",
-    "tracingImages": [
-        "images/202a-t.jpg",
-        "images/202b-t.jpg"
-    ],
     "transcription": "󲎹󲎀\n󲎀󲏑󲏐\n",
     "transliteratedWords": [
         "A-SA",
@@ -10852,6 +11448,11 @@ var inscriptions = new Map([
     ]
 }],
 ["105",{
+    "facsimileImages": [
+        "images/105a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/105a.jpg",
         "images/105c.jpg",
@@ -10862,9 +11463,6 @@ var inscriptions = new Map([
     "name": "105",
     "parsedInscription": "]•󲎷󲍐\n]•󲍡󲉸𐄚𐄐\nvacat\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/105a-t.jpg"
-    ],
     "transcription": "]•󲎷󲍐\n]•󲍡󲉸𐄚𐄐\nvacat\n",
     "transliteratedWords": [
         "]",
@@ -10890,6 +11488,12 @@ var inscriptions = new Map([
     ]
 }],
 ["064",{
+    "facsimileImages": [
+        "images/064a-t.jpg",
+        "images/064d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/064a.jpg",
         "images/064b.jpg",
@@ -10900,10 +11504,6 @@ var inscriptions = new Map([
     "name": "064",
     "parsedInscription": "]𐄣𐄒[\n]vacat?[\n]vacat?[\n]𐄙𐄐𐄈[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/064a-t.jpg",
-        "images/064d-t.jpg"
-    ],
     "transcription": "]𐄣𐄒[\n]vacat?[\n]vacat?[\n]𐄙𐄐𐄈[\n",
     "transliteratedWords": [
         "]",
@@ -10949,6 +11549,14 @@ var inscriptions = new Map([
     ]
 }],
 ["308",{
+    "facsimileImages": [
+        "images/308a-t.jpg",
+        "images/308b-t.jpg",
+        "images/308c-t.jpg",
+        "images/308d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/308a.jpg",
         "images/308b.jpg",
@@ -10959,12 +11567,6 @@ var inscriptions = new Map([
     "name": "308",
     "parsedInscription": "󲎆󲏓\n󲏏󲎦󲍝\n󲏆󲎙><\n󲎆󲎺*󲇬\n",
     "site": "",
-    "tracingImages": [
-        "images/308a-t.jpg",
-        "images/308b-t.jpg",
-        "images/308c-t.jpg",
-        "images/308d-t.jpg"
-    ],
     "transcription": "󲎆󲏓\n󲏏󲎦󲍝\n󲏆󲎙><\n󲎆󲎺*󲇬\n",
     "transliteratedWords": [
         "KO-Rv",
@@ -10996,6 +11598,11 @@ var inscriptions = new Map([
     ]
 }],
 ["008",{
+    "facsimileImages": [
+        "images/008c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/008a.jpg",
         "images/008b.jpg",
@@ -11006,9 +11613,6 @@ var inscriptions = new Map([
     "name": "008",
     "parsedInscription": "\nvacat\ndeest\nX󲎿󲍐󲉔[\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/008c-t.jpg"
-    ],
     "transcription": "\nvacat\ndeest\nX󲎿󲍐󲉔[\n",
     "transliteratedWords": [
         "\n",
@@ -11034,6 +11638,13 @@ var inscriptions = new Map([
     ]
 }],
 ["028",{
+    "facsimileImages": [
+        "images/028b-t.jpg",
+        "images/028c-t.jpg",
+        "images/028d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/028a.jpg",
         "images/028b.jpg",
@@ -11044,11 +11655,6 @@ var inscriptions = new Map([
     "name": "028",
     "parsedInscription": "\nX󲇞•[\nX󲏀-•[\n]󲎻󲎀󲍰><\n",
     "site": "Knossos",
-    "tracingImages": [
-        "images/028b-t.jpg",
-        "images/028c-t.jpg",
-        "images/028d-t.jpg"
-    ],
     "transcription": "\nX󲇞•[\nX󲏀-•[\n]󲎻󲎀󲍰><\n",
     "transliteratedWords": [
         "\n",
@@ -11090,6 +11696,9 @@ var inscriptions = new Map([
     ]
 }],
 ["319",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/319a.jpg"
     ],
@@ -11097,7 +11706,6 @@ var inscriptions = new Map([
     "name": "319",
     "parsedInscription": "]󲇷󲏧󲍎󲇴><\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "]󲇷󲏧󲍎󲇴><\n",
     "transliteratedWords": [
         "]",
@@ -11117,6 +11725,11 @@ var inscriptions = new Map([
     ]
 }],
 ["314",{
+    "facsimileImages": [
+        "images/314a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/314a.jpg"
     ],
@@ -11124,9 +11737,6 @@ var inscriptions = new Map([
     "name": "314",
     "parsedInscription": "X󲍖󲍝󲏆\n󲎆󲎺\nX󲍖󲎙󲏔\nX󲏕*󲉕󲎆\n󲍐󲎮󲍝\nX󲏏󲎦󲍝\n󲎆󲎺\n󲏔󲌦\n󲏔󲌦\n<󲎆>󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/314a-t.jpg"
-    ],
     "transcription": "X󲍖󲍝󲏆\n󲎆󲎺\nX󲍖󲎙󲏔\nX󲏕*󲉕󲎆\n󲍐󲎮󲍝\nX󲏏󲎦󲍝\n󲎆󲎺\n󲏔󲌦\n󲏔󲌦\n<󲎆>󲏓\n",
     "transliteratedWords": [
         "X",
@@ -11194,6 +11804,12 @@ var inscriptions = new Map([
     ]
 }],
 ["270",{
+    "facsimileImages": [
+        "images/270a-t.jpg",
+        "images/270c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/270a.jpg",
         "images/270b.jpg",
@@ -11203,10 +11819,6 @@ var inscriptions = new Map([
     "name": "270",
     "parsedInscription": "󲍎󲍐><\n󲎆󲎺\n󲍐󲍝󲎮󲍰><\n",
     "site": "",
-    "tracingImages": [
-        "images/270a-t.jpg",
-        "images/270c-t.jpg"
-    ],
     "transcription": "󲍎󲍐><\n󲎆󲎺\n󲍐󲍝󲎮󲍰><\n",
     "transliteratedWords": [
         "RO-JA",
@@ -11234,6 +11846,9 @@ var inscriptions = new Map([
     ]
 }],
 ["326",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/326a.jpg"
     ],
@@ -11241,7 +11856,6 @@ var inscriptions = new Map([
     "name": "326",
     "parsedInscription": "]•󲎝\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "]•󲎝\n",
     "transliteratedWords": [
         "]",
@@ -11255,6 +11869,12 @@ var inscriptions = new Map([
     ]
 }],
 ["249",{
+    "facsimileImages": [
+        "images/249a-t.jpg",
+        "images/249b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/249a.jpg",
         "images/249b.jpg",
@@ -11264,10 +11884,6 @@ var inscriptions = new Map([
     "name": "249",
     "parsedInscription": "󲍐󲎮\n󲎆󲎺\n",
     "site": "",
-    "tracingImages": [
-        "images/249a-t.jpg",
-        "images/249b-t.jpg"
-    ],
     "transcription": "󲍐󲎮\n󲎆󲎺\n",
     "transliteratedWords": [
         "JA-RI",
@@ -11283,6 +11899,13 @@ var inscriptions = new Map([
     ]
 }],
 ["121",{
+    "facsimileImages": [
+        "images/121a-t.jpg",
+        "images/121c-t.jpg",
+        "images/121d-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/121a.jpg",
         "images/121b.jpg",
@@ -11294,11 +11917,6 @@ var inscriptions = new Map([
     "name": "121",
     "parsedInscription": "X󲏀[\ndeest\n]󲍡[\n]󲎺\n",
     "site": "Malia",
-    "tracingImages": [
-        "images/121a-t.jpg",
-        "images/121c-t.jpg",
-        "images/121d-t.jpg"
-    ],
     "transcription": "X󲏀[\ndeest\n]󲍡[\n]󲎺\n",
     "transliteratedWords": [
         "X",
@@ -11332,6 +11950,9 @@ var inscriptions = new Map([
     ]
 }],
 ["323",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/323a.jpg"
     ],
@@ -11339,7 +11960,6 @@ var inscriptions = new Map([
     "name": "323",
     "parsedInscription": "󲏨[\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "󲏨[\n",
     "transliteratedWords": [
         "NWA",
@@ -11353,6 +11973,13 @@ var inscriptions = new Map([
     ]
 }],
 ["257",{
+    "facsimileImages": [
+        "images/257a-t.jpg",
+        "images/257b-t.jpg",
+        "images/257c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/257a.jpg",
         "images/257b.jpg",
@@ -11362,11 +11989,6 @@ var inscriptions = new Map([
     "name": "257",
     "parsedInscription": "󲍐󲎮󲍝\n󲏏󲎦󲍝\nX󲏕󲎆\n",
     "site": "",
-    "tracingImages": [
-        "images/257a-t.jpg",
-        "images/257b-t.jpg",
-        "images/257c-t.jpg"
-    ],
     "transcription": "󲍐󲎮󲍝\n󲏏󲎦󲍝\nX󲏕󲎆\n",
     "transliteratedWords": [
         "JA-RI-RE",
@@ -11388,12 +12010,14 @@ var inscriptions = new Map([
     ]
 }],
 ["317",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [],
     "linearA": [],
     "name": "317",
     "parsedInscription": "󲎹󲏈󲎮󲏆󲎿󲏥-󲊯\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "󲎹󲏈󲎮󲏆󲎿󲏥-󲊯\n",
     "transliteratedWords": [
         "A-KI-",
@@ -11415,6 +12039,9 @@ var inscriptions = new Map([
     ]
 }],
 ["096",{
+    "facsimileImages": [],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/096a.jpg",
         "images/096b.jpg",
@@ -11426,7 +12053,6 @@ var inscriptions = new Map([
     "name": "096",
     "parsedInscription": "deest\ndeest\ndeest\ndeest\n",
     "site": "Malia",
-    "tracingImages": [],
     "transcription": "deest\ndeest\ndeest\ndeest\n",
     "transliteratedWords": [
         "deest",
@@ -11450,6 +12076,13 @@ var inscriptions = new Map([
     ]
 }],
 ["253",{
+    "facsimileImages": [
+        "images/253a-t.jpg",
+        "images/253b-t.jpg",
+        "images/253c-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/253a.jpg",
         "images/253b.jpg",
@@ -11459,11 +12092,6 @@ var inscriptions = new Map([
     "name": "253",
     "parsedInscription": "󲍐󲎮\n󲎆󲎺\n󲎆󲏓\n",
     "site": "",
-    "tracingImages": [
-        "images/253a-t.jpg",
-        "images/253b-t.jpg",
-        "images/253c-t.jpg"
-    ],
     "transcription": "󲍐󲎮\n󲎆󲎺\n󲎆󲏓\n",
     "transliteratedWords": [
         "JA-RI",
@@ -11483,6 +12111,11 @@ var inscriptions = new Map([
     ]
 }],
 ["181",{
+    "facsimileImages": [
+        "images/181a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/181a.jpg"
     ],
@@ -11490,9 +12123,6 @@ var inscriptions = new Map([
     "name": "181",
     "parsedInscription": "X󲍐󲎮\n",
     "site": "",
-    "tracingImages": [
-        "images/181a-t.jpg"
-    ],
     "transcription": "X󲍐󲎮\n",
     "transliteratedWords": [
         "X",
@@ -11506,6 +12136,11 @@ var inscriptions = new Map([
     ]
 }],
 ["128",{
+    "facsimileImages": [
+        "images/128a-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/128a.jpg"
     ],
@@ -11513,9 +12148,6 @@ var inscriptions = new Map([
     "name": "128",
     "parsedInscription": "󲍦󲎝󲊉0\n",
     "site": "",
-    "tracingImages": [
-        "images/128a-t.jpg"
-    ],
     "transcription": "󲍦󲎝󲊉0\n",
     "transliteratedWords": [
         "A₃",
@@ -11531,6 +12163,12 @@ var inscriptions = new Map([
     ]
 }],
 ["248",{
+    "facsimileImages": [
+        "images/248a-t.jpg",
+        "images/248b-t.jpg"
+    ],
+    "imageRights": "© École Française d'Athènes",
+    "imageRightsURL": "https://bit.ly/2H6Ohwe",
     "images": [
         "images/248a.jpg",
         "images/248b.jpg",
@@ -11540,10 +12178,6 @@ var inscriptions = new Map([
     "name": "248",
     "parsedInscription": "󲍐󲎮󲍝\n󲏈󲏆󲎎\n",
     "site": "",
-    "tracingImages": [
-        "images/248a-t.jpg",
-        "images/248b-t.jpg"
-    ],
     "transcription": "󲍐󲎮󲍝\n󲏈󲏆󲎎\n",
     "transliteratedWords": [
         "JA-RI-RE",
