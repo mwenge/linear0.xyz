@@ -145,7 +145,8 @@ input:focus::placeholder { color:transparent; }
   max-width: 200px;
   position: relative;
   background-color: inherit;
-  line-height: 18px;
+  line-height: 28px;
+  font-size: 28px;
 }
 .text-item {
   max-width: 250px;
@@ -183,7 +184,7 @@ input:focus::placeholder { color:transparent; }
 }
 .masthead {
   font-family: 'Courier', serif;
-  background-color: purple;
+  background-color: indigo;
   opacity: 0.6;
   font-size: 4vh;
   color: white;

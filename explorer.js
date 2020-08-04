@@ -1164,6 +1164,10 @@ function addWordTip(word, name, index) {
   wordCommentElement.appendChild(getWordsAsImage(inscriptions.get(name), index));
   tip.appendChild(wordCommentElement);
 
+  if (!lexicon) {
+    var lexicon = new Map();
+  }
+
   var wordCommentElement = document.createElement("div");
   wordCommentElement.className = "lexicon";
   wordCommentElement.textContent = lexicon.get(word);
@@ -1174,6 +1178,10 @@ function addWordTip(word, name, index) {
     wordCommentElement.textContent = lexicon.get(word);
     tip.appendChild(wordCommentElement);
   }
+
+  if (!ligatures) {
+    var ligatures = new Map();
+  }
   if (ligatures.has(word)) {
     var wordCommentElement = document.createElement("div");
     wordCommentElement.className = "lexicon";
@@ -1181,17 +1189,19 @@ function addWordTip(word, name, index) {
     tip.appendChild(wordCommentElement);
   }
 
-  var wordCommentElement = document.createElement("div");
-  wordCommentElement.className = "lexicon";
-  wordCommentElement.textContent = "Tags: ";
-  var tagsForWord = inscriptions.get(name).wordTags[index];
-  tagsForWord.forEach(x => {
-    var tag = document.createElement("div");
-    tag.className = "tip-tag";
-    tag.textContent = x;
-    wordCommentElement.appendChild(tag);
-  });
-  tip.appendChild(wordCommentElement);
+  if (inscriptions.get(name).wordTags) {
+    var wordCommentElement = document.createElement("div");
+    wordCommentElement.className = "lexicon";
+    wordCommentElement.textContent = "Tags: ";
+    var tagsForWord = inscriptions.get(name).wordTags[index];
+    tagsForWord.forEach(x => {
+      var tag = document.createElement("div");
+      tag.className = "tip-tag";
+      tag.textContent = x;
+      wordCommentElement.appendChild(tag);
+    });
+    tip.appendChild(wordCommentElement);
+  }
 
   var tipText = "";
   switch(wordCount) {

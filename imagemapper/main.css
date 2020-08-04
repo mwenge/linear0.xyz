@@ -29,7 +29,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    font-family: Arial, Tahoma, sans-serif;
+    font-family: Arial, Tahoma,  sans-serif;
     font-size: 14px;
     color: #000;
     height: 100%;
@@ -37,6 +37,8 @@ body {
     background: #FFF url(data:image/gif;base64,R0lGODlhCgAKAIABANzc3P///yH+EUNyZWF0ZWQgd2l0aCBHSU1QACwAAAAACgAKAAACEYQdmYcaDNxjEspKndVZbc8UADs=);
     line-height: 1;
     overflow-y: scroll;
+}
+#inscription {
 }
 img {
     border: 0;
@@ -452,9 +454,13 @@ a:link, a:visited {
     overflow: hidden;
     display: block;
     margin: 0 auto;
+    padding: 10px;
+}
+#target {
+    padding: 10px;
 }
 #inscription {
-    font-family: 'LinearA';
+    font-family: 'CretanHieroglyphsRegular';
     font-size: 30px;
     width: 500px;
     border-radius: 5px;
@@ -465,6 +471,7 @@ a:link, a:visited {
     position: relative;
     margin: 0 auto;
     overflow-wrap: break-word;
+    padding: 10px;
 }
 #from_imagemap_wrapper, #from_html_wrapper {
     display: none;
