@@ -1354,6 +1354,7 @@ function showWordChart(searchTerm, item) {
 
     wordChart.appendChild(wordCommentElement);
 
+    /*
     var wordCommentElement = document.createElement("div");
     wordCommentElement.className = "lexicon";
     wordCommentElement.textContent = lexicon.get(searchTerm);
@@ -1370,6 +1371,7 @@ function showWordChart(searchTerm, item) {
       wordCommentElement.textContent = 'Ligature: ' + searchTerm + ' = ' + ligatures.get(searchTerm).join(' + ');
       wordChart.appendChild(wordCommentElement);
     }
+    */
 
     var wordImages = document.createElement("div");
     wordImages.className = "lexicon";
@@ -1426,16 +1428,18 @@ function showWordChart(searchTerm, item) {
         wordContainer.appendChild(tag);
         wordImages.appendChild(wordContainer);
 
-        var tagsForWord = inscription.wordTags[i];
-        for (var x of tagsForWord) {
-          if (tagsAdded.includes(x)) {
-            continue;
+        if (inscription.wordTags) {
+          var tagsForWord = inscription.wordTags[i];
+          for (var x of tagsForWord) {
+            if (tagsAdded.includes(x)) {
+              continue;
+            }
+            var tag = document.createElement("div");
+            tag.className = "tip-tag";
+            tag.textContent = x;
+            tagList.appendChild(tag);
+            tagsAdded.push(x);
           }
-          var tag = document.createElement("div");
-          tag.className = "tip-tag";
-          tag.textContent = x;
-          tagList.appendChild(tag);
-          tagsAdded.push(x);
         }
       }
     }

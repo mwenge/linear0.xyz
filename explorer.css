@@ -13,18 +13,35 @@ body {
   border-radius: 10px;
   box-shadow: 0.2em 0.2em 0.8em rgba(0,0,0,0.3);
 }
-.concordance-item-container {
-  max-width: 800px;
+.concordance-item-wrapper {
   float: left;
-  display: inline-block;
   margin: 10px;
+  min-width: 150px;
   border-radius: 10px;
   box-shadow: 0.2em 0.2em 0.8em rgba(0,0,0,0.3);
+  padding: 20px;
+  font-family: 'CretanHieroglyphsRegular', 'Times New Roman';
+}
+.concordance-item-container {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 60px);
   padding: 10px;
+  box-sizing: border-box;
+  grid-gap: 1px;
+}
+.concordance-item-word-container {
+  max-width: none;
+  grid-template-columns: repeat(5, 1fr);
+}
+.inscription-container {
+  padding: 5px;
+  background-color: white;
+  box-shadow:0 0 0 1px black;
 }
 .concordance-item {
-  display: inline;
   height: 50px;
+  text-align: center;
 }
 .concordance-canvas {
   height: left;
@@ -33,16 +50,10 @@ body {
   margin-bottom: 2px;
 }
 .concordance-label {
-  height: 40px;
-  background-color: black;
-  padding: 2px;
-  color: white;
-  opacity: 0.5;
+  font-family: 'Merriweather', serif;
   font-size: 10px;
-  writing-mode: tb-rl;
-  transform: rotate(-180deg);
-  margin-left: 5px;
-  margin-right: 5px;
+  text-align: center;
+  margin-top: 5px;
 }
 .zoomed-item-container {
   position: fixed;
@@ -145,8 +156,7 @@ input:focus::placeholder { color:transparent; }
   max-width: 200px;
   position: relative;
   background-color: inherit;
-  line-height: 28px;
-  font-size: 28px;
+  line-height: 18px;
 }
 .text-item {
   max-width: 250px;
@@ -184,7 +194,7 @@ input:focus::placeholder { color:transparent; }
 }
 .masthead {
   font-family: 'Courier', serif;
-  background-color: indigo;
+  background-color: purple;
   opacity: 0.6;
   font-size: 4vh;
   color: white;
@@ -273,7 +283,8 @@ input:focus::placeholder { color:transparent; }
   display: none;
 }
 .concordance-container-label {
-  font-size: 1.5em;
+  font-size: 1em;
+  text-align: center;
 }
 .copyright-label {
   border-bottom-right-radius: 0px;
